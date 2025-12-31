@@ -31,8 +31,8 @@ jobs:
     - name: Install dependencies
       run: npm ci # Uses 'npm ci' for a clean and reliable install in automated environments
 
-    - name: Run tests
-      run: npm test # Runs the 'test' script defined in your package.json
+    - name: Run script to generate files
+      run: npm start # Runs the 'start' script defined in your package.json
 
     - name: Commit and push generated files
       uses: stefanzweifel/git-auto-commit-action@v5
