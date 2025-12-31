@@ -1,0 +1,44 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Do things every 5 minutes
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # This permission is required to commit and push using GITHUB_TOKEN
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4 # Checks out your repository code
+
+    - name: Use Node.js 22.x
+      uses: actions/setup-node@v4 # Sets up the specified Node.js version
+      with:
+        node-version: 22.x
+        cache: 'npm' # Caches dependencies for faster builds
+
+    - name: Install dependencies
+      run: npm ci # Uses 'npm ci' for a clean and reliable install in automated environments
+
+    - name: Run tests
+      run: npm test # Runs the 'test' script defined in your package.json
+
+    - name: Commit and push generated files
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "CI: Auto-generate and commit files"
+        # Optional: specify which files to add, default is all changed files
+        # add_options: '--all' 
+        # file_pattern: 'generated-file.txt' 
+        # branch: main # or the branch you are working on
