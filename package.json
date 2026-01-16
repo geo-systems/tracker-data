@@ -4,7 +4,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-strip-types index.ts"
+    "start": "node --experimental-strip-types index.ts",
+    "test-ecb": "node --experimental-strip-types ./jobs/usdExchangeRates.ts",
+    "test-gecko-supported-fiat": "node --experimental-strip-types ./jobs/geckoSupportedFiat.ts",
+    "test-gecko-supported-assets": "node --experimental-strip-types ./jobs/geckoSupportedAssets.ts",
+    "test-gecko-top-coins-with-changes": "node --experimental-strip-types ./jobs/geckoTopCoinsWithChanges.ts",
+    "test-gecko-history": "node --experimental-strip-types ./jobs/geckoHistory.ts",
+    "test-yahoo-history": "node --experimental-strip-types ./jobs/yahooHistory.ts",
+    "test-latest-prices": "node --experimental-strip-types ./jobs/latestPrices.ts"
   },
   "repository": {
     "type": "git",
@@ -18,7 +25,13 @@
   "homepage": "https://github.com/geo-systems/tracker-data#readme",
   "description": "",
   "devDependencies": {
+    "@types/lodash": "^4.17.21",
     "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.3.3",
+    "lodash": "^4.17.21",
+    "yahoo-finance2": "^3.11.2"
   }
 }
