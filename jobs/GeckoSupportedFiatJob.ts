@@ -19,7 +19,7 @@ export class GeckoSupportedFiatJob implements Job {
     }
 
     async run(): Promise<void> {
-        const {data, lastUpdated} = this.register.getRegisterItemAndTimestamp(key);
+        const {data, lastUpdated} = this.register.getItemAndTimestamp(key);
 
         if (data && lastUpdated && (this.clock.now() - lastUpdated) < DAY_IN_MS) {
             console.log("Supported fiat currencies are up to date.");
@@ -28,10 +28,10 @@ export class GeckoSupportedFiatJob implements Job {
 
         let currencies = await getSupportedFiat();
         currencies = currencies!.map(c => c.toUpperCase());
-        let ecbCurrencies = this.register.getRegisterItem(SUPPORTED_CURRENCIES_REG_KEY);
+        let ecbCurrencies = this.register.getItem(SUPPORTED_CURRENCIES_REG_KEY);
         ecbCurrencies = ecbCurrencies.map((c: string) => c.toUpperCase());
         const common = currencies.filter((c: string) => ecbCurrencies.includes(c.toUpperCase()));
         console.log(`Common supported fiat currencies: ${common.join(", ")}`);
-        this.register.setRegisterItem(key, common);
+        this.register.setItem(key, common);
     }
 }
