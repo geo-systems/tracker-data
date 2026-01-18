@@ -3,7 +3,7 @@ import { HOUR_IN_MS } from "../common/date.ts";
 import { getTopCoinsWithChanges } from "../api/gecko.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
-import { normaliseHistoryTuples } from "../common/util.ts";
+import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/Clock.ts";
 import type Job from "./Job.ts";

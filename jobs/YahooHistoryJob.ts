@@ -4,8 +4,8 @@ import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";
 import { DAY_IN_MS, HOUR_IN_MS } from "../common/date.ts";
-import { getYHistory } from "../api/yahoo.ts";
-import { normaliseHistoryTuples } from "../common/util.ts";
+import { getYahooHistory } from "../api/yahoo.ts";
+import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/Clock.ts";
 import type Job from "./Job.ts";
@@ -45,9 +45,9 @@ export class YahooHistoryJob implements Job {
                 } 
             } else if (coin.rank > 500) {
                 console.log(`Fetching full Yahoo history for ${coin.id}...`);
-                const full = await getYHistory(coin.symbol, '1d');
+                const full = await getYahooHistory(coin.symbol, '1d', undefined, undefined, this.clock);
                 newHistoryItems.push(...full);
-                const fewMonths = await getYHistory(coin.symbol, '1h', 30);
+                const fewMonths = await getYahooHistory(coin.symbol, '1h', 30, undefined, this.clock);
                 newHistoryItems.push(...fewMonths);
 
                 // Mark it as updated

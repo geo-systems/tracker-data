@@ -1,7 +1,7 @@
 import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS, WEEK_IN_MS } from "../common/date.ts";
 import { sleep } from "../common/sleep.ts";
 import { getCoinsWithSparkline, history } from "../api/gecko.ts";
-import { normaliseHistoryTuples } from "../common/util.ts";
+import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";

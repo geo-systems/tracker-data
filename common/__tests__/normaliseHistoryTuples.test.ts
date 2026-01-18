@@ -1,4 +1,4 @@
-import { normaliseHistoryTuples } from '../util';
+import { normaliseHistoryTuples } from '../normaliseHistoryTuples.ts';
 import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS } from '../date';
 
 describe('normaliseHistoryTuples', () => {

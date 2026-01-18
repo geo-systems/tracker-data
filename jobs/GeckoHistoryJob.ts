@@ -1,14 +1,13 @@
 import { DAY_IN_MS, MINUTE_IN_MS } from "../common/date.ts";
 import { sleep } from "../common/sleep.ts";
 import { history } from "../api/gecko.ts";
-import { normaliseHistoryTuples } from "../common/util.ts";
+import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/Clock.ts";
 import type Job from "./Job.ts";
-import _ from "lodash"
 
 export class GeckoHistoryJob implements Job {
     private readonly clock: Clock;

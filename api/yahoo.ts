@@ -1,19 +1,20 @@
-import _ from "lodash"
-
 import YahooFinance from "yahoo-finance2";
 import type { ChartOptionsWithReturnArray } from "yahoo-finance2/modules/chart";
 import { START_OF_CRYPTO_DAY, toDateIso } from "../common/date.ts";
 import type { RetryOptions } from "./retry.ts";
 import { sleep } from "../common/sleep.ts";
+import type { Clock } from "../common/Clock.ts";
+import { SystemClock } from "../common/Clock.ts";
 const yahooFinance = new YahooFinance();
 
 
-export const getYHistory = async (coinId: string, 
-                                  frequency: ChartOptionsWithReturnArray['interval'], 
-                                  daysAgo?: number, 
-                                  retryOptions?: RetryOptions): Promise<Array<[number, number, string]>> => {
+export const getYahooHistory = async (coinId: string, 
+                                      frequency: ChartOptionsWithReturnArray['interval'], 
+                                      daysAgo?: number, 
+                                      retryOptions?: RetryOptions,
+                                      clock: Clock = new SystemClock()): Promise<Array<[number, number, string]>> => {
     const { retries = 3, delayMs = 2000, jitterMs = 100, } = retryOptions || {};
-    const now = Date.now();
+    const now = clock.now();
     const symbol = `${coinId.toUpperCase()}-USD`;
 
     for(let attempt = 0; attempt < retries; attempt ++) {
