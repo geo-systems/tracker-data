@@ -1,4 +1,4 @@
-import { DAY_IN_MS, MINUTE_IN_MS, WEEK_IN_MS } from "../api/date.ts";
+import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS, WEEK_IN_MS } from "../api/date.ts";
 import { sleep } from "../api/fetch.ts";
 import { getCoinsWithSparkline, history } from "../api/gecko.ts";
 import { normaliseHistoryTuples } from "../api/util.ts";
@@ -10,10 +10,24 @@ import _ from "lodash"
 export const run = async () => {
     const coins: Record<string, any> = getRegisterItem(SUPPORTED_ASSETS_REG_KEY);
 
-    const coinIds = Object.keys(coins);
-    const eligibleCoinIds = coinIds.filter(coinId => {
+    const coinsEntries = Object.values(coins);
+    const eligibleCoinIds = coinsEntries.filter(coin => {
+        const coinId = coin.id;
         const lastUpdated = getRegisterItemLastUpdated(`history/${coinId}`);
-        return !lastUpdated || (Date.now() - lastUpdated) > MINUTE_IN_MS * 5;
+        // If never updated, include
+        if (!lastUpdated) {
+            return true;
+        }
+        if (coin.market_cap_rank <= 100 && (Date.now() - lastUpdated) > MINUTE_IN_MS * 5) {
+            return true;
+        } else if (coin.market_cap_rank <= 200 && (Date.now() - lastUpdated) > HOUR_IN_MS) {
+            return true;
+        } else if (coin.market_cap_rank <= 500 && (Date.now() - lastUpdated) > DAY_IN_MS) {
+            return true;
+        } else if ((Date.now() - lastUpdated) > WEEK_IN_MS) {
+            return true;
+        }
+        return false;
     });
     const coinsWithSparkline = await getCoinsWithSparkline(eligibleCoinIds);
     for (const coin of coinsWithSparkline) {
