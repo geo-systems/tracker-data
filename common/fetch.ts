@@ -1,4 +1,5 @@
-import type { RetryOptions } from "./retry.ts";
+import type { RetryOptions } from "../api/retry.ts";
+import { sleep } from "./sleep.ts";
 
 export interface FetchOptions<T> {
     headers?: Record<string, string>;
@@ -22,8 +23,6 @@ export const get = async <T>(url: string, options: FetchOptions<T> = {}): Promis
     const data: T = await (options.transform ? options.transform(response) : response.json());
     return data;
 }
-
-export const sleep = (ms: number): Promise<void> => new Promise(resolve => setTimeout(resolve, ms));
 
 export const getRetry = async <T>(url: string, retryOptions: RetryOptions & FetchOptions<T> = {}): Promise<T | null> => {
     const { retries = 3, delayMs = 2000, jitterMs = 100, } = retryOptions;

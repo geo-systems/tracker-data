@@ -1,7 +1,7 @@
 import { XMLParser } from "fast-xml-parser";
-import { getRetry } from "./fetch.ts";
-import { ensureArray } from "./util.ts";
-import { nextDate } from "./date.ts";
+import { getRetry } from "../common/fetch.ts";
+import { ensureArray } from "../common/util.ts";
+import { nextDate } from "../common/date.ts";
 
 const baseUrl = 'https://www.ecb.europa.eu/stats/eurofxref';
 const fullHistoryUrl = `${baseUrl}/eurofxref-hist.xml`;
@@ -29,6 +29,10 @@ export async function fetchEcbData(duration: Duration = 'full') {
         },
         transform: async (resp: Response) => await resp.text(),
     });
+
+    if (!rawXml) {
+        throw new Error(`Failed to fetch ECB data for duration=${duration}`);
+    }
 
     const parser = new XMLParser(
         {

@@ -9,8 +9,7 @@ export const ensureArray = <T>(obj: T | T[]): T[] => {
     }
 }
 
-export const normaliseHistoryTuples = (data: Array<[number, number]>) => {
-  const now = Date.now();
+export const normaliseHistoryTuples = (data: Array<[number, number]>, now: number) => {
   let result = data.map((item) => {
     const ts = item[0];
     const price = item[1];

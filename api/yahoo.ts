@@ -2,9 +2,9 @@ import _ from "lodash"
 
 import YahooFinance from "yahoo-finance2";
 import type { ChartOptionsWithReturnArray } from "yahoo-finance2/modules/chart";
-import { START_OF_CRYPTO_DAY, toDateIso } from "../api/date.ts";
+import { START_OF_CRYPTO_DAY, toDateIso } from "../common/date.ts";
 import type { RetryOptions } from "./retry.ts";
-import { sleep } from "./fetch.ts";
+import { sleep } from "../common/sleep.ts";
 const yahooFinance = new YahooFinance();
 
 

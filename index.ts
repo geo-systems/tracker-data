@@ -1,40 +1,41 @@
 import fs from 'fs';
-import { run as loadExchangeRates } from './jobs/usdExchangeRates.ts';
-import { run as loadSupportedFiat } from './jobs/geckoSupportedFiat.ts';
-import { run as loadSupportedAssets } from './jobs/geckoSupportedAssets.ts';
-import { run as loadGeckoHistory } from './jobs/geckoHistory.ts';
-import { run as loadYahooHistory } from './jobs/yahooHistory.ts';
-import { run as latestPrices } from './jobs/latestPrices.ts';
-import { MINUTE_IN_MS } from './api/date.ts';
+import { UsdExchangeRatesJob } from './jobs/UsdExchangeRatesJob.ts';
+import { GeckoSupportedFiatJob } from './jobs/GeckoSupportedFiatJob.ts';
+import { GeckoSupportedAssetsJob } from './jobs/GeckoSupportedAssetsJob.ts';
+import { GeckoHistoryJob } from './jobs/GeckoHistoryJob.ts';
+import { YahooHistoryJob } from './jobs/YahooHistoryJob.ts';
+import { LatestPricesJob } from './jobs/LatestPricesJob.ts';
+import type Job from './jobs/Job.ts';
+import { MINUTE_IN_MS } from './common/date.ts';
 
 
-interface Job {
+interface JobEntry {
     name: string;
-    run: () => Promise<void>;
+    job: Job;
     failOnError?: boolean;
 }
 
-const jobs: Job[] = [
-    { name: 'Exchange Rates', run: loadExchangeRates, failOnError: false },
-    { name: 'Supported Fiat Currencies', run: loadSupportedFiat, failOnError: false },
-    { name: 'Supported Assets', run: loadSupportedAssets, failOnError: true },
-    { name: 'Gecko History', run: loadGeckoHistory, failOnError: true },
-    { name: 'Yahoo History', run: loadYahooHistory, failOnError: false },
-    { name: 'Latest Prices', run: latestPrices, failOnError: true },
+const jobs: JobEntry[] = [
+    { name: 'Exchange Rates', job: new UsdExchangeRatesJob(), failOnError: false },
+    { name: 'Supported Fiat Currencies', job: new GeckoSupportedFiatJob(), failOnError: false },
+    { name: 'Supported Assets', job: new GeckoSupportedAssetsJob(), failOnError: true },
+    { name: 'Gecko History', job: new GeckoHistoryJob(), failOnError: true },
+    { name: 'Yahoo History', job: new YahooHistoryJob(), failOnError: false },
+    { name: 'Latest Prices', job: new LatestPricesJob(), failOnError: true },
 ];
 
 export const runJobs = async () => {
-    for (const job of jobs) {
+    for (const jobEntry of jobs) {
         const startTime = Date.now();
-        console.log(`============================= Starting job: ${job.name} =============================`);
+        console.log(`============================= Starting job: ${jobEntry.name} =============================`);
         try {
-            await job.run();
+            await jobEntry.job.run();
             const endTime = Date.now();
-            console.log(`Completed job: ${job.name} in ${Math.round((endTime - startTime) / MINUTE_IN_MS)} minutes`);
+            console.log(`Completed job: ${jobEntry.name} in ${Math.round((endTime - startTime) / MINUTE_IN_MS)} minutes`);
         } catch (error) {
-            console.error(`Error in job ${job.name}:`, error);
-            if (job.failOnError) {
-                console.error(`Job ${job.name} failed and is marked as failOnError. Stopping further execution.`);
+            console.error(`Error in job ${jobEntry.name}:`, error);
+            if (jobEntry.failOnError) {
+                console.error(`Job ${jobEntry.name} failed and is marked as failOnError. Stopping further execution.`);
                 process.exit(1);
             }
         }
