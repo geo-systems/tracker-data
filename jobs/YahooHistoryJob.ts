@@ -7,7 +7,7 @@ import { DAY_IN_MS, HOUR_IN_MS } from "../common/date.ts";
 import { getYahooHistory } from "../api/yahoo.ts";
 import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 
 export class YahooHistoryJob implements Job {

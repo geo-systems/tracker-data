@@ -4,7 +4,7 @@ import { fetchEcbData, fetchSupportedCurrencies } from "../api/ecb.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 
 const key = "usd-exchange-rates";
@@ -37,7 +37,7 @@ export class UsdExchangeRatesJob implements Job {
     }
 
     async run(): Promise<void> {
-        const currencies = await fetchSupportedCurrencies();
+        const currencies = await fetchSupportedCurrencies(this.clock);
 
         const { lastUpdated } = this.register.getItemAndTimestamp(this.key);
         const duration = this.getDuration(lastUpdated);
@@ -46,7 +46,7 @@ export class UsdExchangeRatesJob implements Job {
             return;
         }
 
-        const update = await fetchEcbData(duration);
+        const update = await fetchEcbData(this.clock, duration);
         console.log(`Updating USD exchange rates with ${duration} data.`);
         this.register.setItem(`${this.key}/supported_currencies`, currencies);
         for (const currency of currencies) {

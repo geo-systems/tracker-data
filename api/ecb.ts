@@ -2,6 +2,8 @@ import { XMLParser } from "fast-xml-parser";
 import { getRetry } from "../common/fetch.ts";
 import { ensureArray } from "../common/util.ts";
 import { nextDate } from "../common/date.ts";
+import type { Clock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 
 const baseUrl = 'https://www.ecb.europa.eu/stats/eurofxref';
 const fullHistoryUrl = `${baseUrl}/eurofxref-hist.xml`;
@@ -19,8 +21,8 @@ const getUrlForDuration = (duration: Duration): string => {
             return dailyUrl;
     }
 }
-export async function fetchEcbData(duration: Duration = 'full') {
-    const rawXml = await getRetry(getUrlForDuration(duration), {
+export async function fetchEcbData(clock: Clock, duration: Duration = 'full') {
+    const rawXml = await getRetry(clock, getUrlForDuration(duration), {
         retries: 3,
         delayMs: 5000,
         jitterMs: 200,
@@ -64,8 +66,8 @@ export async function fetchEcbData(duration: Duration = 'full') {
     return result;
 }
 
-export const fetchSupportedCurrencies = async () => {
-    const data = await fetchEcbData('daily');
+export const fetchSupportedCurrencies = async (clock: Clock = new SystemClock()) => {
+    const data = await fetchEcbData(clock, 'daily');
     const firstEntry: any = Object.values(data)[0];
     return Object.keys(firstEntry).filter(key => key !== 'time');
 }

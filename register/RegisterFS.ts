@@ -1,6 +1,6 @@
 import fs from 'fs';
 import type { Clock } from '../common/Clock.ts';
-import { SystemClock } from '../common/Clock.ts';
+import { SystemClock } from '../common/SystemClock.ts';
 import type { Register } from './Register.ts';
 
 export class RegisterFS implements Register {

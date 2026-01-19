@@ -1,21 +1,16 @@
 import { get, getRetry } from '../fetch';
+import { MockClock } from '../MockClock';
 
 // Mock global fetch
 global.fetch = jest.fn();
 
-// Mock sleep function
-jest.mock('../sleep', () => ({
-    sleep: jest.fn().mockResolvedValue(undefined),
-}));
-
-import { sleep } from '../sleep';
-
 describe('fetch.ts', () => {
     const mockFetch = global.fetch as jest.MockedFunction<typeof fetch>;
-    const mockSleep = sleep as jest.MockedFunction<typeof sleep>;
+    const mockClock = new MockClock();
 
     beforeEach(() => {
         jest.clearAllMocks();
+        mockClock.sleepCalls = [];
     });
 
     describe('get', () => {
@@ -156,11 +151,11 @@ describe('fetch.ts', () => {
 
             mockFetch.mockResolvedValue(mockResponse);
 
-            const result = await getRetry<typeof mockData>(testUrl);
+            const result = await getRetry<typeof mockData>(mockClock, testUrl, {});
 
             expect(result).toEqual(mockData);
             expect(mockFetch).toHaveBeenCalledTimes(1);
-            expect(mockSleep).toHaveBeenCalledTimes(1); // Initial jitter sleep
+            expect(mockClock.sleepCalls).toHaveLength(1); // Initial jitter sleep
         });
 
         it('should retry on failure and succeed on second attempt', async () => {
@@ -181,7 +176,7 @@ describe('fetch.ts', () => {
                 .mockResolvedValueOnce(mockErrorResponse)
                 .mockResolvedValueOnce(mockSuccessResponse);
 
-            const result = await getRetry<typeof mockData>(testUrl, {
+            const result = await getRetry<typeof mockData>(mockClock, testUrl, {
                 retries: 3,
                 delayMs: 1000,
                 jitterMs: 100,
@@ -189,7 +184,7 @@ describe('fetch.ts', () => {
 
             expect(result).toEqual(mockData);
             expect(mockFetch).toHaveBeenCalledTimes(2);
-            expect(mockSleep).toHaveBeenCalledTimes(3); // Jitter before attempt 1, delay after fail 1, jitter before attempt 2
+            expect(mockClock.sleepCalls).toHaveLength(3); // Jitter before attempt 1, delay after fail 1, jitter before attempt 2
         });
 
         it('should return null immediately on 404 error without retrying', async () => {
@@ -203,7 +198,7 @@ describe('fetch.ts', () => {
 
             const consoleSpy = jest.spyOn(console, 'log').mockImplementation();
 
-            const result = await getRetry(testUrl, { retries: 3 });
+            const result = await getRetry(mockClock, testUrl, { retries: 3 });
 
             expect(result).toBeNull();
             expect(mockFetch).toHaveBeenCalledTimes(1);
@@ -224,7 +219,7 @@ describe('fetch.ts', () => {
             mockFetch.mockResolvedValue(mockResponse);
 
             await expect(
-                getRetry(testUrl, { retries: 3, delayMs: 100, jitterMs: 10 })
+                getRetry(mockClock, testUrl, { retries: 3, delayMs: 100, jitterMs: 10 })
             ).rejects.toThrow(`Failed to fetch data from ${testUrl} after 3 retries`);
 
             expect(mockFetch).toHaveBeenCalledTimes(3);
@@ -239,7 +234,7 @@ describe('fetch.ts', () => {
 
             mockFetch.mockResolvedValue(mockResponse);
 
-            await expect(getRetry(testUrl)).rejects.toThrow(
+            await expect(getRetry(mockClock, testUrl, {})).rejects.toThrow(
                 `Failed to fetch data from ${testUrl} after 3 retries`
             );
 
@@ -256,7 +251,7 @@ describe('fetch.ts', () => {
             mockFetch.mockResolvedValue(mockResponse);
 
             await expect(
-                getRetry(testUrl, { retries: 5, delayMs: 500, jitterMs: 50 })
+                getRetry(mockClock, testUrl, { retries: 5, delayMs: 500, jitterMs: 50 })
             ).rejects.toThrow(`Failed to fetch data from ${testUrl} after 5 retries`);
 
             expect(mockFetch).toHaveBeenCalledTimes(5);
@@ -275,7 +270,7 @@ describe('fetch.ts', () => {
 
             const customHeaders = { 'X-API-Key': 'secret' };
 
-            await getRetry(testUrl, { headers: customHeaders });
+            await getRetry(mockClock, testUrl, { headers: customHeaders });
 
             expect(mockFetch).toHaveBeenCalledWith(testUrl, {
                 method: 'GET',
@@ -302,7 +297,7 @@ describe('fetch.ts', () => {
                 return text.length;
             };
 
-            const result = await getRetry(testUrl, { transform });
+            const result = await getRetry(mockClock, testUrl, { transform });
 
             expect(result).toBe(13); // length of 'test response'
         });
@@ -317,12 +312,12 @@ describe('fetch.ts', () => {
             mockFetch.mockResolvedValue(mockResponse);
 
             await expect(
-                getRetry(testUrl, { retries: 3, delayMs: 1000, jitterMs: 100 })
+                getRetry(mockClock, testUrl, { retries: 3, delayMs: 1000, jitterMs: 100 })
             ).rejects.toThrow();
 
             // Should have: jitter before each attempt (3) + delay after each failure (3)
             // Total sleep calls: 3 (jitter before attempts) + 3 (delays after failures) = 6
-            expect(mockSleep).toHaveBeenCalledTimes(6);
+            expect(mockClock.sleepCalls).toHaveLength(6);
         });
     });
 });

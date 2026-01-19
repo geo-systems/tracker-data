@@ -1,10 +1,11 @@
 import { MINUTE_IN_MS } from "../common/date.ts";
 import { getRetry } from "../common/fetch.ts";
-import { sleep } from "../common/sleep.ts";
+import type { Clock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import _ from "lodash";
 
-export const getSupportedFiat = async () => {
-    const data = await getRetry<string[]>(`https://api.coingecko.com/api/v3/simple/supported_vs_currencies`, {
+export const getSupportedFiat = async (clock: Clock = new SystemClock()) => {
+    const data = await getRetry<string[]>(clock, `https://api.coingecko.com/api/v3/simple/supported_vs_currencies`, {
         retries: 3,
         delayMs: MINUTE_IN_MS,
         jitterMs: 1000,
@@ -61,13 +62,13 @@ const toCoin = (rawData: any): Coin => ({
 });
 
 // Coin definitions
-export const getSupportedCoins = async () => {
+export const getSupportedCoins = async (clock: Clock = new SystemClock()) => {
     const pages = 4;
     const perPage = 250;
     const allCoins = [];
     for (let page = 1; page <= pages; page++) {
         console.log(`Fetching supported coins from Gecko, page ${page}/${pages}...`);
-        const data = await getRetry<any[]>(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&order=market_cap_desc&per_page=${perPage}&page=${page}&sparkline=false&locale=en`, 
+        const data = await getRetry<any[]>(clock, `https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&order=market_cap_desc&per_page=${perPage}&page=${page}&sparkline=false&locale=en`, 
             { 
                 retries: 3,
                 delayMs: MINUTE_IN_MS,
@@ -83,19 +84,19 @@ export const getSupportedCoins = async () => {
         allCoins.push(...data.map(toCoin));
         if (page < pages) {
             // to avoid rate limiting
-            await sleep(MINUTE_IN_MS * 0.3);
+            await clock.sleep(MINUTE_IN_MS * 0.3);
         }
     }
     return toCoinDictionary(allCoins);
 }
 
 // Top Coins with prices changes
-export const getTopCoinsWithChanges = async (n = 500): Promise<CoinWithChanges[]> => {
+export const getTopCoinsWithChanges = async (clock: Clock, n = 500): Promise<CoinWithChanges[]> => {
     const pageSize = 250;
     const pages = Math.ceil(n / pageSize);
     const coins: CoinWithChanges[] = [];
     for (let i = 1; i <= pages; i++) {
-        const data = await getRetry<any[]>(
+        const data = await getRetry<any[]>(clock,
             `https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&order=market_cap_desc&per_page=${pageSize}&page=${i}&sparkline=false&price_change_percentage=24h,7d,14d,30d,200d,1y`, 
             {
                 retries: 3,
@@ -116,14 +117,14 @@ export const getTopCoinsWithChanges = async (n = 500): Promise<CoinWithChanges[]
         coins.push(...coinsPage);
         if (i < pages) {
             // to avoid rate limiting
-            await sleep(MINUTE_IN_MS * 0.3);
+            await clock.sleep(MINUTE_IN_MS * 0.3);
         }
     }
 
     return coins;  
 }
 
-export const getCoinsWithSparkline = async (coinIds: string[]): Promise<CoinWithSparkline[]> => {
+export const getCoinsWithSparkline = async (clock: Clock, coinIds: string[]): Promise<CoinWithSparkline[]> => {
     // use lodash to chunk
     const chunks = _.chunk(coinIds, 50);
     console.log(`Fetching ${coinIds.length} coins with sparkline from Gecko in ${chunks.length} chunks with size 50...`);
@@ -132,7 +133,7 @@ export const getCoinsWithSparkline = async (coinIds: string[]): Promise<CoinWith
     for (const chunk of chunks) {
         const idsParam = chunk.join(',');
         console.log(`${new Date().toISOString()} Fetching chunk ${chunkIndex + 1}/${chunks.length}...`);
-        const data = await getRetry<any[]>(
+        const data = await getRetry<any[]>(clock,
             `https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&ids=${idsParam}&order=market_cap_desc&per_page=50&page=1&sparkline=true&price_change_percentage=24h`, 
             {
                 retries: 3,
@@ -149,14 +150,14 @@ export const getCoinsWithSparkline = async (coinIds: string[]): Promise<CoinWith
         chunkIndex++;
         if (chunkIndex < chunks.length) {
             // to avoid rate limiting
-            await sleep(MINUTE_IN_MS * 0.3);
+            await clock.sleep(MINUTE_IN_MS * 0.3);
         }
     }
     return coins;
 }
 
-export const history = async (coinId: string, days: number) => {
-    const data = await getRetry<{prices: Array<[number, number]>}>(
+export const history = async (clock: Clock, coinId: string, days: number) => {
+    const data = await getRetry<{prices: Array<[number, number]>}>(clock,
         `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=usd&days=${days}`, 
         {
             retries: 3,

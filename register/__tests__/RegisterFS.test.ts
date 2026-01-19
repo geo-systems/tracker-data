@@ -1,7 +1,7 @@
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { SystemClock } from '../../common/Clock.ts';
+import { SystemClock } from '../../common/SystemClock.ts';
 import { RegisterFS } from '../RegisterFS.ts';
 
 describe('RegisterFS', () => {

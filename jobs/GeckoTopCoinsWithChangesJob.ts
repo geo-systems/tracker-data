@@ -5,7 +5,7 @@ import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 
 const key = "top-assets-with-delta";
@@ -26,7 +26,7 @@ export class GeckoTopCoinsWithChangesJob implements Job {
             console.log("Supported assets with deltas are up to date.");
             return;
         }
-        const updatedCoins = await getTopCoinsWithChanges(500);
+        const updatedCoins = await getTopCoinsWithChanges(this.clock, 500);
         console.log(`Fetched ${Object.keys(updatedCoins).length} supported assets from Gecko.`);
         this.register.setItem(key, updatedCoins);
 

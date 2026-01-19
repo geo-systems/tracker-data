@@ -4,7 +4,7 @@ import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_CURRENCIES_REG_KEY } from "./UsdExchangeRatesJob.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 
 const key = "supported-fiat";

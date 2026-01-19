@@ -1,12 +1,11 @@
 import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS, WEEK_IN_MS } from "../common/date.ts";
-import { sleep } from "../common/sleep.ts";
 import { getCoinsWithSparkline, history } from "../api/gecko.ts";
 import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 import _ from "lodash"
 
@@ -41,9 +40,9 @@ export class LatestPricesJob implements Job {
             }
             return false;
         });
-        const coinsWithSparkline = await getCoinsWithSparkline(eligibleCoinIds);
+        const coinsWithSparkline = await getCoinsWithSparkline(this.clock, eligibleCoinIds);
         for (const coin of coinsWithSparkline) {
-            const coinHistory = this.register.getRegisterItem(`history/${coin.id}`) ?? [];
+            const coinHistory = this.register.getItem(`history/${coin.id}`) ?? [];
             const ts = coin.ts;
             const lastKnown = _.minBy(coinHistory, (h: any[]) => h[0]);
             const lastKnownTs = lastKnown ? lastKnown[0] : 0;
@@ -59,7 +58,7 @@ export class LatestPricesJob implements Job {
                     coinHistory.push([sparkTs, coin.sparkline_in_7d[i], new Date(sparkTs).toISOString()]);
                 }
             }
-            this.register.setRegisterItem(`history/${coin.id}`, normaliseHistoryTuples(coinHistory, this.clock.now()));
+            this.register.setItem(`history/${coin.id}`, normaliseHistoryTuples(coinHistory, this.clock.now()));
         }
     }
 }

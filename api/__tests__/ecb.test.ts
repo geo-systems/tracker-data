@@ -1,6 +1,7 @@
 import { XMLParser } from "fast-xml-parser";
 import { fetchEcbData, fetchSupportedCurrencies } from '../ecb.ts';
 import * as fetchModule from '../../common/fetch.ts';
+import { MockClock } from '../../common/MockClock.ts';
 
 jest.mock('../../common/fetch.ts');
 
@@ -95,17 +96,21 @@ const mockHistoricalXMLWithOldDates = `<?xml version="1.0" encoding="UTF-8"?>
 </gesmes:Envelope>`;
 
 describe('ecb.ts', () => {
+    let mockClock: MockClock;
+
     beforeEach(() => {
         jest.clearAllMocks();
+        mockClock = new MockClock(1609459200000);
     });
 
     describe('fetchEcbData', () => {
         it('should fetch and parse daily ECB data', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const result = await fetchEcbData('daily');
+            const result = await fetchEcbData(mockClock, 'daily');
 
             expect(fetchModule.getRetry).toHaveBeenCalledWith(
+                mockClock,
                 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml',
                 expect.objectContaining({
                     retries: 3,
@@ -141,9 +146,10 @@ describe('ecb.ts', () => {
         it('should fetch and parse 90 days ECB data', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mock90DaysXML);
 
-            const result = await fetchEcbData('90days');
+            const result = await fetchEcbData(mockClock, '90days');
 
             expect(fetchModule.getRetry).toHaveBeenCalledWith(
+                mockClock,
                 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml',
                 expect.any(Object)
             );
@@ -167,9 +173,10 @@ describe('ecb.ts', () => {
         it('should fetch full history ECB data', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mock90DaysXML);
 
-            const result = await fetchEcbData('full');
+            const result = await fetchEcbData(mockClock, 'full');
 
             expect(fetchModule.getRetry).toHaveBeenCalledWith(
+                mockClock,
                 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml',
                 expect.any(Object)
             );
@@ -180,7 +187,7 @@ describe('ecb.ts', () => {
         it('should filter out dates before 2009-01-01', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockHistoricalXMLWithOldDates);
 
-            const result = await fetchEcbData('full');
+            const result = await fetchEcbData(mockClock, 'full');
 
             // 2008-12-20 should be filtered out
             expect(result['2008-12-20']).toBeUndefined();
@@ -193,7 +200,7 @@ describe('ecb.ts', () => {
         it('should throw error when fetch fails', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(null);
 
-            await expect(fetchEcbData('daily')).rejects.toThrow(
+            await expect(fetchEcbData(mockClock, 'daily')).rejects.toThrow(
                 'Failed to fetch ECB data for duration=daily'
             );
         });
@@ -201,7 +208,7 @@ describe('ecb.ts', () => {
         it('should calculate correct USD-relative rates', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const result = await fetchEcbData('daily');
+            const result = await fetchEcbData(mockClock, 'daily');
             const rates = result['2024-01-15'];
 
             // USD should always be 1
@@ -219,7 +226,7 @@ describe('ecb.ts', () => {
         it('should add exactly 7 future dates based on latest entry', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const result = await fetchEcbData('daily');
+            const result = await fetchEcbData(mockClock, 'daily');
 
             // Check that future dates exist
             const futureDates = [
@@ -242,7 +249,7 @@ describe('ecb.ts', () => {
         it('should handle all currencies in the response', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const result = await fetchEcbData('daily');
+            const result = await fetchEcbData(mockClock, 'daily');
             const rates = result['2024-01-15'];
 
             // Verify a sample of various currencies are present
@@ -263,7 +270,7 @@ describe('ecb.ts', () => {
         it('should return list of supported currencies excluding time', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const currencies = await fetchSupportedCurrencies();
+            const currencies = await fetchSupportedCurrencies(mockClock);
 
             expect(Array.isArray(currencies)).toBe(true);
             expect(currencies.length).toBeGreaterThan(0);
@@ -281,7 +288,7 @@ describe('ecb.ts', () => {
         it('should return all currencies from ECB response', async () => {
             (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockDailyXML);
 
-            const currencies = await fetchSupportedCurrencies();
+            const currencies = await fetchSupportedCurrencies(mockClock);
 
             // Based on our mock, we expect 31 currencies (30 + EUR, excluding time)
             expect(currencies.length).toBe(31);

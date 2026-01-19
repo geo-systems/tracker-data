@@ -1,5 +1,6 @@
 import type { RetryOptions } from "../api/retry.ts";
-import { sleep } from "./sleep.ts";
+import type { Clock } from "./Clock.ts";
+import { SystemClock } from "./SystemClock.ts";
 
 export interface FetchOptions<T> {
     headers?: Record<string, string>;
@@ -24,11 +25,11 @@ export const get = async <T>(url: string, options: FetchOptions<T> = {}): Promis
     return data;
 }
 
-export const getRetry = async <T>(url: string, retryOptions: RetryOptions & FetchOptions<T> = {}): Promise<T | null> => {
+export const getRetry = async <T>(clock: Clock, url: string, retryOptions: RetryOptions & FetchOptions<T> = {}): Promise<T | null> => {
     const { retries = 3, delayMs = 2000, jitterMs = 100, } = retryOptions;
 
     for(let attempt = 0; attempt < retries; attempt ++) {
-        await sleep(Math.floor(jitterMs * Math.random()));
+        await clock.sleep(Math.floor(jitterMs * Math.random()));
         try {
             const result = await get<T>(url, retryOptions);
             return result;
@@ -38,7 +39,7 @@ export const getRetry = async <T>(url: string, retryOptions: RetryOptions & Fetc
                 return null;
             }
             const actualDelay = delayMs * (attempt + 1) + Math.floor(jitterMs * Math.random());
-            await sleep(actualDelay);
+            await clock.sleep(actualDelay);
         }
     }
     throw new Error(`Failed to fetch data from ${url} after ${retries} retries`);

@@ -3,7 +3,7 @@ import { getSupportedCoins } from "../api/gecko.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
-import { SystemClock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
 
 export const SUPPORTED_ASSETS_REG_KEY = "supported-assets";
@@ -24,7 +24,7 @@ export class GeckoSupportedAssetsJob implements Job {
             console.log("Supported assets are up to date.");
             return;
         }
-        const updatedCoins = await getSupportedCoins();
+        const updatedCoins = await getSupportedCoins(this.clock);
         console.log(`Fetched ${Object.keys(updatedCoins).length} supported assets from Gecko.`);
         this.register.setItem(SUPPORTED_ASSETS_REG_KEY, {...data, ...updatedCoins});
     }
