@@ -95,6 +95,46 @@ const mockHistoricalXMLWithOldDates = `<?xml version="1.0" encoding="UTF-8"?>
     </Cube>
 </gesmes:Envelope>`;
 
+const mockXMLWithWeekendGaps = `<?xml version="1.0" encoding="UTF-8"?>
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
+    <gesmes:subject>Reference rates</gesmes:subject>
+    <gesmes:Sender>
+        <gesmes:name>European Central Bank</gesmes:name>
+    </gesmes:Sender>
+    <Cube>
+        <Cube time="2024-01-19">
+            <Cube currency="USD" rate="1.0900"/>
+            <Cube currency="GBP" rate="0.8550"/>
+            <Cube currency="JPY" rate="161.00"/>
+        </Cube>
+        <Cube time="2024-01-18">
+            <Cube currency="USD" rate="1.0880"/>
+            <Cube currency="GBP" rate="0.8540"/>
+            <Cube currency="JPY" rate="160.50"/>
+        </Cube>
+        <Cube time="2024-01-17">
+            <Cube currency="USD" rate="1.0870"/>
+            <Cube currency="GBP" rate="0.8535"/>
+            <Cube currency="JPY" rate="160.30"/>
+        </Cube>
+        <Cube time="2024-01-16">
+            <Cube currency="USD" rate="1.0860"/>
+            <Cube currency="GBP" rate="0.8530"/>
+            <Cube currency="JPY" rate="160.10"/>
+        </Cube>
+        <Cube time="2024-01-15">
+            <Cube currency="USD" rate="1.0850"/>
+            <Cube currency="GBP" rate="0.8525"/>
+            <Cube currency="JPY" rate="160.00"/>
+        </Cube>
+        <Cube time="2024-01-12">
+            <Cube currency="USD" rate="1.0840"/>
+            <Cube currency="GBP" rate="0.8520"/>
+            <Cube currency="JPY" rate="159.80"/>
+        </Cube>
+    </Cube>
+</gesmes:Envelope>`;
+
 describe('ecb.ts', () => {
     let mockClock: MockClock;
 
@@ -263,6 +303,47 @@ describe('ecb.ts', () => {
                 expect(typeof rates[currency]).toBe('number');
                 expect(rates[currency]).toBeGreaterThan(0);
             }
+        });
+
+        it('should fill in weekend gaps with Friday data', async () => {
+            // Mock data covers Mon-Fri (Jan 15-19) and previous Friday (Jan 12)
+            // Weekend days (Jan 13-14) are missing from ECB data
+            (fetchModule.getRetry as jest.Mock).mockResolvedValue(mockXMLWithWeekendGaps);
+
+            const result = await fetchEcbData(mockClock, '90days');
+
+            // Jan 12 (Fri) should have its own data
+            expect(result['2024-01-12']).toBeDefined();
+            expect(result['2024-01-12'].EUR).toBeCloseTo(1 / 1.0840, 4);
+            expect(result['2024-01-12'].GBP).toBeCloseTo(0.8520 / 1.0840, 4);
+
+            // Jan 13 (Sat) - should be filled with Jan 12 (Fri) data
+            expect(result['2024-01-13']).toBeDefined();
+            expect(result['2024-01-13'].EUR).toBeCloseTo(1 / 1.0840, 4);
+            expect(result['2024-01-13'].GBP).toBeCloseTo(0.8520 / 1.0840, 4);
+            expect(result['2024-01-13'].JPY).toBeCloseTo(159.80 / 1.0840, 4);
+
+            // Jan 14 (Sun) - should also be filled with Jan 12 (Fri) data
+            expect(result['2024-01-14']).toBeDefined();
+            expect(result['2024-01-14'].EUR).toBeCloseTo(1 / 1.0840, 4);
+            expect(result['2024-01-14'].GBP).toBeCloseTo(0.8520 / 1.0840, 4);
+            expect(result['2024-01-14'].JPY).toBeCloseTo(159.80 / 1.0840, 4);
+
+            // Jan 15 (Mon) - should have new data
+            expect(result['2024-01-15']).toBeDefined();
+            expect(result['2024-01-15'].EUR).toBeCloseTo(1 / 1.0850, 4);
+            expect(result['2024-01-15'].GBP).toBeCloseTo(0.8525 / 1.0850, 4);
+
+            // Verify weekend data exactly matches Friday data
+            expect(result['2024-01-13'].USD).toBe(result['2024-01-12'].USD);
+            expect(result['2024-01-13'].EUR).toBe(result['2024-01-12'].EUR);
+            expect(result['2024-01-13'].GBP).toBe(result['2024-01-12'].GBP);
+            expect(result['2024-01-13'].JPY).toBe(result['2024-01-12'].JPY);
+
+            expect(result['2024-01-14'].USD).toBe(result['2024-01-12'].USD);
+            expect(result['2024-01-14'].EUR).toBe(result['2024-01-12'].EUR);
+            expect(result['2024-01-14'].GBP).toBe(result['2024-01-12'].GBP);
+            expect(result['2024-01-14'].JPY).toBe(result['2024-01-12'].JPY);
         });
     });
 

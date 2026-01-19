@@ -4,6 +4,7 @@ import { ensureArray } from "../common/util.ts";
 import { nextDate } from "../common/date.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/SystemClock.ts";
+import _ from "lodash";
 
 const baseUrl = 'https://www.ecb.europa.eu/stats/eurofxref';
 const fullHistoryUrl = `${baseUrl}/eurofxref-hist.xml`;
@@ -53,14 +54,20 @@ export async function fetchEcbData(clock: Clock, duration: Duration = 'full') {
             delete parsed['time'];
         }
     }
-    // compute next 7 days based on the latest entry
-    let followUpDay = nextDate(cubes[0]['time']);
-    for(let i = 0; i < 7; i++) {
-        result[followUpDay] = {
-            ...parseCubes(cubes[0]),
-            time: followUpDay
-        };
-        followUpDay = nextDate(followUpDay);
+
+    // fill missing dates (weekends, holidays) with the previous date's data
+    const minDate = _.min(Object.keys(result));
+    const maxDate = _.max(Object.keys(result));
+    if (minDate && maxDate) {
+        let lastAvailableData: any = null;
+        for (let date = minDate; date <= nextDate(maxDate, 7); date = nextDate(date)) {
+            if (result[date]) {
+                lastAvailableData = result[date];
+            } else {
+                // fill missing date with the previous date's data
+                result[date] = {...lastAvailableData, time: date};
+            }
+        }
     }
 
     return result;

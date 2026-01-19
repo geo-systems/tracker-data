@@ -4,9 +4,9 @@ export const DAY_IN_MS = 24 * HOUR_IN_MS;
 export const WEEK_IN_MS = 7 * DAY_IN_MS;
 export const MONTH_IN_MS = 30 * DAY_IN_MS;
 
-export const nextDate = (dateStr: string): string => {
+export const nextDate = (dateStr: string, daysAhead: number = 1): string => {
     const date = new Date(dateStr);
-    const nextDayTimestamp = date.getTime() + (24 * 60 * 60 * 1000);
+    const nextDayTimestamp = date.getTime() + (daysAhead * 24 * 60 * 60 * 1000);
     const nextDay = new Date(nextDayTimestamp);
     return nextDay.toISOString().split('T')[0];
 }
