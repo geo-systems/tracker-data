@@ -52,8 +52,8 @@ describe('LatestPricesJob', () => {
             await job.run();
 
             expect(geckoApi.getCoinsWithSparkline).toHaveBeenCalledWith(mockClock, expect.arrayContaining([
-                coins.bitcoin,
-                coins.ethereum,
+                'bitcoin',
+                'ethereum',
             ]));
 
             const bitcoinHistory = register.getItem('history/bitcoin');
