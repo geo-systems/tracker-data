@@ -39,7 +39,8 @@ export class LatestPricesJob implements Job {
                 return true;
             }
             return false;
-        });
+        }).map(coin => coin.id);
+        console.log(`Fetching latest prices for ${eligibleCoinIds.length} coins...: ${eligibleCoinIds.join(', ')}`);
         const coinsWithSparkline = await getCoinsWithSparkline(this.clock, eligibleCoinIds);
         for (const coin of coinsWithSparkline) {
             const coinHistory = this.register.getItem(`history/${coin.id}`) ?? [];
