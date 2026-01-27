@@ -1,4 +1,3 @@
-import { set } from "lodash";
 import { HOUR_IN_MS } from "../common/date.ts";
 import { getTopCoinsWithChanges } from "../api/gecko.ts";
 import type { Register } from "../register/Register.ts";
