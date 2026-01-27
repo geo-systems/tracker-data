@@ -7,6 +7,7 @@ import { YahooHistoryJob } from './jobs/YahooHistoryJob.ts';
 import { LatestPricesJob } from './jobs/LatestPricesJob.ts';
 import type Job from './jobs/Job.ts';
 import { MINUTE_IN_MS } from './common/date.ts';
+import { GeckoTopCoinsWithChangesJob } from './jobs/GeckoTopCoinsWithChangesJob.ts';
 
 
 interface JobEntry {
@@ -22,6 +23,8 @@ const jobs: JobEntry[] = [
     { name: 'Gecko History', job: new GeckoHistoryJob(), failOnError: true },
     { name: 'Yahoo History', job: new YahooHistoryJob(), failOnError: false },
     { name: 'Latest Prices', job: new LatestPricesJob(), failOnError: true },
+    { name: 'Top Coins', job: new GeckoTopCoinsWithChangesJob(), failOnError: false },
+    { name: 'Supported Fiat', job: new GeckoSupportedFiatJob(), failOnError: false },
 ];
 
 export const runJobs = async () => {

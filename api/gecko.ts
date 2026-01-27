@@ -21,6 +21,7 @@ export interface Coin {
     image_small_url: string;
     market_cap: number;
     market_cap_rank: number;
+    fully_diluted_valuation: number | null;
     index?: number;
 }
 
@@ -59,6 +60,8 @@ const toCoin = (rawData: any): Coin => ({
     image_small_url: toSmallImage(rawData.image),
     market_cap_rank: rawData.market_cap_rank,
     market_cap: rawData.market_cap,
+    fully_diluted_valuation: rawData.fully_diluted_valuation
+
 });
 
 // Coin definitions
