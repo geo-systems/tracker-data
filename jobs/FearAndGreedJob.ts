@@ -36,3 +36,5 @@ export class FearAndGreedJob implements Job {
         console.log(`Fear and Greed Index data fetched successfully. Total records: ${data.length}`);
     }
 }
+
+new FearAndGreedJob().run();
