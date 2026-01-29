@@ -3,7 +3,7 @@ import _ from "lodash"
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";
-import { DAY_IN_MS, HOUR_IN_MS } from "../common/date.ts";
+import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS } from "../common/date.ts";
 import { getYahooHistory } from "../api/yahoo.ts";
 import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
@@ -20,9 +20,16 @@ export class YahooHistoryJob implements Job {
     }
 
     async run(): Promise<void> {
+        const startAt = this.clock.now();
         // Use chart: https://jsr.io/@gadicc/yahoo-finance2/doc/modules/chart#example_4
         const coins: Record<string, any> = this.register.getItem(SUPPORTED_ASSETS_REG_KEY);
         for (const coin of Object.values(coins)) {
+            if (this.clock.now() - startAt > MINUTE_IN_MS * 10) {
+                console.log(`Stopping history fetch to avoid running over 10 minutes.`);
+                break;
+            }
+
+
             const coinKey = `history/${coin.id}`;
             const currentHistory = this.register.getItem(coinKey);
             const timestamps = currentHistory.map((item: any) => item[0]);

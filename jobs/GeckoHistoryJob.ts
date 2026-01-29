@@ -19,7 +19,13 @@ export class GeckoHistoryJob implements Job {
 
     async run(): Promise<void> {
         const coins: Record<string, any> = this.register.getItem(SUPPORTED_ASSETS_REG_KEY);
+        const startAt = this.clock.now();
         for (const coin of Object.values(coins)) {
+            if (this.clock.now() - startAt > MINUTE_IN_MS * 15) {
+                console.log(`Stopping history fetch to avoid running over 15 minutes.`);
+                break;
+            }
+
             const coinKey = `history/${coin.id}`;
             const {data: currentHistory, lastUpdated} = this.register.getItemAndTimestamp(coinKey);
 

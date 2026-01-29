@@ -13,7 +13,8 @@
     "test-gecko-top-coins-with-changes": "node --experimental-strip-types ./jobs/geckoTopCoinsWithChanges.ts",
     "test-gecko-history": "node --experimental-strip-types ./jobs/geckoHistory.ts",
     "test-yahoo-history": "node --experimental-strip-types ./jobs/yahooHistory.ts",
-    "test-latest-prices": "node --experimental-strip-types ./jobs/latestPrices.ts"
+    "test-latest-prices": "node --experimental-strip-types ./jobs/latestPrices.ts",
+    "test-fgi": "node --experimental-strip-types ./jobs/FearAndGreedJob.ts"
   },
   "repository": {
     "type": "git",

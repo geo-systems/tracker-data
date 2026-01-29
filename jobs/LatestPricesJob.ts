@@ -35,14 +35,20 @@ export class LatestPricesJob implements Job {
                 return true;
             } else if (coin.market_cap_rank <= 500 && (this.clock.now() - lastUpdated) > DAY_IN_MS) {
                 return true;
-            } else if ((this.clock.now() - lastUpdated) > WEEK_IN_MS) {
+            } else if ((this.clock.now() - lastUpdated) > DAY_IN_MS * 3) {
                 return true;
             }
             return false;
         }).map(coin => coin.id);
         console.log(`Fetching latest prices for ${eligibleCoinIds.length} coins...: ${eligibleCoinIds.join(', ')}`);
         const coinsWithSparkline = await getCoinsWithSparkline(this.clock, eligibleCoinIds);
+        const startAt = this.clock.now();
         for (const coin of coinsWithSparkline) {
+            if (this.clock.now() - startAt > MINUTE_IN_MS * 10) {
+                console.log(`Stopping history fetch to avoid running over 10 minutes.`);
+                break;
+            }
+
             const coinHistory = this.register.getItem(`history/${coin.id}`) ?? [];
             const ts = coin.ts;
             const lastKnown = _.minBy(coinHistory, (h: any[]) => h[0]);
