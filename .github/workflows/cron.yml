@@ -21,10 +21,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4 # Checks out your repository code
 
-    - name: Use Node.js 22.x
+    - name: Use Node.js 24.x
       uses: actions/setup-node@v4 # Sets up the specified Node.js version
       with:
-        node-version: 22.x
+        node-version: 24.x
         cache: 'npm' # Caches dependencies for faster builds
 
     - name: Install dependencies
