@@ -19,10 +19,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4 # Checks out your repository code
+      uses: actions/checkout@v6 # Checks out your repository code
 
     - name: Use Node.js 24.x
-      uses: actions/setup-node@v4 # Sets up the specified Node.js version
+      uses: actions/setup-node@v6 # Sets up the specified Node.js version
       with:
         node-version: 24.x
         cache: 'npm' # Caches dependencies for faster builds
