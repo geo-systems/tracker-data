@@ -36,7 +36,7 @@ jobs:
       run: npm start # Runs the 'start' script defined in your package.json
 
     - name: Commit and push generated files
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: "CI: Auto-generate and commit files"
         # Optional: specify which files to add, default is all changed files
