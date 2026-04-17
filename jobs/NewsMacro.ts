@@ -1,0 +1,41 @@
+import { HOUR_IN_MS } from "../common/date.ts";
+import type { Register } from "../register/Register.ts";
+import { RegisterFS } from "../register/RegisterFS.ts";
+import type { Clock } from "../common/Clock.ts";
+import { SystemClock } from "../common/SystemClock.ts";
+import type Job from "./Job.ts";
+import { fetchNews } from "../api/gemini.ts";
+
+export const NEWS_MACRO_REG_KEY = 'news/macro';
+
+export class NewsMacroJob implements Job {
+    private readonly clock: Clock;
+    private readonly register: Register;
+
+    constructor(register: Register = new RegisterFS(), clock: Clock = new SystemClock()) {
+        this.register = register;
+        this.clock = clock;
+    }
+
+    async run(): Promise<void> {
+        const {data: oldData, lastUpdated} = this.register.getItemAndTimestamp(NEWS_MACRO_REG_KEY);
+        const now = this.clock.now();
+
+        // Only fetch if data wasn't fetched in the last N hours
+        if (oldData && lastUpdated && (now - lastUpdated) < HOUR_IN_MS * 13) {
+            console.log(`News Macro data was updated. Skipping fetch.`);
+            return;
+        }
+
+        console.log(`Fetching News Macro data...`);
+        let news = await fetchNews({
+            prompt: "Latest news on macroeconomic events and financial markets, which may affect cryptocurrencies",
+            sources: "reputable financial media sources like Bloomberg, Reuters, Financial Times, Wall Street Journal, ECB, AFR, IMF etc"
+        });
+        news = (news.length === 0 ? oldData : news) ?? [];
+        
+        this.register.setItem(NEWS_MACRO_REG_KEY, news);
+        console.log(`News Macro data fetched successfully`);
+    }
+}
+
