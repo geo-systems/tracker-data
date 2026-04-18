@@ -1,29 +1,56 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin surged over 4% in the last 24 hours, climbing past $78,000 and breaking key resistance levels. This rally has pushed major institutional portfolios back into profit and strengthened a bullish technical setup, with analysts eyeing the $80,000 mark.",
+    "details": "Bitcoin climbed above $78,000 on April 17, reaching a two-month high, after Iran announced the Strait of Hormuz would remain fully open for commercial shipping. This de-escalation in geopolitical tensions led to a rally in risk assets, including cryptocurrencies, and caused oil prices to plunge. Analysts are now watching the $80,000 resistance level.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/195438/bitcoin-surges-iran-reopens-strait-hormuz-oil-prices-tumble",
+    "title": "Bitcoin Surges Past $78K as Iran Reopens Strait of Hormuz",
+    "id": "36ed36b8-d76a-4159-b147-6503b8655084",
+    "ts": 1776489232119
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Payward, Kraken's parent company, has agreed to acquire Bitnomial for up to $550 million in cash and stock. This acquisition gives Kraken access to Bitnomial's full suite of CFTC-issued licenses for operating a crypto trading and derivatives business in the U.S., allowing Payward to expand its regulated derivatives capabilities.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/195440/kraken-parent-payward-agrees-acquire-derivatives-exchange-bitnomial-550-million",
+    "title": "Kraken Parent Payward to Acquire Derivatives Exchange Bitnomial for $550 Million",
+    "id": "dc42e31a-7179-482b-8080-4eaabec51941",
+    "ts": 1776489232119
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "U.S. Representative Sheri Biggs disclosed a purchase of up to $250,000 in BlackRock's iShares Bitcoin Trust ETF (IBIT). This filing is among the largest bitcoin-related trades reported by an active member of Congress, indicating increasing institutional and political acceptance of Bitcoin.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/290807/bitcoin-retakes-78000-as-trump-declares-hormuz-open-and-ready-for-business",
-    "title": "Bitcoin Breaks $78K Amid Bullish Momentum",
-    "id": "58b92531-0344-497e-bd3c-8b697c52a013",
-    "ts": 1776448506940
+    "sourceUrl": "https://www.theblock.co/post/291656/congresswoman-biggs-discloses-six-figure-blackrock-bitcoin-etf-buy-as-btc-rebounds",
+    "title": "Congresswoman Biggs Discloses Six-Figure BlackRock Bitcoin ETF Purchase",
+    "id": "19d3d829-a9e2-4553-80e7-e677f441eb2c",
+    "ts": 1776489232119
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A post-mortem by Rhea Finance revealed that exploit losses totaled $18.4 million, more than double initial estimates. The attack manipulated liquidity pools and routed trades through fake tokens, leaving positions undercollateralized. While some funds have been recovered or frozen, approximately $5.6 million remains outstanding.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblock.co/post/291650/rhea-finance-post-mortem-puts-exploit-losses-at-18-4-million-more-than-double-initial-estimates",
+    "title": "Rhea Finance Exploit Losses More Than Double to $18.4 Million",
+    "id": "9eca7e07-68e0-49ff-8738-caf886a4fc1e",
+    "ts": 1776489232119
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "World has released a major World ID protocol upgrade, introducing new integrations and use cases, including with Tinder for identity verification and a Zoom deepfake-protection feature. The update, for its network of nearly 18 million Orb-verified users, also includes multi-key support, key rotation, and recovery mechanisms.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblock.co/post/291646/world-rolls-out-world-id-proof-of-human-upgrade-with-tinder-integration-zoom-feature-and-ticketing-tools",
+    "title": "World Rolls Out World ID 'Proof of Human' Upgrade with Tinder, Zoom Integrations",
+    "id": "aa0ccc9e-6683-434c-aab7-61ce3acf69e4",
+    "ts": 1776489232119
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Lawmakers in Washington are reportedly close to a final agreement on the Digital Asset Market Clarity Act. This bill aims to establish a comprehensive framework for crypto regulation in the United States, defining jurisdictional boundaries between the SEC and CFTC and clarifying rules for various digital assets, including tokens, stablecoins, and decentralized finance (DeFi) platforms.",
-    "sourceName": "Bitcoin Magazine",
-    "sourceUrl": "https://bitcoinmagazine.com/legal/crypto-legislation-nears-finish-line-as-jpmorgan-sees-breakthrough-on-negotiations",
-    "title": "US Crypto Legislation Nears Finish Line",
-    "id": "1dd16814-3a6f-4d51-89c4-6475fcafe661",
-    "ts": 1776448506940
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum experienced a notable 6% daily surge, successfully breaking above a long-term descending channel on its daily chart. The cryptocurrency is now testing its 100-day moving average near $2,460. This technical breakout suggests renewed bullish momentum, with the next major resistance level anticipated around $2,800.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/ethereum-breaks-above-descending-channel-after-6-daily-surge",
-    "title": "Ethereum Surges 6%, Breaks Key Resistance",
-    "id": "26173519-bdf5-42c0-914e-95d8ba851fd8",
-    "ts": 1776448506940
+    "details": "The Crypto Council for Innovation (CCI) has acquired the Digital Energy Council (DEC), marking its first acquisition focused on digital energy policy. This move aims to advance policies that promote energy development, grid resilience, U.S. competitiveness, and national security in the context of growing energy demand from digital asset mining and AI data centers.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblock.co/post/291652/crypto-council-for-innovation-gains-digital-energy-council-as-its-first-energy-focused-acquisition",
+    "title": "Crypto Council for Innovation Acquires Digital Energy Council",
+    "id": "9b6d05e6-077d-4b54-a7b0-518b979f7c56",
+    "ts": 1776489232119
   }
 ]
