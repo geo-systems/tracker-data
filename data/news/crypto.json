@@ -1,56 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Kelp DAO's rsETH bridge was reportedly exploited for approximately $292 million in a LayerZero-based attack. This significant incident has caused liquidity issues within Aave V3 Core Market on the Ethereum mainnet, with available USDT liquidity plummeting and utilization rates reaching nearly 100%. Separately, the RAVE token experienced a sharp decline amidst allegations of insider manipulation, prompting investigations from major exchanges like Binance and Bitget.",
+    "details": "The DeFi lending protocol Aave is grappling with a withdrawal crisis following a substantial exploit of Kelp DAO's rsETH bridge, which resulted in the loss of approximately $292 million in a LayerZero-based attack. This incident has spread risk across decentralized finance markets, impacting related protocols.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/290886/kelp-daos-rseth-bridge-apparently-exploited-for-roughly-292-million-in-layerzero-based-attack",
-    "title": "Kelp DAO Exploited for $292M, Aave Faces Liquidity Challenges",
-    "id": "0ec2831d-682e-4e87-a39f-44d0a64358c5",
-    "ts": 1776604237075
+    "sourceUrl": "https://www.theblockcrypto.com/post/291669/kelp-daos-rseth-bridge-apparently-exploited-for-roughly-292-million-in-layerzero-based-attack",
+    "title": "DeFi Lender Aave Faces Crisis After KelpDAO rsETH Exploit",
+    "id": "161e5d6b-735e-4ceb-b01c-dfdbff9b2f48",
+    "ts": 1776642053541
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The RaveDAO team has denied involvement in the significant pump and subsequent 68% crash of its RAVE token. Major cryptocurrency exchanges, Binance and Bitget, have reportedly initiated investigations into potential market manipulation surrounding the token's volatile price movements.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/291667/ravedao-team-denies-role-in-rave-token-pump-as-binance-bitget-open-investigations",
+    "title": "RaveDAO Denies Manipulation Amidst RAVE Token Crash and Exchange Investigations",
+    "id": "dfec7647-1987-4664-af4c-7e4b4c2883ce",
+    "ts": 1776642053541
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Investment bank TD Cowen, a division of Toronto-Dominion Bank, has issued a bold prediction, forecasting that Bitcoin could hit $140,000 by the end of 2026. This outlook suggests a potential doubling in Bitcoin's value from its current trading levels, contingent on its re-establishment as \"digital gold.\" While optimistic, online prediction markets currently give Bitcoin a roughly 10% chance of reaching this specific target.",
-    "sourceName": "The Motley Fool",
-    "sourceUrl": "https://www.fool.com/investing/2026/04/18/bold-prediction-bitcoin-will-hit-140000-this-year/",
-    "title": "Wall Street Bank Predicts Bitcoin to Reach $140K in 2026",
-    "id": "f72e123f-fbed-401c-9283-5ec87393bcab",
-    "ts": 1776604237075
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Standard Chartered has provided an optimistic Ethereum price prediction, targeting $4,000 for 2026 and an ambitious $40,000 by 2030. This forecast is underpinned by significant whale accumulation, with large, often unidentified, investors actively acquiring substantial quantities of ETH. Reports indicate that one entity alone deployed over $111 million in USDT to secure more than 50,000 ETH.",
-    "sourceName": "Markets Insider",
-    "sourceUrl": "https://markets.businessinsider.com/news/stocks/crypto-news-alphapepe-announces-880k-raised-while-ethereum-price-prediction-targets-4-000-on-heavy-whale-accumulation-10350482",
-    "title": "Ethereum Targets $4,000 as Whales Accumulate, Says Standard Chartered",
-    "id": "ebcb0490-bee7-4974-8ab4-bae09975a991",
-    "ts": 1776604237075
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The cryptocurrency market is demonstrating stronger price movements and a notable resurgence in investor confidence. The crypto Fear and Greed Index has recovered significantly, now standing around 64 points and entering the \"greed\" zone for the first time in several months. This shift signals improved market sentiment and hints at a stabilization of demand that could sustain buying pressure in the short term.",
-    "sourceName": "City Index",
-    "sourceUrl": "https://www.cityindex.com/en-uk/news-and-analysis/crypto-fundamental-analysis-middle-east-optimism-boosts-confidence-in-the-crypto-market/",
-    "title": "Crypto Market Confidence Rebounds, Fear & Greed Index Hits \"Greed\"",
-    "id": "dfde55ac-a2ef-4d80-8233-eb124319ba52",
-    "ts": 1776604237075
+    "details": "Michael Saylor, founder of MicroStrategy, released a Bitcoin Tracker update, encouraging followers to \"Think Even Bigger.\" Historically, MicroStrategy has disclosed additional Bitcoin holdings the day after such announcements, suggesting a potential for more large-scale Bitcoin purchases.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951014197771",
+    "title": "Michael Saylor Hints at Further Bitcoin Acquisitions Following Tracker Update",
+    "id": "0baa6348-ab59-4ffc-bdfb-6b14e3344b3c",
+    "ts": 1776642053541
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Iran is reportedly exploring the possibility of using Bitcoin for settling oil tolls in the crucial Strait of Hormuz, a move that could potentially signal a change in international trade dynamics. However, current reports suggest that stablecoins continue to be the preferred choice for significant monetary transactions in the region.",
-    "sourceName": "Phemex",
-    "sourceUrl": "https://phemex.com/blogs/crypto-news-2026-04-19",
-    "title": "Iran Eyes Bitcoin for Strait of Hormuz Oil Tolls",
-    "id": "fdf449e3-aa43-40f1-82e8-6ca35393e42b",
-    "ts": 1776604237075
+    "details": "The Bitcoin network's mining difficulty has eased, sliding by 2.43%. Concurrently, the hashprice, which indicates the expected revenue for a given amount of hashrate, has seen a rise of 13.65%. These technical adjustments can impact mining profitability.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/bitcoin-network-eases-as-difficulty-slides-2-43-and-hashprice-rises-13-65/",
+    "title": "Bitcoin Network Difficulty Declines, Hashprice Rises",
+    "id": "406c6dfd-ae2a-4491-baef-d1722a9237de",
+    "ts": 1776642053541
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Sberbank, Russia's largest financial institution, has announced its readiness to introduce cryptocurrency trading services. The launch is dependent on the finalization of regulatory frameworks and the establishment of organized exchange trading. The bank anticipates that an exchange-based trading model will enhance market liquidity and help reduce spreads.",
-    "sourceName": "Phemex",
-    "sourceUrl": "https://phemex.com/blogs/crypto-news-2026-04-19",
-    "title": "Russia's Sberbank Prepares for Crypto Trading Launch",
-    "id": "d0292a6e-b28b-483d-82d0-f6a59bed4553",
-    "ts": 1776604237075
+    "details": "Ripple has highlighted that XRP is experiencing some of the fastest institutional adoption within the crypto space, particularly concerning its integration into US spot Exchange Traded Funds (ETFs). This indicates growing interest and acceptance of XRP by institutional investors.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/xrps-institutional-adoption-among-cryptos-fastest-in-us-spot-etfs-ripple-says/",
+    "title": "Ripple Reports XRP's Institutional Adoption Among Fastest for US Spot ETFs",
+    "id": "a280783e-122d-4584-baf2-0da425896df6",
+    "ts": 1776642053541
   }
 ]
