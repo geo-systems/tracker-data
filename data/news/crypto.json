@@ -1,47 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin has climbed towards the $76,000-$77,000 range, supported by significant institutional interest, including over $1 billion in crypto fund inflows and BlackRock's acquisition of 3,352 BTC, bringing its total holdings to 806,000 BTC. Additionally, \"Strategy\" (likely MicroStrategy) made a massive purchase of 34,164 Bitcoin, pushing its total to over 815,000 BTC. Improving risk sentiment also contributed to the upward momentum.",
-    "sourceName": "Bitcoin.com News",
-    "sourceUrl": "https://news.bitcoin.com/bitcoin-holds-75k-as-us-iran-maritime-clashes-spark-geopolitical-whiplash/",
-    "title": "Bitcoin Rebounds to $76K as ETF Inflows and Corporate Buys Drive Optimism",
-    "id": "9e9a5f78-3c70-4fb2-abe7-780a761db25d",
-    "ts": 1776799199384
+    "details": "Prediction market platforms Kalshi and Polymarket are expanding their offerings to include perpetual futures contracts for cryptocurrencies, US equities, and commodities. Kalshi plans to launch its crypto perpetual futures on April 27, having secured a CFTC margin trading license, while Polymarket has also announced similar plans. This move signifies increased access to leveraged crypto trading products.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/kalshi-polymarket-race-to-launch-crypto-perps/",
+    "title": "Kalshi & Polymarket Launch Crypto Perpetual Futures",
+    "id": "f469681f-db2b-413c-a19e-9e8c740feab0",
+    "ts": 1776844555324
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The decentralized finance (DeFi) sector is reeling from a $290 million exploit on KelpDAO over the weekend. While the Arbitrum council froze approximately $70-71 million in ETH, the exploiter managed to move another $175 million shortly after. This incident has caused Ethereum and other DeFi tokens to underperform Bitcoin, and Aave's Total Value Locked (TVL) has plunged by 33% to around $16.7 billion.",
+    "details": "The exploiter behind the approximately $290 million Kelp DAO hack has begun moving a significant portion of the stolen Ether (ETH), routing about $175 million to the Ethereum mainnet and subsequently bridging funds to Bitcoin via privacy protocols like THORChain and Umbra. This action follows the Arbitrum Security Council freezing 30,766 ETH ($71 million) tied to the exploit, which is considered the largest DeFi hack of 2026.",
+    "sourceName": "crypto.news",
+    "sourceUrl": "https://crypto.news/kelp-dao-exploit-fallout-deepens-as-attacker-routes-175m-in-eth-via-privacy-rails/",
+    "title": "Kelp DAO Exploiter Laundered $175M ETH to Bitcoin",
+    "id": "eff7a703-8cf1-45b7-b715-5658d32bc699",
+    "ts": 1776844555324
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Strategy (formerly MicroStrategy) has surpassed BlackRock's iShares Bitcoin Trust (IBIT) to become the world's largest institutional holder of Bitcoin. Following a recent purchase of 34,164 BTC, Strategy's total holdings now stand at 815,061 BTC, exceeding IBIT's 802,824 BTC. This milestone highlights Strategy's aggressive accumulation strategy through various financial instruments.",
+    "sourceName": "MEXC News",
+    "sourceUrl": "https://www.mexc.com/news/strategy-mstr-overtakes-blackrocks-ibit-after-aggressive-bear-market-btc-buying",
+    "title": "MicroStrategy Becomes World's Top Bitcoin Holder",
+    "id": "05f772f2-dc82-4ec4-98b7-88a86ffdfe27",
+    "ts": 1776844555324
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Bitcoin experienced a notable increase, alongside equities, after an announcement by US President Donald Trump regarding the extension of a ceasefire with Iran. This decision is seen as a stabilizing factor, alleviating geopolitical tensions and boosting market confidence, leading to positive price movements in the cryptocurrency market.",
+    "sourceName": "Binance",
+    "sourceUrl": "https://www.binance.com/en/square/post/6105741097871",
+    "title": "Bitcoin Jumps on US-Iran Ceasefire Extension News",
+    "id": "9bdbf9ce-974b-4a02-85e7-70b35386ef07",
+    "ts": 1776844555324
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "New York Attorney General Letitia James has filed lawsuits against Coinbase and Gemini, alleging that their prediction market platforms operate as illegal gambling businesses under state law. The lawsuits claim these platforms allow users to bet on event outcomes, including sports and elections, without the necessary state licenses and permit users under the age of 21, violating New York's gambling regulations.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/290m-kelp-dao-exploit-spooks-defi-market-ethereum-underperforms-bitcoin",
-    "title": "KelpDAO Exploit Hits DeFi, Ethereum Underperforms Amid $290M Loss",
-    "id": "5bda0984-0708-4fc6-9f3d-64ecd9e4b107",
-    "ts": 1776799199384
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitmine, an Ethereum treasury firm, has made a substantial purchase of 101,627 Ether, marking its largest weekly acquisition of 2026. The company now reports its Ethereum holdings have reached 4.976 million tokens, representing a significant accumulation that signals a positive long-term outlook for ETH.",
-    "sourceName": "CoinDesk",
-    "sourceUrl": "https://www.coindesk.com/markets/2026/04/21/ethereum-price-today-eth-to-usd-live-price-marketcap-and-chart/",
-    "title": "Bitmine Significantly Increases Ethereum Holdings in Largest Weekly Haul",
-    "id": "a56c9b29-063f-45f9-8dd9-0bcfa157103e",
-    "ts": 1776799199384
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The market capitalization for tokenized real-world assets (RWAs) has seen explosive growth, surging 20-fold in the past three years to exceed $29 billion. This trend highlights increasing adoption and investor interest in bringing tangible assets onto blockchain networks.",
-    "sourceName": "Bitcoin.com News",
-    "sourceUrl": "https://news.bitcoin.com/tokenized-real-world-asset-market-cap-surges-20x-in-three-years-topping-29-billion/",
-    "title": "Tokenized Real-World Asset Market Cap Soars to Over $29 Billion",
-    "id": "93a8487e-9f4a-4c37-a066-a4e29eca6dc3",
-    "ts": 1776799199384
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Food delivery giant DoorDash is reportedly planning to offer stablecoin payouts to its drivers, partnering with Tempo blockchain. This move represents a significant step towards integrating cryptocurrencies into everyday financial transactions and mainstream adoption.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/290m-kelp-dao-exploit-spooks-defi-market-ethereum-underperforms-bitcoin",
-    "title": "DoorDash Explores Stablecoin Payouts with Tempo for Everyday Crypto Use",
-    "id": "3f8f9481-714f-4f69-8a19-6a2298901d0a",
-    "ts": 1776799199384
+    "sourceUrl": "https://www.theblockcrypto.com/post/new-york-attorney-general-sues-coinbase-gemini-for-illegal-gambling-on-prediction-market-platforms",
+    "title": "NY AG Sues Coinbase, Gemini for 'Illegal Gambling'",
+    "id": "758e4e92-74d7-4fbe-8f36-5465348805ca",
+    "ts": 1776844555324
   }
 ]
