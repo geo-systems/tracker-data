@@ -1,20 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The crypto market is experiencing mixed signals, with Bitcoin trading around $77,590, up slightly by 0.12% in the last 24 hours, despite a minor 0.44% dip in the global market cap. Ethereum is near $2,315. Over $10 billion in options on Bitcoin, Ethereum, XRP, and Solana are set to expire, contributing to market uncertainty alongside geopolitical tensions. However, strong underlying bullish indicators persist: Bitcoin whales have accumulated $3.17 billion in BTC since April 10, and Bitcoin ETFs have seen a nine-day inflow streak totaling $2.12 billion. Ethereum NFT trading volume also surged by 72% in the past 24 hours. Analysts are closely watching the $80,000 level for Bitcoin as a potential catalyst for further price increases.",
-    "sourceName": "Binance News",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiyArhi8B9oKpVG43kay9hMH7y4gVKuY32bWgfPTyOFOQ4dU1B_LAg4l6-uT-I23QakgmZB9RiDfMEFpuu-ejl3yZdr2etP9bl7MngNHQYFqGEiz8vnb9aU9XZ5JQZMr0Rp3_AzUhQMB87zuTx33-X",
-    "title": "Crypto Markets Show Mixed Signals as ETF Inflows and Whale Accumulation Continue Amid Options Expiry",
-    "id": "343f90ad-365d-4523-9ca6-e2379413f184",
-    "ts": 1777131818125
+    "details": "Bitcoin is trading around $77,600, experiencing marginal losses in the last 24 hours within a narrow range. Despite this, Bitcoin spot ETFs have seen positive inflows for an eighth consecutive day, accumulating approximately $4 billion in a week and reaching $105.28 billion in Assets Under Management (AUM). Derivatives positioning shows a bearish sentiment with negative funding rates, but on-chain data indicates accumulation by \"sharks\" (wallets holding 100-1,000 BTC).",
+    "sourceName": "MEXC News",
+    "sourceUrl": "https://www.mexc.com/news/crypto-market-update-25-april-2026-bears-paying-while-sharks-accumulate",
+    "title": "Bitcoin Holds Above $77K Amidst Continued ETF Inflows",
+    "id": "07792fe0-c30e-4a1d-be4d-089a56434ae7",
+    "ts": 1777172411841
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Over 120 cryptocurrency organizations, including major players like Coinbase, Ripple, Kraken, Circle, and Andreessen Horowitz, have sent a joint letter to the Senate Banking Committee. They are pushing for a vote on the CLARITY Act (formally the Digital Asset Market Clarity Act) by the end of May, a bill that would permanently classify XRP as a digital commodity and provide much-needed regulatory clarity to the crypto market in the United States.",
+    "sourceName": "Benzinga",
+    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/04/26781234/xrp-price-news-120-crypto-firms-just-told-the-senate-to-pass-the-clarity-act",
+    "title": "Over 120 Crypto Firms Urge Senate to Pass CLARITY Act for XRP",
+    "id": "4da29a03-8656-4044-b280-f96974d0975b",
+    "ts": 1777172411841
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Pavel Durov, the founder of Telegram, has revealed plans to drastically reduce transaction fees on the TON blockchain by sixfold to 0.00039 TON per transaction, with many transactions expected to become feeless. This follows a recent network upgrade that reduced transaction finality time to approximately one second. Additionally, the xStocks platform has expanded to the TON ecosystem, allowing tokenized US equities access within the Telegram app.",
+    "sourceName": "CryptoPotato",
+    "sourceUrl": "https://cryptopotato.com/crypto-news-today-bitcoin-btc-drops-below-78k-memecore-m-crashes-by-15-weekend-watch/",
+    "title": "Telegram Founder Announces Massive TON Blockchain Fee Cuts",
+    "id": "2afcfa4e-0883-47a7-9e9f-ca8533ed7e2a",
+    "ts": 1777172411841
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Litecoin successfully addressed its first major privacy-layer exploit by rewriting three hours of its blockchain history. This action was taken to undo the effects of the bug and patch the network, which has now been confirmed as stable.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296248/litecoin-rewrites-three-hours-of-history-to-undo-its-first-major-privacy-layer-exploit",
+    "title": "Litecoin Fixes Privacy-Layer Exploit, Rewrites Blockchain History",
+    "id": "36d63328-1f0d-451e-a815-2bf292bd18fb",
+    "ts": 1777172411841
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Tether, a prominent stablecoin issuer, has frozen $344 million in cryptocurrency in connection with an ongoing investigation by U.S. authorities. This action highlights increasing regulatory scrutiny on stablecoin operations and their potential impact on the broader crypto ecosystem.",
-    "sourceName": "MEXC News",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVlWrYQNg85eIY4RyULcyulDjdK_U0ICr8qoksd3P43O1imTsLNjC9ZpyXqwyrh0aHFQiKBZL20HZLbTEXBD563ll3lPqogloLD78eO9p-SYRuTPn_-FGk_yLYyfN_0bc=",
-    "title": "Tether Freezes $344 Million in Crypto Amid US Investigation",
-    "id": "00ab04f6-96f4-49be-9f85-f2d9cd84cfcd",
-    "ts": 1777131818125
+    "details": "Major decentralized finance (DeFi) protocols, including Aave, Kelp, and LayerZero, have petitioned the Arbitrum DAO to release $71 million in frozen ETH. This request is part of a recovery effort following an exploit that impacted the rsETH bridge and exposed some lenders to potential losses.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296245/aave-kelp-layerzero-ask-arbitrum-dao-to-release-71-million-in-frozen-eth-to-rseth-recovery-effort",
+    "title": "DeFi Protocols Seek $71M in Frozen ETH for rsETH Recovery",
+    "id": "4fb2b00a-c833-4e63-b272-1f0b14d4e7cd",
+    "ts": 1777172411841
   }
 ]
