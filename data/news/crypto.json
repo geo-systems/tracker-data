@@ -1,47 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin is trading around $77,600, experiencing marginal losses in the last 24 hours within a narrow range. Despite this, Bitcoin spot ETFs have seen positive inflows for an eighth consecutive day, accumulating approximately $4 billion in a week and reaching $105.28 billion in Assets Under Management (AUM). Derivatives positioning shows a bearish sentiment with negative funding rates, but on-chain data indicates accumulation by \"sharks\" (wallets holding 100-1,000 BTC).",
-    "sourceName": "MEXC News",
-    "sourceUrl": "https://www.mexc.com/news/crypto-market-update-25-april-2026-bears-paying-while-sharks-accumulate",
-    "title": "Bitcoin Holds Above $77K Amidst Continued ETF Inflows",
-    "id": "07792fe0-c30e-4a1d-be4d-089a56434ae7",
-    "ts": 1777172411841
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Over 120 cryptocurrency organizations, including major players like Coinbase, Ripple, Kraken, Circle, and Andreessen Horowitz, have sent a joint letter to the Senate Banking Committee. They are pushing for a vote on the CLARITY Act (formally the Digital Asset Market Clarity Act) by the end of May, a bill that would permanently classify XRP as a digital commodity and provide much-needed regulatory clarity to the crypto market in the United States.",
-    "sourceName": "Benzinga",
-    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/04/26781234/xrp-price-news-120-crypto-firms-just-told-the-senate-to-pass-the-clarity-act",
-    "title": "Over 120 Crypto Firms Urge Senate to Pass CLARITY Act for XRP",
-    "id": "4da29a03-8656-4044-b280-f96974d0975b",
-    "ts": 1777172411841
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Pavel Durov, the founder of Telegram, has revealed plans to drastically reduce transaction fees on the TON blockchain by sixfold to 0.00039 TON per transaction, with many transactions expected to become feeless. This follows a recent network upgrade that reduced transaction finality time to approximately one second. Additionally, the xStocks platform has expanded to the TON ecosystem, allowing tokenized US equities access within the Telegram app.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/crypto-news-today-bitcoin-btc-drops-below-78k-memecore-m-crashes-by-15-weekend-watch/",
-    "title": "Telegram Founder Announces Massive TON Blockchain Fee Cuts",
-    "id": "2afcfa4e-0883-47a7-9e9f-ca8533ed7e2a",
-    "ts": 1777172411841
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Litecoin successfully addressed its first major privacy-layer exploit by rewriting three hours of its blockchain history. This action was taken to undo the effects of the bug and patch the network, which has now been confirmed as stable.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/296248/litecoin-rewrites-three-hours-of-history-to-undo-its-first-major-privacy-layer-exploit",
-    "title": "Litecoin Fixes Privacy-Layer Exploit, Rewrites Blockchain History",
-    "id": "36d63328-1f0d-451e-a815-2bf292bd18fb",
-    "ts": 1777172411841
+    "details": "The Ethereum Foundation recently sold 10,000 ETH through an over-the-counter (OTC) deal at a price of $2,387 per token, totaling approximately $23.87 million. This strategic move is part of the foundation's treasury management. Concurrently, institutional players like Grayscale and Bitmine are significantly increasing their staked Ethereum holdings, pointing towards a growing trend of \"treasury rotation into staking.\"",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/news/ethereum-foundation-sells-10000-eth-otc-at-2387-each",
+    "title": "Ethereum Foundation Sells 10,000 ETH OTC; Institutional Staking Rises",
+    "id": "679a216b-87d7-4a10-87be-6ff54d25000e",
+    "ts": 1777209347136
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Major decentralized finance (DeFi) protocols, including Aave, Kelp, and LayerZero, have petitioned the Arbitrum DAO to release $71 million in frozen ETH. This request is part of a recovery effort following an exploit that impacted the rsETH bridge and exposed some lenders to potential losses.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/296245/aave-kelp-layerzero-ask-arbitrum-dao-to-release-71-million-in-frozen-eth-to-rseth-recovery-effort",
-    "title": "DeFi Protocols Seek $71M in Frozen ETH for rsETH Recovery",
-    "id": "4fb2b00a-c833-4e63-b272-1f0b14d4e7cd",
-    "ts": 1777172411841
+    "details": "Crypto exploit losses have surged dramatically in April, exceeding $630 million. This significant increase from March's figures is primarily attributed to two major incidents: the Kelp DAO exploit and the Drift Protocol breach, which collectively accounted for about $576 million. These events underscore a concerning trend of fewer but more impactful attacks within the decentralized finance (DeFi) ecosystem.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/news/crypto-exploit-losses-exceed-630m-in-april-amid-major-defi-breaches",
+    "title": "Major DeFi Breaches Drive Crypto Exploit Losses Above $630M in April",
+    "id": "e12c9112-fb5c-438c-b435-84d97e569a57",
+    "ts": 1777209347136
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Morgan Stanley has launched a stablecoin fund, signaling expanding institutional interest in the digital asset space beyond direct cryptocurrency investments like Bitcoin ETFs. This move suggests growing recognition and integration of stablecoins into traditional financial services.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/morgan-stanley-adds-stablecoin-fund-after-bitcoin-etf-launch/",
+    "title": "Morgan Stanley Enters Stablecoin Market with New Reserve Fund",
+    "id": "455a5279-6e1f-4f3f-8bdf-f0f2ad604da2",
+    "ts": 1777209347136
   }
 ]
