@@ -1,92 +1,83 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Michael Saylor's firm, Strategy, acquired an additional 3,273 Bitcoin for approximately $255 million at an average price of $77,906 per BTC. This increases their total holdings to 818,334 BTC, demonstrating a continued aggressive accumulation strategy, funded by selling Class A common stock.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296765/'the-beat-goes-on'-michael-saylor's-strategy-adds-3273-bitcoin-for-255-million-as-holdings-reach-818334-btc",
+    "title": "Michael Saylor's Strategy Adds 3,273 BTC for $255M, Holdings Top 818K",
+    "id": "c8dfb19d-54c7-4619-9808-48240cb4f81f",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Global crypto investment products, predominantly Bitcoin-based, recorded $1.2 billion in net inflows last week. This marks a fourth consecutive week of positive flows, signaling improving institutional demand despite upcoming Federal Reserve meetings.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296764/bitcoin-leads-1-2b-weekly-haul-for-global-crypto-funds-as-institutional-demand-builds-coinshares",
+    "title": "Bitcoin Funds Attract $1.2 Billion in Weekly Inflows, Institutional Demand Rises",
+    "id": "18c8a816-15b0-484a-accb-d5eff78fac8e",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Japanese Bitcoin treasury firm Metaplanet Inc. plans to raise approximately $137 million through a third-party allotment of newly issued shares and stock acquisition rights. A significant portion of these funds (around $91.2M) is intended for acquiring additional Bitcoin, further solidifying its \"Bitcoin Standard\" strategy.",
+    "sourceName": "Cryptonews",
+    "sourceUrl": "https://cryptonews.com/news/japans-metaplanet-announces-137m-capital-raise-through-third-party-allotment.htm",
+    "title": "Japan's Metaplanet to Raise $137M for Bitcoin Accumulation",
+    "id": "99ac9f27-4b5f-43e0-9b72-c36099d1d653",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Bank of America CEO Brian Moynihan has warned that up to $6 trillion in US bank deposits could migrate to stablecoins if issuers are allowed to pay interest. This potential shift, representing a significant portion of commercial bank deposits, could impact banks' lending capacity.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/bank-of-america-ceo-warns-yield-bearing-stablecoins-could-drain-6t-in-bank-deposits",
+    "title": "BofA CEO Warns $6T Bank Deposits Could Move to Stablecoins",
+    "id": "8d37f354-c72c-4139-8a0e-ccc0732ea091",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Six US Senators have questioned Deputy Attorney General Todd Blanche regarding the shutdown of the Department of Justice's crypto enforcement team in April 2025. They allege a potential conflict of interest, as Blanche reportedly held substantial cryptocurrency holdings while making the decision.",
+    "sourceName": "Coingape",
+    "sourceUrl": "https://coingape.com/us-senators-quiz-deputy-ag-over-doj-crypto-unit-shutdown/",
+    "title": "US Senators Question DOJ Over Crypto Crime Unit Shutdown and Official's Holdings",
+    "id": "51319611-d1f2-45aa-8614-882657e99c4e",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "French prosecutors have indicted 88 individuals, including minors, in connection with violent \"wrench attacks\" targeting cryptocurrency owners. These crimes involve physical force to extort crypto, with 47 incidents recorded in 2026 alone, highlighting a rising trend in organized crypto-related crime.",
+    "sourceName": "Coinpaper",
+    "sourceUrl": "https://coinpaper.com/news/france-indicts-88-suspects-in-violent-crypto-wrench-attacks",
+    "title": "France Indicts 88 Individuals Over Violent Crypto \"Wrench Attacks\"",
+    "id": "58c59290-f685-4e25-aaff-c30faa0513c3",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Michael Egorov, founder of Curve, has proposed a new market-based mechanism to recover bad debt in DeFi lending, aiming to turn distressed positions into tradable investment products. This initiative follows the KelpDAO fallout, which intensified debates on how DeFi protocols should handle loan shortfalls.",
+    "sourceName": "MEXC News",
+    "sourceUrl": "https://www.mexc.com/blog/curve-founder-proposes-market-based-defi-bad-debt-recovery-model-amid-kelp-fallout",
+    "title": "Curve Founder Proposes Market-Based DeFi Bad Debt Recovery Model",
+    "id": "fa6f78ad-9684-43a8-82f1-8185ff0794af",
+    "ts": 1777311148053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "While Bitcoin briefly touched $122,800, several altcoins like Solana (up 9%) and Dogecoin (up 8%) recorded significantly larger percentage increases in the last 24 hours, indicating a rotating market leadership and strong altcoin momentum.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/what-happened-in-crypto-today-solo-miner-wins-again/",
+    "title": "Altcoins See Stronger Percentage Gains Than Bitcoin",
+    "id": "b788b36c-052f-4e1a-9a72-adf92d0ff156",
+    "ts": 1777311148053
+  },
+  {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Litecoin's blockchain underwent a three-hour rewrite to reverse a major exploit that affected its privacy layer. This unprecedented action aimed to undo the impact of the security breach.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/291684/litecoin-rewrites-three-hours-of-history-to-undo-its-first-major-privacy-layer-exploit",
-    "title": "Litecoin History Rewritten After Privacy-Layer Exploit",
-    "id": "ad4ae933-22bb-4622-b989-696eb32a1c68",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Commodity Futures Trading Commission (CFTC) has filed a lawsuit against New York state, challenging its crackdown on prediction markets. The CFTC asserts its exclusive jurisdiction over these markets.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/291680/cftc-sues-new-york-over-prediction-market-crackdown-as-38-ags-back-massachusetts-kalshi-case",
-    "title": "CFTC Sues New York Over Prediction Market Crackdown",
-    "id": "1810592e-7501-43ed-80b7-065e35b19f94",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Major DeFi protocols Aave, Kelp, and LayerZero have petitioned the Arbitrum DAO to release $71 million in frozen ETH, which is part of an effort to recover funds related to a prior exploit.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/291672/aave-kelp-layerzero-ask-arbitrum-dao-to-release-71-million-in-frozen-eth-to-rseth-recovery-effort",
-    "title": "Aave, Kelp, LayerZero Request Arbitrum DAO Release of Frozen ETH",
-    "id": "43e10fd5-9f11-4bf3-bfb4-730bb78f9e65",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "A 22-year-old individual has been sentenced to 70 months in prison for their involvement in a $263 million crypto money laundering syndicate, highlighting ongoing efforts to combat illicit activities in the crypto space.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/291703/22-year-old-sentenced-to-70-months-for-money-laundering-tied-to-263-million-crypto-syndicate",
-    "title": "22-Year-Old Sentenced for $263 Million Crypto Money Laundering",
-    "id": "76177cc7-79f6-4c6a-8859-d716eb988b55",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Donald Trump voiced support for the CLARITY Act to establish a crypto regulatory framework, despite banking sector pushback. Simultaneously, BlackRock's spot Bitcoin ETF (IBIT) options open interest has surpassed Deribit, signaling growing institutional adoption.",
-    "sourceName": "Binance News",
-    "sourceUrl": "https://www.binance.com/en/square/post/7931885501865",
-    "title": "Trump Backs CLARITY Act; BlackRock's IBIT Options Top Deribit",
-    "id": "aa0c4651-4c7f-48ce-bd8c-8ef6a389c55f",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Ethereum Foundation unstaked 17,035.326 ETH, valued at approximately $40 million, nearing its internal goal of 70,000 staked ETH. This move has led to speculation about potential future actions by the foundation.",
-    "sourceName": "Cointelegraph",
-    "sourceUrl": "https://cointelegraph.com/news/ethereum-foundation-unstakes-17k-eth-nearing-70k-staked-milestone",
-    "title": "Ethereum Foundation Unstakes 17,000 ETH",
-    "id": "ac1710af-b992-4675-8b84-c37aeb007e23",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin is trading around $78,000, and global crypto funds have attracted a significant $1.4 billion in inflows over the past week, marking the strongest inflow week since January. This suggests renewed investor confidence.",
-    "sourceName": "Markets Insider",
-    "sourceUrl": "https://markets.businessinsider.com/news/stocks/crypto-news-pepeto-defi-project-crosses-9-575-434-raised-while-bitcoin-price-prediction-reaches-300-000-to-500-000-1030999039",
-    "title": "Bitcoin Holds $78K as Crypto Funds See $1.4 Billion Inflows",
-    "id": "747a1e19-08b0-49c6-8778-c10d743b06de",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "AWS Marketplace has integrated Chainlink's data feeds, data streams, and Proof of Reserve services, enhancing blockchain connectivity for developers building on Amazon Web Services.",
-    "sourceName": "Phemex",
-    "sourceUrl": "https://phemex.com/blogs/aws-marketplace-integrates-chainlink-for-enhanced-blockchain-connectivity",
-    "title": "AWS Marketplace Integrates Chainlink for Blockchain Connectivity",
-    "id": "2279ec1e-82c9-4b7f-944a-e002154ed69c",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Crypto-focused venture capital firm Blockchain Capital is in the process of raising $700 million across two new funds: a second growth fund and a seventh early-stage fund, indicating continued institutional interest in the crypto space.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/291410/blockchain-capital-seeks-700-million-for-two-new-funds-bloomberg",
-    "title": "Blockchain Capital Aims for $700 Million in New Funds",
-    "id": "dda3dbc8-a55a-4f28-acf4-8172a9ee2861",
-    "ts": 1777246982231
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The USDC Treasury has minted 250 million new USDC tokens, equivalent to approximately $249.9 million USD, reflecting ongoing demand and confidence in the stablecoin's utility and stability within the cryptocurrency market.",
-    "sourceName": "Phemex",
-    "sourceUrl": "https://phemex.com/blogs/usdc-treasury-mints-250-million-in-new-tokens",
-    "title": "USDC Treasury Mints $250 Million in New Tokens",
-    "id": "e4362646-1097-40aa-88a2-13d521eac745",
-    "ts": 1777246982231
+    "details": "The total market capitalization for NFTs fell by 12% from $9.3 billion to $8.1 billion, coinciding with a 9% drop in Ethereum's price. Major collections like CryptoPunks and Bored Apes experienced significant value losses.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/what-happened-in-crypto-today-solo-miner-wins-again/",
+    "title": "NFT Market Cap Drops 12% as Ethereum Declines",
+    "id": "0c44540d-ccd6-4e76-93b4-66816d47e88a",
+    "ts": 1777311148053
   }
 ]
