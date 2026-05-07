@@ -42,12 +42,12 @@ export class YahooHistoryJob implements Job {
             // If we updated recently enough, skip
             if (lastUpdated) {
                 if (this.clock.now() - lastHistoryItemTs < 5 * DAY_IN_MS) {
-                    console.log(`History for ${coin.id} is up to date.`);
+                    // console.log(`History for ${coin.id} is up to date.`);
                     continue;
                 } 
         
                 if (lastUpdated && (this.clock.now() - lastUpdated) < 8 * DAY_IN_MS) {
-                    console.log(`History for ${coin.id} is up to date.`);
+                    // console.log(`History for ${coin.id} is up to date.`);
                     continue;
                 } 
             } else if (coin.rank > 500) {

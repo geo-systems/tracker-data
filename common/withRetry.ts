@@ -5,7 +5,7 @@ export const withRetry = async <T>(
     clock: Clock,
     fn: () => Promise<T>,
     retries = 3,
-    delayMs = MINUTE_IN_MS,
+    delayMs = MINUTE_IN_MS / 2,
     jitterMs = 1000,
 ): Promise<T> => {
     for (let attempt = 0; attempt < retries; attempt++) {

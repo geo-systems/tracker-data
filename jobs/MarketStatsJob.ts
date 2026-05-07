@@ -128,9 +128,9 @@ export class MarketStatsJob implements Job {
                 price_usd: globalStats.total_market_cap_usd,
                 change_percentage: {
                     h24: globalStats.market_cap_change_percentage_24h_usd,
-                    d7: globalStats.market_cap_change_percentage_d7_usd,
-                    d30: globalStats.market_cap_change_percentage_d30_usd,
-                    y1: globalStats.market_cap_change_percentage_y1_usd,
+                    d7: null,
+                    d30: null,
+                    y1: null,
                 },
             } : cached!.totalCryptoMarketCap,
             global: {
@@ -174,6 +174,6 @@ export class MarketStatsJob implements Job {
         };
 
         this.register.setItem(MARKET_STATS_REG_KEY, marketStats);
-        console.log(`Market stats saved. BTC dominance: ${marketStats.global.dominance_percentages.btc?.toFixed(2)}%, halving in ~${marketStats.btcHalving.estimated_days_remaining}d`);
+        console.log("Market stats saved.");
     }
 }

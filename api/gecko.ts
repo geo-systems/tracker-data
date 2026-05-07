@@ -131,49 +131,20 @@ export interface GlobalMarketStats {
     total_market_cap_usd: number;
     total_24h_volume_usd: number;
     market_cap_change_percentage_24h_usd: number;
-    market_cap_change_percentage_d7_usd: number | null;
-    market_cap_change_percentage_d30_usd: number | null;
-    market_cap_change_percentage_y1_usd: number | null;
     market_cap_percentage: Record<string, number>;
 }
 
-const closestMarketCap = (points: [number, number][], targetTs: number): number | null => {
-    const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
-    let best: [number, number] | null = null;
-    for (const p of points) {
-        if (Math.abs(p[0] - targetTs) < THREE_DAYS_MS) {
-            if (!best || Math.abs(p[0] - targetTs) < Math.abs(best[0] - targetTs)) best = p;
-        }
-    }
-    return best ? best[1] : null;
-};
-
 export const getGlobalMarketStats = async (clock: Clock = new SystemClock()): Promise<GlobalMarketStats> => {
-    const [globalData, chartData] = await Promise.all([
-        getRetry<any>(clock, 'https://api.coingecko.com/api/v3/global', {
-            retries: 3,
-            delayMs: MINUTE_IN_MS,
-            jitterMs: 1000,
-        }),
-        getRetry<any>(clock, 'https://api.coingecko.com/api/v3/global/market_cap_chart?vs_currency=usd&days=365', {
-            retries: 3,
-            delayMs: MINUTE_IN_MS,
-            jitterMs: 1000,
-        }),
-    ]);
+    const globalData = await getRetry<any>(clock, 'https://api.coingecko.com/api/v3/global', {
+        retries: 3,
+        delayMs: MINUTE_IN_MS,
+        jitterMs: 1000,
+    });
     const d = globalData.data;
-    const currentCap: number = d.total_market_cap.usd;
-    const points: [number, number][] = chartData?.market_cap ?? [];
-    const now = clock.now();
-    const pctDelta = (past: number | null) =>
-        past && past > 0 ? ((currentCap - past) / past) * 100 : null;
     return {
-        total_market_cap_usd: currentCap,
+        total_market_cap_usd: d.total_market_cap.usd,
         total_24h_volume_usd: d.total_volume.usd,
         market_cap_change_percentage_24h_usd: d.market_cap_change_percentage_24h_usd,
-        market_cap_change_percentage_d7_usd: pctDelta(closestMarketCap(points, now - 7 * 24 * 60 * 60 * 1000)),
-        market_cap_change_percentage_d30_usd: pctDelta(closestMarketCap(points, now - 30 * 24 * 60 * 60 * 1000)),
-        market_cap_change_percentage_y1_usd: pctDelta(closestMarketCap(points, now - 365 * 24 * 60 * 60 * 1000)),
         market_cap_percentage: d.market_cap_percentage,
     };
 };

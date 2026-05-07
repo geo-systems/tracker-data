@@ -33,7 +33,7 @@ export class GeckoHistoryJob implements Job {
             const now = this.clock.now();
 
             if (currentHistory && lastUpdated && (now - lastUpdated) < DAY_IN_MS * 5) {
-                console.log(`History for ${coin.id} is up to date.`);
+                // console.log(`History for ${coin.id} is up to date.`);
                 continue
             } else if (currentHistory && lastUpdated && (now - lastUpdated) < 89 * DAY_IN_MS) {
                 console.log(`Fetching 90 days history for ${coin.id}...`);
