@@ -127,6 +127,106 @@ export const getTopCoinsWithChanges = async (clock: Clock, n = 500): Promise<Coi
     return coins;  
 }
 
+export interface GlobalMarketStats {
+    total_market_cap_usd: number;
+    total_24h_volume_usd: number;
+    market_cap_change_percentage_24h_usd: number;
+    market_cap_change_percentage_d7_usd: number | null;
+    market_cap_change_percentage_d30_usd: number | null;
+    market_cap_change_percentage_y1_usd: number | null;
+    market_cap_percentage: Record<string, number>;
+}
+
+const closestMarketCap = (points: [number, number][], targetTs: number): number | null => {
+    const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
+    let best: [number, number] | null = null;
+    for (const p of points) {
+        if (Math.abs(p[0] - targetTs) < THREE_DAYS_MS) {
+            if (!best || Math.abs(p[0] - targetTs) < Math.abs(best[0] - targetTs)) best = p;
+        }
+    }
+    return best ? best[1] : null;
+};
+
+export const getGlobalMarketStats = async (clock: Clock = new SystemClock()): Promise<GlobalMarketStats> => {
+    const [globalData, chartData] = await Promise.all([
+        getRetry<any>(clock, 'https://api.coingecko.com/api/v3/global', {
+            retries: 3,
+            delayMs: MINUTE_IN_MS,
+            jitterMs: 1000,
+        }),
+        getRetry<any>(clock, 'https://api.coingecko.com/api/v3/global/market_cap_chart?vs_currency=usd&days=365', {
+            retries: 3,
+            delayMs: MINUTE_IN_MS,
+            jitterMs: 1000,
+        }),
+    ]);
+    const d = globalData.data;
+    const currentCap: number = d.total_market_cap.usd;
+    const points: [number, number][] = chartData?.market_cap ?? [];
+    const now = clock.now();
+    const pctDelta = (past: number | null) =>
+        past && past > 0 ? ((currentCap - past) / past) * 100 : null;
+    return {
+        total_market_cap_usd: currentCap,
+        total_24h_volume_usd: d.total_volume.usd,
+        market_cap_change_percentage_24h_usd: d.market_cap_change_percentage_24h_usd,
+        market_cap_change_percentage_d7_usd: pctDelta(closestMarketCap(points, now - 7 * 24 * 60 * 60 * 1000)),
+        market_cap_change_percentage_d30_usd: pctDelta(closestMarketCap(points, now - 30 * 24 * 60 * 60 * 1000)),
+        market_cap_change_percentage_y1_usd: pctDelta(closestMarketCap(points, now - 365 * 24 * 60 * 60 * 1000)),
+        market_cap_percentage: d.market_cap_percentage,
+    };
+};
+
+export interface BtcAthInfo {
+    ath_usd: number;
+    ath_date_iso: string;
+    // negative value: how far current price is below ATH in %
+    ath_change_percentage: number;
+    current_price_usd: number;
+}
+
+export const getBtcAthInfo = async (clock: Clock = new SystemClock()): Promise<BtcAthInfo> => {
+    const data = await getRetry<any[]>(clock,
+        'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin&sparkline=false',
+        { retries: 3, delayMs: MINUTE_IN_MS, jitterMs: 1000 },
+    );
+    const btc = data![0];
+    return {
+        ath_usd: btc.ath,
+        ath_date_iso: btc.ath_date,
+        ath_change_percentage: btc.ath_change_percentage,
+        current_price_usd: btc.current_price,
+    };
+};
+
+export interface ExchangeVolume {
+    id: string;
+    name: string;
+    trade_volume_24h_btc: number;
+    // % share of total volume across the returned exchanges
+    volume_dominance_percentage: number;
+    trust_score: number;
+    image_url: string;
+}
+
+export const getTopExchangeVolumes = async (clock: Clock = new SystemClock(), n = 10): Promise<ExchangeVolume[]> => {
+    const data = await getRetry<any[]>(clock,
+        `https://api.coingecko.com/api/v3/exchanges?per_page=${n}&page=1`,
+        { retries: 3, delayMs: MINUTE_IN_MS, jitterMs: 1000 },
+    );
+    const exchanges = data ?? [];
+    const totalVolume = exchanges.reduce((sum: number, e: any) => sum + (e.trade_volume_24h_btc ?? 0), 0);
+    return exchanges.map((e: any) => ({
+        id: e.id,
+        name: e.name,
+        trade_volume_24h_btc: e.trade_volume_24h_btc,
+        volume_dominance_percentage: totalVolume > 0 ? (e.trade_volume_24h_btc / totalVolume) * 100 : 0,
+        trust_score: e.trust_score,
+        image_url: e.image,
+    }));
+};
+
 export const getCoinsWithSparkline = async (clock: Clock, coinIds: string[]): Promise<CoinWithSparkline[]> => {
     // use lodash to chunk
     const chunks = _.chunk(coinIds, 50);

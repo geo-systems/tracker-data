@@ -9,6 +9,7 @@ import type Job from './jobs/Job.ts';
 import { MINUTE_IN_MS } from './common/date.ts';
 import { GeckoTopCoinsWithChangesJob } from './jobs/GeckoTopCoinsWithChangesJob.ts';
 import { FearAndGreedJob } from './jobs/FearAndGreedJob.ts';
+import { MarketStatsJob } from './jobs/MarketStatsJob.ts';
 import { NewsCryptoJob } from './jobs/NewsCrypto.ts';
 import { NewsMacroJob } from './jobs/NewsMacro.ts';
 import { NewsGeopoliticalJob } from './jobs/NewsGeopolitical.ts';
@@ -30,6 +31,7 @@ const jobs: JobEntry[] = [
     { name: 'Top Coins', job: new GeckoTopCoinsWithChangesJob(), failOnError: false },
     { name: 'Supported Fiat', job: new GeckoSupportedFiatJob(), failOnError: false },
     { name: 'Fear and Greed Index', job: new FearAndGreedJob(), failOnError: false },
+    { name: 'Market Stats', job: new MarketStatsJob(), failOnError: false },
     { name: 'Crypto News Bullets', job: new NewsBullets(), failOnError: false },
     { name: 'Crypto News', job: new NewsCryptoJob(), failOnError: false },
     { name: 'Macro News', job: new NewsMacroJob(), failOnError: false },

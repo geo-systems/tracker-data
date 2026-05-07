@@ -4,7 +4,7 @@ import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import { SUPPORTED_ASSETS_REG_KEY } from "./GeckoSupportedAssetsJob.ts";
 import { DAY_IN_MS, HOUR_IN_MS, MINUTE_IN_MS } from "../common/date.ts";
-import { getYahooHistory } from "../api/yahoo.ts";
+import { getYahooHistory } from "../api/yahooCrypto.ts";
 import { normaliseHistoryTuples } from "../common/normaliseHistoryTuples.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/SystemClock.ts";
