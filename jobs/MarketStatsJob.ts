@@ -9,14 +9,24 @@ import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
 import { SystemClock } from "../common/SystemClock.ts";
 import type Job from "./Job.ts";
+import { tryFetch } from "../common/tryFetch.ts";
+import _ from "lodash";
 
 export type VixClassification = 'complacency' | 'calm' | 'elevated' | 'fear' | 'panic';
 
 const classifyVix = (index: number): VixClassification => {
-    if (index < 12) return 'complacency';
-    if (index < 20) return 'calm';
-    if (index < 30) return 'elevated';
-    if (index < 40) return 'fear';
+    if (index < 12) {
+        return 'complacency';
+    }
+    if (index < 20) {
+        return 'calm';
+    }
+    if (index < 30) {
+        return 'elevated';
+    }
+    if (index < 40) {
+        return 'fear';
+    }
     return 'panic';
 };
 
@@ -79,6 +89,31 @@ export class MarketStatsJob implements Job {
         this.clock = clock;
     }
 
+    private computeMarketCapDeltas(currentCap?: number): Partial<{ d7: number; d30: number; y1: number }> {
+        type TopAsset = {
+            market_cap: number;
+            price_change_percentage_7d_in_currency: number;
+            price_change_percentage_30d_in_currency: number;
+            price_change_percentage_1y_in_currency: number;
+        };
+        const topAssets = this.register.getItem('top-assets-with-delta') as TopAsset[];
+        if (!topAssets?.length || currentCap == null || currentCap == undefined) {
+            return {};
+        }
+
+        const pastCap = (pctField: keyof TopAsset): number =>
+            _.sumBy(topAssets, coin => coin.market_cap / (1 + (coin[pctField] as number) / 100));
+
+        const delta = (past: number): number | undefined =>
+            past > 0 ? ((currentCap - past) / past) * 100 : undefined;
+
+        return {
+            d7: delta(pastCap('price_change_percentage_7d_in_currency')),
+            d30: delta(pastCap('price_change_percentage_30d_in_currency')),
+            y1: delta(pastCap('price_change_percentage_1y_in_currency')),
+        };
+    }
+
     async run(): Promise<void> {
         const { data: oldData, lastUpdated } = this.register.getItemAndTimestamp(MARKET_STATS_REG_KEY);
         const cached = oldData as MarketStats | undefined;
@@ -88,19 +123,11 @@ export class MarketStatsJob implements Job {
             return;
         }
 
-        const tryFetch = async <T>(label: string, fn: () => Promise<T>): Promise<T | null> => {
-            try {
-                return await fn();
-            } catch (err) {
-                console.warn(`[MarketStatsJob] ${label} failed, retaining cached value: ${err instanceof Error ? err.message : err}`);
-                return null;
-            }
-        };
-
         console.log("Fetching global market stats from CoinGecko...");
         const globalStats = await tryFetch('CoinGecko global', () => getGlobalMarketStats(this.clock));
+        const globalDeltasPercent = this.computeMarketCapDeltas(globalStats?.total_market_cap_usd);
 
-        await this.clock.sleep(MINUTE_IN_MS * 0.3);
+        await this.clock.sleep(MINUTE_IN_MS * 0.1);
 
         console.log("Fetching TradFi stats from Yahoo Finance...");
         const [goldStats, silverStats, oilStats, sp500Stats, nasdaqStats, vixStats, treasury10yStats] = await Promise.all([
@@ -128,9 +155,9 @@ export class MarketStatsJob implements Job {
                 price_usd: globalStats.total_market_cap_usd,
                 change_percentage: {
                     h24: globalStats.market_cap_change_percentage_24h_usd,
-                    d7: null,
-                    d30: null,
-                    y1: null,
+                    d7: globalDeltasPercent.d7 ?? cached?.totalCryptoMarketCap.change_percentage.d7 ?? 0,
+                    d30: globalDeltasPercent.d30 ?? cached?.totalCryptoMarketCap.change_percentage.d30 ?? 0,
+                    y1: globalDeltasPercent.y1 ?? cached?.totalCryptoMarketCap.change_percentage.y1 ?? 0,
                 },
             } : cached!.totalCryptoMarketCap,
             global: {
