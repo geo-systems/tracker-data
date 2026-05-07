@@ -1,4 +1,4 @@
-import { HOUR_IN_MS, MINUTE_IN_MS } from "../common/date.ts";
+import { HOUR_IN_MS, MINUTE_IN_MS, DAY_IN_MS } from "../common/date.ts";
 import { getGlobalMarketStats, getBtcAthInfo, getTopExchangeVolumes } from "../api/gecko.ts";
 import type { ExchangeVolume } from "../api/gecko.ts";
 import { getGoldStats, getAssetPerformance } from "../api/yahooTradFi.ts";
@@ -13,6 +13,22 @@ import { tryFetch } from "../common/tryFetch.ts";
 import _ from "lodash";
 
 export type VixClassification = 'complacency' | 'calm' | 'elevated' | 'fear' | 'panic';
+
+export interface FearAndGreedEntry {
+    index: number;
+    classification: string;
+}
+
+export interface FearAndGreed {
+    index: number;
+    classification: string;
+    changes: {
+        h24: FearAndGreedEntry;
+        d7: FearAndGreedEntry;
+        d30: FearAndGreedEntry;
+        y1: FearAndGreedEntry;
+    };
+}
 
 const classifyVix = (index: number): VixClassification => {
     if (index < 12) {
@@ -78,6 +94,7 @@ export interface MarketStats {
         // 0–100: how far through the current 4-year halving cycle we are
         estimated_halving_cycle_percentage: number;
     };
+    fearAndGreed: FearAndGreed;
 }
 
 export class MarketStatsJob implements Job {
@@ -87,6 +104,33 @@ export class MarketStatsJob implements Job {
     constructor(register: Register = new RegisterFS(), clock: Clock = new SystemClock()) {
         this.register = register;
         this.clock = clock;
+    }
+
+    private computeFearAndGreed(): FearAndGreed | null {
+        type FngTuple = [number, number, string, string];
+        const data = this.register.getItem('fear-and-greed') as FngTuple[];
+        if (!data?.length) {
+            return null
+        };
+
+        const latest = _.maxBy(data, entry => entry[0])!;
+        const [latestTs, currentIndex, currentClassification] = latest;
+
+        const findClosest = (targetTs: number): FngTuple =>
+            _.minBy(data, entry => Math.abs(entry[0] - targetTs))!;
+
+        const toEntry = (entry: FngTuple): FearAndGreedEntry => ({ index: entry[1], classification: entry[2] });
+
+        return {
+            index: currentIndex,
+            classification: currentClassification,
+            changes: {
+                h24: toEntry(findClosest(latestTs - DAY_IN_MS)),
+                d7: toEntry(findClosest(latestTs - 7 * DAY_IN_MS)),
+                d30: toEntry(findClosest(latestTs - 30 * DAY_IN_MS)),
+                y1: toEntry(findClosest(latestTs - 365 * DAY_IN_MS)),
+            },
+        };
     }
 
     private computeMarketCapDeltas(currentCap?: number): Partial<{ d7: number; d30: number; y1: number }> {
@@ -198,6 +242,7 @@ export class MarketStatsJob implements Job {
             btcAth: btcAthResult ?? cached!.btcAth,
             topExchanges: topExchangesResult ?? cached!.topExchanges,
             btcHalving: halvingResult ?? cached!.btcHalving,
+            fearAndGreed: this.computeFearAndGreed() ?? cached!.fearAndGreed,
         };
 
         this.register.setItem(MARKET_STATS_REG_KEY, marketStats);
