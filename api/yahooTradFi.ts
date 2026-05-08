@@ -6,7 +6,7 @@ import { withRetry } from "../common/withRetry.ts";
 
 const yahooFinance = new YahooFinance();
 
-export type ChangePercentage = { h24: number | null; d7: number | null; d30: number | null; y1: number | null };
+export type ChangePercentage = { "1d": number | null; "7d": number | null; "30d": number | null; "1y": number | null };
 
 export interface AssetPerformance {
     price: number;
@@ -51,10 +51,10 @@ const toPerformance = (quotes: QuotePoint[], now: number): AssetPerformance => {
     return {
         price: current,
         change_percentage: {
-            h24: percentageDelta(current, getClosest(quotes, now - DAY_IN_MS)),
-            d7: percentageDelta(current, getClosest(quotes, now - 7 * DAY_IN_MS)),
-            d30: percentageDelta(current, getClosest(quotes, now - 30 * DAY_IN_MS)),
-            y1: percentageDelta(current, getClosest(quotes, now - 365 * DAY_IN_MS)),
+            "1d": percentageDelta(current, getClosest(quotes, now - DAY_IN_MS)),
+            "7d": percentageDelta(current, getClosest(quotes, now - 7 * DAY_IN_MS)),
+            "30d": percentageDelta(current, getClosest(quotes, now - 30 * DAY_IN_MS)),
+            "1y": percentageDelta(current, getClosest(quotes, now - 365 * DAY_IN_MS)),
         },
     };
 };
@@ -93,10 +93,10 @@ export const getGoldStats = async (clock: Clock = new SystemClock()): Promise<Go
         ...goldPerf,
         btc_gold_ratio: currentRatio,
         btc_gold_ratio_change_percentage: {
-            h24: percentageDelta(currentRatio, ratioAt(1)),
-            d7: percentageDelta(currentRatio, ratioAt(7)),
-            d30: percentageDelta(currentRatio, ratioAt(30)),
-            y1: percentageDelta(currentRatio, ratioAt(365)),
+            "1d": percentageDelta(currentRatio, ratioAt(1)),
+            "7d": percentageDelta(currentRatio, ratioAt(7)),
+            "30d": percentageDelta(currentRatio, ratioAt(30)),
+            "1y": percentageDelta(currentRatio, ratioAt(365)),
         },
     };
 };

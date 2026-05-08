@@ -1,6 +1,6 @@
 import { HOUR_IN_MS, MINUTE_IN_MS, DAY_IN_MS } from "../common/date.ts";
 import { getGlobalMarketStats, getBtcAthInfo, getTopExchangeVolumes } from "../api/gecko.ts";
-import type { ExchangeVolume } from "../api/gecko.ts";
+import type { ExchangeVolume, CoinWithChanges } from "../api/gecko.ts";
 import { getGoldStats, getAssetPerformance } from "../api/yahooTradFi.ts";
 import type { ChangePercentage } from "../api/yahooTradFi.ts";
 import { getBtcHalvingInfo } from "../api/mempool.ts";
@@ -13,6 +13,18 @@ import { tryFetch } from "../common/tryFetch.ts";
 import _ from "lodash";
 
 export type VixClassification = 'complacency' | 'calm' | 'elevated' | 'fear' | 'panic';
+export interface DominanceEntry extends PricedAsset {
+    id: string;
+    symbol: string;
+    name: string;
+    market_dominance_percent: number;
+    market_dominance_percent_delta: ChangePercentage;
+    image_large_url: string;
+    image_small_url: string;
+    market_cap_rank: number;
+    market_cap: number;
+    fully_diluted_valuation: number | null;
+}
 
 export interface FearAndGreedEntry {
     index: number;
@@ -23,10 +35,10 @@ export interface FearAndGreed {
     index: number;
     classification: string;
     changes: {
-        h24: FearAndGreedEntry;
-        d7: FearAndGreedEntry;
-        d30: FearAndGreedEntry;
-        y1: FearAndGreedEntry;
+        "1d": FearAndGreedEntry;
+        "7d": FearAndGreedEntry;
+        "30d": FearAndGreedEntry;
+        "1y": FearAndGreedEntry;
     };
 }
 
@@ -57,8 +69,8 @@ export interface MarketStats {
     ts: number;
     global: {
         total_24h_volume_usd: number;
-        // Keyed by coin symbol (e.g. "btc", "eth"), values are percentages 0–100
-        dominance_percentages: Record<string, number>;
+        // Keyed by coin symbol (e.g. "btc", "eth")
+        asset_dominance: Record<string, DominanceEntry>;
         // oz of gold 1 BTC can buy — rising means BTC outperforming gold
         btc_gold_ratio: number;
         btc_gold_ratio_change_percentage: ChangePercentage;
@@ -125,36 +137,86 @@ export class MarketStatsJob implements Job {
             index: currentIndex,
             classification: currentClassification,
             changes: {
-                h24: toEntry(findClosest(latestTs - DAY_IN_MS)),
-                d7: toEntry(findClosest(latestTs - 7 * DAY_IN_MS)),
-                d30: toEntry(findClosest(latestTs - 30 * DAY_IN_MS)),
-                y1: toEntry(findClosest(latestTs - 365 * DAY_IN_MS)),
+                "1d": toEntry(findClosest(latestTs - DAY_IN_MS)),
+                "7d": toEntry(findClosest(latestTs - 7 * DAY_IN_MS)),
+                "30d": toEntry(findClosest(latestTs - 30 * DAY_IN_MS)),
+                "1y": toEntry(findClosest(latestTs - 365 * DAY_IN_MS)),
             },
         };
     }
 
-    private computeMarketCapDeltas(currentCap?: number): Partial<{ d7: number; d30: number; y1: number }> {
-        type TopAsset = {
-            market_cap: number;
-            price_change_percentage_7d_in_currency: number;
-            price_change_percentage_30d_in_currency: number;
-            price_change_percentage_1y_in_currency: number;
+    private computeDominancePercentages(marketCapPercentage: Record<string, number>, topAssets: CoinWithChanges[]): Record<string, DominanceEntry> {
+        type PctField = 'price_change_percentage_24h_in_currency' | 'price_change_percentage_7d_in_currency' | 'price_change_percentage_30d_in_currency' | 'price_change_percentage_1y_in_currency';
+
+        const topAssetsBySymbol = _.keyBy(topAssets, c => c.symbol);
+
+        // Precompute past total market cap for each period using all top assets
+        const pastTotalCap = (field: PctField): number =>
+            _.sumBy(topAssets, c => c.market_cap / (1 + (c[field] ?? 0) / 100));
+
+        const pastTotalCaps = {
+            "1d":  pastTotalCap('price_change_percentage_24h_in_currency'),
+            "7d":  pastTotalCap('price_change_percentage_7d_in_currency'),
+            "30d": pastTotalCap('price_change_percentage_30d_in_currency'),
+            "1y":  pastTotalCap('price_change_percentage_1y_in_currency'),
         };
-        const topAssets = this.register.getItem('top-assets-with-delta') as TopAsset[];
-        if (!topAssets?.length || currentCap == null || currentCap == undefined) {
+
+        // Dominance delta = current dominance% - past dominance%
+        const dominanceDelta = (coin: CoinWithChanges, currentDominancePct: number, field: PctField, pastTotal: number): number | null => {
+            const changePct = coin[field] as number | null;
+            if (pastTotal === 0 || changePct == null) return null;
+            const pastCoinCap = coin.market_cap / (1 + changePct / 100);
+            return currentDominancePct - (pastCoinCap / pastTotal) * 100;
+        };
+
+        const result: Record<string, DominanceEntry> = {};
+        for (const [symbol, pct] of Object.entries(marketCapPercentage)) {
+            const coin = topAssetsBySymbol[symbol];
+            if (coin == null) continue;
+            result[symbol] = {
+                market_dominance_percent: pct,
+                market_dominance_percent_delta: {
+                    "1d":  dominanceDelta(coin, pct, 'price_change_percentage_24h_in_currency', pastTotalCaps["1d"]),
+                    "7d":  dominanceDelta(coin, pct, 'price_change_percentage_7d_in_currency',  pastTotalCaps["7d"]),
+                    "30d": dominanceDelta(coin, pct, 'price_change_percentage_30d_in_currency', pastTotalCaps["30d"]),
+                    "1y":  dominanceDelta(coin, pct, 'price_change_percentage_1y_in_currency',  pastTotalCaps["1y"]),
+                },
+                id: coin.id,
+                symbol: coin.symbol,
+                name: coin.name,
+                image_large_url: coin.image_large_url,
+                image_small_url: coin.image_small_url,
+                market_cap_rank: coin.market_cap_rank,
+                market_cap: coin.market_cap,
+                fully_diluted_valuation: coin.fully_diluted_valuation,
+                price_usd: coin.current_price,
+                change_percentage: {
+                    "1d": coin.price_change_percentage_24h_in_currency,
+                    "7d": coin.price_change_percentage_7d_in_currency,
+                    "30d": coin.price_change_percentage_30d_in_currency,
+                    "1y": coin.price_change_percentage_1y_in_currency,
+                },
+            };
+        }
+        return result;
+    }
+
+    private computeMarketCapDeltas(currentCap?: number, topAssets: CoinWithChanges[] = []): Partial<{ "7d": number; "30d": number; "1y": number }> {
+        if (!topAssets.length || currentCap == null) {
             return {};
         }
 
-        const pastCap = (pctField: keyof TopAsset): number =>
+        type PctField = 'price_change_percentage_7d_in_currency' | 'price_change_percentage_30d_in_currency' | 'price_change_percentage_1y_in_currency';
+        const pastCap = (pctField: PctField): number =>
             _.sumBy(topAssets, coin => coin.market_cap / (1 + (coin[pctField] as number) / 100));
 
         const delta = (past: number): number | undefined =>
             past > 0 ? ((currentCap - past) / past) * 100 : undefined;
 
         return {
-            d7: delta(pastCap('price_change_percentage_7d_in_currency')),
-            d30: delta(pastCap('price_change_percentage_30d_in_currency')),
-            y1: delta(pastCap('price_change_percentage_1y_in_currency')),
+            "7d": delta(pastCap('price_change_percentage_7d_in_currency')),
+            "30d": delta(pastCap('price_change_percentage_30d_in_currency')),
+            "1y": delta(pastCap('price_change_percentage_1y_in_currency')),
         };
     }
 
@@ -169,7 +231,8 @@ export class MarketStatsJob implements Job {
 
         console.log("Fetching global market stats from CoinGecko...");
         const globalStats = await tryFetch('CoinGecko global', () => getGlobalMarketStats(this.clock));
-        const globalDeltasPercent = this.computeMarketCapDeltas(globalStats?.total_market_cap_usd);
+        const topAssets = (this.register.getItem('top-assets-with-delta') ?? []) as CoinWithChanges[];
+        const globalDeltasPercent = this.computeMarketCapDeltas(globalStats?.total_market_cap_usd, topAssets);
 
         await this.clock.sleep(MINUTE_IN_MS * 0.1);
 
@@ -198,15 +261,17 @@ export class MarketStatsJob implements Job {
             totalCryptoMarketCap: globalStats ? {
                 price_usd: globalStats.total_market_cap_usd,
                 change_percentage: {
-                    h24: globalStats.market_cap_change_percentage_24h_usd,
-                    d7: globalDeltasPercent.d7 ?? cached?.totalCryptoMarketCap.change_percentage.d7 ?? 0,
-                    d30: globalDeltasPercent.d30 ?? cached?.totalCryptoMarketCap.change_percentage.d30 ?? 0,
-                    y1: globalDeltasPercent.y1 ?? cached?.totalCryptoMarketCap.change_percentage.y1 ?? 0,
+                    "1d": globalStats.market_cap_change_percentage_24h_usd,
+                    "7d": globalDeltasPercent["7d"] ?? cached?.totalCryptoMarketCap.change_percentage["7d"] ?? 0,
+                    "30d": globalDeltasPercent["30d"] ?? cached?.totalCryptoMarketCap.change_percentage["30d"] ?? 0,
+                    "1y": globalDeltasPercent["1y"] ?? cached?.totalCryptoMarketCap.change_percentage["1y"] ?? 0,
                 },
             } : cached!.totalCryptoMarketCap,
             global: {
                 total_24h_volume_usd: globalStats?.total_24h_volume_usd ?? cached!.global.total_24h_volume_usd,
-                dominance_percentages: globalStats?.market_cap_percentage ?? cached!.global.dominance_percentages,
+                asset_dominance: globalStats?.market_cap_percentage
+                    ? this.computeDominancePercentages(globalStats.market_cap_percentage, topAssets)
+                    : cached!.global.asset_dominance,
                 btc_gold_ratio: goldStats?.btc_gold_ratio ?? cached!.global.btc_gold_ratio,
                 btc_gold_ratio_change_percentage: goldStats?.btc_gold_ratio_change_percentage ?? cached!.global.btc_gold_ratio_change_percentage,
             },
