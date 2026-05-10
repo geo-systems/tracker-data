@@ -12,7 +12,7 @@ import type Job from "./Job.ts";
 import { tryFetch } from "../common/tryFetch.ts";
 import _ from "lodash";
 
-export type VixClassification = 'complacency' | 'calm' | 'elevated' | 'fear' | 'panic';
+export type VixClassification = 'complacency' | 'normal' | 'elevated' | 'high_fear' | 'panic';
 export interface DominanceEntry extends PricedAsset {
     id: string;
     symbol: string;
@@ -47,13 +47,13 @@ const classifyVix = (index: number): VixClassification => {
         return 'complacency';
     }
     if (index < 20) {
-        return 'calm';
+        return 'normal';
     }
     if (index < 30) {
         return 'elevated';
     }
     if (index < 40) {
-        return 'fear';
+        return 'high_fear';
     }
     return 'panic';
 };
@@ -79,8 +79,10 @@ export interface MarketStats {
     gold: PricedAsset;
     silver: PricedAsset;
     oil: PricedAsset;
+    copper: PricedAsset;
     sp500: PricedAsset;
     nasdaq: PricedAsset;
+    dowJones: PricedAsset;
     // Volatility index for US stocks — dimensionless implied volatility score; rising = fear, falling = complacency
     vix: {
         index: number;
@@ -237,12 +239,14 @@ export class MarketStatsJob implements Job {
         await this.clock.sleep(MINUTE_IN_MS * 0.1);
 
         console.log("Fetching TradFi stats from Yahoo Finance...");
-        const [goldStats, silverStats, oilStats, sp500Stats, nasdaqStats, vixStats, treasury10yStats] = await Promise.all([
+        const [goldStats, silverStats, oilStats, copperStats, sp500Stats, nasdaqStats, dowJonesStats, vixStats, treasury10yStats] = await Promise.all([
             tryFetch('gold (GC=F)', () => getGoldStats(this.clock)),
             tryFetch('silver (SI=F)', () => getAssetPerformance('SI=F', this.clock)),
             tryFetch('oil (CL=F)', () => getAssetPerformance('CL=F', this.clock)),
+            tryFetch('copper (HG=F)', () => getAssetPerformance('HG=F', this.clock)),
             tryFetch('S&P500 (^GSPC)', () => getAssetPerformance('^GSPC', this.clock)),
             tryFetch('NASDAQ (^NDX)', () => getAssetPerformance('^NDX', this.clock)),
+            tryFetch('Dow Jones (^DJI)', () => getAssetPerformance('^DJI', this.clock)),
             tryFetch('VIX (^VIX)', () => getAssetPerformance('^VIX', this.clock)),
             tryFetch('Treasury 10y (^TNX)', () => getAssetPerformance('^TNX', this.clock)),
         ]);
@@ -287,6 +291,10 @@ export class MarketStatsJob implements Job {
                 price_usd: oilStats.price,
                 change_percentage: oilStats.change_percentage,
             } : cached!.oil,
+            copper: copperStats ? {
+                price_usd: copperStats.price,
+                change_percentage: copperStats.change_percentage,
+            } : cached!.copper,
             sp500: sp500Stats ? {
                 price_usd: sp500Stats.price,
                 change_percentage: sp500Stats.change_percentage,
@@ -295,6 +303,10 @@ export class MarketStatsJob implements Job {
                 price_usd: nasdaqStats.price,
                 change_percentage: nasdaqStats.change_percentage,
             } : cached!.nasdaq,
+            dowJones: dowJonesStats ? {
+                price_usd: dowJonesStats.price,
+                change_percentage: dowJonesStats.change_percentage,
+            } : cached!.dowJones,
             vix: vixStats ? {
                 index: vixStats.price,
                 classification: classifyVix(vixStats.price),
