@@ -36,6 +36,7 @@ export interface FearAndGreedEntry {
 export interface FearAndGreed {
     index: number;
     classification: string;
+    history: [number, number, string, string][];
     changes: {
         "1d": FearAndGreedEntry;
         "7d": FearAndGreedEntry;
@@ -154,6 +155,7 @@ export class MarketStatsJob implements Job {
         return {
             index: currentIndex,
             classification: currentClassification,
+            history: data,
             changes: {
                 "1d": toEntry(findClosest(latestTs - DAY_IN_MS)),
                 "7d": toEntry(findClosest(latestTs - 7 * DAY_IN_MS)),
