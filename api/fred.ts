@@ -5,9 +5,13 @@ import { DAY_IN_MS } from "../common/date.ts";
 
 const FRED_BASE = 'https://api.stlouisfed.org/fred/series/observations';
 
+export type InflationClassification = 'deflation_risk' | 'target' | 'mildly_elevated' | 'high' | 'crisis';
+export type UnemploymentClassification = 'overheated' | 'healthy' | 'softening' | 'recession' | 'crisis';
+
 export interface MacroIndicator {
     value: number;
     change_percentage: ChangePercentage;
+    classification?: InflationClassification | UnemploymentClassification;
 }
 
 type ObsPoint = { ts: number; value: number };

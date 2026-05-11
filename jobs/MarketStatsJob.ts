@@ -5,7 +5,7 @@ import { getGoldStats, getAssetPerformance } from "../api/yahooTradFi.ts";
 import type { ChangePercentage } from "../api/yahooTradFi.ts";
 import { getBtcHalvingInfo } from "../api/mempool.ts";
 import { getCoreCpi, getM2, getDff, getGdp, getUnemployment, getEurozoneHicp } from "../api/fred.ts";
-import type { MacroIndicator } from "../api/fred.ts";
+import type { MacroIndicator, InflationClassification, UnemploymentClassification } from "../api/fred.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
@@ -44,6 +44,23 @@ export interface FearAndGreed {
         "1y": FearAndGreedEntry;
     };
 }
+
+const classifyInflation = (yoyPct: number | null | undefined): InflationClassification | null => {
+    if (yoyPct == null) return null;
+    if (yoyPct < 1) return 'deflation_risk';
+    if (yoyPct < 2.5) return 'target';
+    if (yoyPct < 3) return 'mildly_elevated';
+    if (yoyPct < 5) return 'high';
+    return 'crisis';
+};
+
+const classifyUnemployment = (rate: number): UnemploymentClassification => {
+    if (rate < 3.5) return 'overheated';
+    if (rate < 4.5) return 'healthy';
+    if (rate < 6) return 'softening';
+    if (rate < 10) return 'recession';
+    return 'crisis';
+};
 
 const classifyVix = (index: number): VixClassification => {
     if (index < 12) {
@@ -368,12 +385,18 @@ export class MarketStatsJob implements Job {
                 price_usd: hangSengStats.price,
                 change_percentage: hangSengStats.change_percentage,
             } : cached!.hangSeng,
-            usCoreCpi: usCoreCpiResult ?? cached!.usCoreCpi,
+            usCoreCpi: usCoreCpiResult
+                ? { ...usCoreCpiResult, classification: classifyInflation(usCoreCpiResult.change_percentage["1y"]) ?? undefined }
+                : cached!.usCoreCpi,
             usM2: usM2Result ?? cached!.usM2,
             usDff: usDffResult ?? cached!.usDff,
             usGdp: usGdpResult ?? cached!.usGdp,
-            usUnemployment: usUnemploymentResult ?? cached!.usUnemployment,
-            eurozoneHicp: eurozoneHicpResult ?? cached!.eurozoneHicp,
+            usUnemployment: usUnemploymentResult
+                ? { ...usUnemploymentResult, classification: classifyUnemployment(usUnemploymentResult.value) }
+                : cached!.usUnemployment,
+            eurozoneHicp: eurozoneHicpResult
+                ? { ...eurozoneHicpResult, classification: classifyInflation(eurozoneHicpResult.change_percentage["1y"]) ?? undefined }
+                : cached!.eurozoneHicp,
         };
 
         this.register.setItem(MARKET_STATS_REG_KEY, marketStats);
