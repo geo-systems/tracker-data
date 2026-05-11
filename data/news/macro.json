@@ -1,29 +1,47 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The Federal Reserve's latest Financial Stability Report indicates growing concerns about artificial intelligence (AI) within the financial system. Fifty percent of surveyed market participants now view AI as a potential shock, a significant increase from 30% previously, positioning AI among the top risks for the next 12 to 18 months.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/news/fed-report-highlights-rising-ai-concerns-in-financial-stability",
+    "title": "Fed Report Highlights Rising AI Concerns for Financial Stability",
+    "id": "e1ec541f-f860-4d27-bcbe-8f865fc28de2",
+    "ts": 1778534762802
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Geopolitical tensions, notably concerning the US and Iran and the reported rejection of a peace plan by former President Trump, are negatively impacting financial markets. This uncertainty has contributed to a decline in cryptocurrency prices, with Bitcoin sliding towards $80,000.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-slides-toward-80000-as-geopolitical-tensions-weigh-on-sentiment-after-trump-rejected-irans-latest-proposal-to-end-the-war-202605110828",
+    "title": "US-Iran Tensions Weigh on Crypto Sentiment, Bitcoin Slides",
+    "id": "3094f65d-99bc-46a1-ac76-d1ab063b95e4",
+    "ts": 1778534762802
+  },
+  {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The International Monetary Fund's latest daily report notes robust US corporate earnings, leading to upward revisions in earnings per share. Inflation markets are currently pricing in minimal risk premium. Despite lingering geopolitical tensions in the Middle East, global equities have maintained weekly gains, while the US dollar is experiencing its second consecutive week of decline. The report also mentioned Banxico cutting rates by 25 bps to 6.5%, signaling an end to their easing cycle, and disappointing German industrial production.",
-    "sourceName": "International Monetary Fund (IMF)",
-    "sourceUrl": "https://www.imf.org/en/Publications/Global-Markets-Monitor",
-    "title": "IMF Global Markets Monitor Highlights Strong US Earnings and Dollar Decline",
-    "id": "6ce987c7-62f4-4b9c-85dd-0f2271029502",
-    "ts": 1778485789784
+    "details": "Efforts to finalize the US CLARITY Act, a bill aimed at providing regulatory clarity for digital assets, are intensifying. A significant point of contention remains the treatment of stablecoin rewards, with the American Bankers Association advocating for tighter limits ahead of a crucial Senate committee vote. The long-term outlook for clearer regulations is seen as positive for institutional crypto adoption.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/297290/american-bankers-association-ceo-makes-final-hour-push-for-tightened-limits-on-stablecoin-rewards-ahead-of-senate-committee-vote",
+    "title": "US CLARITY Act Progresses Amid Stablecoin Reward Debate",
+    "id": "2860b815-0d5b-4bde-80e2-a3c6ff1ab112",
+    "ts": 1778534762802
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "A recent survey reveals that American crypto investors are increasingly concerned about the future purchasing power of the US dollar. Approximately 49% of respondents have increased their cryptocurrency holdings since January, primarily due to inflation worries. A significant 47% view Bitcoin as a primary store of value, and 73% anticipate cryptocurrencies will play a larger role in the global financial system within the next decade. This sentiment emerged even as Coinbase reported a net loss in Q1, mainly from unrealized declines on crypto investments.",
-    "sourceName": "Investing News Network (INN)",
-    "sourceUrl": "https://investingnews.com/daily/resource-investing/cryptocurrency-investing/bitcoin-news/coinbase-q1-net-loss-us-dollar-concerns-drive-crypto-holdings/",
-    "title": "US Dollar Concerns Drive American Investors to Increase Crypto Holdings",
-    "id": "ff05b882-e82b-4f24-86cc-898d5a814606",
-    "ts": 1778485789784
+    "details": "The cryptocurrency market is witnessing increased altcoin rotation, evidenced by a decline in Bitcoin dominance and a rebound in the ETH/BTC ratio. This suggests a potential shift of capital from Bitcoin into altcoins, expanding the market beyond just the leading cryptocurrency. USDT dominance has also fallen, indicating capital reallocation rather than an exit from risk assets.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/news/altcoin-rotation-gains-traction-as-eth-btc-rebounds-and-usdt-dominance-falls",
+    "title": "Altcoin Rotation Accelerates as Bitcoin Dominance Dips",
+    "id": "8b23b278-6610-4e1d-99a1-a7c43a84d8c2",
+    "ts": 1778534762802
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Over the past 24 hours, the cryptocurrency market witnessed total liquidations amounting to $202 million. The majority of these liquidations were from short positions. This occurred amidst a strong performance in traditional US equity markets, with the Nasdaq and S&P 500 reaching new all-time highs following a robust jobs report. This traditional market resilience has generally maintained an elevated risk appetite.",
-    "sourceName": "Binance Square",
-    "sourceUrl": "https://www.binance.com/en/square/post/4106560032064",
-    "title": "Crypto Market Experiences $202 Million in Liquidations",
-    "id": "f3669d50-f4c1-4e75-b498-700ff08dd30b",
-    "ts": 1778485789784
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Cryptocurrency exchange Coinbase announced a net loss of US$394 million in the first quarter, largely attributed to a US$482 million unrealized decline in its crypto investments. The company also experienced an hours-long outage caused by an overheating Amazon Web Services (AWS) data center.",
+    "sourceName": "Investing News Network",
+    "sourceUrl": "https://investingnews.com/news/cryptocurrency-news/crypto-market-update-coinbase-bleeds-us394-million-in-q1-suffers-aws-outage/",
+    "title": "Coinbase Reports $394M Q1 Loss, Faces AWS Outage",
+    "id": "4fe2bcd7-5004-484d-ac52-cab48d6e010d",
+    "ts": 1778534762802
   }
 ]
