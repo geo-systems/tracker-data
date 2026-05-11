@@ -7,11 +7,15 @@ const FRED_BASE = 'https://api.stlouisfed.org/fred/series/observations';
 
 export type InflationClassification = 'deflation_risk' | 'target' | 'mildly_elevated' | 'high' | 'crisis';
 export type UnemploymentClassification = 'overheated' | 'healthy' | 'softening' | 'recession' | 'crisis';
+// M2 YoY growth: proxy for liquidity cycle
+export type M2Classification = 'contraction' | 'tight' | 'moderate' | 'elevated' | 'excessive';
+// Fed Funds Rate level: monetary policy stance
+export type DffClassification = 'emergency' | 'accommodative' | 'neutral' | 'mildly_restrictive' | 'restrictive';
 
 export interface MacroIndicator {
     value: number;
     change_percentage: ChangePercentage;
-    classification?: InflationClassification | UnemploymentClassification;
+    classification?: InflationClassification | UnemploymentClassification | M2Classification | DffClassification;
 }
 
 type ObsPoint = { ts: number; value: number };

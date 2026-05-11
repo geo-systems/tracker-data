@@ -5,7 +5,7 @@ import { getGoldStats, getAssetPerformance } from "../api/yahooTradFi.ts";
 import type { ChangePercentage } from "../api/yahooTradFi.ts";
 import { getBtcHalvingInfo } from "../api/mempool.ts";
 import { getCoreCpi, getM2, getDff, getGdp, getUnemployment, getEurozoneHicp } from "../api/fred.ts";
-import type { MacroIndicator, InflationClassification, UnemploymentClassification } from "../api/fred.ts";
+import type { MacroIndicator, InflationClassification, UnemploymentClassification, M2Classification, DffClassification } from "../api/fred.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
@@ -44,6 +44,23 @@ export interface FearAndGreed {
         "1y": FearAndGreedEntry;
     };
 }
+
+const classifyM2Growth = (yoyPct: number | null | undefined): M2Classification | null => {
+    if (yoyPct == null) return null;
+    if (yoyPct < 0) return 'contraction';
+    if (yoyPct < 3) return 'tight';
+    if (yoyPct < 6) return 'moderate';
+    if (yoyPct < 10) return 'elevated';
+    return 'excessive';
+};
+
+const classifyDff = (rate: number): DffClassification => {
+    if (rate < 0.25) return 'emergency';
+    if (rate < 1) return 'accommodative';
+    if (rate < 2.5) return 'neutral';
+    if (rate < 4) return 'mildly_restrictive';
+    return 'restrictive';
+};
 
 const classifyInflation = (yoyPct: number | null | undefined): InflationClassification | null => {
     if (yoyPct == null) return null;
@@ -388,8 +405,12 @@ export class MarketStatsJob implements Job {
             usCoreCpi: usCoreCpiResult
                 ? { ...usCoreCpiResult, classification: classifyInflation(usCoreCpiResult.change_percentage["1y"]) ?? undefined }
                 : cached!.usCoreCpi,
-            usM2: usM2Result ?? cached!.usM2,
-            usDff: usDffResult ?? cached!.usDff,
+            usM2: usM2Result
+                ? { ...usM2Result, classification: classifyM2Growth(usM2Result.change_percentage["1y"]) ?? undefined }
+                : cached!.usM2,
+            usDff: usDffResult
+                ? { ...usDffResult, classification: classifyDff(usDffResult.value) }
+                : cached!.usDff,
             usGdp: usGdpResult ?? cached!.usGdp,
             usUnemployment: usUnemploymentResult
                 ? { ...usUnemploymentResult, classification: classifyUnemployment(usUnemploymentResult.value) }
