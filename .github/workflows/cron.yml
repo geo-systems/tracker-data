@@ -33,7 +33,6 @@ jobs:
     - name: Run script to generate files
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       run: npm start # Runs the 'start' script defined in your package.json
 
     - name: Commit and push generated files
