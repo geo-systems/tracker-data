@@ -4,6 +4,8 @@ import type { ExchangeVolume, CoinWithChanges } from "../api/gecko.ts";
 import { getGoldStats, getAssetPerformance } from "../api/yahooTradFi.ts";
 import type { ChangePercentage } from "../api/yahooTradFi.ts";
 import { getBtcHalvingInfo } from "../api/mempool.ts";
+import { getCoreCpi, getM2, getDff, getGdp, getUnemployment, getEurozoneHicp } from "../api/fred.ts";
+import type { MacroIndicator } from "../api/fred.ts";
 import type { Register } from "../register/Register.ts";
 import { RegisterFS } from "../register/RegisterFS.ts";
 import type { Clock } from "../common/Clock.ts";
@@ -109,6 +111,20 @@ export interface MarketStats {
         estimated_halving_cycle_percentage: number;
     };
     fearAndGreed: FearAndGreed;
+    // Tech/AI indices
+    fangPlus: PricedAsset;
+    botz: PricedAsset;
+    // Asian equity indices
+    shanghaiComposite: PricedAsset;
+    hangSeng: PricedAsset;
+    // US macro indicators from FRED
+    usCoreCpi: MacroIndicator;
+    usM2: MacroIndicator;
+    usDff: MacroIndicator;
+    usGdp: MacroIndicator;
+    usUnemployment: MacroIndicator;
+    // Eurozone HICP — monthly EU inflation gauge
+    eurozoneHicp: MacroIndicator;
 }
 
 export class MarketStatsJob implements Job {
@@ -239,7 +255,7 @@ export class MarketStatsJob implements Job {
         await this.clock.sleep(MINUTE_IN_MS * 0.1);
 
         console.log("Fetching TradFi stats from Yahoo Finance...");
-        const [goldStats, silverStats, oilStats, copperStats, sp500Stats, nasdaqStats, dowJonesStats, vixStats, treasury10yStats] = await Promise.all([
+        const [goldStats, silverStats, oilStats, copperStats, sp500Stats, nasdaqStats, dowJonesStats, vixStats, treasury10yStats, shanghaiCompositeStats, hangSengStats, fangPlusStats, botzStats] = await Promise.all([
             tryFetch('gold (GC=F)', () => getGoldStats(this.clock)),
             tryFetch('silver (SI=F)', () => getAssetPerformance('SI=F', this.clock)),
             tryFetch('oil (CL=F)', () => getAssetPerformance('CL=F', this.clock)),
@@ -249,6 +265,10 @@ export class MarketStatsJob implements Job {
             tryFetch('Dow Jones (^DJI)', () => getAssetPerformance('^DJI', this.clock)),
             tryFetch('VIX (^VIX)', () => getAssetPerformance('^VIX', this.clock)),
             tryFetch('Treasury 10y (^TNX)', () => getAssetPerformance('^TNX', this.clock)),
+            tryFetch('Shanghai Composite (000001.SS)', () => getAssetPerformance('000001.SS', this.clock)),
+            tryFetch('Hang Seng (^HSI)', () => getAssetPerformance('^HSI', this.clock)),
+            tryFetch('NYSE FANG+ (^NYFANG)', () => getAssetPerformance('^NYFANG', this.clock)),
+            tryFetch('Global X Robotics & AI ETF (BOTZ)', () => getAssetPerformance('BOTZ', this.clock)),
         ]);
 
         console.log("Fetching BTC ATH and top exchanges from CoinGecko...");
@@ -259,6 +279,16 @@ export class MarketStatsJob implements Job {
 
         console.log("Fetching BTC halving info from mempool.space...");
         const halvingResult = await tryFetch('BTC halving', () => getBtcHalvingInfo(this.clock));
+
+        console.log("Fetching macro indicators from FRED...");
+        const [usCoreCpiResult, usM2Result, usDffResult, usGdpResult, usUnemploymentResult, eurozoneHicpResult] = await Promise.all([
+            tryFetch('Core CPI (CPILFESL)', () => getCoreCpi(this.clock)),
+            tryFetch('M2 (M2SL)', () => getM2(this.clock)),
+            tryFetch('Fed Funds Rate (DFF)', () => getDff(this.clock)),
+            tryFetch('GDP (GDP)', () => getGdp(this.clock)),
+            tryFetch('Unemployment (UNRATE)', () => getUnemployment(this.clock)),
+            tryFetch('Eurozone HICP (CP0000EZ19M086NEST)', () => getEurozoneHicp(this.clock)),
+        ]);
 
         const marketStats: MarketStats = {
             ts: this.clock.now(),
@@ -320,6 +350,28 @@ export class MarketStatsJob implements Job {
             topExchanges: topExchangesResult ?? cached!.topExchanges,
             btcHalving: halvingResult ?? cached!.btcHalving,
             fearAndGreed: this.computeFearAndGreed() ?? cached!.fearAndGreed,
+            fangPlus: fangPlusStats ? {
+                price_usd: fangPlusStats.price,
+                change_percentage: fangPlusStats.change_percentage,
+            } : cached!.fangPlus,
+            botz: botzStats ? {
+                price_usd: botzStats.price,
+                change_percentage: botzStats.change_percentage,
+            } : cached!.botz,
+            shanghaiComposite: shanghaiCompositeStats ? {
+                price_usd: shanghaiCompositeStats.price,
+                change_percentage: shanghaiCompositeStats.change_percentage,
+            } : cached!.shanghaiComposite,
+            hangSeng: hangSengStats ? {
+                price_usd: hangSengStats.price,
+                change_percentage: hangSengStats.change_percentage,
+            } : cached!.hangSeng,
+            usCoreCpi: usCoreCpiResult ?? cached!.usCoreCpi,
+            usM2: usM2Result ?? cached!.usM2,
+            usDff: usDffResult ?? cached!.usDff,
+            usGdp: usGdpResult ?? cached!.usGdp,
+            usUnemployment: usUnemploymentResult ?? cached!.usUnemployment,
+            eurozoneHicp: eurozoneHicpResult ?? cached!.eurozoneHicp,
         };
 
         this.register.setItem(MARKET_STATS_REG_KEY, marketStats);
