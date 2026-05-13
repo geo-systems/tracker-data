@@ -1,65 +1,101 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Global banking giant JPMorgan has filed to launch JLTXX, a new on-chain money market fund that will operate on the Ethereum blockchain. This fund will invest in U.S. treasury bills, bonds, and notes, signaling further institutional adoption of blockchain technology for traditional finance.",
-    "sourceName": "Yahoo Finance",
-    "sourceUrl": "https://finance.yahoo.com/news/jpmorgan-files-launch-tokenized-money-213114540.html",
-    "title": "JPMorgan Files for Tokenized Money Market Fund on Ethereum",
-    "id": "c310a407-96d8-43bf-8af4-a34ab7e57e2f",
-    "ts": 1778648278193
+    "details": "JPMorgan Asset Management has filed with the SEC to launch JLTXX, its second Ethereum-based tokenized money market fund. This initiative underscores Wall Street's increasing efforts to integrate traditional financial instruments onto blockchain networks, with the fund designed to invest in short-term US Treasury securities and comply with GENIUS Act stablecoin reserve requirements.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/jpmorgan-files-to-launch-another-ethereum-based-tokenized-treasury-fund-202605131002",
+    "title": "JPMorgan Launches Second Tokenized Treasury Fund on Ethereum",
+    "id": "3fd21207-8810-404f-ae39-e64a8eb81bb9",
+    "ts": 1778689593638
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Michael Terpin, a notable crypto evangelist, foresees Bitcoin reaching $1 million but anticipates a preceding drop to the $50,000-$60,000 range by October. He also projects that \"AI tokens\" will outperform Bitcoin over the next three years, aligning with the 2028 presidential election cycle for a new Bitcoin bull market.",
-    "sourceName": "MarketWatch",
-    "sourceUrl": "https://www.marketwatch.com/story/the-godfather-of-crypto-predicts-1-million-bitcoin-but-its-going-to-fall-first-c715104d",
-    "title": "'Godfather of Crypto' Predicts $1M Bitcoin, Expects Short-Term Dip",
-    "id": "1dc48a29-211d-4140-98e5-95e3e8950a5e",
-    "ts": 1778648278193
+    "details": "The Senate Banking Committee has published the final draft of the Digital Asset Market Clarity Act, setting the stage for a May 14 committee markup. The 309-page bill aims to establish regulatory clarity for exchanges, stablecoins, and DeFi platforms, potentially drawing clear jurisdictional lines between the SEC and CFTC. Key debates include provisions on passive yield for payment stablecoins.",
+    "sourceName": "TradingView (99Bitcoins)",
+    "sourceUrl": "https://www.tradingview.com/news/99bitcoins:1181829",
+    "title": "US Senate Releases Latest CLARITY Act Draft Ahead of May 14 Vote",
+    "id": "2dc5faaf-be5c-42b1-80c1-b72168389822",
+    "ts": 1778689593638
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin is targeting the $85,000 level in May after clearing key on-chain resistance. However, a higher-than-expected April CPI report (3.8%) and a pushed-back forecast for Federal Reserve rate cuts to late 2027 are creating macroeconomic headwinds for speculative assets. The upcoming CLARITY Act markup also remains a significant market factor.",
-    "sourceName": "24/7 Wall St.",
-    "sourceUrl": "https://247wallst.com/investing/2026/05/12/bitcoin-btc-price-prediction-can-bitcoin-hit-85k-in-may/",
-    "title": "Bitcoin Aims for $85K in May Amid Inflation & Fed Rate Cut Delays",
-    "id": "50844441-bf2f-4883-b2cb-7d0880862a05",
-    "ts": 1778648278193
+    "details": "Wall Street trading firm Jane Street significantly cut its exposure to Bitcoin spot ETFs, including BlackRock's IBIT and Fidelity's FBTC, in Q1 2026, while nearly doubling its positions in Ether ETFs. This shift suggests a recalibration of institutional digital asset strategies, moving some capital from Bitcoin-linked products towards Ethereum funds.",
+    "sourceName": "TradingView",
+    "sourceUrl": "https://www.tradingview.com/news/cointelegraph:0df1f2f81977d:0",
+    "title": "Jane Street Reduces Bitcoin ETF Holdings, Boosts Ether Fund Exposure in Q1",
+    "id": "649e7c0c-5a02-407e-ae72-fef653147695",
+    "ts": 1778689593638
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "On May 12, 2026, the ETH/BTC ratio reached a 10-month low, indicating a persistent trend of investors reallocating capital within the crypto market, favoring Bitcoin over Ethereum. While Bitcoin saw a slight decrease, Ethereum's decline was more pronounced.",
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Japanese investment firm Metaplanet reported a substantial net loss of approximately $725.6 million for Q1 2026. This loss was primarily driven by non-cash Bitcoin impairment charges resulting from Bitcoin price declines during the period, despite a sharp rise in revenue and operating profit from its core businesses.",
     "sourceName": "MEXC News",
-    "sourceUrl": "https://blog.mexc.com/crypto-market-update-12-may-2026-eth-btc-ratio-hits-10-month-low-as-rotation-continues/",
-    "title": "ETH/BTC Ratio Hits 10-Month Low as Capital Shifts to Bitcoin",
-    "id": "247805ee-0d9b-411e-9de5-a3207e7f9f27",
-    "ts": 1778648278193
+    "sourceUrl": "https://www.mexc.com/blog/metaplanet-reports-y114-5b-q1-loss-as-bitcoin-holdings-reach-40177-btc",
+    "title": "Metaplanet Reports $725 Million Q1 Loss Due to Bitcoin Markdowns",
+    "id": "c038dacd-baab-44ae-93ee-a0319056c4c4",
+    "ts": 1778689593638
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Anchorage Digital has partnered with Mexican billionaire Ricardo Salinas Pliego's Grupo Salinas to integrate stablecoin infrastructure for cross-border payments. The collaboration aims to enhance the speed and efficiency of international settlements using USD-pegged stablecoins, marking a significant step in the real-world adoption of blockchain technology for financial services.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296765/anchorage-and-mexican-billionaires-grupo-salinas-ink-cross-border-payments-partnership",
+    "title": "Anchorage Digital Partners with Grupo Salinas for Stablecoin Payments",
+    "id": "55d13d62-5345-43c1-a920-0ad90d32cf5a",
+    "ts": 1778689593638
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The Ethereum Foundation has rolled out \"Clear Signing,\" an open standard designed to replace unreadable hexadecimal transaction data with human-readable descriptions. This initiative, built on ERC-7730, aims to prevent \"blind signing\" exploits and enhance security by allowing users to verify the true intent of transactions before approval, combating a major cause of crypto losses.",
+    "sourceName": "Unchained",
+    "sourceUrl": "https://unchainedcrypto.com/ethereum-foundation-launches-clear-signing-standard-to-end-blind-signing-exploits/",
+    "title": "Ethereum Foundation Launches Clear Signing Standard to Combat Exploits",
+    "id": "3bad3dcd-bbaf-48d6-96f1-b6fe108117ad",
+    "ts": 1778689593638
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "MicroStrategy made its smallest weekly Bitcoin acquisition of 2026, purchasing 535 BTC for approximately $43 million between May 5-11. This slowdown in accumulation, while still reinforcing long-term conviction, suggests a potential shift in their aggressive buying strategy.",
-    "sourceName": "The Motley Fool",
-    "sourceUrl": "https://www.fool.com/investing/2026/05/12/microstrategy-smallest-bitcoin-purchase-2026/",
-    "title": "MicroStrategy Reduces Bitcoin Accumulation Pace in Latest Buy",
-    "id": "e35a97c8-7916-4b3e-821f-148cacb17212",
-    "ts": 1778648278193
+    "details": "Asset management firm 21Shares launched the 21Shares Hyperliquid ETF (THYP) on Nasdaq, offering US investors spot exposure to the HYPE token with integrated staking rewards. The ETF recorded a modest $1.8 million in trading volume and about $1.2 million in net inflows on its debut, which, while \"solid,\" was significantly lower than other recent altcoin ETF launches.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/21shares-debuts-us-hype-etf-with-1-8m-day-one-volume-on-nasdaq/",
+    "title": "21Shares Debuts US HYPE ETF with $1.8M Day-One Volume",
+    "id": "285ab2c7-10e7-49a8-a163-976ec6d5d062",
+    "ts": 1778689593638
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum (ETH) is exhibiting bullish accumulation patterns below the $2,400 threshold, with a potential breakout anticipated. The impending approval of the CLARITY Act is seen as a major catalyst for a broader altcoin rally, and ETH futures open interest has surged 38% in three months, reflecting increased speculative interest.",
-    "sourceName": "FXEmpire",
-    "sourceUrl": "https://www.fxempire.com/news/article/ethereum-price-news-bullish-accumulation-spotted-below-2-400-1632000",
-    "title": "Ethereum Shows Bullish Accumulation Below $2,400; Clarity Act Eyed",
-    "id": "34222513-69ef-4f56-a01f-edb58c490f02",
-    "ts": 1778648278193
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Michael Saylor's Strategy acquired 535 BTC for approximately $43 million between May 5 and May 11, marking its smallest weekly Bitcoin purchase of 2026. This reduced pace of accumulation, following earlier comments about potential Bitcoin sales for dividends, suggests a shift from aggressive accumulation towards active balance-sheet management, though the firm remains a net long-term Bitcoin buyer.",
+    "sourceName": "Benzinga",
+    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/05/46369528/strategy-just-made-its-smallest-bitcoin-purchase-of-2026-heres-what-that-signals",
+    "title": "Strategy Makes Smallest Bitcoin Purchase of 2026, Signals Slowdown",
+    "id": "ae62e230-c2a8-43d7-8b7f-3ffe42d10c93",
+    "ts": 1778689593638
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "AlphaPepe has started its Tier-1 exchange listing roadshow after raising over $1.18 million in presale with 8,500+ holders and 3,000+ AlphaSwap AI DEX demo users, alongside completing a BlockSAFU security audit. Concurrently, XRP price predictions are targeting $5.00, driven by anticipation of the CLARITY Act, ETF inflows, and institutional demand.",
-    "sourceName": "GlobeNewswire",
-    "sourceUrl": "https://www.globenewswire.com/news-release/2026/05/12/3847587/0/en/Crypto-News-Today-AlphaPepe-Commences-Tier-1-Exchange-Listing-Roadshow-as-XRP-Price-Prediction-Hits-5-00.html",
-    "title": "AlphaPepe Begins Exchange Listing Roadshow; XRP Eyes $5.00",
-    "id": "d25c82a7-2a8b-45fc-9b26-9f74a542ec04",
-    "ts": 1778648278193
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The U.S. Producer Price Index (PPI) annual rate for April increased by 6%, surpassing market expectations of a 4.9% rise and reaching its highest level since December 2022. This hotter-than-expected inflation data is dampening risk-on sentiment in the broader financial markets, which could exert pressure on cryptocurrencies.",
+    "sourceName": "Invezz",
+    "sourceUrl": "https://invezz.com/news/2026/05/13/bitcoin-reclaims-81k-as-traders-await-trump-xi-china-talks/",
+    "title": "U.S. April PPI Annual Rate Reaches New High, Impacting Market Sentiment",
+    "id": "3a611624-1af9-403a-b071-01ddf323b2c8",
+    "ts": 1778689593638
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Bitcoin is trading around $81,000, holding key support levels as traders keenly watch the upcoming summit between US President Donald Trump and Chinese President Xi Jinping in Beijing. The talks are expected to cover trade, tariffs, and geopolitical tensions, with potential outcomes significantly influencing broader market sentiment and risk assets like Bitcoin.",
+    "sourceName": "Invezz",
+    "sourceUrl": "https://invezz.com/news/2026/05/13/bitcoin-reclaims-81k-as-traders-await-trump-xi-china-talks/",
+    "title": "Bitcoin Holds $81K as Markets Eye Trump-Xi Talks",
+    "id": "55c8a266-4e5a-414f-a60d-c9f7c59a8c8d",
+    "ts": 1778689593638
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "On May 13, BlackRock transferred 861 Bitcoin and 44,691 Ethereum into a centralized exchange (CEX). This move highlights BlackRock's ongoing engagement with digital assets, though deposits to CEXs can be for various reasons including rebalancing, liquidity provision, or institutional services.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7936666750059",
+    "title": "BlackRock Deposits Bitcoin and Ethereum into Centralized Exchange",
+    "id": "435dd8cd-b6ca-4b8b-b533-8481af2d5b43",
+    "ts": 1778689593638
   }
 ]
