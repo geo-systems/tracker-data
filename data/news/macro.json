@@ -1,47 +1,56 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Recent US inflation data, including a 6% year-over-year surge in the Producer Price Index (PPI) and a 3.8% rise in the Consumer Price Index (CPI), has intensified concerns about persistent inflation. This strengthens the \"higher-for-longer\" interest rate narrative, making non-yielding assets like Bitcoin less attractive and contributing to its fall below the $80,000 mark.",
-    "sourceName": "Invezz",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECpQi6IjeHamq5YR4a7h73NmzvzcbhK7qqvOELi-d1zha9f72JnbYJ9B-1Hvvo75B-ZZiZe6hv_RMG0J6N3WWRvfGglXdWwIrBVQr4d_vo3zUNFUGf-g6B4sgt_97cQ40eexATPXobB4ZbjzSiThhT9MjRwyyHGJxlgPTC6ET6HJtfXqwa1j-Gm8dPNlVIzBF8dqvgXMUIy6Uc5jbE1hxEE219RbGEV3hx2uRrbXpX69PXmq8MrpWHhaNJtA==",
-    "title": "US Inflation Fuels Rate Fears, Bitcoin Drops Below $80K",
-    "id": "48b8f333-dcc2-4de0-b5af-ac7b74fff7ef",
-    "ts": 1778781351896
+    "details": "The US Consumer Price Index (CPI) rose 3.8% year-over-year in April 2026, marking the fastest pace since 2023. Energy prices were a significant contributor, surging 17.9% over the past year and 3.8% in April alone, with gasoline prices up 28.4%. The Cleveland Fed projects May CPI to climb even higher to 4.2%. This persistent inflation, exacerbated by the ongoing US-Iran conflict, could prompt the Federal Reserve to maintain elevated interest rates or even consider hikes, making traditional assets more attractive.",
+    "sourceName": "Bureau of Labor Statistics / The Guardian",
+    "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "title": "US Inflation Surges to 3.8% in April, May Forecast Higher",
+    "id": "579ef126-d352-4b12-930a-7872bc6173ae",
+    "ts": 1778832003741
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bank of England Deputy Governor Sarah Breeden indicated that the central bank is re-evaluating its proposed rules for stablecoins, which had drawn criticism from the industry. The initial proposals included requiring issuers to hold 40% of backing assets as unremunerated deposits and implementing holding caps for individuals and businesses. The BoE is now open to alternative regulatory approaches to achieve its stability objectives.",
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Several European Central Bank (ECB) Governing Council members have indicated a potential interest rate hike at the ECB's June 2026 meeting. This move is being considered due to persistent inflation risks, particularly those stemming from rising oil prices and geopolitical uncertainties. While some officials suggest a one-time adjustment, others emphasize that an interest rate move will be unavoidable if the inflationary outlook does not significantly improve. Analysts from a Bloomberg survey also predict two 25-basis-point hikes this year, in June and September.",
     "sourceName": "Reuters",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx5uKG9V-99ZZcoJ8nkTiq4Nl6cLcqRoY8H50vI-fo8oruOefMzppEonFisfAmGDHbNziADoGwZhDD-RSsmZGwLhceyXzxMrz2NOKrT_0n_k9mPsH6PGLaeROvDz7YNRjQQwGbz_D7BPZlnVDZFUGAA-V1k2vLg7Zu67gkGQPKC23aOLZmuSgnKCmsPT-xnMzEkVy3EcArlie9aHe5Zg==",
-    "title": "Bank of England Reconsiders Strict Stablecoin Rules",
-    "id": "084dc41f-66ef-49d5-b452-15a8f64522f6",
-    "ts": 1778781351896
+    "sourceUrl": "https://www.aa.com.tr/en/economy/european-central-bank-may-raise-rates-if-oil-shock-weakens-inflation-expectations-official/3218552",
+    "title": "ECB Officials Signal Potential June Rate Hike Amid Inflation Risks",
+    "id": "41a3acbc-561e-4c55-9770-503323a89991",
+    "ts": 1778832003741
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The ongoing US-Iran conflict remains a major geopolitical risk, contributing to a renewed oil shock and driving up energy prices globally. The International Energy Agency (IEA) reported an \"unprecedented\" oil supply shock, with crude supply losses depleting global inventories at a record pace due to sustained restrictions in the Strait of Hormuz. This situation reinforces sticky inflation and limits central banks' room to cut interest rates, increasing pressure on risk assets, including cryptocurrencies.",
+    "sourceName": "Charles Schwab (citing IEA) / The Guardian",
+    "sourceUrl": "https://www.schwab.com/learn/story/market-update",
+    "title": "US-Iran Conflict Escalates, Threatening Global Oil Supply and Driving Inflation",
+    "id": "2c7205a2-59ce-44f3-a957-ebc6eb68f71a",
+    "ts": 1778832003741
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The US Senate Banking Committee has advanced the landmark \"Digital Asset Market Clarity Act\" to the full Senate for a vote. This legislation aims to establish clearer regulatory guidelines for cryptocurrencies, a development that is seen as a significant positive for the industry. News of the bill's progress led to an uptick in crypto stocks, including Coinbase. However, the bill is expected to face a fierce lobbying fight.",
+    "sourceName": "Seeking Alpha (citing Reuters)",
+    "sourceUrl": "https://seekingalpha.com/news/4110373-republican-led-senate-banking-committee-advances-crypto-bill",
+    "title": "US Senate Banking Committee Advances Crypto Clarity Act",
+    "id": "829be0e8-a9d7-40ed-a5e1-d30da7f08a7d",
+    "ts": 1778832003741
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "ECB President Christine Lagarde expressed reservations about privately issued stablecoins, citing their vulnerability to market stress and potential to draw deposits away from traditional banks. She advocated for Europe to promote euro-denominated digital instruments. Concurrently, the ECB is supporting the integrated development of DLT-based financial markets through initiatives like \"Pontes\" and \"Appia\" for tokenized assets.",
-    "sourceName": "European Central Bank",
-    "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260508~62b0c16999.en.html",
-    "title": "ECB Cautious on Private Stablecoins, Supports DLT in Finance",
-    "id": "d27693e9-17fd-40f9-9f48-9dd934005134",
-    "ts": 1778781351896
+    "details": "Kevin Warsh has been confirmed by the US Senate as the new Federal Reserve Chair. This leadership transition at the central bank introduces a new layer of uncertainty regarding future monetary policy and liquidity management. While Warsh has previously indicated a preference for lower interest rates, persistently high inflation could make it challenging for him to advocate for rate cuts immediately.",
+    "sourceName": "Emirates NBD (via YouTube) / Rain",
+    "sourceUrl": "https://www.youtube.com/watch?v=F0_k0-uW97k",
+    "title": "Kevin Warsh Confirmed as New Federal Reserve Chair",
+    "id": "f9d4446e-7a95-4d09-ba8a-a9011ccc37ed",
+    "ts": 1778832003741
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The International Monetary Fund (IMF) published a paper asserting that tokenization represents a fundamental restructuring of financial architecture rather than just a technological enhancement. The IMF emphasized the critical need for clear policy frameworks, safe settlement assets, robust governance, legal certainty, and international coordination to manage new systemic vulnerabilities introduced by tokenization and ensure financial stability.",
-    "sourceName": "International Monetary Fund",
-    "sourceUrl": "https://www.imf.org/en/Publications/IMF-Notes/Issues/2026/04/02/Tokenized-Finance-546028",
-    "title": "IMF Declares Tokenization a Structural Shift, Urges Policy Action",
-    "id": "ab9783ad-f44f-433d-aab1-4f8409468f5f",
-    "ts": 1778781351896
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "US retail sales in April grew by a slower-than-expected 0.5%, falling short of March's 1.6% gain. Concurrently, initial jobless claims for the week ending May 9th increased to 211,000, surpassing forecasts. These mixed economic signals, coupled with persistent inflation, contribute to uncertainty regarding future interest rate policies and the broader economic outlook.",
-    "sourceName": "Charles Schwab",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE8JhbBGqeQJKdSccqWaHnSgI1NpZgHkuvTcY2KwMIpEbExavaKJhEvW0_Tcl3PKuibCK7utH78wW08Lio8ruXUCxv6aIAvE5gULz2ODM-bkwTLdS5wkL_yRCpbF4N1cP4KHOfCgXlawzBG-UOcgTzxN6BRyQD",
-    "title": "US Retail Sales Slow, Jobless Claims Rise Amid Inflation",
-    "id": "b1c0ff0f-c936-42aa-9296-b86bc14dfd4c",
-    "ts": 1778781351896
+    "details": "President Trump and Chinese President Xi Jinping held a summit in Beijing (May 13-15, 2026), with discussions focusing on the implications of the Middle East conflict (Iran and Strait of Hormuz) and efforts to ease trade tensions. Initial reports indicated positive discussions, with both leaders acknowledging common interests outweighing differences, particularly regarding the need to reopen the Strait of Hormuz. The outcome of these high-stakes negotiations could influence global financial market stability.",
+    "sourceName": "Reuters / CaixaBank Research",
+    "sourceUrl": "https://www.caixabankresearch.com/en/all-contents/financial-markets-daily-report-14-may-2026",
+    "title": "US-China Summit Addresses Trade and Geopolitical Tensions",
+    "id": "5833d0f9-7527-4466-98a3-0157ddf845a8",
+    "ts": 1778832003741
   }
 ]
