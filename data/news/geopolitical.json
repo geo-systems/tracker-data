@@ -1,20 +1,47 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin's price surged above $74,000 on May 29, rebounding from an intraday low, following reports of a tentative agreement between the U.S. and Iran to extend a ceasefire and reopen the Strait of Hormuz. This de-escalation of geopolitical tensions, confirmed by former President Donald Trump, led to increased optimism in financial markets, with global stocks rising and oil prices declining. The removal of the naval blockade in the strategic Strait of Hormuz is seen as a significant de-escalation, positively impacting market sentiment across various assets, including cryptocurrencies.",
-    "sourceName": "Bitcoin.com News",
-    "sourceUrl": "https://news.bitcoin.com/bitcoin-climbs-above-74000-after-trump-signals-strait-of-hormuz-shipping-restart/",
-    "title": "Bitcoin Surges to $74K Amid Hopes for US-Iran Ceasefire",
-    "id": "3078c1e8-941a-4bf3-8509-a114477c6069",
-    "ts": 1780112780102
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Hopes for a 60-day extension of the US-Iran ceasefire and the reopening of the Strait of Hormuz have emerged, easing geopolitical tensions. This development has contributed to a drop in oil prices and reportedly saw Bitcoin ticking upwards, despite ongoing institutional ETF outflows. The agreement is described as tentative and awaits formal approval.",
+    "sourceName": "CoinGape",
+    "sourceUrl": "https://coingape.com/is-bitcoin-price-reacting-more-to-war-risk-than-crypto-news/",
+    "title": "US-Iran Ceasefire Hopes Boost Crypto, Oil Prices Fall",
+    "id": "4bd8c5cb-5d46-45a2-a7d9-2fe3cbe03a84",
+    "ts": 1780168997946
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "U.S. Treasury Secretary Scott Bessent announced on May 29 that the United States has seized approximately $1 billion in Iranian cryptocurrency assets. This action is part of a broader campaign to disrupt Tehran's financial networks, with Bessent stating the funds were \"stolen from the Iranian people\" and used for sanctions evasion. The cumulative figure reflects ongoing efforts, including previous freezes of stablecoins like Tether (USDT) linked to Iran's Revolutionary Guard Corps.",
+    "details": "US Treasury Secretary Scott Bessent announced the seizure of approximately $1 billion in Iranian cryptocurrency assets. This action is part of \"Operation Economic Fury,\" an initiative aimed at disrupting Iran's ability to finance illicit activities and showcasing global efforts to combat the misuse of digital assets.",
+    "sourceName": "Fox Business",
+    "sourceUrl": "https://www.foxbusiness.com/markets/scott-bessent-us-seized-roughly-1-billion-iranian-crypto-assets",
+    "title": "US Seizes $1 Billion in Iranian Crypto Assets Amid Economic Pressure",
+    "id": "b8580f25-6184-40cc-ac1b-046d1af943fe",
+    "ts": 1780168997946
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The European Central Bank has advised EU finance ministers to exercise caution regarding proposals for additional euro stablecoins, citing potential risks to bank lending and interest rate control. Concurrently, the Wall Street Journal highlighted that stablecoins, as \"private money,\" present systemic risks reminiscent of historical private-money experiments, which could potentially trigger financial crises.",
+    "sourceName": "Bank Policy Institute",
+    "sourceUrl": "https://bpi.com/bpinsights-may-30-2026/",
+    "title": "ECB Cautious on Euro Stablecoins, WSJ Raises Systemic Risk Concerns",
+    "id": "719fa3f5-aaef-4e43-bd2f-8e43796a8b39",
+    "ts": 1780168997946
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "President Donald Trump's expanding personal cryptocurrency holdings are reportedly creating political challenges, potentially hindering the progress of the \"Clarity Act.\" This significant legislation, aimed at regulating digital assets, faces increased scrutiny due to conflict-of-interest concerns ahead of upcoming midterm elections.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/296720/us-has-seized-nearly-1-billion-in-crypto-from-iran-bessent-says",
-    "title": "US Treasury Seizes $1 Billion in Iranian Crypto Assets",
-    "id": "15fcb875-233e-4e06-985c-963da2738c6b",
-    "ts": 1780112780102
+    "sourceUrl": "https://www.theblock.co/post/297825/crypto-champion-trump-may-be-jeopardizing-the-industrys-landmark-legislation",
+    "title": "Trump's Crypto Ventures Jeopardize Landmark US Stablecoin Legislation",
+    "id": "1c6f2b7e-15d0-4036-8a05-c81b9744b6b0",
+    "ts": 1780168997946
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A Reuters poll indicates that China's official manufacturing Purchasing Managers' Index (PMI) is expected to remain at 50 for May, signaling stagnant factory activity. This lack of expansion in a major global economy could lead to dampened worldwide growth expectations, potentially influencing the dynamics of cryptocurrency markets.",
+    "sourceName": "Crypto Briefing",
+    "sourceUrl": "https://cryptobriefing.com/us-iran-negotiators-near-preliminary-deal-awaiting-trump-approval/",
+    "title": "China's Factory Activity Stalls in May, Dampening Global Growth Outlook",
+    "id": "54ffd3aa-168f-4000-be14-e70825f09e12",
+    "ts": 1780168997946
   }
 ]
