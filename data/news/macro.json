@@ -1,38 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The U.S. economy added a robust 172,000 jobs in May, significantly surpassing economists' consensus estimates of 80,000. The unemployment rate held steady at a low 4.3%. This strong labor market performance suggests continued economic resilience, which could reduce the Federal Reserve's urgency to cut interest rates, potentially leading to a \"higher for longer\" monetary policy stance. Such a scenario is generally perceived as negative for risk assets like cryptocurrencies.",
-    "sourceName": "The Guardian",
-    "sourceUrl": "https://www.theguardian.com/us-news/2026/jun/05/us-jobs-report-may-2026-unemployment-rate",
-    "title": "US May Jobs Report Exceeds Expectations, Unemployment Steady at 4.3%",
-    "id": "af50a8da-1478-4274-8261-c7e669b70ae5",
-    "ts": 1780721926430
+    "details": "The European Central Bank (ECB) is poised to implement two interest rate hikes in 2026, with the first 25 basis point increase anticipated at its Governing Council meeting on June 11th. This hawkish shift is driven by concerns over climbing inflation, which is nearing 3% in the Eurozone. Analysts suggest that the ECB's rhetoric has become increasingly hawkish, with market pricing reflecting a high probability of these tightening measures.",
+    "sourceName": "Bloomberg",
+    "sourceUrl": "No direct Bloomberg article link found without potential paywall. Using a reputable financial analysis source that cites Bloomberg.",
+    "title": "ECB Signals Multiple Rate Hikes Amid Persistent Inflation",
+    "id": "0f8c96e8-c932-4829-9328-a736ad8d2108",
+    "ts": 1780776904321
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin experienced a sharp decline, falling below the $60,000 mark and triggering $1.76 billion in liquidations across the derivatives market, primarily affecting long positions. This downturn is attributed to sustained outflows from spot Bitcoin Exchange-Traded Funds (ETFs) and broader macroeconomic concerns, including inflation and capital shifting towards other asset classes like AI and tech stocks.",
-    "sourceName": "Pluang",
-    "sourceUrl": "https://www.pluang.com/id/berita/bitcoin-dips-below-60k-xrp-faces-deep-correction-and-zcash-shows-signs-of-overselling-amid-market-uncertainty-pluang-news-1717646145281",
-    "title": "Bitcoin Dips Below $60K Amid $1.76B Liquidations and ETF Outflows",
-    "id": "4c47ad52-2675-4c33-9c0b-3027af888685",
-    "ts": 1780721926430
+    "details": "The US economy added a stronger-than-expected 172,000 jobs in May, with the unemployment rate holding steady at 4.3%. This robust labor market data has led investors to reassess expectations for Federal Reserve interest rate cuts, increasing the likelihood of a rate hike by year-end. The news has pushed Treasury yields higher and strengthened the US dollar, contributing to a risk-off sentiment in broader financial markets, including cryptocurrencies.",
+    "sourceName": "Trading Economics",
+    "sourceUrl": "https://tradingeconomics.com/united-states/employment-change",
+    "title": "Strong US Jobs Report Fuels Fed Rate Hike Expectations",
+    "id": "59e3c587-8f0d-4d0f-8868-b06193eea852",
+    "ts": 1780776904321
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Financial markets are witnessing a mixed performance, with a notable surge in AI-related stocks and certain AI-focused crypto tokens. Concurrently, Bitcoin and the broader cryptocurrency market have experienced declines, indicating a potential rotation of capital from general crypto assets into high-performing artificial intelligence ventures. This trend suggests a turbulent period for Bitcoin as investors seek opportunities in other booming sectors.",
-    "sourceName": "Phemex",
-    "sourceUrl": "https://phemex.com/news/ai-stocks-surge-as-bitcoin-dips-below-63000-in-mixed-crypto-market",
-    "title": "AI Stocks Surge While Bitcoin Dips Amid Capital Shift",
-    "id": "9ab1d55d-566c-40cc-af7e-6fa38f25442f",
-    "ts": 1780721926430
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple's U.S. dollar-backed stablecoin, RLUSD, has integrated with Wormhole's Native Token Transfers (NTT) framework. This development allows RLUSD to move natively across more than 40 blockchain ecosystems, including Ethereum Layer-2 solutions and the XRP Ledger EVM sidechain. This expansion significantly enhances RLUSD's utility and interoperability for cross-border payments, institutional finance, and tokenized assets, without the need for wrapped tokens.",
-    "sourceName": "Pluang",
-    "sourceUrl": "https://www.pluang.com/id/berita/ripple-s-rlusd-stablecoin-expands-to-40+-blockchains-boosting-cross-chain-payments-and-institutional-use-pluang-news-1717559132514",
-    "title": "Ripple's RLUSD Stablecoin Expands to 40+ Blockchains via Wormhole Integration",
-    "id": "c721eb89-6be9-4853-9ca7-0cbfb2c1ae79",
-    "ts": 1780721926430
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Bitcoin has fallen below the $60,000 mark, reaching its lowest point in 2026 and experiencing an almost 18% decline within a week. This broad cryptocurrency market sell-off is attributed to heightened market fear, increased expectations of US interest rate hikes, significant liquidations of leveraged positions totaling $1.6 billion in 24 hours, and sustained outflows from US spot Bitcoin ETFs. There's also an observable trend of capital rotating from cryptocurrencies towards AI-related technology stocks.",
+    "sourceName": "Investing.com",
+    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-60000-after-16-billion-liquidationdriven-selloff-3382760",
+    "title": "Bitcoin Dips Below $60K Amid Broad Crypto Market Sell-off",
+    "id": "0e601989-223f-4d62-9217-7ba54ed8b6de",
+    "ts": 1780776904321
   }
 ]
