@@ -1,29 +1,74 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "US spot Ethereum ETFs recorded approximately $4.95 million in net outflows on June 12, with BlackRock's ETHA and Fidelity's FETH leading the withdrawals. This marks a continuation of outflows, contributing to Ethereum's price remaining below key moving averages. Analysts note that geopolitical risks and a hawkish stance from the Federal Reserve are additional factors exerting downward pressure on ETH.",
-    "sourceName": "bloomingbit",
-    "sourceUrl": "https://www.bloomingbit.io/news/1572085",
-    "title": "Ethereum Spot ETFs Face Continued Outflows, Price Under Pressure",
-    "id": "d861c6a3-c0ca-4008-8872-b61d28710879",
-    "ts": 1781379754389
-  },
-  {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The U.S. Securities and Exchange Commission (SEC) has approved an active cryptocurrency exchange-traded fund (ETF) that will include Bitcoin (BTC), Ethereum (ETH), and XRP as eligible assets. This regulatory milestone is seen as a significant step towards broader institutional acceptance and participation across these major cryptocurrencies.",
+    "details": "Standard Chartered analyst Geoffrey Kendrick has suggested that Bitcoin's price has likely bottomed out around $59,000, signaling the end of the crypto winter. This outlook is supported by factors such as a reduction in spot Bitcoin ETF redemption pressure following the SpaceX IPO and easing oil prices.",
     "sourceName": "Bitcoin.com News",
-    "sourceUrl": "https://news.bitcoin.com/sec-approves-active-crypto-etf-with-btc-eth-and-xrp-on-eligible-asset-list/",
-    "title": "SEC Greenlights Active Crypto ETF Featuring BTC, ETH, and XRP",
-    "id": "9d6a2824-a594-4393-a3a8-a9dfd5719f34",
-    "ts": 1781379754389
+    "sourceUrl": "https://news.bitcoin.com/bitcoin-bottom-is-in-standard-chartered-declares-end-of-crypto-winter/",
+    "title": "Standard Chartered Declares Bitcoin Bottom at $59K, Signals End of Crypto Winter",
+    "id": "1257f2a8-82d0-4830-95b8-9cc11884436e",
+    "ts": 1781426739053
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Following its recent $1.8 trillion initial public offering (IPO), Elon Musk's SpaceX has reportedly disclosed significant Bitcoin holdings, positioning the aerospace company among the largest public holders of the cryptocurrency. This development, highlighted by Michael Saylor, suggests increasing institutional confidence and the growing adoption of Bitcoin by prominent corporations.",
+    "details": "Michael Saylor, Executive Chairman of MicroStrategy, stated that 25% of the \"Magnificent 8\" technology companies now hold Bitcoin on their balance sheets, following Elon Musk's SpaceX IPO. This highlights increasing institutional adoption of Bitcoin.",
     "sourceName": "Bitcoin.com News",
     "sourceUrl": "https://news.bitcoin.com/saylor-says-25-of-mag8-now-holds-bitcoin-after-musks-historic-spacex-ipo/",
-    "title": "SpaceX IPO Confirms Major Bitcoin Holdings, Signals Institutional Trust",
-    "id": "94270af4-abfb-4ae4-93b2-9091b0adce0a",
-    "ts": 1781379754389
+    "title": "Saylor: 25% of \"Magnificent 8\" Now Hold Bitcoin Post-SpaceX IPO",
+    "id": "0acbf7b1-0a33-4bf7-b6e4-e09fb9c1ef52",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A report from Coinbase's Independent Advisory Board on Quantum Computing and Blockchain estimates that approximately 7 million Bitcoin are vulnerable to future quantum attacks due to public key exposure and address reuse. The report urges the community to begin preparations for post-quantum migration.",
+    "sourceName": "FinanceFeeds",
+    "sourceUrl": "https://financefeeds.com/coinbase-board-warns-7-million-bitcoin-face-future-quantum-risk/",
+    "title": "Coinbase Report Warns Millions of Bitcoin at Risk from Quantum Threat via Address Reuse",
+    "id": "ee058fb7-a164-4395-b961-6edf465c9dda",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "U.S. spot Bitcoin ETFs recorded $85.9 million in net inflows on June 12, ending a five-day outflow streak. In contrast, spot Ethereum ETFs continued to experience net outflows, logging approximately $4.95 million, indicating a divergence in investor sentiment between the two largest cryptocurrencies.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/bitcoin-and-xrp-etfs-see-inflows-ethereum-records-outflows-on-june-12",
+    "title": "Spot Bitcoin ETFs See Inflows, Ethereum Funds Continue Outflows",
+    "id": "f7bae266-18ad-432e-8e7c-384ef9b294d9",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "RippleX has launched the XRPL AI Starter Kit, providing tools for developers to build AI-powered payment applications on the XRP Ledger. This initiative supports autonomous AI agents making payments using XRP and Ripple USD (RLUSD), positioning XRP for the emerging \"agentic payments\" economy.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/ripple-lets-ai-agents-pay-with-xrp-and-rlusd-via-x402/",
+    "title": "Ripple's XRPL AI Starter Kit Enables AI Agent Payments with XRP",
+    "id": "de3c4640-ad99-4650-92df-3ad405b47177",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Tokens associated with decentralized AI projects like Venice (VVV) and Morpheus (MOR) have rallied following a U.S. government order restricting access to Anthropic's Fable 5 and Mythos 5 AI models. This event is fueling the narrative for permissionless and censorship-resistant decentralized AI solutions.",
+    "sourceName": "FinanceFeeds",
+    "sourceUrl": "https://financefeeds.com/decentralized-ai-tokens-rally-after-anthropic-model-shutdown/",
+    "title": "Decentralized AI Tokens Surge After US Ban on Anthropic's Fable 5",
+    "id": "2f93fa04-f18c-4fcd-a11c-0842787029ee",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "An AI-powered security audit conducted by Anthropic's Mythos tool on the Zcash protocol found no additional serious vulnerabilities. This positive outcome follows a recent disclosure of a critical bug in Zcash's Orchard shielded pool, boosting confidence in the privacy coin's security.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/anthropics-secret-ai-model-mythos-audits-entire-zcash-protocol-finds-no-new-bugs/",
+    "title": "Zcash Audit by Anthropic's AI Finds No New Critical Bugs",
+    "id": "aaed2df4-8bb9-4a77-b2c0-a0880451973d",
+    "ts": 1781426739053
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Despite relatively flat price performance, Litecoin (LTC) has seen a 7% increase in whale and shark wallets holding at least 10,000 LTC over the past five months. This accumulation, coupled with renewed interest in the LitVM project aiming to bring smart contract functionality to Litecoin, suggests potential for future growth.",
+    "sourceName": "Intellectia.AI",
+    "sourceUrl": "https://intellectia.ai/news/litecoin-hits-fibonacci-support-as-whales-accumulate",
+    "title": "Litecoin Sees Whale Accumulation Amidst Growing LitVM Interest",
+    "id": "28444b7d-5464-4d8d-bb37-29e12aea833a",
+    "ts": 1781426739053
   }
 ]
