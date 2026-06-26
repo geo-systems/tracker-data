@@ -1,20 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The US Personal Consumption Expenditures (PCE) price index, the Federal Reserve's preferred inflation gauge, rose to 4.1% year-over-year in May, surpassing expectations and remaining well above the Fed's 2% target. This higher-than-anticipated inflation data is strengthening market expectations for the Federal Reserve to maintain a hawkish monetary policy, potentially leading to further interest rate hikes or delaying any cuts. The news triggered a \"risk-off\" sentiment in financial markets, causing Bitcoin to briefly dip below $58,000 and leading to significant liquidations across the broader cryptocurrency market.",
-    "sourceName": "TradingKey",
-    "sourceUrl": "https://www.tradingkey.com/news/fed-rate-hike-alarm-pce-bloodbaths-crypto-market-btc-price-drops-below-59000-triggering-another-bull-massacre",
-    "title": "US May PCE Inflation Surges, Fuels Fed Rate Hike Fears",
-    "id": "241c730e-4017-4acf-b876-328ce64ec44d",
-    "ts": 1782446360867
+    "details": "The latest US core Personal Consumption Expenditures (PCE) inflation data for May showed a 3.4% year-over-year increase, the highest since October 2023. This higher-than-expected inflation has reduced expectations for imminent Federal Reserve rate cuts and increased the likelihood of future rate hikes, with some analysts now forecasting multiple hikes in 2026. In response, Bitcoin fell to an intraday low of $58,000 on Thursday, marking its lowest level since late 2024, and has been trading around $59,000. US spot Bitcoin ETFs have recorded net outflows for six consecutive days, totaling $696 million on June 25, with spot Ethereum ETFs also experiencing significant outflows.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/higher-us-inflation-dampens-rate-cut-expectations-bitcoin-hits-2024-low",
+    "title": "Higher US Inflation Dampens Rate Cut Hopes, Bitcoin Falls Below $60K",
+    "id": "867d539d-b156-49b5-a553-8269867d4cae",
+    "ts": 1782500248060
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The US Senate has passed the \"21st Century ROAD to Housing Act,\" which includes a provision to temporarily ban the Federal Reserve from issuing or creating a central bank digital currency (CBDC) until December 31, 2030. This legislative move, which is anticipated to be signed into law, is generally viewed as a positive development for decentralized cryptocurrencies like Bitcoin. By removing the immediate threat of a government-issued digital dollar, the ban is expected to alleviate concerns about competition and potentially bolster the appeal and adoption of existing cryptocurrencies.",
-    "sourceName": "Bitcoin Foundation",
-    "sourceUrl": "https://bitcoin.foundation/news/us-senate-bans-cbdc-until-2030-stablecoins-exempt-from-ban",
-    "title": "US Senate Blocks Fed CBDC Until 2030, Boosts Decentralized Crypto",
-    "id": "4c1b18c9-850c-4438-b716-a47c45c5a39c",
-    "ts": 1782446360867
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Piero Cipollone, a member of the European Central Bank's Executive Board, stated that the digital euro is designed to have minimal effects on European banks and will not pose a risk to financial stability. Key design features include no interest payments to holders, individual holding limits, and a 'reverse waterfall' mechanism to convert excess digital euro holdings back into bank deposits, all aimed at safeguarding bank liquidity.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/ecb-cipollone-digital-euros-impact-on-banks-is-minimal",
+    "title": "ECB Official States Digital Euro's Impact on Banks Will Be Minimal",
+    "id": "db3a225d-c6e3-4bb3-a996-d437265b4e56",
+    "ts": 1782500248060
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "A Wall Street Journal report, based on blockchain data, revealed that Iranian entities moved over $3.84 billion in cryptocurrency through the Seychelles-based exchange CoinEx over the past six years. CoinEx reportedly became the largest foreign counterparty to Iran's biggest cryptocurrency exchange, Nobitex, after Binance tightened its sanctions compliance. This highlights the ongoing challenges authorities face in enforcing sanctions within blockchain-based financial systems.",
+    "sourceName": "Iran International (citing The Wall Street Journal)",
+    "sourceUrl": "https://www.iranintl.com/202606253457",
+    "title": "Iranian Entities Used CoinEx for Billions in Crypto Transfers Despite Sanctions",
+    "id": "a390bf3a-d826-4603-9577-7f684f0d47b3",
+    "ts": 1782500248060
   }
 ]
