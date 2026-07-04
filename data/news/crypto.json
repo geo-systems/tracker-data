@@ -1,20 +1,56 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin climbed to $62,000 on July 3rd, a 7.3% recovery from its low, after the US added only 57,000 jobs in June, lowering Federal Reserve rate hike expectations. US spot Bitcoin ETFs also recorded $221.7 million in net inflows on Thursday, breaking a 10-day outflow streak, contributing to the rebound. The move follows Fed Chair comments signaling reduced inflation risks.",
-    "sourceName": "IG UK",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQrCvyvjp1Akz8bzI0w5ZgPtsC7ePtTIvoQtNQNJMzmaF2U72A7chWsWXsYY4wEFJqLySGDEGxJHz9hOiAfdtUjA-ql_SA8oMViygdJIvlkZLOJlh_uooyZ64SEyaH_pWCH1bW4JmbqznhpIDkJKlFaMwA7147NUTbyDXeM9EXG_-E_xV_4pZYOG7wU0qtb3C_sZUttBu-V8MwpIt1PEZUImBrNr-yQA==",
-    "title": "Bitcoin Rises Above $62K After Weak US Jobs Report and ETF Inflows",
-    "id": "8b981639-3c88-46a2-bc4d-1b446d72ec9e",
-    "ts": 1783140026802
+    "details": "Bitcoin climbed above $61,000, and Ethereum surged, fueled by $222 million in net inflows to US spot Bitcoin ETFs, ending a 10-day outflow streak. Weaker-than-expected US employment data also eased Federal Reserve rate hike concerns, boosting overall market sentiment and risk assets.",
+    "sourceName": "Pluang (citing CoinDesk)",
+    "sourceUrl": "https://pluang.com/news-feed/bitcoin-etfs-see-221m-inflow-ending-10-day-outflow-streak-but-ytd-outflows-still-high",
+    "title": "Bitcoin Rebounds Over $61K as ETFs See Inflows",
+    "id": "fa63b84f-1a7b-4cc5-a352-bfe1d8097ec2",
+    "ts": 1783176098209
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin gained 2.56% on Thursday, showing a bullish divergence and reaching the daily TBO Fast line. However, a full trend shift is unconfirmed as prior attempts at the Fast line were rejected, and BTC remains bearish beneath the daily TBO Cloud. Improved OBV support offers an early reversal indicator, but market caution persists.",
-    "sourceName": "IndexBox",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBEUCA0fpl83SjcdCNwCuy2T3rBOnUW6mOD033WB1KRf-TlST7z-ZSLnQokg5QdABV-EQgzIVMvafYDW-Pdp-4MNb8dCRSCteada5Yi_jgSucYWfx0AsmgsT2__agN_ZOZdMPzpAbdSir9gGMbagAF-wenPQhD6hvQh_ahug1-QCL7Yem3wtLMlIP-kVh8B5ZAnAI=",
-    "title": "Bitcoin Posts 2.56% Gain, But Trend Reversal Not Confirmed",
-    "id": "f1cbd9c7-7206-45ce-9063-1854b05a1305",
-    "ts": 1783140026802
+    "details": "MicroStrategy Chairman Michael Saylor publicly weighed in on Bitcoin's future governance, discussing two key technical proposals: BIP-110 (Transaction Spam Filter) and BIP-361 (Quantum Hack Protection). He emphasized the balance of economic power, node power, and mining power in a decentralized network.",
+    "sourceName": "Cryptonews.net",
+    "sourceUrl": "https://cryptonews.net/news/bitcoin/who-really-controls-bitcoin-saylor-speaks-out-amid-spam-filters-and-wallet-freezes-controversy/",
+    "title": "Saylor Addresses Bitcoin Control Amid Network Proposals",
+    "id": "28b7388d-03b1-4154-94cd-f2e1d0313d3a",
+    "ts": 1783176098209
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Robinhood introduced an \"AI-native\" Ethereum Layer-2 network, expanding its crypto services and enabling tokenized stock trading. This move led to an 11% surge for Uniswap (UNI) after it was designated as the primary Automated Market Maker (AMM) for the new L2 solution.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/203417/robinhood-launches-ai-native-ethereum-layer-2-network-tokenized-stock-trading",
+    "title": "Robinhood Launches AI-Native Ethereum L2, Uniswap Named Primary AMM",
+    "id": "205b3a60-88ba-4ad7-ba6b-410238e41f99",
+    "ts": 1783176098209
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The International Monetary Fund (IMF) highlighted significant stablecoin adoption in Nigeria, cautioning about potential risks such as \"digital dollarization\" and illicit financial activities. The organization urged for the implementation of pragmatic regulatory frameworks to address these concerns.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/203409/imf-warns-stablecoin-risks-surge-in-nigeria",
+    "title": "IMF Warns of Stablecoin Risks in Nigeria",
+    "id": "e8cd4be1-609b-49db-a652-a98baf17d035",
+    "ts": 1783176098209
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The U.S. Treasury Department sanctioned over 130 cryptocurrency wallet addresses linked to ISIS, with the vast majority (131) found on the Tron blockchain. These wallets had collectively received more than $1.4 million, underscoring efforts to combat illicit use of digital assets.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/203405/treasury-department-sanctions-isis-affiliated-crypto-wallets-tron",
+    "title": "US Treasury Sanctions 130+ ISIS Crypto Wallets on Tron",
+    "id": "a731eb0b-fadc-411a-8ce5-72ec6d4d0ed6",
+    "ts": 1783176098209
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Ethereum's total on-chain yield for the second quarter of 2026 reached a historic low of 2.68%. This decline is attributed to reduced economic activity on Layer 1, decreased DeFi engagement, and a shift of user activity towards Layer 2 solutions.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/crypto-news-today-2026-07-04",
+    "title": "Ethereum Q2 On-Chain Yield Declines to Record Low",
+    "id": "a7ba3e57-b9e5-40ab-9609-9f0ea0a749f5",
+    "ts": 1783176098209
   }
 ]
