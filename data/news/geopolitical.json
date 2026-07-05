@@ -1,20 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "On July 3, 2026, Bitcoin saw a significant rally, climbing above $62,000, as US spot Bitcoin Exchange-Traded Funds (ETFs) recorded $221 million in net inflows. This marked the end of a ten-day streak of outflows for these institutional investment products. The positive sentiment was further bolstered by a weaker-than-expected US jobs report for June, which showed only 57,000 new jobs added against an anticipated 115,000. This softer labor data has eased fears of immediate interest rate hikes by the Federal Reserve, making risk assets like cryptocurrencies more attractive. Ethereum and other altcoins also experienced gains following these developments.",
-    "sourceName": "Investing.com",
-    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rises-2-briefly-tops-62k-as-weak-us-jobs-data-eases-rate-hike-fears-3996726",
-    "title": "Bitcoin Rallies on US ETF Inflows and Soft Jobs Data",
-    "id": "f590a332-807f-4a58-a0f2-edf6e7a31a7f",
-    "ts": 1783176126005
+    "details": "The U.S. economy saw a slower-than-expected increase of 57,000 jobs in June, with the unemployment rate decreasing to 4.2% due to a shrinking labor force. This cooling labor market has led financial markets to scale back predictions for a near-term interest rate hike from the Federal Reserve, a development generally viewed favorably by investors in risk assets, including cryptocurrencies.",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://www.reuters.com/markets/us-job-growth-slows-june-unemployment-rate-falls-42-amid-decline-labor-force-2026-07-02/",
+    "title": "US Job Growth Slows in June, Reducing Fed Rate Hike Expectations",
+    "id": "b4fd15c1-db2c-43ff-aa9f-1b7c892318db",
+    "ts": 1783236740850
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Despite the recent cryptocurrency rally, ongoing geopolitical tensions in the Middle East persist as a significant factor influencing global financial markets and, by extension, cryptocurrencies. Reports indicate that inflation, energy prices, and the general macroeconomic environment continue to be shaped by the conflict. While not a new escalation in the last 24-48 hours, the sustained uncertainty and potential for disruption emanating from the region mean that investors remain cautious, weighing these risks against positive market catalysts.",
-    "sourceName": "The Economic Times",
-    "sourceUrl": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-trades-near-62000-inflation-geopolitical-risks-remain-key-market-drivers/articleshow/111494519.cms",
-    "title": "Geopolitical Tensions in Middle East Continue to Influence Markets",
-    "id": "8e421207-99cb-4b9d-84ad-7ef18fbb7eaa",
-    "ts": 1783176126005
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The anticipated CLARITY Act, aimed at establishing a clear regulatory framework for digital assets in the United States, was not passed by its unofficial July 4th deadline. This delay, attributed to legislative hurdles and ongoing disagreements over issues like DeFi regulation and stablecoin oversight, prolongs uncertainty for the cryptocurrency market and could impact institutional adoption.",
+    "sourceName": "Bitcoin Foundation",
+    "sourceUrl": "https://bitcoinfoundation.org/news/clarity-act-blocked-before-july-4-senate-delay-sparks-uncertainty-what-happens-next/",
+    "title": "US CLARITY Act Misses July 4 Deadline, Prolonging Crypto Regulatory Uncertainty",
+    "id": "e7fcf1ef-94aa-4195-8772-a65653e4e96a",
+    "ts": 1783236740850
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Iran's military command has threatened a \"forceful response\" to ships using unapproved routes in the Strait of Hormuz, a critical global energy trade conduit. This warning, issued after reports of \"positive progress\" in indirect US-Iranian peace talks, casts new doubt over trade flows and highlights persistent geopolitical instability in the Middle East, which can fuel oil price volatility and global economic concerns.",
+    "sourceName": "Al Jazeera",
+    "sourceUrl": "https://www.aljazeera.com/economy/2026/7/3/iran-warns-ships-against-using-unapproved-routes-in-strait-of-hormuz",
+    "title": "Iran Threatens Ships in Strait of Hormuz Amid Heightened Tensions",
+    "id": "4202460f-0d7c-428c-9047-2f00c8c3501e",
+    "ts": 1783236740850
   }
 ]
