@@ -1,65 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum co-founder Vitalik Buterin has unveiled a multi-year roadmap for \"Lean Ethereum,\" which is described as the network's largest transformation since The Merge. The plan prioritizes native privacy, quantum resistance, and protocol simplification, aiming for a simpler, faster, more private, and quantum-resistant network over the next three to four years.",
+    "details": "Bitcoin surged towards $64,000 on July 6, recovering significantly from its recent lows. This rebound was largely driven by a weaker-than-expected US June jobs report, which reported only 57,000 new nonfarm payrolls, easing fears of further Federal Reserve interest rate hikes. This positive macroeconomic sentiment, combined with $221.72 million in net inflows into US spot Bitcoin Exchange-Traded Funds (ETFs) on July 2, ended a 10-day outflow streak and boosted investor confidence in risk assets.",
+    "sourceName": "crypto.news",
+    "sourceUrl": "https://crypto.news/bitcoin-rallies-toward-64k-as-etf-buyers-return-after-june-selloff/",
+    "title": "Bitcoin Rallies as Weak US Jobs Data & ETF Inflows Fuel Recovery",
+    "id": "a36d8f9e-23a3-4152-97c4-a2424d72084a",
+    "ts": 1783400293138
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ethereum co-founder Vitalik Buterin has outlined a comprehensive \"Lean Ethereum\" roadmap, a multi-year protocol overhaul deemed as significant as \"The Merge.\" The plan, following a recent researcher meeting in Berlin, aims to replace nearly every major protocol component over the next three to four years. Key focus areas include enhancing quantum security, improving privacy features, enabling cheaper data storage solutions, and potentially introducing a new virtual machine to boost efficiency and scalability.",
+    "sourceName": "The Defiant",
+    "sourceUrl": "https://thedefiant.io/vitalik-buterin-outlines-lean-ethereum-roadmap-a-three-to-four-year-protocol-overhaul",
+    "title": "Vitalik Buterin Unveils Multi-Year \"Lean Ethereum\" Roadmap",
+    "id": "1a8b83da-1832-4efc-a2bf-61a8f67c0486",
+    "ts": 1783400293138
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "On July 6, the BonkDAO treasury experienced a significant loss of approximately $20 million worth of BONK tokens due to a malicious governance proposal. Reports indicate that an attacker acquired $4 million in BONK to secure enough voting power, subsequently passing a proposal that diverted 4.426 billion BONK tokens to a wallet they controlled. The Bonk project has initiated contact with law enforcement agencies and is collaborating with exchanges and the Solana Foundation in an effort to recover the stolen funds. Following the incident, BONK's price saw a decline of about 7%.",
     "sourceName": "The Cryptonomist",
-    "sourceUrl": "https://cryptonomist.ch/2026/07/06/extremely-lean-ethereum-buterin-radical-consensus-plan/",
-    "title": "Vitalik Buterin Unveils Major Ethereum Overhaul Towards \"Lean Ethereum\"",
-    "id": "4810733c-bf04-4a85-aa00-ee003606f455",
-    "ts": 1783360134538
+    "sourceUrl": "https://cryptonomist.ch/en/2026/07/06/bonkdao-governance-attack-drains-20m-in-bonk-tokens/",
+    "title": "BonkDAO Loses $20M in Malicious Governance Proposal Attack",
+    "id": "2cc22ddb-f130-42ca-b0d4-6354b0e80878",
+    "ts": 1783400293138
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin surged to nearly $64,000 in the early hours of July 6, extending a weekend rally. This move was primarily driven by a softer-than-expected US jobs report, which reduced expectations for Federal Reserve rate hikes, and led to the liquidation of over $450 million in short positions across the derivatives market.",
-    "sourceName": "Mitrade",
-    "sourceUrl": "https://www.mitrade.com/news/bitcoin-price-spikes-near-64000-as-short-sellers-get-liquidated",
-    "title": "Bitcoin Spikes to $64K Amid Weak Jobs Data & Short Squeeze",
-    "id": "87cf735e-bc55-4d9c-ac68-5a6e597ee95b",
-    "ts": 1783360134538
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Over $1.1 billion worth of altcoins are scheduled to be unlocked between July 6th and 12th. Major projects include Rain ($796M), Pump.fun ($135.5M), ADI Chain ($40.5M), Stable ($31.3M), and Hyperliquid ($30.9M). These significant token unlocks could introduce increased market volatility as new supply enters circulation.",
-    "sourceName": "Crypto News",
-    "sourceUrl": "https://crypto.news/1-1-billion-worth-altcoins-set-to-be-unlocked-this-week/",
-    "title": "Over $1.1 Billion in Altcoins to Unlock This Week",
-    "id": "ff8ca7c0-e4fd-497b-80de-ab71d51a5817",
-    "ts": 1783360134538
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Strategy (MSTR) disclosed an $8.32 billion loss on digital assets for the three months ended June 30, 2026. The company also sold 2,225 Bitcoin for $135.2 million between July 1 and July 5 to fund preferred stock distributions and replenish its USD reserve. As of July 5, Strategy held 843,775 Bitcoin.",
-    "sourceName": "Investing.com",
-    "sourceUrl": "https://www.investing.com/news/stock-market-news/strategy-reports-832b-bitcoin-loss-and-sells-btc-to-fund-dividends-93CH-3486303",
-    "title": "Strategy Reports $8.32B Bitcoin Loss, Sells BTC for Dividends",
-    "id": "3d73bdb1-8cdf-4e61-ab30-5c5384d4791f",
-    "ts": 1783360134538
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "A statement from new Federal Reserve Chair Kevin Warsh on July 1st, indicating that \"inflation risks have come down,\" contributed to a relief rebound in crypto markets. This dovish tone from the Fed helped Bitcoin reclaim the $60,000 level and improved overall risk sentiment, suggesting a potentially better liquidity environment for riskier assets like cryptocurrencies.",
-    "sourceName": "The Motley Fool",
-    "sourceUrl": "https://www.fool.com/investing/2026/07/05/federal-reserve-fantastic-news-crypto-investors-buy/",
-    "title": "Fed's Dovish Tone Boosts Crypto Market Sentiment",
-    "id": "e73e42e5-82a3-4bcc-a172-8baa1dfcd7bb",
-    "ts": 1783360134538
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Cardano (ADA) has shown strong performance this summer, outperforming many large-cap cryptocurrencies after the market downturn in June. This resurgence is attributed to improving investor sentiment, an increase in wallet holders, and anticipation surrounding network upgrades such as Van Rossem and Leios, which are strengthening its long-term outlook.",
-    "sourceName": "Bitcoin Foundation",
-    "sourceUrl": "https://bitcoin.foundation/news/cardano-price-forecast-ada-is-making-a-summer-comeback-can-it-finally-break-out-in-2026",
-    "title": "Cardano Outperforms Altcoins Amid Summer Rally & Upgrades",
-    "id": "795c3bf7-7c3b-4b8d-be16-766c47a69fd4",
-    "ts": 1783360134538
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple has reportedly achieved full MiCA (Markets in Crypto-Assets) approval, securing a European-wide license for crypto services. This significant institutional development is seen as a boost for XRP, especially amidst ongoing discussions about potential ETF demand and a projected bounce in the second half of the year.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/ripple-xrp-scores-major-european-win-with-full-mica-license/",
-    "title": "Ripple's XRP Gains Full MiCA Approval in Europe",
-    "id": "7477d895-4ae3-4890-9fe9-51cf01ed1441",
-    "ts": 1783360134538
+    "details": "Ripple has officially obtained full Crypto Asset Service Provider (CASP) authorization from Luxembourg's financial regulator, thereby fulfilling its Markets in Crypto-Assets Regulation (MiCA) compliance. This crucial license enables Ripple to offer regulated crypto payments, custody services, and other related offerings across all 30 countries within the European Economic Area. This achievement positions Ripple among a select group of digital asset firms to have secured full MiCA authorization after the July 1 regulatory deadline.",
+    "sourceName": "The Defiant",
+    "sourceUrl": "https://thedefiant.io/ripple-secures-full-mica-license-completing-eu-compliance",
+    "title": "Ripple Secures Full EU MiCA License for Crypto Payments",
+    "id": "909afd5e-1b59-41ec-89ba-1955afc7c001",
+    "ts": 1783400293138
   }
 ]
