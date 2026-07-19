@@ -1,65 +1,56 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The broader crypto market experienced a 0.95% gain on July 18, fueled by increasing optimism around the CLARITY Act. This proposed legislation aims to provide regulatory clarity for digital assets by potentially classifying Ethereum and certain other tokens as commodities, which could reduce uncertainty for institutional investors. A potential Senate vote on the bill is anticipated between July 20-24.",
-    "sourceName": "CoinGape",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUe53a5gqqVKw6Er51d1PrDOk8DM7nw_YZW8hpge-Awm38J9ERlaNlt4HAz7Yf7Umeou9mDQY9N5MUovGf7NfXJmGqYuwieb4u-43wEdeUbtfH5sjYkOHEbS-NaNI5FzhwF2oJyC83__TUlCLV16_hDClGaIIBmNnqpfleAZQ=",
-    "title": "CLARITY Act Optimism Boosts Crypto Market",
-    "id": "3116c413-eb34-4d66-b607-a7c4f8931fb8",
-    "ts": 1784440904118
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "T. Rowe Price has launched a new active spot crypto exchange-traded fund (ETF) that includes Bitcoin (BTC), Ethereum (ETH), and XRP among its top holdings. This development marks another significant entry of traditional financial institutions into the cryptocurrency investment landscape, providing more avenues for institutional capital.",
-    "sourceName": "Bitcoin.com News",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsaDDmwkysknMscRloJgTNcabQFN0AcvCVw5dbwrAiIp4lh-ZMjL9lJp3bEGUuTCOXKUKEuNEb5cA_t9Iie5tu1vHFxmvzX393ruGWTMYR6_hc8EY=",
-    "title": "T. Rowe Price Debuts Active Spot Crypto ETF",
-    "id": "cd4c00e9-1b61-4e97-a671-79dd9126615a",
-    "ts": 1784440904118
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "In a shift from previous trends, Ethereum-based ETFs recorded substantial inflows of $1.6 billion last week, significantly outpacing Bitcoin ETFs, which experienced approximately $175 million in outflows. This indicates a growing and diversified institutional interest in Ethereum-specific investment products.",
-    "sourceName": "Coinbase",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdZ9GmGDJNjmD9Wi8w6IWKTQvNLPEpE71rF52XBzFf7u_sOmaOuSpednypfXtX4LDOoLTMk7cRQCljqhZWX3r1L7c9F_xs7oznTjUp-Is00IqEdHHQpddwNscmQE_41I78zw==",
-    "title": "Ethereum ETFs Outpace Bitcoin Funds in Recent Inflows",
-    "id": "5fa20c51-6716-4da1-9394-1f3add75e362",
-    "ts": 1784440904118
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum has seen significant whale activity, with $260 million in net inflows over the last 24 hours as large investors accumulated ETH around the $1,860 price level. Technical analysis, including a positive MACD and price consolidation above key moving averages, suggests that bullish momentum may be building for Ethereum.",
-    "sourceName": "Binance Square",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRn4s6n3k-na4i7GM-1JVPQmT0dOKE2paD-saO-ssyRwVg9t6Xc6382lc_XuBQ94SCTbyzw4ilMGSLvnOdgwiymj4E_lSNb7sRXMggVAO6cLAae6Fr5IxQoe07TlWmh_ol7OvWmaMR75Kx6-SH",
-    "title": "Ethereum Whales Accumulate $260M, Hinting at Bullish Trend",
-    "id": "f43b88ec-a789-40f2-8e8d-de6e1fd57b24",
-    "ts": 1784440904118
-  },
-  {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin is currently trading around the $64,600-$64,800 range. While a prediction market on July 18 indicated a 100% certainty of Bitcoin trading below $64,000 for that day, another prediction market on July 19 suggests a 74% probability of Bitcoin reaching $70,000 this year. This highlights a mixed short-term outlook versus a potentially bullish longer-term sentiment.",
-    "sourceName": "KuCoin / Lines.com",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBHVJ1k9wX2bsui7aFlxswygUSCffnrKBHq0uMvF0RIXGrV7ngGL-8tsv8Lr-2WE_qpn878fFvzh48nmupVVKPkWP2j15cg1wTHxXtLfDwTVe_BjkmC53q_fzM90m2KRVzcrqUzx1iCLlHi587a8Qn7i2dwU62z5lC7fzPki2H2wESn74rxJObLGnZRguwfvuL4gG3",
-    "title": "Bitcoin Price Shows Mixed Signals Amidst Market Predictions",
-    "id": "5591a3fd-3d0d-4852-a107-996d8dc716af",
-    "ts": 1784440904118
+    "details": "Bitcoin has seen a notable recovery, trading around $64,500, primarily driven by a softer-than-expected US Consumer Price Index (CPI) report that showed June inflation at 3.5%, easing concerns about aggressive Federal Reserve rate hikes. This macroeconomic shift, alongside renewed institutional demand, particularly from spot Bitcoin ETFs like BlackRock's IBIT which recorded $136.48 million in inflows on July 17, has provided support. Despite a dormant whale moving $383 million in BTC, it appears to be a storage upgrade rather than a sale. Analysts are, however, divided, with some warning of a potential \"July bounce, brutal August\" scenario.",
+    "sourceName": "MarketForces Africa",
+    "sourceUrl": "https://marketforces.africa/bitcoin-price-is-up-on-blackrocks-ibit-etf-inflows/",
+    "title": "Bitcoin Recovers to $64K Amid Inflation Data and ETF Inflows",
+    "id": "5c4e1920-833f-46ab-9292-f50f942175a8",
+    "ts": 1784477086821
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Leading digital asset neobank ether.fi has partnered with crypto insurance provider Nexus Mutual to secure the largest-ever Ethereum (ETH) Slashing Cover. This comprehensive protection safeguards ether.fi's validators against penalties amounting to up to 15,000 ETH, a sum that surpasses all historical ETH slashing losses combined. This move significantly enhances security for ether.fi's rapidly expanding institutional and retail user base.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/press-releases/ether-fi-partners-with-nexus-mutual-to-protect-against-eth-slashing-at-institutional-scale/",
+    "title": "ether.fi Secures Major ETH Slashing Protection with Nexus Mutual",
+    "id": "e6dfa851-bdb2-4cdf-aaf5-60e026b95555",
+    "ts": 1784477086821
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The broader cryptocurrency market is experiencing a lack of consistent demand, despite recent inflation data indicating a slowdown. Investor caution persists due to the ongoing possibility of a more aggressive interest rate policy from the Federal Reserve, which could continue to limit appetite for risk assets like cryptocurrencies. The Crypto Fear and Greed Index remains in the \"fear\" zone at 32 points.",
-    "sourceName": "FOREX.com",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFciQq36FQxmzf8mIVHvG192IgjGZ34Haow36L7v4aX1AzrGkVoo95DyvodO0WTX3PJvlWgg4QkAF3qYpt_CnZg2ksIZRlNF_23I5OmUkT8ctBNbJt1js17eK4mJuQOsgHEV4ZNNwAdk0N5cDnc53AGzX0q83z41ALenohl3tfSjZNOaXpHWedAiq7uaORT7OvPust4BUvFGrWSAxj-N8x6MrV6GI-f3_OvzV-BgtEoIwo30FJGJsAO",
-    "title": "Crypto Demand Weakens Amid Fed Rate Hike Concerns",
-    "id": "1a721666-b077-4c60-93dc-726a4f38f1dc",
-    "ts": 1784440904118
+    "details": "The Arbitrum (ARB) token has experienced a decline, partly due to a significant token unlock on July 16, which released 92.65 million ARB (approximately $8.5 million) into circulation. Adding to the pressure, an $11.86 million to $18 million USDC exploit occurred on Ostium, a DeFi protocol built on Arbitrum. The exploit, stemming from manipulated oracle prices, has raised concerns about the overall security and robustness of Arbitrum's DeFi ecosystem.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/arbitrum-arb-drops-3-amid-token-unlock-exploit/",
+    "title": "Arbitrum (ARB) Drops Following Token Unlock and DeFi Exploit",
+    "id": "53a25bb5-f788-4a98-9a4e-6ed96c4561b1",
+    "ts": 1784477086821
   },
   {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "XRP has seen a significant 70% decline from its peak in July 2025 to its current trading price of $1.09. This drop occurred despite several positive developments for Ripple, including settling its SEC lawsuit, receiving conditional approval for a national trust bank charter, and XRP's classification as a commodity. The underperformance is attributed to prevailing bearish market sentiment and the continuous release of new XRP tokens without a substantial burn mechanism.",
-    "sourceName": "24/7 Wall St.",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKB8fIAeJLhtSJSg8ZvTLjyUOXeBxDZTJqVMYTf0jnAe0ajL5TxmZm_zFA9lec6AicVGGzT4dWejrrE2kY9oVOxe9eQ8mRcAesn1TI27vPt5a9i2h2EKKHn6A088musZeIJEaycTAlOUj-W-39AhuqkfBLXsPUgyWWN8b0fyPuZkYvIHtQgmYWuh0Nhxk",
-    "title": "XRP Price Declines 70% Despite Ripple's Legal Wins",
-    "id": "80eb7721-0b30-422a-aa7e-8597c68f7882",
-    "ts": 1784440904118
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Lido DAO's LDO token has seen a strong recovery and a significant price surge, with a reported 12% gain over the last 24 hours. This positive movement is largely attributed to the conclusion of an on-chain governance vote (July 15-17) for upgrades to its Curated Module v2 and Community Staking Module v3, designed to improve staking infrastructure and validator management. Additionally, ongoing Snapshot governance votes on a penalty framework for node operators are set to close on July 20, further contributing to increased trader interest and speculative activity.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/latest-lido-dao-news/",
+    "title": "Lido DAO (LDO) Surges on Governance Vote for Staking Upgrades",
+    "id": "568a98dc-43ff-4c8c-953b-d8304a080304",
+    "ts": 1784477086821
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Morpho Midnight, a highly anticipated fixed-rate, fixed-term lending protocol, is slated for its public mainnet launch \"in the coming days\" after an extensive beta phase. The initial rollout will introduce a cbBTC/USDC fixed-rate, fixed-term lending market on Base. This protocol aims to revolutionize on-chain lending by externalizing risk, term, and rate to the market, marking a significant step towards attracting institutional participants to the DeFi ecosystem.",
+    "sourceName": "Bankless",
+    "sourceUrl": "https://bankless.com/news/morphos-fixed-rate-lending-protocol-midnight-nears",
+    "title": "Morpho Midnight Fixed-Rate Lending Protocol Nears Public Launch",
+    "id": "2870b35a-9087-4816-9a11-f3ce80427a31",
+    "ts": 1784477086821
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Decentralized hedge fund Numerai has announced the completion of its third strategic buyback of Numeraire (NMR) tokens, acquiring an additional $1.2 million from the open market. This latest purchase brings Numerai's total NMR buybacks over the past year to $3.2 million. The buybacks are intended to support and strengthen its machine-learning competition ecosystem, which relies on an NMR staking mechanism. The firm also reported substantial growth, with assets under management (AUM) rising from $560 million at the end of 2025 to approximately $700 million currently.",
+    "sourceName": "Crypto Briefing",
+    "sourceUrl": "https://cryptobriefing.com/numerai-completes-third-strategic-nmr-buyback/",
+    "title": "Numerai Completes Third Strategic NMR Token Buyback",
+    "id": "1ed1d3e4-5137-487c-b2fc-afa8d1763ae2",
+    "ts": 1784477086821
   }
 ]
