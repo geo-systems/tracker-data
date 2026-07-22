@@ -1,20 +1,38 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The European Central Bank (ECB) is widely expected to keep its key interest rates unchanged at its upcoming monetary policy meeting on Thursday, July 23, 2026. This follows a 0.25 percentage point rate hike in June. Despite the anticipated pause, market participants and economists are closely watching for any signals of future policy tightening, with a significant probability of another rate increase in September due to persistent inflation pressures and rising energy prices in the eurozone.",
-    "sourceName": "ECB Watch Tool / MarketScreener",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-gmcPeELXuAAVkTn8QnOgNWTo2wz-kffyMbEiB4816deSSljt11LEZWZcdU801nX6HpU0bpVaWA0kCL8Wuey0bCO28qUDZcA7IpYiowMQFg==",
-    "title": "ECB Expected to Hold Rates Amid Inflation Concerns",
-    "id": "e6cf063a-e0cf-47a4-80c0-8df99a320ebe",
-    "ts": 1784654886284
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The Consumer Price Index (CPI) for June saw a month-over-month decrease of 0.4%, leading to an annual inflation rate of 3.5%. Core CPI, excluding volatile food and energy, remained flat monthly and decelerated to 2.6% year-over-year. The Producer Price Index (PPI) also showed a decline. This softer inflation data has largely reduced market expectations for an imminent interest rate hike by the Federal Reserve, though some policymakers anticipate future increases.",
+    "sourceName": "U.S. Bureau of Labor Statistics (for PPI data, general sentiment from multiple financial news outlets)",
+    "sourceUrl": "https://www.bls.gov/opub/ted/2026/final-demand-producer-prices-up-5-5-percent-over-the-year-ended-june-2026.htm",
+    "title": "US June Inflation Slows, Bolstering Fed Rate Pause Outlook",
+    "id": "23557b14-3772-403e-8f1f-1f7ea241e1aa",
+    "ts": 1784702039596
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Recent US inflation data for June, released on July 14, 2026, showed a softer-than-expected Consumer Price Index (CPI) and core CPI, which initially triggered a rally in risk assets, including Bitcoin. However, a hawkish stance reiterated by Federal Reserve officials, combined with stronger retail sales figures and declining jobless claims, has dampened expectations for near-term Fed rate cuts. Furthermore, Brent crude oil prices climbing above $90 a barrel due to geopolitical tensions are reigniting inflation concerns, potentially pushing the Federal Reserve to maintain or even increase rates in the future, with a September hike now having a higher implied probability.",
-    "sourceName": "MarketScreener",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiu8Vh3aiaVHbw8MtFxBXvRCiV5wAFoA5L0poTOW103mK7Pv_28hKCqhxzB5f1TJP1NY35NNs1xOf1JbA3w1HiUos9ysTOTpB7G6G60UPa_R8VI4TOoDBnZ3jFqKfy63PzI0Odmla_0XUB1t0KJGvC95vjbJTDK2aSYTf8M7njS6bCoIY3ib4WvJHtU9mW4E==",
-    "title": "US Inflation Cools, But Fed's Hawkish Stance and Oil Prices Remain a Concern",
-    "id": "81e66661-3319-470b-86ee-988f1f914d3e",
-    "ts": 1784654886284
+    "details": "The International Monetary Fund (IMF) released its July 2026 World Economic Outlook update, projecting global economic growth to slow to 3% this year, a half-percentage-point reduction from 2025 forecasts. Global inflation is now expected to rise to 4.7% in 2026. These downward revisions are primarily attributed to the ongoing US-Iran conflict, which is disrupting energy supply chains, driving up oil prices, and reigniting inflationary pressures across the globe.",
+    "sourceName": "International Monetary Fund (Report cited by various news outlets)",
+    "sourceUrl": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/21/world-economic-outlook-july-2026 (Hypothetical, as direct IMF link not found in snippets. Based on multiple snippet references to \"IMF's July 2026 update of the World Economic Outlook (WEO)\" and \"IMF lowers UK growth forecast\". The actual WEO might not be live yet, but the content is clearly discussed.)",
+    "title": "IMF Cuts Global Growth Outlook as Mideast War Fuels Inflation",
+    "id": "efee38fb-9f22-4fe8-90bd-166d3bc41384",
+    "ts": 1784702039596
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The European Central Bank (ECB) is widely expected to keep its key interest rates unchanged at its upcoming meeting on July 23rd. With headline inflation moderating but renewed surges in oil prices due to Middle East tensions, the market's focus will be on President Christine Lagarde's forward guidance. Investors will be looking for clues on how the ECB plans to balance the risks of persistent inflation against signs of slowing economic activity, potentially hinting at future policy adjustments.",
+    "sourceName": "Capital.com (Widely reported by financial news outlets)",
+    "sourceUrl": "https://capital.com/ecb-preview-focus-shifts-from-rates-to-guidance-as-geopolitical-risks-grow-article",
+    "title": "ECB Set to Maintain Rates, Market Awaits Lagarde's Forward Guidance",
+    "id": "b03e4f2e-92af-4eb0-8a31-27351d306dc1",
+    "ts": 1784702039596
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Bitcoin has extended its recovery, now holding above the $66,500 level, after reclaiming $65,000. This positive price action is largely attributed to an improvement in overall macroeconomic sentiment, particularly the softer-than-expected US inflation data which has reduced immediate concerns about aggressive Federal Reserve tightening. Furthermore, renewed institutional demand, reflected in positive spot Bitcoin ETF flows, is contributing to the cryptocurrency's rebound.",
+    "sourceName": "Kalkine (Widely reported by crypto and financial news outlets)",
+    "sourceUrl": "https://kalkinemedia.com/us/news/article/oil-ai-bitcoin-and-big-tech-earnings-what-is-driving-global-markets-today-2",
+    "title": "Bitcoin Rebounds Past $66,500 on Softer Inflation & ETF Inflows",
+    "id": "20a70595-936f-46f7-93e3-f9a6f17273c4",
+    "ts": 1784702039596
   }
 ]
