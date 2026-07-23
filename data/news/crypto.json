@@ -1,38 +1,65 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The U.S. Senate is progressing with the CLARITY Act, aiming to establish a comprehensive regulatory framework for digital assets. The revised bill, which includes ethics rules for officials and protections for developers and customers, could resolve regulatory uncertainties and potentially end the \"crypto winter\" if passed before the August recess. This bipartisan effort signals a significant step towards clearer guidelines for the crypto sector.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297296/senate-releases-latest-version-of-clarity-act-including-software-developer-protections-and-ethics-provision-with-sunset-date-in-2029",
-    "title": "US Senate Advances CLARITY Act, Eyes Regulatory Framework for Crypto",
-    "id": "55d1955b-ad49-4cb7-9d53-08a034a24341",
-    "ts": 1784775429636
+    "details": "S&P Dow Jones Indices and Pantera Capital introduced a new digital asset index that ranks cryptocurrencies based on protocol revenue rather than just market capitalization. Solana (SOL) is prominently featured among the top five holdings, alongside Ether and BNB, while Bitcoin and XRP were excluded. This development signifies increasing institutional recognition of the underlying economic activity and utility of these blockchain networks.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/s-and-p-launches-protocol-revenue-index-solana-a-top-five-holding/",
+    "title": "S&P Dow Jones Indices Launches Protocol Revenue Index, Solana a Top Holding",
+    "id": "8b771c4c-0da3-4482-9e4d-3427d5389022",
+    "ts": 1784815737898
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin has maintained its position above $65,000, recovering from recent volatility. This stabilization is supported by a sixth consecutive session of net inflows into spot Bitcoin Exchange-Traded Funds (ETFs), with funds attracting approximately $779 million since July 13. Analysts note a key resistance level for BTC around $68,000, which could test its upward momentum.",
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Senate Republicans have released a comprehensive draft of the Clarity Act, a significant bill aimed at regulating the crypto industry in the U.S. While the bill is generally supported by the industry for providing much-needed regulatory certainty, Democrats are reportedly pushing for stronger ethics provisions concerning political figures' cryptocurrency holdings. This debate introduces some near-term uncertainty regarding the bill's final passage.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297294/optimistic-signals-meet-a-68000-wall-as-bitcoins-recovery-faces-its-next-test-analysts",
-    "title": "Bitcoin Stabilizes Above $65K Amid Sustained Spot ETF Inflows",
-    "id": "4711b6ef-1e18-465a-9f37-9a2d239d3084",
-    "ts": 1784775429636
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Spot Ethereum ETFs are experiencing a notable reversal, attracting $196.4 million in net inflows between July 14 and July 21, 2026. This resurgence in institutional capital, largely led by BlackRock's ETHA, follows months of outflows and is seen as a positive indicator for Ethereum's potential future rallies and increased integration with traditional financial infrastructure.",
-    "sourceName": "TradingKey",
-    "sourceUrl": "https://www.tradingkey.com/news/ethereum-ethusd-is-up-1-15-on-jul-22-what-are-the-risk-factors",
-    "title": "Ethereum ETFs See Renewed Institutional Inflows, Reversing Trend",
-    "id": "bd5b7a2a-f380-4508-b379-b84c6a62e77e",
-    "ts": 1784775429636
+    "sourceUrl": "https://www.theblockcrypto.com/post/296726/bipartisan-support-critical-as-democrats-push-back-on-gop-crypto-bill-on-ethics-grounds",
+    "title": "Clarity Act Progresses in Senate Amid Ethics Debate",
+    "id": "b3b1c96d-08c0-4cef-9df1-0490c4733a07",
+    "ts": 1784815737898
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The SEC has issued a warning that crypto vaults and certain lending strategies may fall under federal securities laws. Commissioner Hester Peirce emphasized that the varying features and evolving strategies of these vaults require careful analysis to determine if they implicate existing securities regulations. This signals increased scrutiny and potential regulatory challenges in the decentralized finance (DeFi) space.",
+    "details": "Veteran cryptocurrency exchange BitMEX is slated to permanently cease operations, 11 years after its co-founder Arthur Hayes launched the platform. The reasons for the shutdown were not immediately detailed.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297295/you-will-have-a-painful-fall-secs-peirce-warns-crypto-vault-builders-against-twisting-securities-law",
-    "title": "SEC Warns Crypto Vaults May Fall Under Securities Laws",
-    "id": "2d0ae4b4-9512-4214-9cd7-4d6d8502c59b",
-    "ts": 1784775429636
+    "sourceUrl": "https://www.theblockcrypto.com/post/296717/bitmex-to-shut-down-permanently-11-years-after-arthur-hayes-co-founded-crypto-exchange",
+    "title": "BitMEX Crypto Exchange Announces Permanent Shutdown",
+    "id": "6e367fc3-b462-46f9-b2ba-c7ffb05d0524",
+    "ts": 1784815737898
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A security vulnerability in the Verus-Ethereum bridge has led to the draining of $7.5 million in a new attack. This exploit reportedly leveraged a flaw that was previously utilized in a similar incident in May, raising renewed concerns about cross-chain bridge security.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296715/new-verus-ethereum-bridge-attack-drains-7-5-million-through-flaw-used-in-may-blockaid",
+    "title": "Verus-Ethereum Bridge Exploited for $7.5 Million",
+    "id": "d85b3349-3a8f-4b9d-9a2c-a7e7f6880210",
+    "ts": 1784815737898
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Global financial technology firm Circle has announced strategic partnerships with South Korean giants Kakao and Toss Bank. The collaboration aims to explore and develop stablecoin payment rails within South Korea, signaling growing integration of digital assets into mainstream financial services in the region.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/296719/circle-partners-with-kakao-toss-bank-to-explore-stablecoin-payment-rails-in-south-korea",
+    "title": "Circle Partners with Kakao and Toss Bank for Stablecoin Payments in South Korea",
+    "id": "dc123bb3-4455-401f-9b2f-f788632828d8",
+    "ts": 1784815737898
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Swiss bank BancaStato has launched trading services for Bitcoin (BTC), Ethereum (ETH), and Solana (SOL) in collaboration with digital asset bank Sygnum. This move further highlights the increasing adoption of cryptocurrencies by traditional financial institutions, offering regulated access to digital assets for their clients.",
+    "sourceName": "crypto.news",
+    "sourceUrl": "https://crypto.news/swiss-bank-bancastato-launches-bitcoin-eth-sol-trading-with-sygnum/",
+    "title": "Swiss Bank BancaStato Integrates Bitcoin, Ethereum, and Solana Trading",
+    "id": "c1e9fd92-5baa-405b-a0d3-e97c3c28dc95",
+    "ts": 1784815737898
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "According to various sentiment indicators, including the Fear & Greed Index, the overall cryptocurrency market sentiment is currently neutral, hovering around a score of 50-55. This suggests a balance between fear and greed among investors, without a strong directional bias.",
+    "sourceName": "CoinCodex",
+    "sourceUrl": "https://coincodex.com/article/346875/bitcoin-crypto-sentiment-today/",
+    "title": "Crypto Market Sentiment Remains Neutral",
+    "id": "7c7babb1-e113-464c-832b-5d208bb6a0ae",
+    "ts": 1784815737898
   }
 ]
