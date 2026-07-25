@@ -1,20 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The European Central Bank's Governing Council decided on July 23, 2026, to keep its three key interest rates unchanged. The deposit rate remains at 2.25%, the main refinancing operations rate at 2.4%, and the marginal lending facility rate at 2.65%. The decision reflects ongoing uncertainty regarding energy prices and their full inflationary impact, with the ECB committed to a data-dependent approach to ensure inflation stabilizes at its 2% target in the medium term.",
+    "details": "The European Central Bank (ECB) Governing Council opted to keep its three key interest rates unchanged on July 23, 2026, citing ongoing high uncertainty due to volatile energy prices and geopolitical risks, particularly the Middle East conflict. The deposit rate remains at 2.25%. Concurrently, the ECB published version 0.91 of its digital euro rulebook in July 2026, a significant step forward in developing a central bank digital currency (CBDC). This draft incorporates market feedback and outlines plans for a pilot program in late 2027, with potential issuance by 2029. The rulebook aims to ensure standardized and consistent digital euro services across the Euro area.",
     "sourceName": "European Central Bank",
-    "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/index.en.html (Look for the press release dated July 23, 2026)",
-    "title": "ECB Keeps Key Interest Rates Unchanged on July 23rd",
-    "id": "4cc58aa8-9e56-436e-86ad-306834c19e9c",
-    "ts": 1784917451689
+    "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260723~528ef05814.en.html",
+    "title": "ECB Holds Rates, Progresses Digital Euro Development",
+    "id": "ea3fc1c7-e7d7-455f-af0f-d7a389c2acac",
+    "ts": 1784973424466
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The number of Americans filing for initial unemployment benefits unexpectedly dropped to 187,000 for the week ended July 18, 2026, a decrease of 22,000 and the lowest level since September 1969. This stronger-than-expected labor market data (economists had forecast 212,000 claims) suggests continued stability in the U.S. job market. This development is likely to keep the Federal Reserve focused on containing inflation, reducing expectations for near-term interest rate cuts.",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://whbl.com/2026/07/23/us-weekly-jobless-claims-plunge-to-lowest-since-1969/",
+    "title": "US Jobless Claims Plunge, Dampening Fed Rate Cut Hopes",
+    "id": "567c8dbc-bb18-4614-8b56-6c5a609544aa",
+    "ts": 1784973424466
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "U.S.-listed spot Bitcoin Exchange Traded Funds (ETFs) recorded combined net outflows of $240.08 million on July 24, 2026, marking the second consecutive day of withdrawals and ending a seven-day streak of inflows. BlackRock's IBIT accounted for over 88% of these outflows. This occurred as global financial markets faced a broader \"risk-off\" sentiment due to escalating Middle East tensions and an $800 billion selloff in U.S. tech stocks driven by concerns over AI spending.",
+    "sourceName": "Reuters / bloomingbit",
+    "sourceUrl": "https://bloomingbit.com/news/bitcoin-etfs-outflows-240-08-million-july-24-2026",
+    "title": "Bitcoin ETFs See Outflows Amid Global Risk-Off Sentiment",
+    "id": "2a4c8faf-dbf1-4c68-9a3b-d2ba89a7a2b5",
+    "ts": 1784973424466
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The cryptocurrency market is closely monitoring a packed U.S. regulatory calendar this week, which includes a House Financial Services subcommittee hearing on FinCEN oversight (July 21), the OCC's public comment deadline for GENIUS Act stablecoin regulations (July 24), and the CFTC's deadline for feedback on 24/7 Bitcoin perpetual futures trading (July 27). These regulatory developments, alongside macroeconomic factors like the ECB's rate decision, are expected to influence digital asset markets.",
-    "sourceName": "CoinDesk",
-    "sourceUrl": "https://www.coindesk.com/markets/2026/07/20/u-s-regulatory-developments-and-earnings-ecb-rate-decision-crypto-week-ahead",
-    "title": "US Crypto Regulation & Macro Events Set to Shape This Week's Market",
-    "id": "cfd14de5-d7a5-4820-ba22-8b2cb65ce8d0",
-    "ts": 1784917451689
+    "details": "US Senate Republicans introduced a new draft of the Digital Asset Market Clarity Act (CLARITY Act) on July 22, 2026, aiming to establish a comprehensive regulatory framework for cryptocurrencies. However, the bill's progress is currently stalled due to an ethics dispute, specifically regarding a proposed ban on certain political officials, including the President, from issuing or sponsoring digital assets until January 2029. The legislation seeks to clarify regulatory jurisdiction between the SEC and CFTC and enhance anti-money laundering (AML) requirements for crypto firms, but faces a tight deadline before the August recess for a full Senate vote.",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://www.reuters.com/markets/us/us-senates-crypto-bill-ban-officials-issuing-or-sponsoring-digital-asset-2026-07-23/",
+    "title": "US Senate's CLARITY Act for Crypto Faces Ethics Hurdle",
+    "id": "95ca3146-00ea-427e-94bf-e8c29257fc93",
+    "ts": 1784973424466
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "As of March 30, 2026, the Eurosystem, comprising the European Central Bank and the national central banks of the Euro area, began accepting marketable assets issued via Distributed Ledger Technology (DLT) in central securities depositories as eligible collateral for its credit operations. This decision supports innovation and technological advancement within European financial markets, demonstrating the ECB's commitment to integrating digital asset technology into traditional financial systems. These DLT-based assets must comply with existing collateral eligibility criteria.",
+    "sourceName": "European Central Bank",
+    "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260127~7d6e42b89f.en.html",
+    "title": "ECB Accepts DLT-Based Assets as Collateral",
+    "id": "76875f52-50f0-4531-8511-bda22ef0095e",
+    "ts": 1784973424466
   }
 ]
