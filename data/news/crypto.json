@@ -1,29 +1,74 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin's price is largely consolidating around the $64,000 to $64,500 range, showing a slight positive movement of less than 1% in the last 24 hours. The cryptocurrency's price retreated from a one-month high, influenced by surging crude oil prices and renewed inflation concerns impacting risk assets. Analysts point to the $68,000 level as a critical resistance. The total crypto market cap sits around $2.27-$2.29 trillion, with Bitcoin's dominance at approximately 57-58%.",
-    "sourceName": "CoinDesk",
-    "sourceUrl": "https://www.coindesk.com/price/bitcoin/",
-    "title": "Bitcoin Consolidates Above $64,000 Amid Mixed Signals",
-    "id": "b5a6f424-cdcb-4baa-9d06-960d27949bd5",
-    "ts": 1785072567919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Shiba Inu (SHIB) has surged notably, with gains reported between 27% and 36% in the past 24 hours, driving a broader rally in the meme coin sector. Other meme coins like MemeCore (M) also saw increases, with MemeCore gaining over 8%.",
-    "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
-    "title": "Shiba Inu (SHIB) Leads Meme Coin Rally with Significant Gains",
-    "id": "aa36c89d-91e3-43e8-bc99-bc1c5f495b11",
-    "ts": 1785072567919
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The crypto market saw liquidations totaling $95.7 million in the past 24 hours, with long positions accounting for $50.0 million. Bitcoin long liquidations reached $1.17 million. The global cryptocurrency market cap is down slightly, with Bitcoin trading around $64,000. Institutional outflows from Bitcoin ETFs and geopolitical tensions, including rising oil prices, are contributing to a \"Fear\" sentiment in the market, with the Fear and Greed Index at 26.",
+    "sourceName": "Binance News",
+    "sourceUrl": "https://www.binance.com/en/square/post/7955562768560",
+    "title": "Crypto Markets Face Downturn Amid Geopolitical Jitters and ETF Outflows",
+    "id": "d53ed49b-884a-4615-99e3-23f7c13715f3",
+    "ts": 1785110761643
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Cryptocurrency exchange BitMart has announced a phased shutdown of its trading platform, leading to a significant crash in its native token, BMX, which has fallen over 60% in value.",
-    "sourceName": "CoinGecko",
-    "sourceUrl": "https://www.coingecko.com/buzz/latest-market-news",
-    "title": "BitMart Exchange Announces Phased Shutdown, BMX Token Crashes",
-    "id": "f8b0329e-8768-4ea8-ae16-44e3bb353e74",
-    "ts": 1785072567919
+    "details": "Worldcoin's native token, WLD, dropped over 10% despite the project announcing a successful $52.5 million funding round aimed at expanding its World ID infrastructure. The decline suggests that concerns around tokenomics or profit-taking may be outweighing the positive news of the funding.",
+    "sourceName": "CryptoPotato",
+    "sourceUrl": "https://cryptopotato.com/wld-plunges-10-despite-52-5m-funding-round-btc-struggles-at-64k-weekend-watch-2/",
+    "title": "Worldcoin (WLD) Plummets 10% Despite $52.5M Funding Round",
+    "id": "9df7e238-e42b-47e1-91d2-e068c98e0765",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ethereum Classic (ETC) experienced a 4.27% surge in the last 24 hours, driven primarily by a technical breakout. This price movement occurred without a clear fundamental catalyst or specific project news. The broader altcoin market has shown mild strength, with ETC outperforming.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/ethereum-classic-surges-on-technical-breakout/",
+    "title": "Ethereum Classic (ETC) Surges on Technical Breakout",
+    "id": "ff8e1e57-7406-4787-a179-14a96dd87356",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ondo (ONDO) surged 5.32% over the last 43 hours, fueled by significant \"real-world asset\" (RWA) tokenization developments. This includes new U.S. regulatory approvals allowing its broker-dealer arm to offer regulated tokenized securities to U.S. investors and participation in DTCC's tokenization service.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/ondo-ondo-surges-on-tokenization-catalysts-and-breakout/",
+    "title": "Ondo (ONDO) Sees 5.32% Surge on Tokenization Catalysts",
+    "id": "3aae7be0-6e4c-4fcd-a6d7-29d09853b508",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Shiba Inu (SHIB) surged by as much as 36% in 24 hours, adding approximately $1 billion to its market capitalization. This rally is primarily attributed to speculative retail demand from South Korean traders on the Upbit exchange, coupled with thin liquidity and whale accumulation, rather than significant fundamental news.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/shiba-inu-surges-36-on-korean-speculation-liquidity-squeeze/",
+    "title": "Shiba Inu (SHIB) Jumps 36% Driven by Korean Speculation",
+    "id": "bce1bd3b-484b-4dad-aca2-b2f1aa7b829a",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Samsung announced at its Galaxy Unpacked 2026 event plans to integrate native stablecoin support into Samsung Wallet, with USDC reportedly among the expected options. This move aims to create a unified mobile experience for payments, rewards, and digital assets, potentially accelerating mainstream adoption of stablecoins. Specific launch dates and supported tokens are yet to be fully disclosed.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/samsung-wallet-is-getting-native-stablecoins-and-it-could-make-one-token-the-default-for-800m-users/",
+    "title": "Samsung Wallet to Integrate Native Stablecoin Support",
+    "id": "62009c49-0396-4b6f-982a-bb59653a0b99",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "A lawsuit is seeking to claim ownership of 3.8 million dormant Bitcoin, valued at over $200 billion, under existing lost-and-found property laws. In response, Congress is actively drafting Section 20216 of the CLARITY Act. This proposed legislation aims to prevent self-custodied digital assets from being considered abandoned solely due to inactivity, providing legal protection for Bitcoin holders.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/lawsuit-claims-3-8m-dormant-btc-using-police-lost-and-found-rules-as-congress-races-to-stop-it-with-clarity/",
+    "title": "Congress Races to Halt Lawsuit Claiming Dormant Bitcoin with CLARITY Act",
+    "id": "3a09ad56-5fba-4091-8a8f-45f25077a082",
+    "ts": 1785110761643
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "New research has uncovered pricing discrepancies of up to $25 million between CME Bitcoin futures and BlackRock's IBIT options. This \"Bitcoin glitch\" points to market fragmentation and inefficiencies within regulated avenues for Bitcoin exposure on Wall Street.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/the-25-million-bitcoin-glitch-hiding-inside-wall-streets-clearinghouses/",
+    "title": "$25 Million Bitcoin Glitch Found in Wall Street Clearinghouses",
+    "id": "a8ecdf1c-2647-4121-8cba-fe11439eb673",
+    "ts": 1785110761643
   }
 ]
