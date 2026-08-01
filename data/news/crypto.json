@@ -1,29 +1,56 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Bitcoin is hovering around $63,000, experiencing a slight decline despite recent positive inflows into US-listed spot Bitcoin Exchange Traded Funds (ETFs). BlackRock's IBIT led with over $180 million in net purchases, contributing to a total of $233 million in net inflows for Bitcoin ETFs on July 30, turning weekly and monthly flows positive. This comes amidst general market corrections and geopolitical tensions.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-edge-lower-despite-renewed-etf-inflows-202607311100",
+    "title": "Bitcoin Trades Near $63K as ETF Inflows Rebound",
+    "id": "fb00993a-2a5a-4140-9278-155e03dffea9",
+    "ts": 1785564306171
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Ethereum has fallen below the $1,900 mark, with its price reportedly at $1,899.4 USDT, down 0.47% in the last 24 hours. The broader cryptocurrency market is experiencing corrections due to macro uncertainty and escalating geopolitical tensions, putting altcoins like Ethereum under selling pressure.",
+    "sourceName": "Binance News",
+    "sourceUrl": "https://www.binance.com/en/square/post/7933618171097",
+    "title": "Ethereum Price Tumbles Below $1,900 Amid Market Downturn",
+    "id": "f25e6a2d-81f4-473c-962a-5597236bf1fd",
+    "ts": 1785564306171
+  },
+  {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Stablecoin issuer Circle has obtained a limited-purpose trust charter from the New York Department of Financial Services (NYDFS) for Circle Internet Trust Company. This action expands the regulatory framework for its USDC stablecoin, complementing its prior federal approval from the Office of the Comptroller of the Currency (OCC) for a national trust bank. This dual regulatory foundation is anticipated to boost the use of USDC by traditional financial institutions.",
+    "details": "Stablecoin issuer Tether announced a significant $1.5 billion profit in the second quarter of 2026. The company also revealed it has accumulated 98,932 Bitcoins, indicating a strong financial position and a continued strategy of holding BTC.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/usdt-issuer-tether-hits-1-5b-q2-profit-hoards-98932-bitcoin/",
+    "title": "Tether Posts $1.5 Billion Q2 Profit, Accumulates 98,932 Bitcoins",
+    "id": "65794ac0-3f54-41d5-90ed-981cbd90b67b",
+    "ts": 1785564306171
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A security vulnerability in Coldcard Mk3 hardware wallets has reportedly led to the theft of $30 million in Bitcoin from users. The attacker targeted large wallets within a short 10-minute window. Coinkite, the maker of Coldcard, has issued warnings to affected users.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/coldcard-attacker-stole-30m-in-10-minutes-by-targeting-big-wallets/",
+    "title": "Coldcard Wallet Vulnerability Exposes Users, $30M Bitcoin Stolen",
+    "id": "ae9d2ad5-662f-44dc-b3ea-8a5a21b1de09",
+    "ts": 1785564306171
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Decentralized exchange Uniswap has launched \"Earn\" in partnership with Morpho, allowing users to earn yield on their idle crypto assets through new lending vaults. This development expands DeFi opportunities on the Uniswap platform.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297299/circle-secures-nydfs-trust-charter-adding-state-layer-to-federal-usdc-oversight",
-    "title": "Circle Secures NYDFS Trust Charter for USDC.",
-    "id": "25e206ee-accb-4157-9414-d15ee6f81483",
-    "ts": 1785526327524
+    "sourceUrl": "https://www.theblockcrypto.com/post/297275/uniswap-lunches-earn-with-morpho-lending-vaults",
+    "title": "Uniswap Introduces \"Earn\" with Morpho Lending for Yield Generation",
+    "id": "fa32cf90-6b5a-4dc7-93fd-c156c6bc5889",
+    "ts": 1785564306171
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Coinkite, the manufacturer of Coldcard hardware wallets, has issued a security alert for users of its Mk3 devices. The warning indicates that Bitcoin funds might be at risk if their wallet seed was generated using specific firmware versions released since March 2021 (version 4.0.1 onwards). This follows reports of approximately 594.5 BTC, valued around $38 million, being drained from 500 single-signature addresses, suggesting a vulnerability in the device's seed generation.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/coldcard-mk3-users-warned-of-risk-after-594-btc-swept-from-500-addresses/",
-    "title": "Coldcard Mk3 Users Warned After 594 BTC Swept.",
-    "id": "3bc2f421-9013-418d-923a-4075cee932fa",
-    "ts": 1785526327524
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin's price has declined to a two-week low, dropping below $62,500, after both the U.S. Federal Reserve and the Bank of Japan decided to keep interest rates unchanged. This market movement follows a period of price volatility and rejections at higher levels, with several altcoins also experiencing notable declines.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/bitcoin-price-tumbles-to-2-week-low-as-fed-and-boj-keep-rates-unchanged-weekly-crypto-recap/",
-    "title": "Bitcoin Falls to 2-Week Low as Fed & BoJ Hold Rates.",
-    "id": "3d8a62b2-b3d4-4a77-b078-f6425974100a",
-    "ts": 1785526327524
+    "details": "Macro investor Arthur Hayes sold 2,364.38 ETH for $4.3 million USDC, incurring a reported loss of $241,000. This move, observed during a general crypto market decline, has generated discussion among investors, especially given Hayes's previous support for Ethereum.",
+    "sourceName": "Cryptonews.net",
+    "sourceUrl": "https://cryptonews.net/news/ethereum/27829767/",
+    "title": "Arthur Hayes Sells Ethereum at a $241K Loss Amid Market Slide",
+    "id": "16e9cc95-affb-4f14-89c7-d3d6f8ef4e6c",
+    "ts": 1785564306171
   }
 ]
