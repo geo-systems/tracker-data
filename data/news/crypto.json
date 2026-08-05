@@ -1,38 +1,56 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin has demonstrated recovery, climbing back towards the $64,000 mark after a recent exploit targeting Coldcard wallets and sales of Bitcoin by MicroStrategy. The market appears to be looking past these bearish events, indicating underlying strength.",
-    "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies",
-    "title": "Bitcoin Shows Resilience After Coldcard Exploit and MicroStrategy Sales",
-    "id": "5c7766a3-5a4a-4406-9258-b08353453609",
-    "ts": 1785916026139
+    "details": "Bitcoin (BTC) has risen above $64,000 on August 5th, with the broader crypto market cap seeing a 0.79% increase to $2.19 trillion. This positive movement is largely attributed to a de-escalation in geopolitical tensions between the US and Iran, boosting demand for risk assets. Additionally, Bitcoin spot ETFs recorded over $170 million in positive inflows, ending a seven-day streak of outflows. The Fear & Greed Index, however, remains in \"Fear\" territory at 27.",
+    "sourceName": "CoinGape",
+    "sourceUrl": "https://coingape.com/crypto-market-update-august-5-bitcoin-gains-on-rising-etf-inflows-as-pump-hype-top-altcoin-gains/",
+    "title": "Bitcoin Gains Over $64K Amid Easing Geopolitical Tensions & Rising ETF Inflows",
+    "id": "825d990d-8b44-4a84-b51f-ba4c56b6689d",
+    "ts": 1785958865063
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The ongoing Coldcard hardware wallet exploit has resulted in an estimated $114 million in stolen Bitcoin by August 4th, prompting serious security concerns within the crypto community. Ledger's CTO emphasized that the incident highlights the critical need for Bitcoin wallet security to adapt and evolve, particularly in light of AI-assisted threats.",
+    "sourceName": "Decrypt",
+    "sourceUrl": "https://decrypt.co/210542/ledger-says-coldcard-exploit-shows-bitcoin-wallet-security-must-adapt-to-ai",
+    "title": "Coldcard Exploit Raises Hardware Wallet Security Concerns",
+    "id": "0812223f-131d-43a5-bb32-9837587746f9",
+    "ts": 1785958865063
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The CLARITY Act, a crucial piece of proposed US digital asset regulation, is facing growing legislative uncertainty in the Senate. With the August 10th recess approaching and no scheduled vote, the probability of its passage this year has dropped to 31% according to Polymarket data. This regulatory delay is negatively impacting overall market sentiment.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/learn/crypto/crypto-daily-market-report-august-4-2026",
+    "title": "US CLARITY Act Faces Increased Uncertainty in Senate",
+    "id": "f11115fc-9396-4036-8f54-28457203d2b2",
+    "ts": 1785958865063
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "BitGo, a major crypto custodian, is migrating $7.3 billion to $7.7 billion worth of Wrapped Bitcoin (WBTC) infrastructure from LayerZero to Chainlink's Cross-Chain Interoperability Protocol (CCIP). This strategic move follows a significant exploit and is aimed at bolstering security for cross-chain transfers.",
-    "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
-    "title": "BitGo Migrates Billions in WBTC to Chainlink's CCIP for Enhanced Security",
-    "id": "ea63ffc8-1d59-49c0-aff7-0475c4776b85",
-    "ts": 1785916026139
+    "details": "Despite Bitcoin's recent price consolidation, long-term holders (LTHs) have continued to accumulate, adding approximately 380,000 BTC, valued at about $24.3 billion, over the past month. This persistent accumulation, while Bitcoin trades between $60,000-$65,000, signals strong conviction in its future potential among seasoned investors.",
+    "sourceName": "DailyForex",
+    "sourceUrl": "https://www.dailyforex.com/cryptocurrency-news-08/05/bitcoin-long-term-holders-continue-accumulating-despite-price-consolidation-2",
+    "title": "Bitcoin Long-Term Holders Accumulate Amid Price Consolidation",
+    "id": "50038c38-2a68-466a-b53f-371ebd3605c0",
+    "ts": 1785958865063
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple is actively pushing the full XRPL (XRP Ledger) stack, with a significant emphasis on expanding tokenized assets. This initiative aims to broaden the utility and adoption of the XRP Ledger within the broader financial landscape.",
-    "sourceName": "Bitcoin.com",
-    "sourceUrl": "https://news.bitcoin.com/",
-    "title": "Ripple Advances XRPL Ecosystem with Focus on Tokenized Assets",
-    "id": "8fbd8335-4e28-4cc2-b463-fc1fae1b1698",
-    "ts": 1785916026139
+    "details": "Institutional adoption of crypto continues to advance as BlackRock introduces new tokenized money-market products on Ethereum and Solana, intended for stablecoin reserves. In a related development, BNY Mellon is integrating crypto staking services into its digital asset custody platform, further expanding traditional financial services for digital assets.",
+    "sourceName": "CoinStats AI",
+    "sourceUrl": "https://coinstats.app/news/latest-crypto-news-update-august-04-2026/",
+    "title": "BlackRock Expands Tokenization; BNY Mellon Adds Crypto Staking",
+    "id": "4879b674-bfee-4ef9-b526-fe7dda6e16bb",
+    "ts": 1785958865063
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Polkadot (DOT) has seen a notable surge, rising over 3% in recent hours. This positive movement is attributed to the repricing of Polkadot 2.0, coupled with new deflationary tokenomics and a technical breakout above its 200-day Simple Moving Average.",
-    "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
-    "title": "Polkadot (DOT) Surges on Repricing of Polkadot 2.0 and Deflationary Tokenomics",
-    "id": "a9e957d5-1bcf-4cff-8997-927a38fb3105",
-    "ts": 1785916026139
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Strategy (presumably MicroStrategy) sold 1,638 BTC, totaling approximately $104.7 million, to support preferred stock dividends and repurchase arrangements. This sale, following a five-week hiatus in Bitcoin purchases, indicates a mixed institutional sentiment, even as overall Bitcoin ETF inflows have recently turned positive.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/learn/crypto/crypto-daily-market-report-august-4-2026",
+    "title": "Strategy Sells $104M Bitcoin Amid Mixed Institutional Flows",
+    "id": "98a3b9ac-4147-4fb5-806c-e807bd1f93bb",
+    "ts": 1785958865063
   }
 ]
