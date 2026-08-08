@@ -1,92 +1,56 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin climbed above $65,000 after the July U.S. jobs report revealed an unexpected decline of 23,000 nonfarm payrolls, significantly missing forecasts. This data weakened the case for another Federal Reserve interest rate hike, leading traders to lower their expectations for a September increase. Following the news, Bitcoin rose almost 2% to approximately $65,200.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/bitcoin-tops-65k-as-us-payrolls-fall-by-23000/",
-    "title": "Bitcoin Surges Past $65K as Unexpected US Jobs Decline Eases Rate Hike Fears",
-    "id": "a3e8b0ec-3e21-47ac-a7f4-93380b679614",
-    "ts": 1786175598919
-  },
-  {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "BTCPay Server has disclosed a critical vulnerability that is being actively exploited, urging users to update their servers to version 2.4.2 immediately. The payment processor warned that failure to update or temporarily shut down servers could lead to unauthorized access and potential loss of funds. The Bitcoin Red Team reportedly identified this flaw.",
+    "details": "A previously undetected firmware flaw, active since March 2021, in Coldcard hardware wallets has resulted in approximately $116 million in Bitcoin being stolen from over 5,200 addresses since July 30, 2026. The vulnerability compromised seed randomness, making private keys vulnerable.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297247/btcpay-warns-of-actively-exploited-vulnerability-that-could-drain-funds",
-    "title": "BTCPay Server Warns of Critical Vulnerability Actively Exploited, Urges Immediate Update",
-    "id": "ab6bef94-f2ed-4b53-b7d6-eff8dab9d6fb",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Trump Media and Technology Group (TMTG) and Crypto.com have realigned their previously announced prediction market integration. Instead of direct development on Truth Social, the companies will now pursue a marketing agreement to promote Crypto.com's prediction market experiences to Truth Social users. TMTG's interim CEO stated this shift better aligns with their strategic focus on revenue and their pending merger.",
-    "sourceName": "Crypto.com",
-    "sourceUrl": "https://crypto.com/about/press/crypto-com-and-trump-media-and-technology-group-to-realign-integration-partnership-to-marketing-agreement",
-    "title": "Trump Media & Crypto.com Pivot Prediction Market Integration to Marketing Deal",
-    "id": "7db43147-bf3a-439f-a65b-97ac2fd1f592",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The United States has imposed sanctions on two additional Iranian cryptocurrency exchanges as part of its ongoing \"Economic Fury\" campaign. This action aims to disrupt illicit financial activities and reinforces global regulatory efforts against entities suspected of circumventing international sanctions.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297249/us-sanctions-two-more-iranian-crypto-exchanges-under-economic-fury-campaign",
-    "title": "US Sanctions Two More Iranian Crypto Exchanges in 'Economic Fury' Campaign",
-    "id": "ffd8e401-b3db-488d-8167-7f3c14174c45",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Joseph Chalom, CEO of SharpLink, has formally opposed Ethereum Improvement Proposal (EIP-8363), a draft proposal that suggests burning validator rewards as staking increases. Chalom argued that this measure would negatively impact the decentralized finance (DeFi) ecosystem by raising capital costs and potentially diverting activity away from Ethereum, thereby eroding one of its key advantages over Bitcoin and hindering institutional adoption.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297251/sharplink-ceo-warns-eip-8363-could-kill-eths-biggest-advantage-over-bitcoin",
-    "title": "SharpLink CEO Criticizes Ethereum EIP-8363, Warns of DeFi Harm",
-    "id": "98db72fb-d55c-4641-9c1c-cfa06aeab990",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Commodity Futures Trading Commission (CFTC) has issued a warning to regulated prediction market platforms, advising them against displaying contracts using American-style gambling odds (e.g., +150 or -200). The CFTC reiterated that these platforms function as financial exchanges governed by derivatives laws and must avoid deceptive marketing practices that could confuse them with traditional sports betting operations.",
-    "sourceName": "Crypto News",
-    "sourceUrl": "https://crypto.news/cftc-warns-prediction-markets-over-gambling-style-odds/",
-    "title": "CFTC Warns Prediction Markets Against Using Gambling-Style Odds",
-    "id": "73ec4204-52cf-4e31-b678-294cccee8422",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Senate has postponed a vote on the Digital Asset Market Clarity Act (CLARITY Act) until September, pushing this significant crypto market structure legislation beyond the August recess. The delay is attributed to ongoing disagreements over ethics provisions related to federal officials' cryptocurrency holdings and unresolved issues concerning stablecoin regulations.",
-    "sourceName": "Crypto News",
-    "sourceUrl": "https://crypto.news/clarity-act-senate-vote-delayed-until-september/",
-    "title": "US Senate Delays CLARITY Act Vote Until September Recess",
-    "id": "9b0d8a5e-0b24-41a6-9053-277a44f25e5b",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Coinbase has suspended LRC-USD trading pairs, effective August 7, 2026, which effectively closes its dollar market for Loopring. This decision, part of Coinbase's routine asset review process, means that while user balances remain accessible, liquidity for LRC may be limited, especially given reports that Loopring's decentralized exchange is no longer operational.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/coinbase-is-pulling-loopring-trading-today-finding-a-safe-place-to-sell-lrc-tokens-is-getting-complicated/",
-    "title": "Coinbase Suspends Loopring (LRC) Trading Pairs, Users Advised to Seek Alternatives",
-    "id": "e791d10c-f905-45dd-a9d5-e9ba16390b95",
-    "ts": 1786175598919
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin miner MARA Holdings sold 91.37% of its mined Bitcoin in the second quarter and subsequently secured $600 million in new debt by pledging 18,750 BTC. This financing, obtained from Coinbase Credit and Two Prime Lending, will support MARA's planned acquisition of a power-generation site for AI and high-performance computing initiatives. However, questions have been raised regarding the reconciliation of the collateral pools.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/mara-sold-almost-all-its-mined-bitcoin-then-pledged-18750-btc-for-an-ai-dream-with-no-disclosed-safety-net/",
-    "title": "MARA Sells Most Mined Bitcoin, Pledges 18,750 BTC for AI Expansion",
-    "id": "e969300e-6abd-48e4-8753-311ed2df5917",
-    "ts": 1786175598919
+    "sourceUrl": "https://www.theblockcrypto.com/post/410533/coldcard-hack-130-million-galaxy-research",
+    "title": "Coldcard Firmware Exploit Drains $116M in Bitcoin",
+    "id": "83f698c9-9335-4bdc-8459-6188ea6b9f58",
+    "ts": 1786214507619
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "US-listed spot Bitcoin Exchange-Traded Funds (ETFs) experienced robust inflows, pulling in $244.4 million in net new capital on Wednesday. This marked a three-day streak of positive inflows, accumulating to over $626 million. BlackRock's IBIT led these gains, attracting $479 million over the three-day period and pushing its cumulative net inflows to nearly $61 billion.",
-    "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-etfs-pull-in-244m-3-day-inflow-streak-tops-626m-202608060946",
-    "title": "Bitcoin ETFs See Strong Inflows, Attracting $244M in a Single Day",
-    "id": "4b9b0458-6e89-4464-be01-2938839cb13b",
-    "ts": 1786175598919
+    "details": "Cardano and Injective activated their first Inter-Blockchain Communication (IBC) testnet connection on August 4, 2026. This milestone creates a direct, trustless bridge for ADA and INJ assets between the Cardano and Cosmos ecosystems, significantly enhancing cross-chain interoperability and contributing to recent ADA price surges.",
+    "sourceName": "Invezz",
+    "sourceUrl": "https://invezz.com/news/2026/08/07/cardano-price-jumps-8-is-ada-finally-breaking-out-after-months-of-pain/",
+    "title": "Cardano and Injective Launch First Live IBC Testnet Connection",
+    "id": "a99a2f46-6ef1-4db7-9760-c1f03c9654ff",
+    "ts": 1786214507619
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "On August 7, 2026, Bitcoin experienced a 0.8% decrease to $64,298, while Ethereum dropped 0.48% to $1,903.76. Despite these dips, Bitcoin spot ETFs continued to attract institutional capital, recording $137.6 million in net inflows on August 6, extending a four-day positive streak. However, a \"risk-off\" rotation impacted various altcoins.",
+    "sourceName": "CoinStats AI",
+    "sourceUrl": "https://coinstats.app/news/latest-crypto-news-update-august-07-2026/",
+    "title": "Bitcoin & Ethereum See Slight Dips Amidst Positive ETF Inflows",
+    "id": "f0832f72-c392-4148-a0df-22d2ae9ce699",
+    "ts": 1786214507619
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A federal judge in Michigan on August 7, 2026, rejected Coinbase's attempt to prevent state enforcement of its planned sports event contracts. This ruling marks a significant legal setback for the exchange's efforts to expand into prediction markets, an area targeted for new revenue generation.",
+    "sourceName": "TheStreet",
+    "sourceUrl": "https://www.thestreet.com/crypto/coinbase-stock-price-today-august-7-2026",
+    "title": "Coinbase Faces Setback in US Prediction Market Expansion",
+    "id": "f5c293c7-e195-4fba-b234-814593ab8fcf",
+    "ts": 1786214507619
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "During the first week of August 2026, Wells Fargo made progress in its initiative to integrate blockchain technology for tokenized deposits. This move signals a continued trend of traditional financial institutions actively exploring and adopting crypto infrastructure for their services.",
+    "sourceName": "Cryptal.com",
+    "sourceUrl": "https://cryptal.com/news/what-you-missed-in-crypto-last-week-august-1-7-2026/",
+    "title": "Wells Fargo Advances Blockchain-Based Tokenized Deposits",
+    "id": "14a2f471-3939-4978-813c-86490fd4c648",
+    "ts": 1786214507619
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "On August 7, 2026, CoinMarketCap enhanced its Pro API by introducing a new suite of seven real-world asset (RWA) data endpoints. This expansion provides developers with comprehensive programmatic access to data on tokenized versions of traditional financial instruments, including equities, commodities, and real estate.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/announcements/coinmarketcap-expands-its-pro-api-with-real-world-asset-data-endpoints/",
+    "title": "CoinMarketCap Expands Pro API with Real-World Asset Data",
+    "id": "305398ba-9e4b-4143-b6c6-9f2458fb4c36",
+    "ts": 1786214507619
   }
 ]
