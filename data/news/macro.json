@@ -1,29 +1,38 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "A recent survey by the European Central Bank (ECB) indicates that cryptocurrency payments remain marginal in the Eurozone. As of 2026, only 0.2% of online merchants and less than 1% of physical point-of-sale terminals accept crypto assets. This adoption rate shows minimal change from 2024, in stark contrast to mobile payments, which saw acceptance rise from 36% to 68% in the same period, while cash remained dominant at 92%. The primary reason cited for low crypto acceptance is consumer preference.",
+    "sourceName": "European Central Bank (ECB)",
+    "sourceUrl": "https://www.ecb.europa.eu/pub/pdf/scp/ecb.scp2408_payment_use_companies~d5a2d6a540.en.pdf",
+    "title": "ECB Report: Crypto Payments Lag Significantly in Eurozone Adoption",
+    "id": "1c05f4ae-73a7-4d0d-8fa9-aa2ba3a12b44",
+    "ts": 1786855240160
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The International Monetary Fund (IMF) has once again reduced its forecast for global economic growth in 2026 to 3%. The revised outlook, detailed in its July World Economic Outlook update, attributes the slowdown to the persistent impact of the Middle East energy shock and the dynamics of a technology-driven investment boom. Concurrently, the IMF has increased its global inflation forecast for 2026 to 4.7%.",
+    "sourceName": "International Monetary Fund (IMF)",
+    "sourceUrl": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026-global-economy-in-crosscurrents-of-war-and-technology",
+    "title": "IMF Lowers 2026 Global Growth Forecast Amid Geopolitical and Tech Shifts",
+    "id": "b01e9db0-fe1a-42e9-9a48-391b61d46cbd",
+    "ts": 1786855240160
+  },
+  {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "US annual inflation for July 2026 held at 3.4%, with core inflation cooling to 2.5%, precisely matching Wall Street forecasts. This moderate inflation reading has led to an almost even split in expectations for the Federal Reserve's September rate decision, with rate futures now pricing roughly a 50% chance of a hold versus a quarter-point hike. Bitcoin experienced short-term volatility following the data release, dipping slightly before a rebound, as a less aggressive Fed stance could ease pressure on risk assets.",
-    "sourceName": "Mitrade",
-    "sourceUrl": "https://www.mitrade.com/news/bitcoin-news/us-inflation-holds-at-3-4-will-bitcoin-dodge-a-september-fed-hike",
-    "title": "US July Inflation Matches Forecasts, Fed Rate Hike Odds Split",
-    "id": "b9e5fc42-0667-4d42-acd5-bfdeff936824",
-    "ts": 1786804215078
+    "details": "The European Central Bank (ECB) has announced its intention to enable blockchain-based (Distributed Ledger Technology - DLT) transactions to settle in central bank money starting in 2026. This move is part of an effort to integrate DLT into Europe's existing monetary infrastructure and prevent fragmentation within tokenized markets. The announcement comes as discussions around the privacy implications of the proposed digital euro continue.",
+    "sourceName": "European Central Bank (ECB)",
+    "sourceUrl": "https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp251219_1~3a9d2c4e3f.en.html",
+    "title": "ECB Confirms DLT Transactions in Central Bank Money for 2026",
+    "id": "bf19ea1d-6a1b-4d0d-8bf0-20627ee46207",
+    "ts": 1786855240160
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "A recent Reuters poll, conducted in August 2026, reveals that a significant majority of economists (83%) expect the European Central Bank (ECB) to raise its deposit facility rate by 25 basis points to 2.50% at its upcoming September meeting. This growing consensus reflects continued efforts by the ECB to combat inflation, indicating a hawkish monetary policy stance. Higher interest rates in the Eurozone could impact global liquidity and investor sentiment, potentially leading to a flight from riskier assets like cryptocurrencies.",
-    "sourceName": "investingLive (citing Reuters)",
-    "sourceUrl": "https://www.investinglive.com/2026/08/13/ecb-poised-to-deliver-another-rate-hike-in-september-poll/",
-    "title": "Economists Predict Another ECB Rate Hike in September",
-    "id": "3042699a-a571-4937-bf08-79cab321a175",
-    "ts": 1786804215078
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Ongoing geopolitical uncertainty, particularly the deadlock between the United States and Iran regarding the Strait of Hormuz and reports of attacks on vessels in the region, continues to fuel concerns over potential oil supply disruptions. This sustained tension is keeping oil prices elevated and contributing to persistent inflation worries globally. Such instability typically increases market volatility and fosters a risk-off sentiment among investors, which can negatively impact risk-sensitive assets like cryptocurrencies.",
-    "sourceName": "Economies.com",
-    "sourceUrl": "https://www.economies.com/currencies/bitcoin-price-fluctuates-ahead-of-us-inflation-data-2026-08-12",
-    "title": "Geopolitical Tensions Keep Oil Prices, Inflation Concerns Elevated",
-    "id": "7776b564-30f1-4552-948f-f6571b8de1af",
-    "ts": 1786804215078
+    "details": "Cryptocurrency exchange Binance has ceased processing transactions involving 16 crypto platforms. This decision follows recent regulatory developments, with Binance warning users that attempted transfers after specified deadlines may undergo compliance reviews and lead to temporary restrictions on affected wallets. The move aligns with US and UK sanctions targeting specific Iranian and Russian crypto networks.",
+    "sourceName": "Bitcoin News",
+    "sourceUrl": "https://news.bitcoin.com/binance-ends-transactions-with-16-platforms-warns-of-wallet-reviews/",
+    "title": "Binance Halts Transactions with 16 Platforms Amid Regulatory Scrutiny",
+    "id": "9a1bd4a0-7718-465e-8957-cb4e3818bc19",
+    "ts": 1786855240160
   }
 ]
