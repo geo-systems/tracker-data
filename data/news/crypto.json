@@ -1,20 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin climbed over 20% since Wednesday, surging past $75,000 and briefly touching $79,400, marking its strongest weekly advance since March 2023. This rally is attributed to President Trump's call for the CLARITY Act to foster cryptocurrency use and the US Treasury's expanded sovereign bond buybacks, which have boosted investor risk appetite. Significant daily net inflows into Bitcoin ETFs have also contributed to the upward momentum.",
-    "sourceName": "Forbes",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEVK0fXcC6EkMHryK6LqX668TPi6u9-7MqoRPmEQ7BNSjgiNlqQcePIb15x6aEJltQ8TPIK-9G7qCJ8mZiyZgWteiXi5JdxKdV6ShTSmsCXDt6xYPUhp6CIW1ieDXg3j7_5-X_HaMlTXi6rNjoXWf0papFBZcZw2sGPXBttpQ4UHXSXHNDvX8ZyvMjyKrQKBzG6UdzSCzXabJYYJsJJJvwc7abghIWtHquJh0JddSmpRUW5MH0Q1dIyP0SRgI=",
-    "title": "Bitcoin Surges Past $75,000 on US Policy Hopes & Treasury Action",
-    "id": "009a2955-98e7-496f-a076-af045e94dc5a",
-    "ts": 1787370388738
+    "details": "Bitcoin has seen a significant rally, climbing over 20% this week and breaking above $77,000, with some exchanges briefly touching $79,000. This surge is primarily attributed to the U.S. Treasury's decision to double its long-term debt buyback operations, which is easing pressure on long-term interest rates and increasing market risk appetite. Additionally, U.S. spot Bitcoin Exchange-Traded Funds (ETFs) have experienced a rebound in inflows, with over $2 billion recorded in August. A massive short squeeze also contributed to the rapid price movement. Positive regulatory signals, including President Trump's advocacy for the CLARITY Act, are further fueling bullish sentiment.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/297296/bitcoin-surge-toward-80k-points-to-liquidity-driven-momentum-shift-as-etf-flows-rebound-bernstein",
+    "title": "Bitcoin Soars Past $77K Amid Treasury Buybacks and ETF Inflows",
+    "id": "6c1f0ca3-2d46-4588-8054-e9fa62913927",
+    "ts": 1787408742518
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum (ETH) saw gains of over 4%, reaching $2,327, while XRP surged approximately 15% intraday, as part of a broader altcoin rally. These movements are supported by sustained capital inflows into Ethereum ETFs, with daily net inflows reaching around $189 million on August 19. Additionally, Ripple is actively building institutional credit infrastructure on the XRP Ledger in collaboration with Clearpool and Cicada Partners, further fueling interest in XRP.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa9Jzx3m7HNEjs75OOv_jbCQa5wx0qYIyg9L5QEQqGOOMT6S1prswftAabqw3tgNbTJsHDL7rbI0BTNsZek6Jv6464uHDC42aBCMUrbEhmXRG3HkTQmmMDcN8Sa2jvljfrf9Y_1o9HsOp1Jc7ga80YoZUMd1lNfl720Z0IfEtUnU36w3KCfWYdw==",
-    "title": "Ethereum and XRP See Strong Gains Amid Broader Crypto Rally",
-    "id": "8f639b44-d1a1-405b-b1ef-aa4627b3c715",
-    "ts": 1787370388738
+    "details": "Upbit, South Korea's largest cryptocurrency exchange, recorded a massive 273% increase in its 24-hour trading volume, reaching approximately $1.84 billion. This marks the exchange's highest daily volume since mid-March and signals a renewed interest and re-entry of South Korean capital into the crypto market, with investors reportedly \"return-chasing.\" XRP was highlighted as the most actively traded cryptocurrency on the platform during this period.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/297316/upbit-trading-volume-spikes-273-as-south-korean-investors-re-enter-crypto",
+    "title": "South Korean Investors Re-enter Crypto, Upbit Volume Spikes 273%",
+    "id": "f9ff1114-30e6-4a04-a604-b3a2017c4045",
+    "ts": 1787408742518
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "BounceBit is discontinuing its standalone Layer 1 blockchain and moving its operations to BNB Chain following a $3 million exploit. The vulnerability stemmed from an authorization flaw within the Evmos stack that BounceBit's chain was built on, rather than a compromise of private keys. The project intends to reissue its native BB tokens as BEP-20 tokens on BNB Chain, utilizing a pre-attack snapshot to ensure user balances are corrected and losses from unauthorized transfers are not absorbed by users.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/297397/bouncebit-to-sunset-blockchain-migrate-to-bnb-chain-after-3-million-exploit",
+    "title": "BounceBit Blockchain Sunsets, Migrates to BNB Chain After $3M Exploit",
+    "id": "45b031d2-4e21-44b1-9778-c141327e647e",
+    "ts": 1787408742518
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Tron founder Justin Sun secured a favorable court ruling in California, allowing his individual claims against World Liberty Financial to remain in open court. This decision rejects World Liberty's efforts to move the dispute into private arbitration and seal the case from public view. The ongoing legal battle involves questions regarding World Liberty's USD1 stablecoin and its ability to cover its stated obligations, bringing increased scrutiny to stablecoin transparency.",
+    "sourceName": "CryptoPotato",
+    "sourceUrl": "https://cryptopotato.com/justin-sun-scores-court-win-against-world-liberty-financial/",
+    "title": "Justin Sun Wins Court Ruling Against World Liberty Financial",
+    "id": "0ca0ff22-a4bb-42a9-a972-8fadb206a5c3",
+    "ts": 1787408742518
   }
 ]
