@@ -1,38 +1,56 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin has seen a significant rally, climbing over 20% this week and breaking above $77,000, with some exchanges briefly touching $79,000. This surge is primarily attributed to the U.S. Treasury's decision to double its long-term debt buyback operations, which is easing pressure on long-term interest rates and increasing market risk appetite. Additionally, U.S. spot Bitcoin Exchange-Traded Funds (ETFs) have experienced a rebound in inflows, with over $2 billion recorded in August. A massive short squeeze also contributed to the rapid price movement. Positive regulatory signals, including President Trump's advocacy for the CLARITY Act, are further fueling bullish sentiment.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297296/bitcoin-surge-toward-80k-points-to-liquidity-driven-momentum-shift-as-etf-flows-rebound-bernstein",
-    "title": "Bitcoin Soars Past $77K Amid Treasury Buybacks and ETF Inflows",
-    "id": "6c1f0ca3-2d46-4588-8054-e9fa62913927",
-    "ts": 1787408742518
+    "details": "Bitcoin has seen significant upward momentum, pushing towards the $79,000 level, fueled by renewed institutional interest and an overall improvement in market sentiment. Analysts are closely watching whether Bitcoin can successfully break past the key psychological resistance of $80,000. This rally follows strong inflows into spot Bitcoin exchange-traded funds (ETFs), contributing to a generally bullish outlook.",
+    "sourceName": "StreetInsider (via Yahoo Finance)",
+    "sourceUrl": "https://finance.yahoo.com/news/bitcoin-news-today-btc-breaks-163400589.html",
+    "title": "Bitcoin Approaches $79K Amid Renewed Institutional Interest",
+    "id": "21fc1a8a-a543-4d9b-a097-c7cafabafbe7",
+    "ts": 1787448553514
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Upbit, South Korea's largest cryptocurrency exchange, recorded a massive 273% increase in its 24-hour trading volume, reaching approximately $1.84 billion. This marks the exchange's highest daily volume since mid-March and signals a renewed interest and re-entry of South Korean capital into the crypto market, with investors reportedly \"return-chasing.\" XRP was highlighted as the most actively traded cryptocurrency on the platform during this period.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297316/upbit-trading-volume-spikes-273-as-south-korean-investors-re-enter-crypto",
-    "title": "South Korean Investors Re-enter Crypto, Upbit Volume Spikes 273%",
-    "id": "f9ff1114-30e6-4a04-a604-b3a2017c4045",
-    "ts": 1787408742518
+    "details": "XRP experienced a notable surge of nearly 19% after President Donald Trump's recent meeting with crypto industry executives and regulators at the White House. Discussions at the summit focused on potential new crypto regulations, with signals that a framework could be established even if the stalled Clarity Act doesn't pass. This optimism also positively impacted other major cryptocurrencies like Bitcoin, Ethereum, and Solana, which saw double-digit gains.",
+    "sourceName": "The Motley Fool",
+    "sourceUrl": "https://www.fool.com/investing/2026/08/22/after-exploding-by-18-in-one-day-is-xrp-a-buy/",
+    "title": "XRP Jumps 18% Following White House Crypto Regulation Talks",
+    "id": "6bad34b9-9c41-45bc-ac03-5cf5e6016213",
+    "ts": 1787448553514
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "BounceBit is discontinuing its standalone Layer 1 blockchain and moving its operations to BNB Chain following a $3 million exploit. The vulnerability stemmed from an authorization flaw within the Evmos stack that BounceBit's chain was built on, rather than a compromise of private keys. The project intends to reissue its native BB tokens as BEP-20 tokens on BNB Chain, utilizing a pre-attack snapshot to ensure user balances are corrected and losses from unauthorized transfers are not absorbed by users.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/297397/bouncebit-to-sunset-blockchain-migrate-to-bnb-chain-after-3-million-exploit",
-    "title": "BounceBit Blockchain Sunsets, Migrates to BNB Chain After $3M Exploit",
-    "id": "45b031d2-4e21-44b1-9778-c141327e647e",
-    "ts": 1787408742518
+    "details": "The peer-to-peer crypto marketplace NoOnes has announced its shutdown, urging its 2.5 million users to withdraw their funds immediately. The closure stems from sanctions that led to the loss of essential partners and caused blockchain monitoring providers to flag NoOnes' wallets as high-risk, making continued operation unsustainable.",
+    "sourceName": "BeInCrypto",
+    "sourceUrl": "https://beincrypto.com/crypto-app-noones-shuts-down-sanctions/",
+    "title": "Crypto App NoOnes Shuts Down Due to Sanctions, Affecting 2.5M Users",
+    "id": "a07b2b59-58a5-4ce5-ac3e-77883aac4f4d",
+    "ts": 1787448553514
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Artificial intelligence agents are increasingly utilizing stablecoins for various payments, particularly for small-value transactions. Key industry players such as Circle, Visa, and Mastercard are actively working to adapt their existing payment networks to facilitate these agent-driven purchases. USDC is estimated to account for a significant majority of these AI-powered payments.",
+    "sourceName": "Cryptonews.net",
+    "sourceUrl": "https://cryptonews.net/news/altcoin/cryptos-next-billion-users-might-be-ai-agents-and-theyre-paying-with-stablecoins/",
+    "title": "AI Agents Poised to Drive Stablecoin Micropayments Growth",
+    "id": "3d16e931-7465-47d4-bf13-82cb5bcf0982",
+    "ts": 1787448553514
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Tron founder Justin Sun secured a favorable court ruling in California, allowing his individual claims against World Liberty Financial to remain in open court. This decision rejects World Liberty's efforts to move the dispute into private arbitration and seal the case from public view. The ongoing legal battle involves questions regarding World Liberty's USD1 stablecoin and its ability to cover its stated obligations, bringing increased scrutiny to stablecoin transparency.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/justin-sun-scores-court-win-against-world-liberty-financial/",
-    "title": "Justin Sun Wins Court Ruling Against World Liberty Financial",
-    "id": "0ca0ff22-a4bb-42a9-a972-8fadb206a5c3",
-    "ts": 1787408742518
+    "details": "A research prototype named Hazync has demonstrated rapid, millisecond-level validation for initial Bitcoin blocks using zero-knowledge proofs (ZK-proofs). While a complete \"genesis-to-tip\" proof for the entire Bitcoin blockchain is still in progress and projected to require substantial GPU computational power, this technological advancement aims to enhance the efficiency and reusability of Bitcoin validation.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/reaching-instant-27ms-validation-on-bitcoin-will-take-17-gpu-years-of-compute-power/",
+    "title": "Bitcoin Validation Advances with New ZK-Proof Prototype",
+    "id": "d5a5605f-b2e1-40d7-86ea-2c52b6a615a3",
+    "ts": 1787448553514
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "El Salvador is said to be maintaining its policy of purchasing one Bitcoin daily. This consistent accumulation strategy has reportedly increased the nation's total Bitcoin holdings to 7,751.37 BTC, with an estimated value of approximately $599 million.",
+    "sourceName": "Facebook (BULLISH: El Salvador)",
+    "sourceUrl": "https://www.facebook.com/bullishelsalvador/posts/pfbid02517s22v42s9cT1t23p7k8WfP15h644x4v3qT35M2Q34m8P1Q6K93XgR3Q8M2gl/",
+    "title": "El Salvador Reportedly Continues Daily Bitcoin Purchases",
+    "id": "b3b5100b-bb9c-42e6-8fb5-a8d5bc2304e6",
+    "ts": 1787448553514
   }
 ]
