@@ -1,29 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The U.S. Securities and Exchange Commission (SEC) introduced new rules, \"Regulation Crypto Assets,\" on August 18, 2026. This proposal aims to create a clear regulatory framework for investment contracts involving crypto assets, including exemptions for capital raises up to $75 million annually without full securities registration. It also features a conditional safe harbor mechanism, building on previous guidance to foster capital formation while protecting investors.",
-    "sourceName": "The Motley Fool",
-    "sourceUrl": "https://www.fool.com/investing/2026/08/24/sec-proposed-first-major-crypto-rule-investors-know/",
-    "title": "SEC Proposes \"Regulation Crypto Assets\" for Clearer Framework",
-    "id": "510f18e3-3f10-4897-b7dd-d78790972487",
-    "ts": 1787719486709
+    "details": "Bitcoin surged above $80,000 for the first time since mid-May, extending a weekly rally of approximately 24%. This significant ascent is primarily attributed to robust institutional demand, evidenced by substantial inflows into spot Bitcoin ETFs, totaling $2.26 billion over six days. Further impetus came from the US Treasury's announcement of an expanded long-dated bond buyback program and a broader market shift towards risk-on sentiment.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-surges-above-80000-why-the-rally-is-gaining-momentum-202608251037",
+    "title": "Bitcoin Crosses $80K, Driven by ETF Inflows & US Treasury",
+    "id": "b71edcf3-bd93-4b53-8470-19c6a9f2c128",
+    "ts": 1787755979892
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin briefly climbed above $81,000, reaching a high of $81,280 on August 25, 2026, before a slight pullback to around $79,800. This surge is attributed to renewed spot demand and significant institutional interest, with U.S.-listed spot Bitcoin ETFs recording approximately $1.92 billion in net inflows last week, marking their strongest weekly performance in about 10 months. Analysts are watching if Bitcoin can sustain above $80,000 for a potential further bullish trend.",
+    "details": "Analysts at Bernstein are projecting Bitcoin targets of $150,000 by mid-2027 and a remarkable $300,000 by 2029. They argue that the escalating US government debt, which recently surpassed $40 trillion, is now a crucial catalyst. This \"debasement trade,\" spurred by the Treasury's bond buybacks, is anticipated to compel investors towards scarce assets like Bitcoin and gold as a hedge against potential dollar devaluation.",
     "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-prediction-80k-breakout-sets-sights-on-new-upside-targets-as-bullish-wave-3-emerges-202608251347",
-    "title": "Bitcoin Surpasses $80K, Driven by Strong ETF Inflows",
-    "id": "287dffd9-753a-494b-bffd-08eae4a1d8b8",
-    "ts": 1787719486709
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/biggest-bitcoin-catalyst-is-not-the-halving-will-us-debt-drive-btc-to-300-000-202608261252",
+    "title": "US Debt Drives Bitcoin to Potential $300K Target by 2029",
+    "id": "71acdc44-161a-4414-85a4-f004678d85cd",
+    "ts": 1787755979892
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Ethereum (ETH) has experienced mixed market sentiment. While derivatives showed a slight slip into negative territory over the past week, there's evidence of significant whale accumulation, with one notable wallet withdrawing 112,000 ETH for staking. U.S. spot ETH exchange-traded funds (ETFs) also recorded $53.7 million in net inflows recently. Additionally, Bitmine Immersion Technologies acquired 32,447 ETH, further boosting its holdings to roughly $11 billion.",
-    "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/ethereum-forecast-news-and-analysis-eth-usd-202608260233",
-    "title": "Ethereum Sees Mixed Signals, Whale Accumulation & ETF Inflows",
-    "id": "50e11799-fc48-4a97-bd92-c6c5990ce532",
-    "ts": 1787719486709
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "US spot Solana ETFs have achieved a new milestone, reaching cumulative net inflows of $1.22 billion. A significant portion of this, $33.5 million, flowed in on August 24 alone, marking the largest single-day inflow of 2026. This surge in institutional demand coincides with Solana (SOL) breaking above $100 after a 35% weekly rally, with additional bullish sentiment from ongoing discussions among validators to significantly increase token burns.",
+    "sourceName": "MEXC Exchange (citing CoinDesk data)",
+    "sourceUrl": "https://www.mexc.com/blog/solana-etfs-hit-record-1-22-billion-in-inflows-is-institutional-demand-for-sol-accelerating",
+    "title": "Solana ETFs Hit Record $1.22B Inflows; SOL Breaks $100",
+    "id": "02a611e7-daac-429a-8a0d-b7f81c0b9775",
+    "ts": 1787755979892
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Hackers exploited a five-year-old firmware flaw in Coinkite's Coldcard hardware wallets, resulting in the theft of approximately $130 million worth of Bitcoin. The vulnerability compromised the seed phrase generation, enabling attackers to reconstruct private keys without physical access to the devices. This incident has raised concerns and negatively impacted public trust in the security of hardware wallets.",
+    "sourceName": "The Motley Fool",
+    "sourceUrl": "https://www.fool.com/investing/2026/08/26/hackers-just-stole-130-million-worth-of-bitcoin-fr/",
+    "title": "Coldcard Hardware Wallet Hack Steals $130M in Bitcoin",
+    "id": "5bd69512-0f82-478e-89a8-0469bb6be944",
+    "ts": 1787755979892
   }
 ]
