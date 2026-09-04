@@ -1,47 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Federal Reserve Governor Christopher Waller stated on September 3, 2026, that he would be inclined to support holding interest rates at their current levels, provided that upcoming August inflation data is favorable. This announcement caused a significant shift in market expectations, with the probability of a September rate hike falling to around 50.4% from 63.2% a day earlier. His remarks suggest a less aggressive stance on monetary policy if inflation continues to show signs of cooling. The August jobs report (due September 4) and CPI data (due September 11) are critical for the Fed's next decision.",
-    "sourceName": "Federal Reserve Board (Speech) / Quartz (reporting on Waller's remarks)",
-    "sourceUrl": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm (for Waller's speech) and https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XlSK90SIIqJFoH_4ND9XuFcBE0RORL2vMJ4DH0WFx2kKWJIbE7Uh42LMjCXemCRhvzrJ0as2QMFFOw79p1M6nSoqTYUSEW7XTkxLDjpsBl34tXwtCEaUfbtRD2TLxNDonwLCmTgz47oWX__NYVBO-G156WvueNk= (for Quartz reporting)",
-    "title": "Fed's Waller Leans Towards Holding Rates Steady if Inflation Cooperates",
-    "id": "6856d662-ef91-4e5c-8b19-21f66de358ab",
-    "ts": 1788476193931
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "On September 3, 2026, Bitcoin's price climbed 5.5% to $81,491, marking its first close above $80,000 in September. This rally was largely attributed to a pause in hostilities between the U.S. and Iran, which temporarily alleviated risk-off sentiment, and the reduced likelihood of a Federal Reserve rate hike following Governor Waller's comments. The broader crypto market also saw a 4.7% gain. Traders who had bet on Bitcoin falling were forced to buy back, liquidating $164 million of short positions.",
-    "sourceName": "24/7 Wall St. / Crypto Market Today",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcyi_4ddkU04op-nYk3EKV9U5VKP1AKBtJz4VZZBrZAPpBgNGkfbw480NbMEh-UXbs44tzIwP6XTEP-PQpmIgGioZ9obYlWSbB5kbeoe9bZzIyZ-dd06sq5QUqd55B0pZetnBQPR_jnct_b4MDwJDwG1noqZF1gjfQ5umsrU0jzg_LnujP0g80cxsqoR4jufv9ZqXh9CkwNIrmLhMg7bRBQpy5fUypGYovmzIOgA== (for 24/7 Wall St.) and https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-OrM6ljsZRdFTEnlRruRNvmgFUE6cmJ7ZeRw4E3XAkCIhixWXhLmHbMvsMHAGuA9IKUpPsIssvs6P1ThayU3x-hvLQuV9PX0iGw3luBLqBQxtwC_NFKA5cdvZiquwmgYY89YWVnCu3vt5y2adXWtgqjKqjAl4xyW8NwPhKdDnf-K4Aw2f7fYHmCLFq3oLgf1DqTkhVGJ2L0D4Ilc5qDMjO1FXHJSiE3Q-0kCmHW9MqXR4lp47-8tkCJRkEh5b5H5uT9RE7DwBYA== (for Crypto Market Today)",
-    "title": "Bitcoin Surges Above $80,000 as Iran Tensions Pause and Rate Hike Odds Fall",
-    "id": "d6205d63-491f-410e-bbc6-f124b35e33fc",
-    "ts": 1788476193931
+    "details": "Federal Reserve Governor Christopher Waller stated on September 3, 2026, that he would be inclined to support holding the federal funds rate at its current setting if incoming August inflation data confirms a trend of disinflation. This dovish sentiment from a Fed official was interpreted positively by markets, leading to a surge in cryptocurrency prices, with Bitcoin reclaims $81,000.",
+    "sourceName": "Federal Reserve Board",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+    "title": "Fed Governor Waller Hints at Rate Pause, Bolstering Crypto Optimism",
+    "id": "1a1a0798-a4c7-45a5-b765-41357aaff350",
+    "ts": 1788540045615
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Geopolitical tensions, specifically the escalated conflict between the U.S. and Iran, have pushed Brent crude oil prices above $95 per barrel and WTI crude futures above $91 per barrel. Higher energy costs are stoking inflation concerns, which typically leads to expectations of tighter financial conditions and higher bond yields. This dynamic generally weighs on risk assets, including cryptocurrencies, by diverting capital towards safer, yield-bearing investments.",
-    "sourceName": "Wall Street Journal (as reported by Quartz) / KuCoin",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XlSK90SIIqJFoH_4ND9XuFcBE0RORL2vMJ4DH0WFx2kKWJIbE7Uh42LMjCXemCRhvzrJ0as2QMFFOw79p1M6nSoqTYUSEW7XTkxLDjpsBl34tXwtCEaUfbtRD2TLxNDonwLCmTgz47oWX__NYVBO-G156WvueNk= (for Quartz reporting) and https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbO6923MPiZpaWyRO7a0G3lqAGHyaC7hJ4MmnrdQxRjmT7gQ-SHIH1u1L1QUexGTTCtyS1uKrMQHqkiWqgz31LVbl8Vb_mfAMaG5PsqPuZvVmqbBaXGgVDZRt2CS29Md2OvSYzeCYLJASZtpWahuLvPOj036nRm5CMmEqgvZKwyaQMXzBgYmdlOlRk (for KuCoin report)",
-    "title": "Oil Prices Climb on US-Iran Tensions, Heightening Inflation Worries",
-    "id": "deee4ae7-fd04-4b98-a94a-dc9a980d0640",
-    "ts": 1788476193931
+    "details": "Stronger-than-expected US job gains in August, with 162,000 new jobs added and the unemployment rate at 4.1%, have raised concerns among investors that the Federal Reserve might maintain a hawkish stance or even consider further interest rate hikes to combat inflation. This uncertainty led to a rapid decline in the cryptocurrency market, with over $200 million in crypto long positions being liquidated within 15 minutes on September 4, 2026, as risk-sensitive assets like cryptocurrencies were repriced lower.",
+    "sourceName": "The Journal (referencing multiple reports)",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqr_Vd32HduEbuOskEAhuaTpDslfPS5clFZXjIgqlDxEk5YZJs2MWMmqgpPCIqxHdkpH33f24K4XDnutghVC-v9LLdqSJn4Vcdb6AjgsQ50obNkMHc0OmUGTsUD1d-0zeD-Eb25YyC7Zf7hs_MXB4w2NNNszApxPRqBeA7TzAHFS6RKgNsurpvFczLwXYEkQJKzaLPQnyDwzAvpgqjuRKjZ-f6VHvEeOYnvOfH-3RMHUQkoMENKeB15manQQa29tAI9lY",
+    "title": "Robust US Job Gains Spark Rate Hike Concerns, Leading to Crypto Market Dip",
+    "id": "8a9d144e-3992-4019-a2cf-e438178bf979",
+    "ts": 1788540045615
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The August US jobs report, scheduled for release on September 4, 2026, and the August Consumer Price Index (CPI) data, due on September 11, 2026, are critical macroeconomic events. These reports will significantly influence the Federal Reserve's monetary policy decisions at its September 15-16 meeting. A softer labor market or cooling inflation could reinforce the case for holding interest rates steady, while strong economic data might lead to renewed calls for tightening.",
-    "sourceName": "CoinGabbar / KuCoin",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGouWb8GqrllMqC1JrJ8wk0bC5CQZBGA5vrOypm_trG2zDgCZsUpwBAlgUMz-CU_ffUiNkfr8NG7Wtd40A8p9mIuDhgGFELKno2L05evJk78tnP2rmtab3raq4IQnzNi82d0IayVK9wP95YUfe8jNqGAL6SgG0JkViOEtBqIb7x-vuf1_wYUUxaTWHjTcaizluvm2znDdb6nUT4VU4= (for CoinGabbar) and https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3-SK7do8xlbrT9_f6woswKJNWOrudsuoHLFpidd9hkRIrQPM9xfeUUrNmePd81RHyqTmaFT2MS4RIN2NskYUMLbqOZSJCfoQzFvMbFoUSx6jbh1icivBdmOTx-LuA9B7Xl_OVCM-EIuusuogcJD9kyJUQv863UyLSzKnaECG25V-P4fnuuBweQI2rWTzMKeuru7_YFUhco_O5PngZX1SFym3jBF0W3UAT05J7fZX4wXcPzH44xoj76Q== (for KuCoin report)",
-    "title": "Key US Economic Reports This Week to Shape Federal Reserve's Rate Decision",
-    "id": "077584e3-94b4-4281-9e23-ec77c389fd08",
-    "ts": 1788476193931
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "A substantial unlock of Hyperliquid's HYPE tokens, estimated to be worth approximately $797 million, is scheduled for September 6, 2026. These tokens are allocated to core contributors. While historical data suggests that not all projected unlocks immediately enter circulation, such events increase the circulating supply, which can exert downward pressure on the token's price. Other tokens like SUI, OPN, and ZRO also face unlocks in September.",
-    "sourceName": "CoinGabbar / Crypto Calendar (CoinStats AI)",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGouWb8GqrllMqC1JrJ8wk0bC5CQZBGA5vrOypm_trG2zDgCZsUpwBAlgUMz-CU_ffUiNkfr8NG7Wtd40A8p9mIuDhgGFELKno2L05evKk78tnP2rmtab3raq4IQnzNi82d0IayVK9wP95YUfe8jNqGAL6SgG0JkViOEtBqIb7x-vuf1_wYUUxaTWHjTcaizluvm2znDdb6nUT4VU4= (for CoinGabbar) and https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeX04MrOsKmo-Or3Eqp1XtrT4y37bEkP5PbfY_K4fqA7yJAuxxP4dRsgBinTwGUtya8fWVZ-Xfh6B3VFUpKT7Hsqn8pIGsPLn8ReZHfcsWnhMUtk6el9dT12n2uCTTYBf9JF2lCuIjaURjmNBYE4aobpXgP7yO5CW2NaByBLrjLQuFoIMGbx9WJ1flewR3FZbZc0hBr3LVXyCD0va_vQ== (for CoinStats AI, which is cited by CoinGabbar for calendar info)",
-    "title": "Hyperliquid (HYPE) Token Unlock of $797M Set for September 6th",
-    "id": "bec466ac-2262-42dd-982e-a2a4875cc679",
-    "ts": 1788476193931
+    "details": "On September 3, 2026, US spot Bitcoin Exchange-Traded Funds (ETFs) recorded a net inflow of $101 million, indicating continued institutional interest in Bitcoin. In contrast, Ethereum ETFs experienced a net outflow of $48.2 million during the same period, suggesting a divergence in investor sentiment and capital allocation between the two largest cryptocurrencies.",
+    "sourceName": "CoinStats AI",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9jDBoF82Qkcny-pqD2B7nBuzYILQGBpBIUqJuCr0YWwWNBWwwwBakV9m9416vPRHbZdbEKpP5402GY1iFQlt7s2nLJ_aAeac3pSEFDgvuueRU6o6Mm4nm5aol9iYpr0NI0hw9ZJjUCl77qL61h32L5Q_mcwLgh-dPZA==",
+    "title": "Bitcoin ETFs See Inflows While Ethereum Funds Experience Outflows",
+    "id": "1c6b6e2d-2022-48b9-9195-142608f5d08c",
+    "ts": 1788540045615
   }
 ]
