@@ -1,29 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Bitcoin-linked Liquid Network, a blockchain utilized by various cryptocurrency exchanges for faster transactions, has been compromised, resulting in the theft of approximately 4,000 Bitcoin, valued at about $320 million. The network has since halted all new transactions as federation members actively work to resolve the incident and restore normal network activity. The perpetrators have been described as \"purported white-hat hackers\" who often exploit vulnerabilities with the intention of returning funds, sometimes for a fee.",
-    "sourceName": "The Business Times",
-    "sourceUrl": "https://www.businesstimes.com.sg/companies-markets/bitcoin-based-liquid-network-hit-us320-million-hack-halts-transactions",
-    "title": "Bitcoin-Linked Liquid Network Hacked for $320 Million",
-    "id": "5d0be2bb-2092-44eb-8cba-65f6568bd433",
-    "ts": 1788763214265
+    "details": "The Liquid Network, a Bitcoin sidechain, reportedly experienced a drain of $320 million in Bitcoin by individuals identified as \"white-hat\" hackers. These hackers have indicated their intention to return the funds after addressing the underlying vulnerabilities.",
+    "sourceName": "Bitcoin.com",
+    "sourceUrl": "https://news.bitcoin.com/supposed-white-hat-hackers-drain-320-million-in-btc-from-liquid-network-say-theyll-return-it-after-fix/",
+    "title": "Liquid Network Suffers $320M Bitcoin Drain by 'White-Hat' Hackers",
+    "id": "884d48a5-6061-4367-8183-27ca2eeb5e40",
+    "ts": 1788805682996
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Several altcoins, including Dash, experienced significant gains of over 70% last week, outperforming Bitcoin, Ethereum, and Solana. Bitcoin itself quickly recovered above the $80,000 mark after a brief dip, despite renewed expectations for a September interest rate hike following strong US nonfarm payrolls data. US spot Bitcoin ETFs continue to attract substantial investment, with cumulative net inflows reaching approximately $3.8 billion over the past three weeks, signaling robust spot demand.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/crypto-daily-market-report-september-7-2026",
-    "title": "Altcoins Rally and Bitcoin Recovers to $80K Amid ETF Inflows",
-    "id": "4c718d6e-0251-4969-93df-cd67088bb7d1",
-    "ts": 1788763214265
+    "details": "Bitcoin faced a rejection at the $80,500 price level and is currently consolidating near $79,000. Investors are closely watching upcoming U.S. inflation data and central bank policy announcements, which are influencing market sentiment.",
+    "sourceName": "Bitcoin.com",
+    "sourceUrl": "https://news.bitcoin.com/bitcoin-price-rejected-at-80-5k-as-bulls-scramble-to-defend-79k/",
+    "title": "Bitcoin Price Rejects $80.5K Amidst Market Consolidation",
+    "id": "b4a8c0d1-81bb-4311-b9bb-3ea3cb58cc49",
+    "ts": 1788805682996
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Analysts at Bernstein project a bullish long-term outlook for Bitcoin, forecasting its price could reach $300,000 by the end of 2029 in their base case scenario, with a potential surge to $500,000 under optimal bull conditions. This optimistic prediction is underpinned by expectations of continued currency debasement, the advent of greater regulatory clarity, and a growing trend of institutional adoption within the cryptocurrency space.",
-    "sourceName": "Benzinga",
-    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/09/48622177/1-cryptocurrency-up-29-in-3-weeks-to-buy-before-it-soars-another-515-by-2029",
-    "title": "Bernstein Predicts Bitcoin to Reach $300K-$500K by 2029",
-    "id": "81e9fa83-70f8-4a1c-80ed-957d01731856",
-    "ts": 1788763214265
+    "details": "Ethereum is advancing plans for a significant upgrade in 2027 that will enable users to pay for network gas fees without needing to hold Ether (ETH). This development aims to enhance user experience and broaden accessibility to the network.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/markets/2026/09/07/ethereum-plans-to-let-users-pay-gas-fees-without-needing-to-hold-eth/",
+    "title": "Ethereum Plans 2027 Upgrade to Allow Gas Payments Without ETH",
+    "id": "5803fd77-a873-4113-93c8-9f887cf87879",
+    "ts": 1788805682996
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Harmony, once considered a promising rival to Ethereum, has proposed to shut down its layer 1 blockchain and migrate its ONE token to the Ethereum network. The decision stems from security concerns, specifically citing threats related to artificial intelligence.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/tech/2026/09/07/once-hyped-ethereum-rival-harmony-wants-to-shut-its-blockchain-over-ai-threats/",
+    "title": "Harmony Blockchain Proposes Shutdown Over AI-Related Security Threats",
+    "id": "d9a685b4-0f59-419a-8c15-1ce601afae22",
+    "ts": 1788805682996
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Spot Bitcoin Exchange-Traded Funds (ETFs) are maintaining significant institutional interest, with weekly inflows consistently approaching the $1 billion mark. This trend underscores a continued recovery in institutional demand for Bitcoin investment products.",
+    "sourceName": "CryptoPotato",
+    "sourceUrl": "https://cryptopotato.com/bitcoin-etfs-rake-in-nearly-1-billion-as-ethereum-funds-keep-the-streak-alive-market-watch/",
+    "title": "Bitcoin ETFs Continue Strong Inflows, Nearing $1 Billion Weekly",
+    "id": "2e3adce4-28d3-44f5-a02a-6188189a1ccd",
+    "ts": 1788805682996
   }
 ]
