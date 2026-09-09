@@ -1,47 +1,65 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin has seen its price slip below $78,000, influenced by rising oil prices, higher Treasury yields, and hawkish Federal Reserve commentary, which are strengthening expectations of a potential September interest-rate hike. While major cryptocurrencies like Ether and Solana have also seen slight declines, BNB and related DeFi tokens showed resilience, bucking the general market trend. Some analysts note underlying demand, preventing a deeper correction, but the market remains cautious due to macroeconomic uncertainty.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/bitcoin-slips-below-78k-as-bnb-chain-and-defi-tokens-buck-the-selloff/",
-    "title": "Bitcoin Dips Below $78K as Macro Concerns Weigh",
-    "id": "12b06483-bd11-4068-90f7-21adf47bde5b",
-    "ts": 1788935862326
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Bitcoin dipped on September 8th, impacted by a reported exploit on the Liquid Network and increasing investor concerns over potential Federal Reserve interest rate hikes. Macro caution set the tone, despite recent positive inflows into spot Bitcoin ETFs.",
+    "sourceName": "The Motley Fool",
+    "sourceUrl": "https://www.fool.com/investing/2026/09/08/crypto-market-today-sept-8-bitcoin-slides-as-fed/",
+    "title": "Bitcoin Slides as Fed Hike Odds Pass 60% After Liquid Exploit",
+    "id": "48b1b965-27f3-4b95-bcda-c2dd447a56bc",
+    "ts": 1788973343390
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "BitMine Immersion Technologies (BMNR) has significantly expanded its Ethereum (ETH) treasury, now holding 5.93 million ETH, valued at approximately $14.8 billion. This represents about 4.9% of the total ETH supply, bringing the company close to its stated goal of owning 5%. The firm reported combined crypto, cash, and other holdings totaling $15.7 billion as of September 7, after acquiring an additional 28,086 ETH over the past week.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/bitmine-now-holds-15-7-billion-in-various-assets-as-massive-eth-buying-spree-continues/",
-    "title": "BitMine Immersion Reaches 4.9% of Total ETH Supply",
-    "id": "37c54521-3088-43eb-92f5-79165c7ea8c8",
-    "ts": 1788935862326
+    "details": "The total crypto market cap rose 17.6% to $2.70 trillion in September 2026, marking the strongest ETF month of the year, according to Binance Research. Bitcoin surged 24.8% in seven days, indicating a rates-driven rally intertwined with US Treasury policy and Federal Reserve actions.",
+    "sourceName": "The Cryptonomist",
+    "sourceUrl": "https://cryptonomist.ch/2026/09/08/cryptocurrency-market-trends-september-rates-driven-rally/",
+    "title": "Crypto Market Cap Jumps 17.6% in September Rates-Driven Rally",
+    "id": "a0eca238-585a-44a8-a15d-1d19951e1b6f",
+    "ts": 1788973343390
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Bitmine Immersion Technologies added 28,086 Ethereum last week, increasing its treasury to 5.93 million ETH, valued at nearly $15 billion as of September 8, 2026. The company is nearing its goal of owning 5% of Ethereum's supply, with most tokens staked for rewards.",
+    "sourceName": "24/7 Wall St.",
+    "sourceUrl": "https://247wallst.com/investing/2026/09/09/bitmines-ethereum-holdings-near-15-billion-after-buying-28086-more-eth/",
+    "title": "Bitmine's Ethereum Holdings Near $15 Billion After Latest ETH Buy",
+    "id": "01d41ec1-ae62-4b34-a4ef-992d394ca6eb",
+    "ts": 1788973343390
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Digital Asset Market Clarity Act is facing a significant hurdle as Republican senators warn it may fail its crucial 60-vote procedural threshold in the Senate on September 15. Senator Cynthia Lummis has attributed the potential failure to unresolved disputes over ethics rules and demands from Democrats, arguing that their concessions are crucial for the bipartisan bill's passage. If the cloture vote fails, the bill is unlikely to advance this year, potentially leaving U.S. crypto regulation fragmented.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/clarity-act-may-fail-as-lummis-blames-democrats/",
-    "title": "Crypto CLARITY Act at Risk as Senate Vote Approaches",
-    "id": "0dca60d2-400d-411f-9f7c-a724523c669c",
-    "ts": 1788935862326
+    "details": "Fresh US-Iran military exchanges over the weekend have pushed oil prices up and dragged Bitcoin below $79,000. Markets are now pricing a 57% probability of a 25bp Fed rate hike at the upcoming September 15-16 meeting, reversing earlier sentiment.",
+    "sourceName": "Buttondown (Crypto News Digest)",
+    "sourceUrl": "https://buttondown.email/cryptonewsdigest/archive/crypto-news-digest-tuesday-september-8-2026/",
+    "title": "Geopolitical Tensions & Fed Hike Fears Push Bitcoin Below $79K",
+    "id": "22dd7b62-fa20-4e76-84f2-09488798db11",
+    "ts": 1788973343390
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The global crypto market cap decreased by 0.7% to $2.76 trillion over the past 24 hours. Total crypto liquidations reached $182 million, with long liquidations slightly higher than shorts, as Bitcoin and Ethereum saw slight declines.",
+    "sourceName": "CryptoRank",
+    "sourceUrl": "https://cryptorank.io/news/24-hour-crypto-recap-heres-what-happened-in-the-market-100412.html",
+    "title": "Crypto Market Cap Falls 0.7%; $182M Liquidated in 24 Hours",
+    "id": "50c05f53-ffdd-4a2d-930e-0995104b4323",
+    "ts": 1788973343390
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "White-hat hackers who drained approximately 4,000 BTC ($320 million) from the Liquid Network's federation wallet have returned 3,400 BTC ($270 million) after communication with Blockstream. However, the attackers retained around 598.5 BTC, valued at roughly $47 million, which is being treated as an accepted fee rather than an unresolved loss. The incident, which began on September 6, was reportedly caused by an Elements software bug, not compromised private keys, and Liquid's bridge nodes have since been patched. The network remains paused as operators work to restore full 1:1 L-BTC backing.",
-    "sourceName": "Cryptaur",
-    "sourceUrl": "https://cryptaur.com/news/liquid-hackers-return-3400-btc-keep-5985-btc-47m-as-bounty",
-    "title": "Liquid Network Recovers 3,400 BTC, Hackers Keep $47M",
-    "id": "343cb4a2-bf01-4de5-b1df-d84d5aea03e4",
-    "ts": 1788935862326
+    "details": "Bitcoin rose 0.45% as oil prices topped $100 and equities dropped following Iran strikes. Some altcoins also saw significant gains, while the taker buy-sell volume ratio turned neutral and short positions unwound.",
+    "sourceName": "Moomoo",
+    "sourceUrl": "https://www.moomoo.com/news/detail/29849508?content_id=29849508&futu_chat_share_sources=2&src=3&report_type=market&channel=7&client=101&deeplink=1&level=1&data_ticket=1725807968565251",
+    "title": "Bitcoin Climbs as Oil Tops $100, Equities Drop After Iran Strikes",
+    "id": "c059678f-061e-4cc2-b3ed-d735fd045f1e",
+    "ts": 1788973343390
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Strategy, formerly MicroStrategy, has doubled its preferred-stock repurchase program to $2 billion. This decision comes as the company's STRC shares remain below their $100 stated value, despite seven weeks of increasingly large purchases under the original $1 billion authorization. While this move aims to support the preferred stock's value, it consumes flexible cash that could otherwise be used for Bitcoin acquisitions, creating a balancing act between shareholder returns and its Bitcoin treasury strategy.",
+    "details": "Approximately 235 exahashes per second (EH/s) of Bitcoin mining capacity is currently idle. Improved miner economics due to August's Bitcoin rally could bring this sidelined power back online, potentially increasing network competition.",
     "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/strategy-doubles-its-stock-buyback-to-2-billion-to-pull-its-strc-shares-back-to-100/",
-    "title": "MicroStrategy Doubles STRC Stock Buyback to $2 Billion",
-    "id": "1accf75d-3425-4ca5-819c-1a0930a55feb",
-    "ts": 1788935862326
+    "sourceUrl": "https://cryptoslate.com/nearly-a-fifth-of-all-bitcoin-mining-power-is-sitting-completely-dark-and-turning-it-back-on-could-trigger-a-brutal-margin-trap/",
+    "title": "Nearly a Fifth of Bitcoin Mining Power Idle, Could Re-Enter Market",
+    "id": "97314815-f8fa-481d-9e7b-019988c9b2c4",
+    "ts": 1788973343390
   }
 ]
