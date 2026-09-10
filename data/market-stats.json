@@ -1,24 +1,24 @@
 {
-  "ts": 1789040898483,
+  "ts": 1789058488921,
   "totalCryptoMarketCap": {
-    "price_usd": 2670787763416.3047,
+    "price_usd": 2634816487995.398,
     "change_percentage": {
-      "1d": -3.1557554435890864,
-      "7d": -1.3682413894805328,
-      "30d": 16.86682168250514,
-      "1y": -34.44062443369423
+      "1d": -4.983337448672099,
+      "7d": -5.3318900186817935,
+      "30d": 16.55176527786235,
+      "1y": -35.847607717816956
     }
   },
   "global": {
-    "total_24h_volume_usd": 89398702011.51808,
+    "total_24h_volume_usd": 93525367682.81308,
     "asset_dominance": {
       "btc": {
-        "market_dominance_percent": 58.529884205108814,
+        "market_dominance_percent": 58.550132420631485,
         "market_dominance_percent_delta": {
-          "1d": 1.4991049776709815,
-          "7d": 0.9324901884687904,
-          "30d": 2.0426640691921207,
-          "1y": 3.14450821082076
+          "1d": 1.567786042387624,
+          "7d": 0.6932379501296566,
+          "30d": 2.188150657096969,
+          "1y": 3.0935398665951936
         },
         "id": "bitcoin",
         "symbol": "btc",
@@ -26,23 +26,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png",
         "market_cap_rank": 1,
-        "market_cap": 1565882419422,
-        "fully_diluted_valuation": 1565887019862,
-        "price_usd": 77980,
+        "market_cap": 1544259891157,
+        "fully_diluted_valuation": 1544264504940,
+        "price_usd": 76905,
         "change_percentage": {
-          "1d": -1.34168,
-          "7d": 0.4,
-          "30d": 21.3,
-          "1y": -30.6
+          "1d": -2.35469,
+          "7d": -4.1,
+          "30d": 21.2,
+          "1y": -32.2
         }
       },
       "eth": {
-        "market_dominance_percent": 11.252163728696383,
+        "market_dominance_percent": 11.278345791197198,
         "market_dominance_percent_delta": {
-          "1d": 0.3169151825800398,
-          "7d": 0.45915558425262404,
-          "30d": 1.1971448522850405,
-          "1y": -1.7113551808864145
+          "1d": 0.3024318365424694,
+          "7d": 0.3752417635164491,
+          "30d": 1.1824010522549813,
+          "1y": -1.7916550697461915
         },
         "id": "ethereum",
         "symbol": "eth",
@@ -50,23 +50,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png",
         "market_cap_rank": 2,
-        "market_cap": 301024837470,
-        "fully_diluted_valuation": 301024837470,
-        "price_usd": 2466.95,
+        "market_cap": 297387628239,
+        "fully_diluted_valuation": 297387628239,
+        "price_usd": 2437.28,
         "change_percentage": {
-          "1d": -1.08605,
-          "7d": 3,
-          "30d": 31,
-          "1y": -43
+          "1d": -2.37669,
+          "7d": -2,
+          "30d": 30.3,
+          "1y": -44.6
         }
       },
       "usdt": {
-        "market_dominance_percent": 6.850341705949342,
+        "market_dominance_percent": 6.949409951431057,
         "market_dominance_percent_delta": {
-          "1d": 0.2593052536901421,
-          "7d": 0.07736923578296295,
-          "30d": -1.1668023868885609,
-          "1y": 2.3484261756251206
+          "1d": 0.3397867469822513,
+          "7d": 0.3598992904389311,
+          "30d": -1.163344174615049,
+          "1y": 2.4795200488651323
         },
         "id": "tether",
         "symbol": "usdt",
@@ -74,23 +74,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/325/small/Tether.png",
         "market_cap_rank": 3,
-        "market_cap": 183401089569,
-        "fully_diluted_valuation": 188866254851,
-        "price_usd": 0.999675,
+        "market_cap": 183400210914,
+        "fully_diluted_valuation": 188865350013,
+        "price_usd": 0.999681,
         "change_percentage": {
-          "1d": -0.01564,
+          "1d": -0.0243,
           "7d": 0,
-          "30d": 0.1,
-          "1y": 0
+          "30d": 0,
+          "1y": -0.1
         }
       },
       "bnb": {
-        "market_dominance_percent": 3.572212337658963,
+        "market_dominance_percent": 3.5602560678580697,
         "market_dominance_percent_delta": {
-          "1d": -0.015132603609556483,
-          "7d": 0.12468756888676946,
-          "30d": 0.03633603492813409,
-          "1y": 0.6895021793648959
+          "1d": 0.005443661387551035,
+          "7d": 0.11514176892897998,
+          "30d": -0.010760618366766561,
+          "1y": 0.6420040291637363
         },
         "id": "binancecoin",
         "symbol": "bnb",
@@ -98,23 +98,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/825/small/bnb-icon2_2x.png",
         "market_cap_rank": 4,
-        "market_cap": 95593849958,
-        "fully_diluted_valuation": 95593852312,
-        "price_usd": 717.93,
+        "market_cap": 93967219589,
+        "fully_diluted_valuation": 93967219794,
+        "price_usd": 705.75,
         "change_percentage": {
-          "1d": -4.24958,
-          "7d": 2.4,
-          "30d": 18.3,
-          "1y": -18.6
+          "1d": -4.75745,
+          "7d": -2,
+          "30d": 16.4,
+          "1y": -21.6
         }
       },
       "xrp": {
-        "market_dominance_percent": 3.2365830237809035,
+        "market_dominance_percent": 3.201162521856694,
         "market_dominance_percent_delta": {
-          "1d": 0.02969352067890707,
-          "7d": 0.07460901418311439,
-          "30d": 0.469765869026066,
-          "1y": -1.342826706490992
+          "1d": -0.014038783706022961,
+          "7d": -0.0461604626674994,
+          "30d": 0.4615341453551123,
+          "1y": -1.356109689579914
         },
         "id": "ripple",
         "symbol": "xrp",
@@ -122,23 +122,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png",
         "market_cap_rank": 5,
-        "market_cap": 86562950816,
-        "fully_diluted_valuation": 137941178954,
-        "price_usd": 1.38,
+        "market_cap": 84414884101,
+        "fully_diluted_valuation": 134518157298,
+        "price_usd": 1.35,
         "change_percentage": {
-          "1d": -3.00889,
-          "7d": 1.1,
-          "30d": 36.9,
-          "1y": -53.6
+          "1d": -5.40195,
+          "7d": -6.6,
+          "30d": 36.3,
+          "1y": -54.9
         }
       },
       "usdc": {
-        "market_dominance_percent": 2.7757676647801417,
+        "market_dominance_percent": 2.809713769258707,
         "market_dominance_percent_delta": {
-          "1d": 0.10552565764414457,
-          "7d": 0.031507927364406996,
-          "30d": -0.4758514678512191,
-          "1y": 0.9516903360246807
+          "1d": 0.13830849035294035,
+          "7d": 0.1454953949477571,
+          "30d": -0.47037024924483806,
+          "1y": 1.004290778264965
         },
         "id": "usd-coin",
         "symbol": "usdc",
@@ -146,23 +146,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/6319/small/USDC.png",
         "market_cap_rank": 6,
-        "market_cap": 74310094736,
-        "fully_diluted_valuation": 74321776219,
-        "price_usd": 0.999899,
+        "market_cap": 74150909970,
+        "fully_diluted_valuation": 74152528720,
+        "price_usd": 1,
         "change_percentage": {
-          "1d": -0.00436,
+          "1d": 0.01106,
           "7d": 0,
           "30d": 0,
           "1y": 0
         }
       },
       "sol": {
-        "market_dominance_percent": 2.222150653388586,
+        "market_dominance_percent": 2.202481297111803,
         "market_dominance_percent_delta": {
-          "1d": 0.03548135974505584,
-          "7d": 0.04959423118754902,
-          "30d": 0.27461405131067407,
-          "1y": -0.9554387901581154
+          "1d": 0.020706541341994456,
+          "7d": 0.0010268251942657791,
+          "30d": 0.2612593556706546,
+          "1y": -0.9647337136074361
         },
         "id": "solana",
         "symbol": "sol",
@@ -170,23 +170,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/4128/small/solana.png",
         "market_cap_rank": 7,
-        "market_cap": 59417590859,
-        "fully_diluted_valuation": 64230630206,
-        "price_usd": 101.35,
+        "market_cap": 58146367195,
+        "fully_diluted_valuation": 62856434098,
+        "price_usd": 99.21,
         "change_percentage": {
-          "1d": -2.36269,
-          "7d": 1,
-          "30d": 33.5,
-          "1y": -54.1
+          "1d": -3.97507,
+          "7d": -5.1,
+          "30d": 32.5,
+          "1y": -55.3
         }
       },
       "trx": {
-        "market_dominance_percent": 1.2070584868186165,
+        "market_dominance_percent": 1.2179358300430105,
         "market_dominance_percent_delta": {
-          "1d": 0.049769056140306356,
-          "7d": 0.059632518782050115,
-          "30d": -0.18325109927124705,
-          "1y": 0.4209456662160983
+          "1d": 0.05384867066890564,
+          "7d": 0.09435306592878345,
+          "30d": -0.1886368458415275,
+          "1y": 0.43521420517443743
         },
         "id": "tron",
         "symbol": "trx",
@@ -194,23 +194,23 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/1094/large/photo_2026-04-13_09-59-16.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/1094/small/photo_2026-04-13_09-59-16.png",
         "market_cap_rank": 8,
-        "market_cap": 32313248077,
-        "fully_diluted_valuation": 32313250841,
-        "price_usd": 0.34035,
+        "market_cap": 32147325600,
+        "fully_diluted_valuation": 32147324473,
+        "price_usd": 0.338667,
         "change_percentage": {
-          "1d": 0.32808,
-          "7d": 4,
-          "30d": 1.7,
-          "1y": 0.9
+          "1d": -0.49826,
+          "7d": 2.8,
+          "30d": 1.1,
+          "1y": 0
         }
       },
       "figr_heloc": {
-        "market_dominance_percent": 0.8598246016275365,
+        "market_dominance_percent": 0.8747386911698558,
         "market_dominance_percent_delta": {
-          "1d": null,
-          "7d": 0.02311832499466482,
-          "30d": -0.12189052240451259,
-          "1y": 0.3117828587006851
+          "1d": 0.04820541390622857,
+          "7d": 0.05969590573912942,
+          "30d": -0.12086377808311499,
+          "1y": 0.3309916159422085
         },
         "id": "figure-heloc",
         "symbol": "figr_heloc",
@@ -218,198 +218,198 @@
         "image_large_url": "https://coin-images.coingecko.com/coins/images/68480/large/figure.png",
         "image_small_url": "https://coin-images.coingecko.com/coins/images/68480/small/figure.png",
         "market_cap_rank": 9,
-        "market_cap": 22973839517,
-        "fully_diluted_valuation": 22973839517,
-        "price_usd": 1.027,
+        "market_cap": 23024654157,
+        "fully_diluted_valuation": 23024654157,
+        "price_usd": 1.026,
         "change_percentage": {
-          "1d": null,
-          "7d": 1.4,
-          "30d": 2.4,
-          "1y": 2.9
+          "1d": 0.37004,
+          "7d": 1.5,
+          "30d": 2.3,
+          "1y": 3.1
         }
       }
     },
-    "btc_gold_ratio": 17.59266894751693,
+    "btc_gold_ratio": 17.473492748261734,
     "btc_gold_ratio_change_percentage": {
-      "1d": -0.7287258345250254,
-      "7d": -2.769409857952117,
-      "30d": 21.33185369741916,
-      "1y": -43.74933250461107
+      "1d": 0,
+      "7d": -2.8465394066739655,
+      "30d": 21.50776571927929,
+      "1y": -44.982514054453716
     }
   },
   "gold": {
-    "price_usd": 4430,
+    "price_usd": 4405.7998046875,
     "change_percentage": {
-      "1d": 0.3170289855072464,
-      "7d": -1.3736490110557644,
-      "30d": 1.0723248916267396,
-      "1y": 21.58304647235032
+      "1d": 0,
+      "7d": -0.5417852060628974,
+      "30d": -0.07031453933898574,
+      "1y": 21.141629491871445
     }
   },
   "silver": {
-    "price_usd": 66.3949966430664,
+    "price_usd": 64.79499816894531,
     "change_percentage": {
-      "1d": -2.2769489699048675,
-      "7d": -0.8630387370653836,
-      "30d": 2.5104595117535955,
-      "1y": 61.41540266697728
+      "1d": 0,
+      "7d": -1.8956182065845189,
+      "30d": -1.1593351120318187,
+      "1y": 55.39487337312492
     }
   },
   "oil": {
-    "price_usd": 97.16999816894531,
+    "price_usd": 101.69000244140625,
     "change_percentage": {
-      "1d": 1.1660542234277451,
-      "7d": 6.4293482157495765,
-      "30d": 16.79086746769199,
-      "1y": 52.615047845783415
+      "1d": 0,
+      "7d": 11.160908078059013,
+      "30d": 22.120819672056047,
+      "1y": 63.043136416377784
     }
   },
   "copper": {
-    "price_usd": 6.600500106811523,
+    "price_usd": 6.546999931335449,
     "change_percentage": {
-      "1d": -2.983759291963947,
-      "7d": 0.357305232832757,
-      "30d": -0.17392440659843972,
-      "1y": 45.06593033231251
+      "1d": 0,
+      "7d": -0.7579231439997595,
+      "30d": -0.7579231439997595,
+      "1y": 42.62063185781288
     }
   },
   "sp500": {
-    "price_usd": 7636.35986328125,
+    "price_usd": 7595.240234375,
     "change_percentage": {
-      "1d": 0,
-      "7d": -1.4372001303308501,
-      "30d": -1.1883793083796572,
-      "1y": 16.906201089013006
+      "1d": -0.5384715969708296,
+      "7d": -1.96793281280822,
+      "30d": -1.720451820310584,
+      "1y": 16.27669440105107
     }
   },
   "nasdaq": {
-    "price_usd": 29421.55078125,
+    "price_usd": 29147.904296875,
     "change_percentage": {
-      "1d": 0,
-      "7d": -0.20612194225511743,
-      "30d": -0.3519999872991059,
-      "1y": 23.36457828487606
+      "1d": -0.9300885816983909,
+      "7d": -1.1342934073042186,
+      "30d": -1.278814657308048,
+      "1y": 22.217178428388053
     }
   },
   "dowJones": {
-    "price_usd": 52380.66015625,
+    "price_usd": 52075.51953125,
     "change_percentage": {
-      "1d": 0,
-      "7d": -2.43163312437371,
-      "30d": -2.6234296928975507,
-      "1y": 15.145303716160402
+      "1d": -0.5825444431012788,
+      "7d": -3.00001222383234,
+      "30d": -3.1906914921041856,
+      "1y": 14.474531147869818
     }
   },
   "vix": {
-    "index": 16.65999984741211,
+    "index": 17.729999542236328,
     "classification": "normal",
     "change_percentage": {
-      "1d": 1.2150715313715994,
-      "7d": 16.340783536703942,
-      "30d": 9.03141451935469,
-      "1y": 8.534198263107493
+      "1d": 7.715677572313546,
+      "7d": 23.812848603932654,
+      "30d": 16.034030445553775,
+      "1y": 15.504880140848062
     }
   },
   "treasury10y": {
-    "yield_percentage": 4.836999893188477,
+    "yield_percentage": 4.925999641418457,
     "change_percentage": {
-      "1d": 0,
-      "7d": 1.5749644675215022,
-      "30d": 3.2664363243225636,
-      "1y": 19.96527319918583
+      "1d": 1.8399782963673623,
+      "7d": 3.443921768266758,
+      "30d": 5.166516340122121,
+      "1y": 22.17260818922866
     }
   },
   "btcAth": {
     "ath_usd": 126080,
     "ath_date_iso": "2025-10-06T10:57:42.000Z",
-    "ath_change_percentage": -38.13819,
-    "current_price_usd": 77995
+    "ath_change_percentage": -38.98486,
+    "current_price_usd": 76928
   },
   "topExchanges": [
     {
       "id": "gdax",
       "name": "Coinbase Exchange",
-      "trade_volume_24h_btc": 21151.312646356513,
-      "volume_dominance_percentage": 8.68289318590777,
+      "trade_volume_24h_btc": 23507.2871390061,
+      "volume_dominance_percentage": 8.903176810168958,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/23/small/Coinbase_Coin_Primary.png?1706864258"
     },
     {
       "id": "binance",
       "name": "Binance",
-      "trade_volume_24h_btc": 126386.13483630947,
-      "volume_dominance_percentage": 51.88317752716155,
+      "trade_volume_24h_btc": 135323.01607040517,
+      "volume_dominance_percentage": 51.25239384007848,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/52/small/binance.jpg?1706864274"
     },
     {
       "id": "kraken",
       "name": "Kraken",
-      "trade_volume_24h_btc": 18543.68823826727,
-      "volume_dominance_percentage": 7.6124289275911545,
+      "trade_volume_24h_btc": 20131.705146829194,
+      "volume_dominance_percentage": 7.6247050266807985,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/29/small/kraken.jpg?1706864265"
     },
     {
       "id": "okex",
       "name": "OKX",
-      "trade_volume_24h_btc": 22940.156297602567,
-      "volume_dominance_percentage": 9.417237129934067,
+      "trade_volume_24h_btc": 26272.27432558938,
+      "volume_dominance_percentage": 9.950391218808855,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/96/small/WeChat_Image_20220117220452.png?1706864283"
     },
     {
       "id": "gate",
       "name": "Gate",
-      "trade_volume_24h_btc": 21262.633387721682,
-      "volume_dominance_percentage": 8.728591820446951,
+      "trade_volume_24h_btc": 23167.052838503423,
+      "volume_dominance_percentage": 8.774316082159507,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/60/small/Frame_1.png?1747795534"
     },
     {
       "id": "bitget",
       "name": "Bitget",
-      "trade_volume_24h_btc": 10322.557939256882,
-      "volume_dominance_percentage": 4.237546363693469,
+      "trade_volume_24h_btc": 11728.376470795234,
+      "volume_dominance_percentage": 4.442018715228501,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/540/small/2023-07-25_21.47.43.jpg?1706864507"
     },
     {
       "id": "mxc",
       "name": "MEXC",
-      "trade_volume_24h_btc": 15689.690984382449,
-      "volume_dominance_percentage": 6.440825362238687,
+      "trade_volume_24h_btc": 16450.918980717608,
+      "volume_dominance_percentage": 6.230639865374357,
       "trust_score": 10,
       "image_url": "https://coin-images.coingecko.com/markets/images/409/small/164286be-32a5-4b58-978c-d072eea00eb9.jpeg?1775619316"
     },
     {
       "id": "bitstamp",
       "name": "Bitstamp by Robinhood",
-      "trade_volume_24h_btc": 4045.0568569834127,
-      "volume_dominance_percentage": 1.6605492627031335,
+      "trade_volume_24h_btc": 4391.861354327547,
+      "volume_dominance_percentage": 1.6633785911622414,
       "trust_score": 9,
       "image_url": "https://coin-images.coingecko.com/markets/images/9/small/bitstamp.jpg?1706864251"
     },
     {
       "id": "gemini",
       "name": "Gemini",
-      "trade_volume_24h_btc": 976.7727883755714,
-      "volume_dominance_percentage": 0.40097812982908837,
+      "trade_volume_24h_btc": 1019.3653251572405,
+      "volume_dominance_percentage": 0.3860755888318128,
       "trust_score": 9,
       "image_url": "https://coin-images.coingecko.com/markets/images/50/small/gemini.png?1706864273"
     },
     {
       "id": "osl-exchange",
       "name": "OSL Exchange",
-      "trade_volume_24h_btc": 2279.518112023109,
-      "volume_dominance_percentage": 0.9357722904941443,
+      "trade_volume_24h_btc": 2040.7190369894624,
+      "volume_dominance_percentage": 0.7729042615065064,
       "trust_score": 9,
       "image_url": "https://coin-images.coingecko.com/markets/images/22342/small/OSL_logo_w__BG.jpg?1786631332"
     }
   ],
   "btcHalving": {
     "estimated_days_remaining": 581,
-    "estimated_days_since_last_halving": 877,
+    "estimated_days_since_last_halving": 878,
     "estimated_halving_cycle_percentage": 60
   },
   "fearAndGreed": {
@@ -2525,39 +2525,39 @@
     }
   },
   "fangPlus": {
-    "price_usd": 18588.759765625,
+    "price_usd": 18452.45703125,
     "change_percentage": {
-      "1d": 0,
-      "7d": -1.8253625313492745,
-      "30d": 0.05016465929187306,
-      "1y": 16.258732663163677
+      "1d": -0.7332535149927317,
+      "7d": -2.5452315114195274,
+      "30d": -0.6834566898284005,
+      "1y": 15.406261419425027
     }
   },
   "botz": {
-    "price_usd": 35.18000030517578,
+    "price_usd": 34.81999969482422,
     "change_percentage": {
-      "1d": 0,
-      "7d": -1.7592880311507675,
-      "30d": -6.136604229326819,
-      "1y": 4.298846079507883
+      "1d": -1.0233104241860913,
+      "7d": -2.7645954775226347,
+      "30d": -7.097118142743164,
+      "1y": 3.231545115270472
     }
   },
   "shanghaiComposite": {
-    "price_usd": 3934.403564453125,
+    "price_usd": 3951.507080078125,
     "change_percentage": {
-      "1d": -0.43283525192777456,
-      "7d": -0.19493036139934175,
-      "30d": 0.00789373493744122,
-      "1y": 3.2050245480954453
+      "1d": 0,
+      "7d": 0.5442870760550151,
+      "30d": 0.12243296420957589,
+      "1y": 1.9662431159409788
     }
   },
   "hangSeng": {
-    "price_usd": 24954.470703125,
+    "price_usd": 25274.9609375,
     "change_percentage": {
-      "1d": -1.268014756452084,
-      "7d": -1.0265999907817787,
-      "30d": -2.722311234662612,
-      "1y": -4.754872942651078
+      "1d": 0,
+      "7d": -1.4654793997979936,
+      "30d": -0.6494020475584297,
+      "1y": -3.1102867912390626
     }
   },
   "usCoreCpi": {
