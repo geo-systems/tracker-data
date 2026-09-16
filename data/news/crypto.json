@@ -1,92 +1,56 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Cathie Wood's Ark Invest recently offloaded approximately $14 million in Circle shares and reduced its holdings in Coinbase. This move occurred during a period where other crypto-related stocks were experiencing a rally. Additionally, the firm sold about $40 million of its own Ark 21Shares Bitcoin ETF (ARKB).",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271917/ark-invest-sells-14-million-in-circle-trims-coinbase-as-crypto-stocks-rally",
-    "title": "Ark Invest Sells $14M in Circle, Trims Coinbase as Crypto Stocks Rally",
-    "id": "b99a545b-926e-4b91-8e97-061f737968db",
-    "ts": 1789485511700
-  },
-  {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The cryptocurrency exchange CoinEx has announced its decision to cease operations after nine years in the market, attributing the shutdown to a prolonged market downturn. This news contributed to a 3.4% intraday price swing for Kaspa.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271891/crypto-exchange-coinex-to-shut-down-after-9-years-citing-market-slump",
-    "title": "Crypto Exchange CoinEx to Shut Down After 9 Years, Citing Market Slump",
-    "id": "c98aa26b-17dd-43d1-a9b0-293fa0a81696",
-    "ts": 1789485511700
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The decentralized finance (DeFi) protocol Balancer has put forth a proposal to wind down its operations and distribute its treasury assets, estimated at over $9 million, to holders of its native BAL token. This follows the closure of Balancer Labs six months prior, prompted by a $128 million exploit in 2025.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271890/balancer-proposes-winding-down-protocol-and-distributing-treasury-to-bal-holders",
-    "title": "Balancer Proposes Protocol Wind-Down, Treasury Distribution to BAL Holders",
-    "id": "c8d478db-d43e-4449-a1b9-c3d342641c57",
-    "ts": 1789485511700
+    "details": "The proposed CLARITY Act, a bipartisan bill aimed at establishing a comprehensive regulatory framework for the crypto industry in the United States, failed to advance in a crucial Senate procedural vote. This outcome is a significant setback for crypto advocates who have long sought clear federal guidelines, leaving the future of a comprehensive digital asset policy framework uncertain for the current Congress. The failure has been linked to unresolved ethical provisions and partisan disagreements.",
+    "sourceName": "American Banker",
+    "sourceUrl": "https://www.americanbanker.com/news/crypto-market-structure-bill-fails-in-senate-vote-49-50",
+    "title": "US Senate Fails to Advance CLARITY Act, Dimming Regulatory Hopes",
+    "id": "1bd27094-d9fc-42c7-984f-bcecc5d80a92",
+    "ts": 1789560723752
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Department of Justice has filed a civil forfeiture complaint aiming to seize approximately $61 million in cryptocurrency. These funds are alleged to be proceeds from black-market Iranian oil sales that were laundered through Binance accounts by two China-based companies.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271894/us-doj-seeks-61-million-in-crypto-proceeds-from-illicit-iranian-oil-sales-laundered-on-binance",
-    "title": "US DOJ Seeks $61 Million in Crypto From Illicit Iranian Oil Laundered on Binance",
-    "id": "edde78c4-03db-4c8a-bd76-84737b24b8ec",
-    "ts": 1789485511700
+    "details": "U.S. prosecutors are seeking to forfeit approximately $61 million in cryptocurrency, primarily USDT, alleging these funds were generated through the black-market sale of sanctioned Iranian crude oil and petroleum products. The civil forfeiture complaint, filed by the U.S. Attorney's Office for the Southern District of New York, claims the assets are part of a broader network that laundered over $1.5 billion in illicit oil proceeds to benefit the Iranian government and military organizations.",
+    "sourceName": "Bitcoin News",
+    "sourceUrl": "https://news.bitcoin.com/us-moves-to-forfeit-61m-in-crypto-linked-to-irans-oil-sales/",
+    "title": "US Seeks Forfeiture of $61M in Crypto Linked to Iranian Oil Sales",
+    "id": "c369b9f4-3da1-4e3e-8e1d-cd103db2f08e",
+    "ts": 1789560723752
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Tonkeeper, a prominent wallet within The Open Network (TON) ecosystem, has rebranded to Keeper. The rebrand includes expanded support for multiple blockchain networks, now encompassing Bitcoin, Ethereum, and others, with an ambition to become a leading self-custodial wallet for a multichain environment.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271918/tonkeeper-rebrands-as-keeper-with-support-for-7-networks-including-bitcoin-and-ethereum",
-    "title": "Tonkeeper Rebrands to Keeper, Adds Bitcoin and Ethereum Support",
-    "id": "f9474c7c-d8ba-4d87-9f68-965667d2a704",
-    "ts": 1789485511700
+    "details": "Grayscale Investments has unveiled a new \"Digital Assets Next Gen Model Portfolio\" for financial advisors that notably positions XRP as its second-largest holding with a 26.11% allocation, while entirely omitting Bitcoin. The portfolio aims to provide exposure to crypto assets beyond Bitcoin, including established and emerging projects. This move highlights a shift in institutional strategy towards altcoin diversification.",
+    "sourceName": "Bitcoin News",
+    "sourceUrl": "https://news.bitcoin.com/grayscale-makes-xrp-a-core-holding-in-new-crypto-model-portfolios/",
+    "title": "Grayscale's New 'Next Gen' Portfolio Allocates 26% to XRP, Excludes Bitcoin",
+    "id": "501c40f4-a824-4dc3-963a-d980820ac50b",
+    "ts": 1789560723752
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The proposed CLARITY Act, a key piece of U.S. cryptocurrency regulation, is facing significant hurdles as opposition has broadened. Banks, Democrats, state attorneys general, and developer advocates have rejected crucial compromises in the \"final\" draft, raising uncertainty ahead of a pivotal Senate vote.",
+    "details": "The Solana network experienced a significant incident where a routing failure from its largest infrastructure provider, Teraswitch, caused nearly 29% of the network's staked SOL to go offline. While the network continued to produce blocks and did not fully halt, the event pushed skipped slots above 32% and delayed finality for about half an hour, bringing it close to a critical state.",
     "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/clarity-acts-final-deal-is-already-breaking-down-before-tomorrows-senate-vote/",
-    "title": "CLARITY Act Deal Breaking Down Ahead of Crucial Senate Vote",
-    "id": "4065f950-a252-4b15-852f-a1d7ccf32b1d",
-    "ts": 1789485511700
+    "sourceUrl": "https://cryptoslate.com/solana-nearly-froze-as-a-single-routing-error-took-29-of-the-network-stake-offline/",
+    "title": "Solana Network Nears Halt After Major Routing Error Takes 29% Stake Offline",
+    "id": "781537e6-c42b-4475-8856-7ba322688588",
+    "ts": 1789560723752
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin's price edged lower, dropping below $77,000, as investors awaited a critical U.S. Senate vote on the CLARITY Act. This decline also reflects caution in the market ahead of the Federal Reserve's anticipated decision on interest rates.",
-    "sourceName": "Investing.com",
-    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-77k-ahead-of-clarity-act-vote-fed-meeting-432SI2642999",
-    "title": "Bitcoin Slips Below $77k Ahead of Clarity Act Vote, Fed Meeting",
-    "id": "fb6e070b-f8ad-42b3-b2c0-862f6ad8802d",
-    "ts": 1789485511700
+    "details": "An unidentified user's Safe multi-signature wallet on Ethereum was attacked, resulting in a loss of approximately $7.73 million worth of rsETH. The exploit was traced to a custom Uniswap v4 liquidity provider module, which allowed an attacker to introduce a malicious function. An MEV bot subsequently front-ran the attacker's transaction, seizing some of the stolen funds.",
+    "sourceName": "The Cryptonomist",
+    "sourceUrl": "https://cryptonomist.ch/2026/09/15/ethereum-rseth-exploit-causes-7-73m-loss-in-uniswap-v4-module/",
+    "title": "Ethereum Safe Multisig Wallet Exploited for $7.73 Million in rsETH",
+    "id": "0e0bc8ff-414b-45d3-bf7c-2e5461e14f74",
+    "ts": 1789560723752
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Asset manager Strive has further increased its Bitcoin holdings by purchasing an additional 469 BTC for $36.6 million. This acquisition brings the firm's total Bitcoin treasury to exactly 25,000 BTC. The purchase was funded entirely through preferred stock.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/203495/strive-bitcoin-stash-hits-even-25000-btc-after-36-6-million-buy",
-    "title": "Strive's Bitcoin Stash Hits an Even 25,000 BTC After $36.6 Million Buy",
-    "id": "79f4ba62-cf97-447c-8507-f2e8c9764a15",
-    "ts": 1789485511700
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "DeFi Development Corp, a Solana treasury firm, has added another 55,491 SOL to its balance sheet. The company has also initiated a substantial $300 million \"CHAD\" at-the-market program for its preferred stock, designed to fund further purchases of SOL.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/203498/solana-treasury-firm-defi-dev-corp-rolls-out-300m-chad-to-buy-more-sol",
-    "title": "Solana Treasury Firm Rolls Out $300M CHAD to Buy More SOL",
-    "id": "49ff1cb8-d25d-4ae9-8e8a-3b08c3a3a681",
-    "ts": 1789485511700
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Standard Chartered has begun coverage on Arbitrum, projecting that its native token, ARB, could reach $10 by the end of 2030. This forecast implies a substantial 70-fold increase from its current trading levels, with the bank also expecting ARB to outperform both Bitcoin and Ethereum over the forecast period.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/271923/standard-chartered-sees-arbitrums-arb-token-soaring-70x-by-2030",
-    "title": "Standard Chartered Forecasts Arbitrum (ARB) to Hit $10 by 2030",
-    "id": "3429f1d3-e32d-4800-a005-0987583497a6",
-    "ts": 1789485511700
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Bulgaria's parliament has approved new legislation requiring cryptocurrency service providers to report detailed customer identities, tax residency information, and transaction records to the National Revenue Agency. These amendments align Bulgaria with the European Union's DAC8 directive, aimed at enhancing tax transparency and combating illicit activities in the crypto sector. Reporting is expected to commence in 2027.",
+    "sourceName": "Crypto.news",
+    "sourceUrl": "https://crypto.news/bulgaria-passes-law-requiring-crypto-firms-to-report-user-transactions/",
+    "title": "Bulgaria Mandates Crypto Firms to Report User Transaction Data",
+    "id": "abdd5619-cd70-4e87-95dd-8cdc85e26b05",
+    "ts": 1789560723752
   }
 ]
