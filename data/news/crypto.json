@@ -1,56 +1,20 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The proposed CLARITY Act, a bipartisan bill aimed at establishing a comprehensive regulatory framework for the crypto industry in the United States, failed to advance in a crucial Senate procedural vote. This outcome is a significant setback for crypto advocates who have long sought clear federal guidelines, leaving the future of a comprehensive digital asset policy framework uncertain for the current Congress. The failure has been linked to unresolved ethical provisions and partisan disagreements.",
-    "sourceName": "American Banker",
-    "sourceUrl": "https://www.americanbanker.com/news/crypto-market-structure-bill-fails-in-senate-vote-49-50",
-    "title": "US Senate Fails to Advance CLARITY Act, Dimming Regulatory Hopes",
-    "id": "1bd27094-d9fc-42c7-984f-bcecc5d80a92",
-    "ts": 1789560723752
+    "details": "Bitcoin tested the $75,000 range and Ethereum fell below $2,400 on September 15-16, amidst a broader crypto market sell-off. This downturn is attributed to high expectations for a 25-basis-point interest rate hike from the Federal Reserve's September 15-16 meeting and increased regulatory uncertainty following the US Senate's failure to advance the Digital Asset Market CLARITY Act. Despite the general decline, niche sectors like GameFi and Arbitrum showed relative strength.",
+    "sourceName": "The Coin Republic",
+    "sourceUrl": "https://www.thecoinrepublic.com/2026/09/16/bitcoin-price-tests-75000-as-crypto-markets-await-key-fomc-decision/",
+    "title": "Crypto Markets Dip as Fed Meeting Looms, CLARITY Act Stalls",
+    "id": "529ef2de-484a-42b3-8817-d483f6a105c4",
+    "ts": 1789600553839
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "U.S. prosecutors are seeking to forfeit approximately $61 million in cryptocurrency, primarily USDT, alleging these funds were generated through the black-market sale of sanctioned Iranian crude oil and petroleum products. The civil forfeiture complaint, filed by the U.S. Attorney's Office for the Southern District of New York, claims the assets are part of a broader network that laundered over $1.5 billion in illicit oil proceeds to benefit the Iranian government and military organizations.",
-    "sourceName": "Bitcoin News",
-    "sourceUrl": "https://news.bitcoin.com/us-moves-to-forfeit-61m-in-crypto-linked-to-irans-oil-sales/",
-    "title": "US Seeks Forfeiture of $61M in Crypto Linked to Iranian Oil Sales",
-    "id": "c369b9f4-3da1-4e3e-8e1d-cd103db2f08e",
-    "ts": 1789560723752
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Grayscale Investments has unveiled a new \"Digital Assets Next Gen Model Portfolio\" for financial advisors that notably positions XRP as its second-largest holding with a 26.11% allocation, while entirely omitting Bitcoin. The portfolio aims to provide exposure to crypto assets beyond Bitcoin, including established and emerging projects. This move highlights a shift in institutional strategy towards altcoin diversification.",
-    "sourceName": "Bitcoin News",
-    "sourceUrl": "https://news.bitcoin.com/grayscale-makes-xrp-a-core-holding-in-new-crypto-model-portfolios/",
-    "title": "Grayscale's New 'Next Gen' Portfolio Allocates 26% to XRP, Excludes Bitcoin",
-    "id": "501c40f4-a824-4dc3-963a-d980820ac50b",
-    "ts": 1789560723752
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Solana network experienced a significant incident where a routing failure from its largest infrastructure provider, Teraswitch, caused nearly 29% of the network's staked SOL to go offline. While the network continued to produce blocks and did not fully halt, the event pushed skipped slots above 32% and delayed finality for about half an hour, bringing it close to a critical state.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/solana-nearly-froze-as-a-single-routing-error-took-29-of-the-network-stake-offline/",
-    "title": "Solana Network Nears Halt After Major Routing Error Takes 29% Stake Offline",
-    "id": "781537e6-c42b-4475-8856-7ba322688588",
-    "ts": 1789560723752
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "An unidentified user's Safe multi-signature wallet on Ethereum was attacked, resulting in a loss of approximately $7.73 million worth of rsETH. The exploit was traced to a custom Uniswap v4 liquidity provider module, which allowed an attacker to introduce a malicious function. An MEV bot subsequently front-ran the attacker's transaction, seizing some of the stolen funds.",
-    "sourceName": "The Cryptonomist",
-    "sourceUrl": "https://cryptonomist.ch/2026/09/15/ethereum-rseth-exploit-causes-7-73m-loss-in-uniswap-v4-module/",
-    "title": "Ethereum Safe Multisig Wallet Exploited for $7.73 Million in rsETH",
-    "id": "0e0bc8ff-414b-45d3-bf7c-2e5461e14f74",
-    "ts": 1789560723752
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bulgaria's parliament has approved new legislation requiring cryptocurrency service providers to report detailed customer identities, tax residency information, and transaction records to the National Revenue Agency. These amendments align Bulgaria with the European Union's DAC8 directive, aimed at enhancing tax transparency and combating illicit activities in the crypto sector. Reporting is expected to commence in 2027.",
-    "sourceName": "Crypto.news",
-    "sourceUrl": "https://crypto.news/bulgaria-passes-law-requiring-crypto-firms-to-report-user-transactions/",
-    "title": "Bulgaria Mandates Crypto Firms to Report User Transaction Data",
-    "id": "abdd5619-cd70-4e87-95dd-8cdc85e26b05",
-    "ts": 1789560723752
+    "details": "Despite recent price fluctuations, the Ethereum network's base layer processed a record 203.9 million swaps in Q2 2026, reaching a new all-time high speed of 25.9 trades per second. Additionally, Ether products attracted over $121 million in inflows on September 14, with BlackRock contributing a significant portion, indicating continued institutional interest.",
+    "sourceName": "openPR.com (citing Wu Blockchain via CoinGabbar and CryptoTimes)",
+    "sourceUrl": "https://www.openpr.com/news/3201460/crypto-update-september-2026-ethereum-hits-record-usage-while",
+    "title": "Ethereum Network Usage Hits Record High Amidst ETF Inflows",
+    "id": "9a76ef7b-6596-4766-9a06-4228a7dcaa2f",
+    "ts": 1789600553839
   }
 ]
