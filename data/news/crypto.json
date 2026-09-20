@@ -1,29 +1,47 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin's price has climbed above $81,000, reaching its highest level in over a week. This rally is largely attributed to a significant short squeeze in the market, resulting in over $200 million in short positions being liquidated across Bitcoin and Ethereum. Renewed spot demand also contributed to the upward momentum, even as the market digested a Federal Reserve rate hike and the failure of the CLARITY Act in the Senate.",
-    "sourceName": "CoinStats",
-    "sourceUrl": "https://coinstats.app/news/",
-    "title": "Bitcoin Surges Past $81K Amid Short Squeeze and Renewed Demand",
-    "id": "ca9973c5-05d4-42b6-8a68-74793ef74f65",
-    "ts": 1789860747477
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The Digital Asset Market Clarity Act failed to advance in the U.S. Senate after a cloture vote of 49-50. This outcome exposes deep partisan divides and leaves the future of crypto market-structure rules uncertain, impacting institutional adoption and regulatory clarity for digital assets. Despite this setback, Congress plans to continue advancing crypto market structure legislation. Bitcoin's price movements showed resilience, holding above $80,000 despite the hawkish Fed and the CLARITY Act setback.",
+    "sourceName": "Forbes Digital Assets",
+    "sourceUrl": "https://www.forbes.com/sites/digital-assets/",
+    "title": "US Senate Blocks CLARITY Act, Leaving Crypto Regulation in Limbo",
+    "id": "4b2c2b72-506a-4793-8e8b-d7c140530b12",
+    "ts": 1789908054566
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The total market capitalization of altcoins (all cryptocurrencies excluding Bitcoin and Ethereum) has surpassed $800 billion, marking its highest level since early 2026. This indicates a notable shift in market structure, with traders rotating capital out of Bitcoin and into smaller tokens. Several altcoins, including Tezos, XRP, and Solana, have experienced significant gains.",
+    "details": "S&P Global is set to acquire OpenZeppelin, a leading provider of smart contract security solutions and audits for the Ethereum ecosystem. This acquisition of the $37 trillion smart contract library highlights growing institutional interest in securing decentralized finance (DeFi) and blockchain infrastructure, potentially enhancing trust and development within the Ethereum network.",
+    "sourceName": "Coinotag (via NewsNow)",
+    "sourceUrl": "https://www.newsnow.co.uk/h/Business+%26+Finance/Cryptocurrency/Ethereum",
+    "title": "S&P Global Acquires OpenZeppelin, Bolstering Ethereum Security",
+    "id": "9b2c56f2-3192-4b5f-9c5b-282fd7bfc40f",
+    "ts": 1789908054566
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ethereum developers have scheduled \"Frame Transactions\" for the upcoming Hegot upgrade. This new feature will allow users to pay gas fees without directly holding ETH, potentially simplifying the user experience and increasing accessibility for a broader audience. Separately, institutional backers are supporting a plan to cut Ethereum block times to 10 seconds.",
+    "sourceName": "Kraken",
+    "sourceUrl": "https://www.kraken.com/prices/ethereum-eth-price-chart-live-trends",
+    "title": "Ethereum Developers Schedule 'Frame Transactions' for Hegot Upgrade",
+    "id": "beb223bc-9a86-4bc6-b9d6-cac67d558f7a",
+    "ts": 1789908054566
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "LayerZero (ZRO) experienced a 4% price drop as traders anticipated and reacted to a scheduled $26 million token unlock on September 20. This unlock represents 4.2% of the circulating supply and is considered routine volatility rather than a fundamental issue.",
     "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/news/",
-    "title": "Altcoin Market Capitalization Tops $800 Billion, Signaling Rotation",
-    "id": "f957742e-ec6d-48db-b35d-d68c8248d723",
-    "ts": 1789860747477
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
+    "title": "LayerZero (ZRO) Drops 4% Following $26M Token Unlock",
+    "id": "75dc5958-d5ff-4618-ab73-392ede44c31a",
+    "ts": 1789908054566
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum (ETH) has extended its recent rally, reaching its highest price since January. Ether traded above the $2,616 resistance level, a ceiling that had capped previous rally attempts since late August. This surge is supported by renewed inflows into spot Ether ETFs, which recorded $144 million on Friday after several days of outflows, and lower average transaction fees.",
-    "sourceName": "Finance Magnates",
-    "sourceUrl": "https://www.financemagnates.com/cryptocurrency/news/",
-    "title": "Ethereum Reaches Highest Price Since January, Driven by ETF Inflows",
-    "id": "7182b21a-1623-471f-906e-df882ed35aca",
-    "ts": 1789860747477
+    "details": "Crypto whales have reportedly absorbed $2.2 billion worth of XRP tokens in a 96-hour spree, contributing to renewed discussions about XRP potentially reaching the $2 mark. This accumulation follows Ripple's recent voting in favor of the XRP Ledger 3.2.0 amendment, with 26% of nodes already updated.",
+    "sourceName": "U.Today (via NewsNow)",
+    "sourceUrl": "https://u.today/",
+    "title": "XRP Whales Accumulate $2.2 Billion Tokens Amid Price Surge Talk",
+    "id": "53b52566-0622-4a4c-9e62-66541f319512",
+    "ts": 1789908054566
   }
 ]
