@@ -1,47 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Digital Asset Market Clarity Act failed to advance in the U.S. Senate after a cloture vote of 49-50. This outcome exposes deep partisan divides and leaves the future of crypto market-structure rules uncertain, impacting institutional adoption and regulatory clarity for digital assets. Despite this setback, Congress plans to continue advancing crypto market structure legislation. Bitcoin's price movements showed resilience, holding above $80,000 despite the hawkish Fed and the CLARITY Act setback.",
-    "sourceName": "Forbes Digital Assets",
-    "sourceUrl": "https://www.forbes.com/sites/digital-assets/",
-    "title": "US Senate Blocks CLARITY Act, Leaving Crypto Regulation in Limbo",
-    "id": "4b2c2b72-506a-4793-8e8b-d7c140530b12",
-    "ts": 1789908054566
+    "details": "The cryptocurrency industry's push for a comprehensive U.S. regulatory framework faced a setback as the Senate rejected the CLARITY Act. This legislation aimed to establish clearer rules for digital assets, but it failed to secure the necessary 60 votes to advance, prolonging regulatory uncertainty for crypto companies operating in the US.",
+    "sourceName": "Seeking Alpha",
+    "sourceUrl": "https://seekingalpha.com/news/4014909-crypto-regulation-push-collapses-as-industry-infighting-saps-support",
+    "title": "US Senate Rejects CLARITY Act, Delays Crypto Regulation",
+    "id": "24b12e30-7cc6-43db-9920-267ebc50b78a",
+    "ts": 1789950752156
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "S&P Global is set to acquire OpenZeppelin, a leading provider of smart contract security solutions and audits for the Ethereum ecosystem. This acquisition of the $37 trillion smart contract library highlights growing institutional interest in securing decentralized finance (DeFi) and blockchain infrastructure, potentially enhancing trust and development within the Ethereum network.",
-    "sourceName": "Coinotag (via NewsNow)",
-    "sourceUrl": "https://www.newsnow.co.uk/h/Business+%26+Finance/Cryptocurrency/Ethereum",
-    "title": "S&P Global Acquires OpenZeppelin, Bolstering Ethereum Security",
-    "id": "9b2c56f2-3192-4b5f-9c5b-282fd7bfc40f",
-    "ts": 1789908054566
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum developers have scheduled \"Frame Transactions\" for the upcoming Hegot upgrade. This new feature will allow users to pay gas fees without directly holding ETH, potentially simplifying the user experience and increasing accessibility for a broader audience. Separately, institutional backers are supporting a plan to cut Ethereum block times to 10 seconds.",
+    "details": "Ethereum developers are reportedly planning to allow users to pay gas fees without directly holding ETH, a move aimed at enhancing accessibility. Additionally, Vitalik Buterin has proposed an 'Extremely Lean' Ethereum, seeking to reduce the chain's state size through the use of ZK proofs. These developments could improve user experience and network efficiency.",
     "sourceName": "Kraken",
-    "sourceUrl": "https://www.kraken.com/prices/ethereum-eth-price-chart-live-trends",
-    "title": "Ethereum Developers Schedule 'Frame Transactions' for Hegot Upgrade",
-    "id": "beb223bc-9a86-4bc6-b9d6-cac67d558f7a",
-    "ts": 1789908054566
+    "sourceUrl": "https://www.kraken.com/prices/ethereum-eth-price-today",
+    "title": "Ethereum Developers Plan Gas Fee Payments Without ETH, Vitalik Buterin Proposes 'Extremely Lean' Ethereum",
+    "id": "77fe0b24-a575-4ccb-b134-0ca8c0117a8b",
+    "ts": 1789950752156
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Bitcoin's price has been trading around $81,000, showing resilience despite broader market fluctuations and recent regulatory news. While daily movements have seen slight percentages up or down, the overall sentiment indicates a relatively stable holding pattern for the leading cryptocurrency.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/price/bitcoin/",
+    "title": "Bitcoin Price Holds Above $81,000 Amidst Mixed Market Signals",
+    "id": "0377128c-3f15-4043-93de-95b2e757c3e4",
+    "ts": 1789950752156
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "LayerZero (ZRO) experienced a 4% price drop as traders anticipated and reacted to a scheduled $26 million token unlock on September 20. This unlock represents 4.2% of the circulating supply and is considered routine volatility rather than a fundamental issue.",
-    "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
-    "title": "LayerZero (ZRO) Drops 4% Following $26M Token Unlock",
-    "id": "75dc5958-d5ff-4618-ab73-392ede44c31a",
-    "ts": 1789908054566
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Crypto whales have reportedly absorbed $2.2 billion worth of XRP tokens in a 96-hour spree, contributing to renewed discussions about XRP potentially reaching the $2 mark. This accumulation follows Ripple's recent voting in favor of the XRP Ledger 3.2.0 amendment, with 26% of nodes already updated.",
-    "sourceName": "U.Today (via NewsNow)",
-    "sourceUrl": "https://u.today/",
-    "title": "XRP Whales Accumulate $2.2 Billion Tokens Amid Price Surge Talk",
-    "id": "53b52566-0622-4a4c-9e62-66541f319512",
-    "ts": 1789908054566
+    "details": "The Symbiosis DeFi network recently experienced a smart contract exploit, resulting in a loss of approximately $770,000. This incident highlights ongoing security vulnerabilities within the decentralized finance sector and serves as a reminder for investors about the risks associated with certain DeFi platforms.",
+    "sourceName": "Kraken",
+    "sourceUrl": "https://www.kraken.com/prices/bitcoin-btc-price-today",
+    "title": "Symbiosis DeFi Network Suffers $770,000 Smart Contract Exploit",
+    "id": "07abb483-4b71-4fd7-b7ce-d8e5870a7ae9",
+    "ts": 1789950752156
   }
 ]
