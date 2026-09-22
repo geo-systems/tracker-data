@@ -1,38 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The European Central Bank (ECB) has launched \"Pontes,\" a new service enabling eurozone banks to settle transactions involving tokenized assets using central bank money instead of private stablecoins. This initiative, designed to integrate blockchain technology into traditional finance, connects distributed ledger technology (DLT) platforms with the Eurosystem's TARGET payment infrastructure. The ECB plans to invest a portion of its funds into euro-denominated tokenized bonds to gain experience in trade execution and settlement. This move is seen as the ECB's first live service for tokenized markets, potentially streamlining institutional adoption of blockchain technology.",
-    "sourceName": "Reuters",
-    "sourceUrl": "https://www.marketscreener.com/quote/STOCK/BITCOIN-25121695/news/ECB-opens-blockchain-link-to-financial-markets-45012726/",
-    "title": "ECB Launches Digital Euro Settlement System for Banks",
-    "id": "d2d21692-fcf5-4197-b082-6ec60633a1dc",
-    "ts": 1790036322785
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "On September 16, 2026, the US Federal Reserve unanimously voted to raise the federal funds target range by 25 basis points to 3.75%-4.00%. This marks the first rate hike since July 2023, with the Fed citing persistent inflation pressures and signaling the possibility of at least one more increase before year-end. Despite the rate hike, Bitcoin's immediate reaction was relatively muted, suggesting that the market had largely anticipated and priced in the increase. Analysts note that future inflation and liquidity data will be more crucial than the September decision itself for crypto market direction.",
-    "sourceName": "Interactive Brokers",
-    "sourceUrl": "https://www.interactivebrokers.com/en/index.php?f=39098&external=true&article=2609210903",
-    "title": "Federal Reserve Raises Interest Rates Amid Persistent Inflation",
-    "id": "6592197e-6678-4a01-9a92-d3ec989a9385",
-    "ts": 1790036322785
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin surged above $85,000 on September 21, 2026, reaching an eight-month high, as financial markets entered a \"risk-on\" phase. This rally was attributed to falling oil prices, positive sentiment ahead of a summit between US President Donald Trump and China's Xi Jinping, and a shift in ETF flows from outflows to inflows. The broader crypto market also saw gains, with Ether and XRP rising. This rebound occurred despite the recent Federal Reserve interest rate hike and the failure of a landmark US crypto legislation bill, indicating resilience and a renewed appetite for risk among investors.",
-    "sourceName": "The Business Times (citing Bloomberg)",
-    "sourceUrl": "https://www.businesstimes.com.sg/crypto/bitcoin-jumps-over-us84800-after-etf-flows-turn-positive",
-    "title": "Bitcoin Jumps to 8-Month High Amid Renewed Risk Appetite",
-    "id": "265889b2-04eb-4383-a92f-4c85f2f86af0",
-    "ts": 1790036322785
+    "details": "The European Central Bank (ECB) has introduced Pontes, a new service allowing eurozone banks to settle wholesale transactions in tokenized assets using central bank money. This initiative marks a significant step in the Eurosystem's strategy to integrate distributed ledger technology (DLT) into traditional finance, aiming to enhance the speed and efficiency of transactions and reduce reliance on private stablecoins for institutional settlements. The ECB also plans to invest in digital securities.",
+    "sourceName": "European Central Bank (ECB)",
+    "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~93a2e3a890.en.html",
+    "title": "ECB Launches Pontes System for Tokenized Asset Settlement",
+    "id": "e6ec18da-2bbf-4da8-96e7-d7db72fb929c",
+    "ts": 1790089941987
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "On September 15, 2026, the US Senate failed to pass the \"Clarity Act,\" a significant bill intended to establish a comprehensive regulatory framework for digital assets. Despite this legislative setback, the blockchain financial infrastructure continues to evolve. Companies like Circle, Coinbase, and S&P Global are proceeding with products and services designed to fit within existing regulatory categories, such as stablecoins being treated as money movement infrastructure and tokenized stocks as securities. This indicates a strategic shift in the industry toward working with current regulations rather than waiting for a new overarching framework.",
-    "sourceName": "PYMNTS.com",
-    "sourceUrl": "https://www.pymnts.com/cryptocurrency/2026/5-crypto-launches-that-bet-on-clarity-but-are-still-going/",
-    "title": "US Crypto Regulation Bill Fails, Industry Pursues Existing Frameworks",
-    "id": "c044aeee-7070-4e53-b596-f97f3ef15a2a",
-    "ts": 1790036322785
+    "details": "The European Central Bank and other EU central banks are advocating against a Markets in Crypto-Assets (MiCA) regulation that mandates major stablecoin issuers to hold 60% of their reserves as bank deposits. They argue that this requirement could expose lenders to volatility in the stablecoin market and propose instead that a minimum percentage of reserves be held in assets maturing within one to five working days to enhance liquidity and stability.",
+    "sourceName": "Reuters via Euronext Markets",
+    "sourceUrl": "https://live.euronext.com/en/node/3312984",
+    "title": "ECB Opposes MiCA Rule on Stablecoin Bank Deposits",
+    "id": "70c79150-5f6c-4ed1-b44c-71d6c9bf8de0",
+    "ts": 1790089941987
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Bitcoin climbed above $81,000, recovering from earlier declines, as global financial markets demonstrated a renewed \"risk-on\" sentiment. This rally is attributed to positive exchange-traded fund (ETF) flows and an increased investor appetite for riskier assets, occurring despite recent Federal Reserve interest rate hikes and the stalled US crypto regulation bill. Smaller altcoins also experienced notable gains during this period.",
+    "sourceName": "Blockhead",
+    "sourceUrl": "https://blockhead.co/2026/09/21/bitcoin-reclaims-81000-as-altcoins-rally-crypto-stocks-post-their-best-session-in-months/",
+    "title": "Bitcoin Surges Past $81,000 Amid Renewed Risk Appetite",
+    "id": "0adeec97-5c9f-4983-b014-b9f515037983",
+    "ts": 1790089941987
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The International Monetary Fund (IMF) has completed a periodic review of its Financial Sector Assessment Program (FSAP), updating it to address the evolving financial landscape. The revised program will now feature an expanded focus on systemic and emerging risks, specifically including those related to nonbank financial institutions, artificial intelligence (AI), and crypto assets, acknowledging their increasing significance in global financial stability.",
+    "sourceName": "International Monetary Fund (IMF)",
+    "sourceUrl": "https://www.imf.org/en/News/Articles/2026/09/21/pr26305-imf-executive-board-concludes-periodic-review-of-the-financial-sector-assessment-program",
+    "title": "IMF Integrates Crypto Assets into Financial Stability Assessments",
+    "id": "65b08d4a-54a0-4dce-952e-19a0b0385fd6",
+    "ts": 1790089941987
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The Bank of Japan (BOJ) raised its benchmark interest rate to 1.25%, reaching its highest level in 31 years. This decision has significantly influenced the Japanese yen and is being closely monitored for its effects on yen carry trades. Although Bitcoin initially saw a modest increase, the tightening of Japanese monetary policy can elevate the cost of yen-funded positions, potentially exerting downward pressure on global risk assets, including cryptocurrencies.",
+    "sourceName": "Economies.com",
+    "sourceUrl": "https://www.economies.com/forex/news/bitcoin-rises-above-77000-after-bank-of-japan-rate-decision-219463",
+    "title": "Bank of Japan Rate Hike Impacts Yen Carry Trades and Crypto Markets",
+    "id": "537d3159-70f8-4423-87b6-8f1256afbb22",
+    "ts": 1790089941987
   }
 ]
