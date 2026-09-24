@@ -1,47 +1,56 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The European Central Bank (ECB) and other EU central banks have recommended revising the MiCA regulations to drop the requirement for stablecoin issuers to hold a minimum proportion of their reserves as bank deposits. They argue this could expose lenders to runs on stablecoins and less stable deposits, proposing instead that reserves be held in assets maturing within one to five working days. This move aims to prevent stablecoins from altering bank funding structures.",
-    "sourceName": "Reuters (via Euronext Markets)",
-    "sourceUrl": "https://www.euronext.com/en/news/ecb-eu-central-banks-suggest-dropping-stablecoin-deposits-rule-live-reuters",
-    "title": "ECB Suggests Loosening Stablecoin Deposit Rules",
-    "id": "d0167a8a-2d61-47d0-904d-b524bbf4b772",
-    "ts": 1790227332129
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The European Central Bank has initiated \"Pontes,\" a service to connect its payment infrastructure with distributed-ledger markets, enabling banks and investors to settle eligible tokenized transactions using central-bank euros. This wholesale initiative, separate from the proposed retail digital euro, demonstrates increasing institutional recognition of distributed ledgers as practical settlement technology. Deutsche Bank, Santander, and Clearstream are among the first institutions to be onboarded.",
-    "sourceName": "openPR.com (citing ECB)",
-    "sourceUrl": "https://www.openpr.com/news/3204791/crypto-news-today-ecb-launches-blockchain-settlement-as-remittix",
-    "title": "ECB Launches Blockchain Settlement Service 'Pontes'",
-    "id": "41a62fa9-1feb-4cc0-8c4b-ced53c7de51c",
-    "ts": 1790227332129
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "A recent Wall Street Journal report indicates that major global economies are proving surprisingly resilient to sustained higher central-bank interest rates and multi-decade-high bond yields. Economists are reportedly increasing their neutral-rate estimates, with the Federal Reserve's median now at 3.25% and the eurozone's top end near 2.5%. This resilience, partly supported by AI investment, could alter the macroeconomic outlook for crypto and potentially support adoption and fundraising.",
-    "sourceName": "The Coin Republic (citing Wall Street Journal)",
-    "sourceUrl": "https://www.thecoinrepublic.com/2026/09/21/crypto-market-eyes-silver-lining-as-global-economies-shrug-off-higher-rates-wsj/",
-    "title": "Global Economies Resilient to Higher Interest Rates",
-    "id": "9959beb8-b042-4804-be22-1748065805d7",
-    "ts": 1790227332129
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "As of September 17, 2026, El Salvador's national Bitcoin holdings have reached 7,777 BTC, with a floating profit of $162 million. This increase occurs despite a 2024 IMF agreement that restricted public sector Bitcoin purchases. The country has reportedly continued to expand its reserves through private donations and wallet consolidations, as noted in the 2026 IMF review, indicating an active strategy despite external constraints.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/el-salvadors-bitcoin-reserves-increase-despite-imf-agreement-en",
-    "title": "El Salvador Continues Bitcoin Accumulation Despite IMF Agreement",
-    "id": "3b401b7a-c189-4216-a194-f06e212fa5c5",
-    "ts": 1790227332129
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The International Monetary Fund's (IMF) 2026 Annual Report, \"Navigating a Precarious World,\" highlights the expansion of digital finance, including stablecoins, digital payments, central bank digital currencies (CBDCs), and tokenization, bringing both opportunities and significant risks. The IMF warns that stablecoins can become unstable if their underlying assets lose value or user confidence declines, potentially posing risks to government bond markets held by stablecoin issuers. The report also cautions that rapid transactions facilitated by tokenization could lead to \"flash crashes\" where asset valuations swing widely and too quickly for human intervention. The IMF advocates for coherent global regulatory frameworks to manage these risks.",
+    "sourceName": "GulfToday",
+    "sourceUrl": "https://www.gulftoday.ae/business/2026/09/24/demand-for-lending,-support-under-imfs-facilities-remains-high-in-2026",
+    "title": "IMF Warns on Stablecoin Instability and \"Flash Crashes\" in Digital Finance",
+    "id": "d8af7e19-9cb3-42bf-88cd-33b3c9fda3c0",
+    "ts": 1790289934962
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin experienced a dip, trading around $84,000, following a rise in US 10-year government bond yields to 5.11%—a level last seen during the 2007 financial crisis. This, combined with escalating geopolitical concerns in the Middle East and hawkish statements from Fed officials signaling potential further rate hikes, has led to a risk-off sentiment in the market. Historically, spikes in bond yields initially prompt investors to favor assured returns on Treasuries over crypto assets.",
-    "sourceName": "Coinpedia",
-    "sourceUrl": "https://coinpedia.org/bitcoin/bitcoin-drops-to-84k-as-bond-yields-hit-5-11-what-next/",
-    "title": "Bitcoin Dips Amid Rising Bond Yields and Geopolitical Tensions",
-    "id": "d9fc41c2-b5d3-425d-abd4-eeb55af738a1",
-    "ts": 1790227332129
+    "details": "On September 24, 2026, the cryptocurrency market experienced a notable downturn as US Treasury yields surged to their highest levels since 2007. The yield on the 10-year US Treasury note reached 5.11%, a 15-basis-point increase, making non-yielding assets like Bitcoin less attractive to investors. This rise in yields also increases the cost of leveraged positions in cryptocurrencies, contributing to a market sell-off. Bitcoin (BTC) fell to approximately $83,900, marking a decline of over 2% within 24 hours.",
+    "sourceName": "GuruFocus",
+    "sourceUrl": "https://www.gurufocus.com/news/2470761/cryptocurrency-market-declines-amid-rising-us-treasury-yields",
+    "title": "Cryptocurrency Market Declines Amid Rising US Treasury Yields",
+    "id": "45d6a846-dc6f-4c54-8335-f16c710670e9",
+    "ts": 1790289934962
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The European Central Bank (ECB) has expanded its digital euro efforts by launching \"Pontes\" on September 21, 2026. This new solution allows wholesale transactions in tokenized assets to be settled using central bank money. ECB President Christine Lagarde stated that this initiative aims to enable a more integrated, innovative, and resilient European financial market in the digital age. Pontes is designed to make transactions faster and more efficient by leveraging distributed ledger technology (DLT) to bundle various stages of an asset's lifecycle.",
+    "sourceName": "PYMNTS.com",
+    "sourceUrl": "https://www.pymnts.com/cbdc/2026/ecb-expands-digital-euro-efforts-with-pontes-tokenization-tool/",
+    "title": "ECB Launches \"Pontes\" for Wholesale Tokenized Asset Settlement",
+    "id": "f6e46131-a860-4b7c-9454-243f877dd628",
+    "ts": 1790289934962
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The New York Stock Exchange (NYSE) Group and Blockchain.com announced a strategic collaboration on September 23, 2026, to explore 24/7 tokenized U.S. stock and ETF trading for global investors. This partnership aims to leverage blockchain technology to enable continuous, around-the-clock trading, bypassing the traditional market hours. The initiative signals a significant step towards integrating tokenized equities into the core infrastructure of traditional capital markets, with estimates suggesting the tokenized asset market could reach $5.5 trillion by 2030.",
+    "sourceName": "The Defiant",
+    "sourceUrl": "https://thedefiant.io/blockchaincom-and-nyse-explore-24-7-tokenized-stock-trading",
+    "title": "NYSE and Blockchain.com Explore 24/7 Tokenized Stock Trading",
+    "id": "1459a6b0-3acb-4eac-84e9-e9c73a1d933c",
+    "ts": 1790289934962
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The Q4 2026 outlook for Bitcoin (BTC) is shifting to cautiously optimistic, according to analysts. This sentiment is driven by the historically reliable 4-year halving cycle and renewed inflows into Bitcoin Exchange Traded Funds (ETFs). Bitcoin is currently trading near 8-month highs in late September, exhibiting a bullish divergence with its 14-week Relative Strength Index (RSI), indicating waning selling pressure. The balance of risks is gradually moving to the upside, with a near-term bullish bias above the $80,000 level, potentially leading to an extension towards the $98,000-$100,000 range.",
+    "sourceName": "FOREX.com",
+    "sourceUrl": "https://www.forex.com/en-us/news-and-analysis/q4-2026-bitcoin-outlook-did-the-august-rally-mark-the-cycle-low-2026-09-24/",
+    "title": "Bitcoin Outlook for Q4 2026 Turns Cautiously Optimistic",
+    "id": "c68ab9d1-9299-49eb-bdaa-ea68f67918b9",
+    "ts": 1790289934962
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The European System of Central Banks (ESCB) has proposed significant revisions to the Markets in Crypto-Assets (MiCA) regulation concerning stablecoin liquidity requirements. The ESCB aims to replace the current mandatory bank-deposit thresholds for stablecoin reserves with maturity-based liquidity requirements. Central banks argue that the existing rules, which require a fixed percentage of reserves to be held as bank deposits, could create systemic vulnerabilities by linking stablecoin runs directly to the banking system. They suggest new rules requiring a certain percentage of reserves to be convertible into cash within one to five working days.",
+    "sourceName": "CryptoSlate",
+    "sourceUrl": "https://cryptoslate.com/eu-central-banks-attack-mica-rules-and-stablecoin-runs-are-blamed/",
+    "title": "EU Central Banks Push for Changes to MiCA Stablecoin Liquidity Rules",
+    "id": "dbf9dfff-014c-4d34-acdd-0664ad3770c3",
+    "ts": 1790289934962
   }
 ]
