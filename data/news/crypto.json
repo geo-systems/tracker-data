@@ -1,65 +1,56 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "According to Binance Market Data, BNB has crossed the 780 USDT benchmark and is now trading at 780.20 USDT, with a 0.76% increase in the last 24 hours.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951079527712",
+    "title": "BNB Surpasses 780 USDT with 0.76% Increase",
+    "id": "f96566c8-5ca5-4941-afd9-aeacc5164483",
+    "ts": 1790574581445
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Based on Binance Market Data, Ethereum has exceeded the 2700 USDT benchmark and is currently trading at 2700.75 USDT, reflecting a 0.35% increase over the past 24 hours.",
+    "sourceName": "Binance",
+    "sourceUrl": "https://www.binance.com/en/news/flash/107951079527712",
+    "title": "Ethereum Surpasses 2700 USDT with 0.35% Increase",
+    "id": "8b3d55f1-c066-417e-949b-db149508968b",
+    "ts": 1790574581445
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Spot Bitcoin ETFs recorded $2.39 billion in net inflows last week, marking the largest weekly ETF inflow since October 2025. This indicates a renewed influx of institutional capital into Bitcoin.",
+    "sourceName": "TradingView (data cited)",
+    "sourceUrl": "https://www.tradingview.com/symbols/BTCUSD/",
+    "title": "Spot Bitcoin ETFs See $2.39B Net Inflows Last Week",
+    "id": "c106e0ad-b34b-4b8e-b5ec-78eb9eb4f28c",
+    "ts": 1790574581445
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Cryptocurrency futures markets experienced $173 million in liquidations over the past 24 hours, with losses almost equally split between long and short positions. Bitcoin and Ethereum led individual asset liquidations.",
+    "sourceName": "Phemex (data cited from CoinGlass)",
+    "sourceUrl": "https://phemex.com/blogs/real-time-crypto-news",
+    "title": "Crypto Market Liquidations Hit $173M in 24 Hours",
+    "id": "1c5c228d-b523-4a47-8bc6-881e432fc270",
+    "ts": 1790574581445
+  },
+  {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Cryptocurrency exchange Bitget reported a hack resulting in estimated losses between $351.6 million and $387.5 million. The attackers compromised wallet-backend infrastructure and spoofed transaction data. Bitget stated that customer funds and cold wallets remained secure, and Circle and Tether froze a hacker-controlled wallet containing approximately $318,000 in USDT and USDC. The incident has renewed discussions about the security of centralized exchange custody.",
-    "sourceName": "CoinStats",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpjE35NDcpdyhmu2vedEWPBH5cVwf19TeZ5Sljg7OdGMa_0Qq57YWrBrJomTlxQwcbMkl9kJ01Tg97TFFsZ3rBzwovEK0tu3n8w8jpKVr mQaFTaA5FO9tK92X_Qqu5RLd2fFB2TUEcJPbyfKYZ6jKjJDFhX05CeDmQQ==",
-    "title": "Bitget Suffers Major Hack, Customer Funds Reportedly Safe",
-    "id": "7a9093b3-5df3-4264-b79b-a447b1f20fa3",
-    "ts": 1790518678514
+    "details": "Bitcoin's 7-day average hashrate fell to a three-week low on September 26, primarily due to mining companies redirecting computational resources toward AI contracts. Miner reserves simultaneously decreased.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/real-time-crypto-news",
+    "title": "Bitcoin Hashrate Drops as Miners Pivot to AI",
+    "id": "157ca25f-5ac1-4501-9f57-2d7f5409e825",
+    "ts": 1790574581445
   },
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "U.S. spot Bitcoin Exchange-Traded Funds (ETFs) have experienced a notable turnaround, moving from a cumulative $5.8 billion net outflow at their July low to approximately $800 million in net inflows for 2026. Separately, Bitcoin ETFs recorded roughly $2.4 billion in weekly inflows, marking their largest since October and pushing 2026 net flows positive. This indicates renewed institutional and retail interest in the asset class.",
-    "sourceName": "CoinStats",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpjE35NDcpdyhmu2vedEWPBH5cVwf19TeZ5Sljg7OdGMa_0Qq57YWrBrJomTlxQwcbMkl9kJ01Tg97TFFsZ3rBzwovEK0tu3n8w8jpKVr mQaFTaA5FO9tK92X_Qqu5RLd2fFB2TUEcJPbyfKYZ6jKjJDFhX05CeDmQQ==",
-    "title": "US Spot Bitcoin ETFs See Significant Inflows, Reversing Earlier Trend",
-    "id": "584e69c6-28ea-4814-960c-7c64978cabfc",
-    "ts": 1790518678514
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Solana's significant Alpenglow upgrade has successfully reached its second public test network as of September 26, 2026. This upgrade aims to dramatically improve transaction finality, targeting approximately 150 milliseconds, a substantial reduction from the existing system's average of 12.8 seconds. This development could enhance Solana's appeal for high-speed decentralized applications.",
-    "sourceName": "CoinStats",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpjE35NDcpdyhmu2vedEWPBH5cVwf19TeZ5Sljg7OdGMa_0Qq57YWrBrJomTlxQwcbMkl9kJ01Tg97TFFsZ3rBzwovEK0tu3n8w8jpKVr mQaFTaA5FO9tK92X_Qqu5RLd2fFB2TUEcJPbyfKYZ6jKjJDFhX05CeDmQQ==",
-    "title": "Solana's Alpenglow Upgrade Hits Public Testnet, Targeting Faster Transactions",
-    "id": "401cf613-55f2-4ed8-81d3-21aff7e0954e",
-    "ts": 1790518678514
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Zcash (ZEC) price saw an approximately 9% increase to $1,662.37, outperforming Bitcoin, driven by a broader market rotation into privacy-focused cryptocurrencies. This rally is narrative-driven, with other privacy coins like Dash also seeing significant gains. Additionally, Coinbase enabled Morpho loans for Zcash on September 26, allowing ZEC to be used as collateral, which could lead to a tightening of exchange supply.",
-    "sourceName": "MarketForces Africa",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxd0GQYLo35PchguX4s3NEcSNmvbZx98rlcnLE0s4ZyrWbrUVeNNQC9iYYTRDiwvaHfXCWUcw2hzcY9ssMSxGB1fzRUho7GAuweeP7vGUjkYm8vQK6cnOxaeNwk-rumiuo3uJiyhlR-F4LZx-emUSueOOOqWvG8NKQV8id3rIsGVm7bZkG4IUUSPfMMprs",
-    "title": "Zcash Surges 9% Amid Renewed Interest in Privacy Coins and Coinbase Integration",
-    "id": "20472745-9492-4efb-8ab4-9614e79e230d",
-    "ts": 1790518678514
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Standard Chartered has released optimistic long-term price predictions, forecasting that Chainlink (LINK) could reach $200 and XRP (XRP) could hit $28 by the end of 2030. As of September 26, 2026, Chainlink was priced at $14, and XRP at $1.55. The bank also noted strong demand for XRP, with its US spot ETFs recording approximately $76 million in inflows over four days.",
-    "sourceName": "24/7 Wall St.",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwoD8VUm3hboMzEjxVPGxl5NaWELozO-lYfpGHECutwlkJvrNzn31aTC3drChf7rQSDc5Yon7n-fFOf72wY04OsfNFY60C0djJ7ms0QKwfQuwIfsrkDoh4qBaYNRXUr4eljzuDLj510j6dOyzg1QW5AmYAN6bwqfnoLLk4jTXbW4CxMjKo7taOfuhsWo8fY3MFM3Mb_MiLO0jWxEfrfnDbT4al8z5HORI5AFujI_dXBLFChIrq0buPbdlCbnlMx9E1mufZd_ASVIiCdnRtSPRaCvD_QQ==",
-    "title": "Standard Chartered Forecasts Bullish Price Targets for Chainlink and XRP by 2030",
-    "id": "0e953501-db35-4310-a61b-d6e95285e1d9",
-    "ts": 1790518678514
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Vitalik Buterin, at the 12th Global Blockchain Summit, revealed Ethereum's plans for new privacy upgrades, including \"private reads, writes, and proving.\" This initiative aims to limit metadata exposure, as Buterin stated that basic pseudonymity is no longer sufficient to protect users due to AI's ability to correlate blockchain activity across wallets. The strategy leverages zero-knowledge technology to give users more control over their data while maintaining transaction verifiability.",
-    "sourceName": "BeInCrypto",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIYmI2NUy46l1hEFy0d58VgBtYwdbvTbp_N3KK8HRZJh6ubVANvLXyYyrT-_x8V3wHe4jhE4NlnAsHLR342y0rJcZ5L1iCtAwaunxuhKZ8o0atmR-pHl2S_OJHo9oZuM8yHtPotxdkFPi_YLMdkQhSmxrb-O1FHje9hsFX_HaRdtbsdnmeUddqWgpSmUhNxhleUAajgUcTAHhqGidhGHYuNFr3Bj9nGnrKstfBmLQJ",
-    "title": "Ethereum Explores AI-Driven Privacy Upgrades to Enhance User Protection",
-    "id": "08750b7a-2a92-4e3f-ac28-a2c57d90e2aa",
-    "ts": 1790518678514
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "ARK Invest, led by Cathie Wood, is tokenizing its ARK Venture Fund by partnering with Securitize and placing it on the Ethereum blockchain. The fund, valued at approximately $1.3 billion, holds stakes in prominent private companies such as OpenAI, Anthropic, and SpaceX. This move allows eligible investors to gain exposure to the fund's portfolio through digital tokens, highlighting a growing trend of institutional adoption of blockchain technology for traditional assets.",
-    "sourceName": "BeInCrypto",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYhau-hMYO-cN8nNgD5HYPZnDiC7y6WMUwqXd9_ZvxPdND0i-nRdc5BPsWa3RIL1ajvRjfa3upPX20Ri1iFN59ymOPHirddRy7TDPGQUxSu5sU1vaVgLzx4wstjHM43v1PpVqzAEYWdG67lVBVp56t_wrnVyXYXA==",
-    "title": "Cathie Wood's ARK Invest Tokenizes Venture Fund on Ethereum",
-    "id": "5d91dbdb-3819-4ce7-99de-b89f940e33f9",
-    "ts": 1790518678514
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Several cryptocurrency projects are scheduled for significant token unlocks next week, with DoubleZero (2Z) leading with approximately $114 million. Sui (SUI) will unlock $16.7 million, and Ethena (ENA) will release $11 million worth of tokens.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/real-time-crypto-news",
+    "title": "Major Token Unlocks Next Week: $180M+ for 2Z, SUI, ENA",
+    "id": "a96fd5fe-54b5-494e-b4fe-c08e38e07721",
+    "ts": 1790574581445
   }
 ]
