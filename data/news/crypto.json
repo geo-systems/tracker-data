@@ -1,47 +1,56 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Securities and Exchange Commission (SEC) has unveiled a new regulatory framework targeting how investment advisers and regulated funds safeguard digital assets under their management. This initiative aims to establish modernized custody standards to address the unique risks associated with crypto assets and provide clearer compliance guidelines for institutional market participants.",
-    "sourceName": "Phemex",
-    "sourceUrl": "(Direct article link not available in snippets, requires further search. However, based on the snippet, Phemex is a source.)",
-    "title": "SEC Proposes New Crypto Custody Framework for Investment Advisers",
-    "id": "092c5847-57f6-4678-b191-b5f4d51b10e2",
-    "ts": 1791035259551
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Bitcoin's price has shown slight positive movement in the last 24 hours, trading around $84,700-$84,784. However, it failed to break the $87,000 resistance level by October 3, 2026, with whale sales exceeding 30,000 BTC during a recent rally, indicating potential short-term downside risk towards $82,500. US spot Bitcoin ETFs experienced approximately $1.72 billion in outflows over five days, though some recent inflows were also noted.",
+    "sourceName": "TradingView",
+    "sourceUrl": "https://www.tradingview.com/symbols/BTCUSD/",
+    "title": "Bitcoin Struggles at $87,000 Resistance Amid ETF Outflows",
+    "id": "fbb89e5c-6043-4145-bddd-5dcd8588970f",
+    "ts": 1791079235946
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Cryptocurrency futures markets experienced significant volatility, leading to $164 million in liquidations over the past 24 hours. Long positions accounted for the majority, with $107 million liquidated, while short positions contributed $57.4 million. Bitcoin led individual asset liquidations with $23.94 million, followed by Ethereum at $21.34 million.",
-    "sourceName": "Phemex",
-    "sourceUrl": "(Direct article link not available in snippets, requires further search. However, based on the snippet, Phemex is a source.)",
-    "title": "Crypto Market Liquidations Hit $164M in 24 Hours",
-    "id": "0c12b3a8-da61-4689-b61e-cc2c6b6b017c",
-    "ts": 1791035259551
+    "details": "Blast, a previously prominent Ethereum layer-2 network, is ceasing operations as its assets have plummeted by 98%. The shutdown is attributed to costs significantly outweighing revenue, and users are strongly advised to transfer their assets back to the Ethereum mainnet promptly.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/price/ethereum/",
+    "title": "Ethereum Layer-2 Network Blast Shuts Down After 98% Asset Plunge",
+    "id": "93c77627-9764-4682-abec-ab0581a70f4a",
+    "ts": 1791079235946
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Ethereum's price has seen a slight decline over the past 24 hours, hovering around $2,668-$2,714. Sentiment in Ethereum derivatives has turned slightly negative over the past week, with Net Taker Volume indicating a shift towards net selling in perpetual futures contracts. Despite this, the Ethereum ecosystem saw a positive development with the launch of zkAPI on its mainnet, enabling privacy-preserving API payments via zero-knowledge proofs. The \"Glamsterdam\" upgrade is also scheduled for the Sepolia testnet on October 6, preparing for new gas pricing and block features on the mainnet in Q4.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/ethereum",
+    "title": "Ethereum Derivatives Sentiment Turns Negative, Development Continues",
+    "id": "ab731153-8161-48c9-9687-b353c5b33b8e",
+    "ts": 1791079235946
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Solana has expanded its presence in the US banking sector with the launch of Fiserv's Roughrider Coin. This initiative provides over 90 North Dakota banks and credit unions with a new dollar settlement route on the Solana blockchain, marking a significant step towards broader adoption of decentralized ledger technology in traditional finance.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "(Direct article link not available in snippets, requires further search. However, based on the snippet, CryptoSlate is a source.)",
-    "title": "Solana Enters US Banking with Fiserv's Roughrider Coin",
-    "id": "3b9c634d-1ab1-4c77-9bd3-91d796e27697",
-    "ts": 1791035259551
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Spot Bitcoin ETFs recorded net outflows of 1,796 BTC ($150.24 million) on October 1st, reversing short-term momentum despite a positive seven-day accumulation of 3,096 BTC ($258.99 million). Similarly, Ethereum ETFs saw larger daily outflows of 5,171 ETH ($13.89 million) but maintained a strong weekly performance with 41,041 ETH ($110.24 million) in net inflows.",
-    "sourceName": "Phemex",
-    "sourceUrl": "(Direct article link not available in snippets, requires further search. However, based on the snippet, Phemex is a source.)",
-    "title": "Bitcoin and Ethereum ETFs Post Daily Outflows Despite Weekly Gains",
-    "id": "d407123d-3a0a-498c-a007-6ed0a8daff8e",
-    "ts": 1791035259551
+    "details": "SMBC Nikko, a prominent Japanese financial services company, is planning to establish a decentralized finance (DeFi) gateway in collaboration with Uniswap. This move signals increasing institutional interest and potential mainstream adoption of DeFi protocols in traditional finance.",
+    "sourceName": "Cryptonews.net",
+    "sourceUrl": "https://cryptonews.net/news/defi/",
+    "title": "Major Financial Institution Explores Japan DeFi Gateway with Uniswap",
+    "id": "5914235d-acbe-4042-8c98-3fc88754e402",
+    "ts": 1791079235946
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Arbitrum's ARB token experienced a 6.5% drop after an emergency security upgrade temporarily paused new Stylus contract activations. While no direct threats to funds were identified, the move raised perceived protocol risk among investors.",
+    "details": "The Non-Fungible Token (NFT) market is currently facing a downturn, with sales volume decreasing by nearly 13% over the past day, reaching approximately $42.1 million. Adding to market concerns, a recent security breach saw a threat actor steal eight Hypurr NFTs, valued at around $400,000, by compromising wallets shortly after the collection's launch.",
+    "sourceName": "Cryptonews",
+    "sourceUrl": "https://cryptonews.com/news/nft-news/",
+    "title": "NFT Market Experiences Downturn and Security Incidents",
+    "id": "1359d377-ed1d-4936-979b-a7177e92663d",
+    "ts": 1791079235946
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Ethena (ENA) experienced a 9% price drop as a significant unlock of 3.03 billion ENA tokens was announced for October 5, 2026. This large influx of tokens into the market often leads to selling pressure as capital rotates into Bitcoin and other large-cap cryptocurrencies.",
     "sourceName": "CoinMarketCap",
-    "sourceUrl": "(Direct article link not available in snippets, requires further search. However, based on the snippet, CoinMarketCap is a source.)",
-    "title": "Arbitrum (ARB) Falls 6.5% on Emergency Security Upgrade",
-    "id": "32f804b2-f352-4c58-b279-97966b1e06eb",
-    "ts": 1791035259551
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
+    "title": "Ethena Faces 9% Drop Ahead of Large Token Unlock",
+    "id": "201dcf30-57fe-4fa5-bc41-6682f8df4534",
+    "ts": 1791079235946
   }
 ]
