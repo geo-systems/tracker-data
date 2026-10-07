@@ -1,83 +1,65 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Commodity Futures Trading Commission (CFTC) has initiated an advance notice of proposed rulemaking for \"Regulation CTX\" and \"Regulation CAM.\" These proposals aim to establish a federal regulatory framework for leveraged retail crypto asset transactions and crypto asset markets, a move to bring clarity and prevent fraud after previous legislative efforts failed. The public has a 60-day window to provide comments.",
-    "sourceName": "The Crypto Basic",
-    "sourceUrl": "https://thecryptobasic.com/2026/10/06/cftc-launches-regulation-ctx-and-cam-to-govern-leveraged-retail-crypto-trading/",
-    "title": "CFTC Proposes New Rules for Leveraged Retail Crypto Trading",
-    "id": "2a86b5f6-fb28-493b-aa9b-bf0d6b410896",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum's \"Glamsterdam\" upgrade has successfully launched on the Sepolia testnet, marking a critical step in its 2026 scaling roadmap. This deployment is testing a significantly increased gas limit of 200 million, more than triple the prior 60 million, alongside new features like enshrined proposer-builder separation. These changes aim to enhance block processing and Layer 1 capacity, moving the network closer to its mainnet activation.",
-    "sourceName": "Crypto News",
-    "sourceUrl": "https://crypto.news/ethereum-glamsterdam-hits-sepolia-with-200-million-gas-limit-test/",
-    "title": "Ethereum's Glamsterdam Upgrade Live on Sepolia Testnet, Tests 200M Gas Limit",
-    "id": "1fb328ae-0222-46de-bbd4-975b0868741b",
-    "ts": 1791364650223
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Bitcoin slipped below the $84,000 mark on Wednesday, leading to approximately $487 million in leveraged long liquidations across the crypto market. The decline is attributed to rising oil prices, surging Treasury yields, and a strengthening U.S. dollar, pressuring overall risk appetite. Despite the dip, some analysts suggest Bitcoin retains a broader bullish stair-step pattern, with key support around $83,000 to $82,000.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951336423985",
+    "title": "Bitcoin Under Pressure, Dips Below $84,000 Amid Macro Headwinds",
+    "id": "fd40bc5c-ddb5-430e-8829-7a3988247d42",
+    "ts": 1791411802914
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "On October 6th, Bitcoin experienced a rapid decline of almost $2,000 in approximately 20 minutes, leading to the liquidation of nearly $400 million in leveraged long positions across the crypto market. The price dropped from around $71,765 to $67,895, hitting its lowest point since April. Total liquidations within 24 hours surpassed $1 billion, predominantly affecting long bets, attributed to technical breakdowns and broader macroeconomic pressures.",
+    "details": "Ethereum experienced a notable 5.6% drop in the last 24 hours, falling to around $2,558 and breaking below a critical price channel. This decline has expanded weekly losses to nearly 6%. The second-largest cryptocurrency is also facing sustained pressure from US spot Ethereum ETF outflows, which saw funds shed roughly 21,432 ETH (approximately $58 million) on October 6, extending a multi-session outflow streak.",
+    "sourceName": "BigGo Finance",
+    "sourceUrl": "https://biggo.finance/news/ethereum-tumbles-56-below-key-channel-putting-solanas-114-support-in-focus-2026-10-07",
+    "title": "Ethereum Tumbles 5.6%, Spot ETFs See Continued Outflows",
+    "id": "bfadc11e-1503-4cf9-b1e1-a073fc086820",
+    "ts": 1791411802914
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Financial brokerage firm Robinhood has announced its first-ever corporate Bitcoin acquisition, purchasing $25 million in BTC to add to its balance sheet. This strategic move signals Robinhood's bullish outlook on Bitcoin and marks a significant step towards integrating digital assets into its corporate treasury strategy, potentially setting a precedent for future crypto holdings by the company.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/bitcoin-drops-below-84k-winklevoss-zcash-etf",
+    "title": "Robinhood Makes First Corporate Bitcoin Purchase of $25 Million",
+    "id": "394004bd-20bc-4f51-9559-049993cf6063",
+    "ts": 1791411802914
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Tether, the issuer of the USDT stablecoin, has signed a Memorandum of Understanding (MoU) with the National Bank of Kazakhstan (NBK) and the Alatau City Administration (ACA). This agreement aims to establish a framework for collaboration to explore opportunities in stablecoin applications, asset tokenization, and decentralized finance within Kazakhstan's regulatory environment.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/bitcoin-drops-below-84k-winklevoss-zcash-etf",
+    "title": "Tether Explores Stablecoins and Asset Tokenization with Kazakhstan Central Bank",
+    "id": "08a6a0b7-506e-4fdf-97e1-7783e508d29b",
+    "ts": 1791411802914
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "In a significant regulatory development, Winklevoss has filed for a Nasdaq-listed spot Zcash (ZEC) Exchange Traded Fund (ETF) under the ticker symbol WINK. This move could potentially open Zcash to a broader range of institutional and retail investors, similar to how Bitcoin and Ethereum spot ETF filings have impacted their markets.",
+    "sourceName": "Phemex",
+    "sourceUrl": "https://phemex.com/blogs/bitcoin-drops-below-84k-winklevoss-zcash-etf",
+    "title": "Winklevoss Files for Spot Zcash ETF",
+    "id": "66d18c30-21dc-4798-9bae-1a1e0e4a95b5",
+    "ts": 1791411802914
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "During its Sui Basecamp event, the Sui network recorded a groundbreaking live throughput of 40,614,180 transactions per second (TPS), a new world record independently verified by CertiK. This achievement demonstrates Sui's capacity to handle massive transaction volumes in real-time, positioning it to support the emerging agent economy.",
+    "sourceName": "Investing.com",
+    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/sui-sets-record-for-highest-verified-throughput-settled-to-a-blockchain-40-million-transactions-per-second-3622415",
+    "title": "Sui Network Achieves Record 40.6 Million Transactions Per Second (TPS)",
+    "id": "43a4d9f9-5dba-407c-9fbb-f0d23ff1c524",
+    "ts": 1791411802914
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Uniswap (UNI) has experienced a significant drop of over 9% in the last 24 hours, primarily due to a broader leveraged crypto risk-off move and market-wide liquidations rather than specific negative news related to the protocol. DeFi tokens, including UNI, were particularly affected as macroeconomic pressure and an over-leveraged market triggered a wave of long liquidations.",
     "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/bitcoin-falls-nearly-2000-in-20-minutes-as-400-million-in-longs-get-liquidated/",
-    "title": "Bitcoin Plunges Nearly $2,000, $400 Million in Longs Liquidated",
-    "id": "27d49d53-f7a4-40bf-aaec-ce7c4f10c494",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "U.S. spot Bitcoin Exchange-Traded Funds (ETFs) collectively saw net inflows totaling $118.8 million on October 6th, reversing a previous day's outflow. BlackRock's iShares Bitcoin Trust (IBIT) was the primary driver, attracting $122 million in inflows. This renewed interest from investors suggests a positive sentiment and fresh capital entering Bitcoin via regulated investment vehicles.",
-    "sourceName": "Pluang",
-    "sourceUrl": "https://www.pluang.com/news/bitcoin-news-btc/us-spot-bitcoin-etfs-see-118-8m-inflows-led",
-    "title": "US Spot Bitcoin ETFs Record $118.8M Net Inflows",
-    "id": "a57afd10-1b7f-4ac7-bc82-6f2ceddfabaf",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Ethereum spot ETFs registered a substantial net outflow of $202 million on October 6th, marking the sixth consecutive day of such movements. BlackRock's ETHA fund alone accounted for the entirety of this daily outflow. Despite this recent trend, the cumulative net inflows for Ethereum spot ETFs since their inception remain robust at $13.549 billion.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/ethereum-spot-etfs-recorded-a-202-million-net-outflow-on-october-6-marking-the-sixth-consecutive-day-of-outflows",
-    "title": "Ethereum Spot ETFs Experience $202M Net Outflow",
-    "id": "90ddd1a6-5d32-4b6a-8b9e-a6d0db3db0e6",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum co-founder Vitalik Buterin outlined his long-term vision for the network by 2028, predicting a substantial increase in transaction capacity, reduced costs, and enhanced privacy features. Buterin emphasized the potential for Artificial Intelligence (AI) integration to fundamentally transform applications on the blockchain, indicating a forthcoming transformative phase expected to attract more developers and users and strengthen Ethereum's market position.",
-    "sourceName": "Coinfomania",
-    "sourceUrl": "https://coinfomania.com/vitalik-buterin-reveals-ethereums-future-vision-for-2028/",
-    "title": "Vitalik Buterin Reveals Ethereum's 2028 Vision: Scaling & AI Integration",
-    "id": "1b071cbf-b547-4519-97aa-ca03ba186b14",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "According to analyst Dennis Liu (VirtualBacon), a broad \"altcoin season\" has not yet materialized, despite recent rallies observed in specific altcoins like Zcash and Quant. Liu points out that the average altcoin has only outperformed Bitcoin by about 10% since Bitcoin's bottom, and the current gains are too isolated to signify a widespread rotation into altcoins. The broader altcoin market has also shown signs of a \"risk-off\" sentiment.",
-    "sourceName": "Crypto Potato",
-    "sourceUrl": "https://cryptopotato.com/altcoins-are-rallying-but-analyst-says-alt-season-has-yet-to-begin/",
-    "title": "Analyst: Altcoin Season Has Not Yet Begun Despite Isolated Rallies",
-    "id": "d5ee5dd6-e721-434e-b7ce-355a39771072",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Solana has launched an open-source Delivery-versus-Payment (DvP) program aimed at institutional clients. This program enables the simultaneous settlement of both the asset and cash legs of a trade, striving for transaction finality in mere seconds, a significant improvement over traditional 1-2 day clearing cycles. This development enhances efficiency and strengthens Solana's appeal for institutional adoption.",
-    "sourceName": "The Crypto Basic",
-    "sourceUrl": "https://thecryptobasic.com/2026/10/06/tcb-daily-edition-what-happened-in-crypto-on-october-6-2026/",
-    "title": "Solana Unveils DvP Program for Institutional Crypto Settlement",
-    "id": "31938117-2ddb-4b75-8836-5693fd3c5d2a",
-    "ts": 1791364650223
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The Winklevoss twins have submitted an application for a spot Zcash (ZEC) Exchange-Traded Fund (ETF), signaling growing institutional interest in privacy-focused digital assets. This filing coincides with Zcash's recent price appreciation, highlighting its performance as one of the top-gaining cryptocurrencies over the past year.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/winklevoss-files-for-spot-zcash-etf-as-zec-price-climbs-above-1376/",
-    "title": "Winklevoss Files for Spot Zcash ETF as ZEC Price Climbs",
-    "id": "a4e6b124-eaac-46f1-9311-a9139cf3779d",
-    "ts": 1791364650223
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/uniswap-uni-drops-9-amid-broad-crypto-liquidations/",
+    "title": "Uniswap (UNI) Drops 9% Amid Broad Crypto Liquidations",
+    "id": "9307c4eb-c280-4276-98d3-06170104341a",
+    "ts": 1791411802914
   }
 ]
