@@ -1,65 +1,83 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum's significant Glamsterdam upgrade, designed to enhance scalability and efficiency through features like enshrined proposer-builder separation and block-level access lists, has gone live on the Sepolia testnet. This marks one of the final testnet activations before its mainnet launch, though the gas limit on Sepolia was initially lower than the 200 million target, indicating further development.",
-    "sourceName": "Cointelegraph (via TradingView News)",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKkhlvPIAStdyS6cno1mR6owPnXls63JG-QfpfqXHXvRHYABChe23LVyT52J2DUoWPhipnKMXdXsl8T8ws4vU3IkA-dQSWf-yUcXUK0ZWdrTy8cVScnqkMbx5kZG7iFS11E8hpwLi5hcX8nLgc5sU88QdEG40ffF0fFfjW2Bbz9zte7eVgaw-aJROgv1aYIdADoewudPcBxwTjB2RIzUQJ_uRGZM-RK5hjiZ5UUDz_pZSkrV3",
-    "title": "Ethereum's Glamsterdam Upgrade Launches on Sepolia Testnet",
-    "id": "2a6f62fd-e515-484f-b4e3-ab227f3bc2cf",
-    "ts": 1791307870235
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The Commodity Futures Trading Commission (CFTC) has initiated an advance notice of proposed rulemaking for \"Regulation CTX\" and \"Regulation CAM.\" These proposals aim to establish a federal regulatory framework for leveraged retail crypto asset transactions and crypto asset markets, a move to bring clarity and prevent fraud after previous legislative efforts failed. The public has a 60-day window to provide comments.",
+    "sourceName": "The Crypto Basic",
+    "sourceUrl": "https://thecryptobasic.com/2026/10/06/cftc-launches-regulation-ctx-and-cam-to-govern-leveraged-retail-crypto-trading/",
+    "title": "CFTC Proposes New Rules for Leveraged Retail Crypto Trading",
+    "id": "2a86b5f6-fb28-493b-aa9b-bf0d6b410896",
+    "ts": 1791364650223
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ethereum successfully executed its first atomic Layer 1 (L1) to Layer 2 (L2) transaction on the mainnet, a major milestone for cross-layer execution. This achievement is expected to significantly improve the network's scalability and overall usability for decentralized applications and users.",
+    "details": "Ethereum's \"Glamsterdam\" upgrade has successfully launched on the Sepolia testnet, marking a critical step in its 2026 scaling roadmap. This deployment is testing a significantly increased gas limit of 200 million, more than triple the prior 60 million, alongside new features like enshrined proposer-builder separation. These changes aim to enhance block processing and Layer 1 capacity, moving the network closer to its mainnet activation.",
+    "sourceName": "Crypto News",
+    "sourceUrl": "https://crypto.news/ethereum-glamsterdam-hits-sepolia-with-200-million-gas-limit-test/",
+    "title": "Ethereum's Glamsterdam Upgrade Live on Sepolia Testnet, Tests 200M Gas Limit",
+    "id": "1fb328ae-0222-46de-bbd4-975b0868741b",
+    "ts": 1791364650223
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "On October 6th, Bitcoin experienced a rapid decline of almost $2,000 in approximately 20 minutes, leading to the liquidation of nearly $400 million in leveraged long positions across the crypto market. The price dropped from around $71,765 to $67,895, hitting its lowest point since April. Total liquidations within 24 hours surpassed $1 billion, predominantly affecting long bets, attributed to technical breakdowns and broader macroeconomic pressures.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/bitcoin-falls-nearly-2000-in-20-minutes-as-400-million-in-longs-get-liquidated/",
+    "title": "Bitcoin Plunges Nearly $2,000, $400 Million in Longs Liquidated",
+    "id": "27d49d53-f7a4-40bf-aaec-ce7c4f10c494",
+    "ts": 1791364650223
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "U.S. spot Bitcoin Exchange-Traded Funds (ETFs) collectively saw net inflows totaling $118.8 million on October 6th, reversing a previous day's outflow. BlackRock's iShares Bitcoin Trust (IBIT) was the primary driver, attracting $122 million in inflows. This renewed interest from investors suggests a positive sentiment and fresh capital entering Bitcoin via regulated investment vehicles.",
+    "sourceName": "Pluang",
+    "sourceUrl": "https://www.pluang.com/news/bitcoin-news-btc/us-spot-bitcoin-etfs-see-118-8m-inflows-led",
+    "title": "US Spot Bitcoin ETFs Record $118.8M Net Inflows",
+    "id": "a57afd10-1b7f-4ac7-bc82-6f2ceddfabaf",
+    "ts": 1791364650223
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Ethereum spot ETFs registered a substantial net outflow of $202 million on October 6th, marking the sixth consecutive day of such movements. BlackRock's ETHA fund alone accounted for the entirety of this daily outflow. Despite this recent trend, the cumulative net inflows for Ethereum spot ETFs since their inception remain robust at $13.549 billion.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/ethereum-spot-etfs-recorded-a-202-million-net-outflow-on-october-6-marking-the-sixth-consecutive-day-of-outflows",
+    "title": "Ethereum Spot ETFs Experience $202M Net Outflow",
+    "id": "90ddd1a6-5d32-4b6a-8b9e-a6d0db3db0e6",
+    "ts": 1791364650223
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ethereum co-founder Vitalik Buterin outlined his long-term vision for the network by 2028, predicting a substantial increase in transaction capacity, reduced costs, and enhanced privacy features. Buterin emphasized the potential for Artificial Intelligence (AI) integration to fundamentally transform applications on the blockchain, indicating a forthcoming transformative phase expected to attract more developers and users and strengthen Ethereum's market position.",
     "sourceName": "Coinfomania",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWCUpz7vDldwpfsRGlRSfSff5P9YbDKv2S30iiy7j2fzDsiquO2wNNlNp3EAeKMxEP7yo6B0F5JUPcM_dVmRaGKM-BIfuOlTpz5-i1pRwIH-Lks5fpoUYbkfyERdyw1qAXqiPG2kp0PO1crjvaoswlscVIrHM4UFQGrebhhTXYLSqDTJnXHzWV5P54orjH7g==",
-    "title": "Ethereum Achieves First Atomic L1-to-L2 Transaction",
-    "id": "9003ff66-3c75-4157-94f6-94071ad7cc9e",
-    "ts": 1791307870235
+    "sourceUrl": "https://coinfomania.com/vitalik-buterin-reveals-ethereums-future-vision-for-2028/",
+    "title": "Vitalik Buterin Reveals Ethereum's 2028 Vision: Scaling & AI Integration",
+    "id": "1b071cbf-b547-4519-97aa-ca03ba186b14",
+    "ts": 1791364650223
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Commodity Futures Trading Commission (CFTC) has proposed its first formal crypto-market rules, Regulations CTX and CAM, aiming to establish a federal regulatory scheme for crypto exchanges. This move comes after the failure of the Clarity Act in Congress and seeks to provide a unified federal approach rather than a fragmented state-by-state licensing system.",
-    "sourceName": "Morningstar (via Dow Jones)",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvO8Ceeq_ngGuKAPhNzEEZ4Buo87TraSst6Yu-jLVrHVqwqI3_ruPrMqjDfx9GT482hmveKzITiz4pmq4ngoxtjAHAlvK3EX5Rp3FgXZ6b2ER0-goHLs0Aw0yEYRIvN-ueS0ttM-vpPJuizJTu9D0zERasRGMHee-9RjHtGcoFa_yGjn655MswdFXCcFItMNneNhdfQgLh--Lz-NOzsC2JOCowCJGnITA=",
-    "title": "CFTC Proposes Federal Framework for Crypto Regulation",
-    "id": "cbcc9825-bc34-4bb4-ae89-715c6dc5e84b",
-    "ts": 1791307870235
+    "details": "According to analyst Dennis Liu (VirtualBacon), a broad \"altcoin season\" has not yet materialized, despite recent rallies observed in specific altcoins like Zcash and Quant. Liu points out that the average altcoin has only outperformed Bitcoin by about 10% since Bitcoin's bottom, and the current gains are too isolated to signify a widespread rotation into altcoins. The broader altcoin market has also shown signs of a \"risk-off\" sentiment.",
+    "sourceName": "Crypto Potato",
+    "sourceUrl": "https://cryptopotato.com/altcoins-are-rallying-but-analyst-says-alt-season-has-yet-to-begin/",
+    "title": "Analyst: Altcoin Season Has Not Yet Begun Despite Isolated Rallies",
+    "id": "d5ee5dd6-e721-434e-b7ce-355a39771072",
+    "ts": 1791364650223
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Bitcoin (BTC) has been trading around the mid-$80,000s, showing strength at the start of October, a month historically known as \"Uptober\" for positive BTC performance. The cryptocurrency is nearing the $88,000 mark, where a cluster of leveraged short positions could trigger a short squeeze, potentially pushing BTC towards $90,000-$93,000. Easing expectations for Federal Reserve interest rate hikes, due to softer U.S. labor data, are providing support for risk assets like Bitcoin. The 2026 yearly open at $87,570 remains a key resistance level.",
-    "sourceName": "The Economic Times",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjA4W3M2WEIlEl6CLmz92v4GxRkDwosClky2FouEUqWhYQXv2NzjcU1tEBqFssPDp2n8i_pihStpsyqHPEpDpZmDmsrfvsDV8feqlMHHOj7cpZ0YqWz9Lg7LKRNKsU2pvRIeUeIZvo-DQ7LQvR_J7L8N865Ug8LIhq797OUSDjSDLQIxxhUbtDLYyfnRjXkMkUqVF_Nn0DD6VzpFVP8XrkK-CJdCYPCoxOT-eH003qf_uxF1TtX7tUIPI9A9jhdoqdfYtYs0TvzeimWFc45zRGI1Nku1TOYXuHAFcWK8Uz3GjnclQ5CYs=",
-    "title": "Bitcoin Nears $88,000 Amid Bullish October Sentiment and Short Squeeze Potential",
-    "id": "f445f96a-8b9d-4307-b3f1-6cc932902611",
-    "ts": 1791307870235
+    "details": "Solana has launched an open-source Delivery-versus-Payment (DvP) program aimed at institutional clients. This program enables the simultaneous settlement of both the asset and cash legs of a trade, striving for transaction finality in mere seconds, a significant improvement over traditional 1-2 day clearing cycles. This development enhances efficiency and strengthens Solana's appeal for institutional adoption.",
+    "sourceName": "The Crypto Basic",
+    "sourceUrl": "https://thecryptobasic.com/2026/10/06/tcb-daily-edition-what-happened-in-crypto-on-october-6-2026/",
+    "title": "Solana Unveils DvP Program for Institutional Crypto Settlement",
+    "id": "31938117-2ddb-4b75-8836-5693fd3c5d2a",
+    "ts": 1791364650223
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The U.S. Treasury Department has withdrawn two previously proposed rules: the 2023 crypto-mixing rule and the 2020 self-hosted wallet rule. These proposals would have required identity checks and reporting for transfers to unhosted wallets. The withdrawal is seen as a relief for privacy advocates and those concerned about stringent regulations on self-custody.",
-    "sourceName": "Investing News Network (INN)",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy6v5wVPCC5MqcflptOBtz9Ob2FcmuyIdvYWLwbVb4ik56oB9M3e6RI8-2v1LTvCVQXSICzsAlivKEBDiTWkTUFtXkXXdWMmCgHgXreE2_vdtk2eCkowEodcTVziS-Y3BxGLM0FsPOcPryroIvH6Z7Tg==",
-    "title": "US Treasury Withdraws Crypto Mixer and Self-Hosted Wallet Rules",
-    "id": "117c5213-9c65-426e-b7db-96a5852a59bb",
-    "ts": 1791307870235
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Genius Group (GNS) has resumed its Bitcoin treasury acquisitions, purchasing 10 BTC between October 2 and October 5, 2026, for approximately $854,000. This is part of the company's approved $1.2 billion dual treasury capital plan, which allocates funds to both Bitcoin and AI assets.",
-    "sourceName": "Stock Titan",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErOffVmcG5pPlZfGEcomSQxqp_EfghxWvL9Jaxae4m1OZCB2MkdGVZszzLc5WMKMgQ1cJok2xqo5t_jUMVhgxUYQpMeyOTveHD9oe2xOGwHX_0sx3SvrYoK9yBQLsoBZaLswsDs6kWePSlZ6BkVE9mF3YatZNcfcAaQPhBt3x8QeEpcfC2LJqAqxYInKHIi6ihTUn_Zu_5adDU",
-    "title": "Genius Group Recommences Bitcoin Treasury Purchases",
-    "id": "2c9fa0cd-4967-4335-8021-4f3657db554d",
-    "ts": 1791307870235
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Securities and Exchange Commission (SEC) has proposed new rules to establish a tailored framework for the custody of crypto assets by registered investment advisers and regulated funds. The proposal aims to modernize existing custody rules, increase investor choice, and allow self-custody under specific conditions, as well as permit the use of state trust companies as custodians. (Note: This news item was published on October 1, 2026, but is highly relevant to ongoing market discussions and regulatory clarity.)",
-    "sourceName": "SEC.gov",
-    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhQKta8bds1ZwOfWZzCyo4s-T9vrsFz2QPFi3TM-FNps7BhnjNpAbnRjVXOhPyPmwykUpseOXPr5daXY97gGxOHDGY3hiTr_Q0MvqfPb7fgUxWZ0eLpjun-YxHq30jXYBGwl2n9GBD4HhZ3drVeujPwtNEVIszD0qnYThJkBUdmiLV0AEyEWnY2WY_B51Icybf4wY6oP_ESX_IrRwsn41bEUPL935-FkJL8MXmuG3h-InZkn5Jw9kh78HN31FFa087osLF0iigaf-UKoQPijUgsg==",
-    "title": "SEC Proposes New Crypto Custody Rules for Investment Advisers",
-    "id": "83e224d1-763b-484e-a058-6a89e44729d7",
-    "ts": 1791307870235
+    "details": "The Winklevoss twins have submitted an application for a spot Zcash (ZEC) Exchange-Traded Fund (ETF), signaling growing institutional interest in privacy-focused digital assets. This filing coincides with Zcash's recent price appreciation, highlighting its performance as one of the top-gaining cryptocurrencies over the past year.",
+    "sourceName": "crypto.news",
+    "sourceUrl": "https://crypto.news/winklevoss-files-for-spot-zcash-etf-as-zec-price-climbs-above-1376/",
+    "title": "Winklevoss Files for Spot Zcash ETF as ZEC Price Climbs",
+    "id": "a4e6b124-eaac-46f1-9311-a9139cf3779d",
+    "ts": 1791364650223
   }
 ]
