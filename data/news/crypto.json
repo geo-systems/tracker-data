@@ -1,29 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin's price dropped significantly, falling below key support levels, following the release of hotter-than-expected US Consumer Price Index (CPI) data for September. This data reignited concerns among investors about the Federal Reserve implementing more aggressive interest rate hikes, leading to widespread liquidations across the crypto market.",
-    "sourceName": "FXEmpire",
-    "sourceUrl": "https://www.fxempire.com/news/article/bitcoin-price-forecast-hot-us-inflation-threatens-btc-drop-below-80k-1523423",
-    "title": "Bitcoin Plunges as Hot US Inflation Sparks Rate Hike Fears",
-    "id": "9f976e99-b5c1-43e5-8c6d-9009d9d53816",
-    "ts": 1792065938173
+    "details": "Both Bitcoin and Ethereum experienced significant price declines, with Bitcoin falling below $81,000 and Ethereum below $2,400, in response to hotter-than-forecast US Producer Price Index (PPI) data. This macroeconomic shock triggered a broad risk-off sentiment across the crypto markets, leading to substantial liquidations.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/markets/2026/10/15/bitcoin-bounces-back-to-82000-after-first-fall-below-80000-in-one-month/",
+    "title": "Bitcoin and Ethereum Plunge Following Higher-Than-Expected US Inflation",
+    "id": "926b2a1e-7f0d-4c1b-a70a-66907f7b365f",
+    "ts": 1792106385426
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Ethereum spot exchange-traded funds (ETFs) experienced net outflows on October 14, with BlackRock's ETHA fund notably seeing a $110 million outflow. Adding to the negative sentiment, VanEck withdrew its application for a Lido Staked Ethereum ETF, reducing future investment product options for US investors and contributing to downward pressure on ETH's price.",
-    "sourceName": "Traders Union",
-    "sourceUrl": "https://tradersunion.com/news/crypto-news/ethereum/ethereum-falls-amid-etf-withdrawal-and-forced-liquidations/",
-    "title": "Ethereum ETFs Face Outflows Amid VanEck's Staked ETH ETF Withdrawal",
-    "id": "f48e5050-f6cd-4d7d-b60f-eb3a66685029",
-    "ts": 1792065938173
+    "details": "US spot Bitcoin exchange-traded funds (ETFs) registered net outflows for the week, with approximately $262 million withdrawn. This trend reversed earlier inflows and contributed to the overall negative sentiment. In contrast, XRP ETFs managed to attract positive inflows, bucking the broader market outflow trend.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951016896200",
+    "title": "Bitcoin Spot ETFs Record Outflows, XRP Funds Show Resilience",
+    "id": "ce20006d-58b8-4e3b-b547-d89b266a1367",
+    "ts": 1792106385426
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The \"Clarity Act,\" a significant piece of US crypto market structure legislation, has stalled in the Senate, leaving the legislative allocation of SEC/CFTC jurisdiction unresolved. This legislative setback coincided with the departure of Patrick Witt, the executive director for the President's Council of Advisors for Digital Assets, from his White House crypto role, further contributing to an uncertain regulatory environment for digital assets in the United States.",
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ripple Prime has launched 24/7 real-world asset (RWA) perpetual swaps, deepening its push into Wall Street and institutional services. This move aims to bring greater liquidity and accessibility for institutional clients looking to engage with tokenized assets around the clock.",
+    "sourceName": "Bitcoin.com",
+    "sourceUrl": "https://news.bitcoin.com/ripple-prime-introduces-24-7-real-world-asset-perpetual-swaps/",
+    "title": "Ripple Introduces 24/7 Real-World Asset Swaps for Institutions",
+    "id": "4752c645-10a0-474f-87e9-42afa3b3ee61",
+    "ts": 1792106385426
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Abstract, an Ethereum Layer 2 solution backed by Pudgy Penguins, is reportedly shutting down after experiencing significant financial losses, estimated to be in the tens of millions. This development highlights the challenges faced by new projects in the competitive Layer 2 ecosystem.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/263023/patrick-witt-exits-white-house-crypto-role-as-clarity-act-stalls",
-    "title": "US Crypto Regulatory Uncertainty Grows as Clarity Act Stalls and Advisor Exits",
-    "id": "ac2fd69e-6c4f-4fb8-8620-465435b9be05",
-    "ts": 1792065938173
+    "sourceUrl": "https://www.theblockcrypto.com/news/173950/pudgy-penguins-backed-ethereum-l2-abstract-to-shut-down-after-losing-tens-of-millions",
+    "title": "Pudgy Penguins-Backed Ethereum L2 Abstract to Cease Operations",
+    "id": "fc4f008d-1d61-47e2-a982-6428b3fcc46e",
+    "ts": 1792106385426
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Investment firm VanEck has canceled its plans for a Lido staked Ethereum (ETH) ETF. The reasons for the withdrawal were not immediately detailed, but this decision reflects a cautious approach or potential regulatory hurdles in offering staked crypto investment products.",
+    "sourceName": "crypto.news",
+    "sourceUrl": "https://crypto.news/vaneck-cancels-plans-for-lido-staked-ethereum-etf/",
+    "title": "VanEck Withdraws Application for Lido Staked Ethereum ETF",
+    "id": "1dd4ac9e-4b8f-40a3-b75c-f95c3651c073",
+    "ts": 1792106385426
   }
 ]
