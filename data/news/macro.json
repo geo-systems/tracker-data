@@ -1,47 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The US September Consumer Price Index (CPI) unexpectedly rose to 3.7%, exceeding forecasts and increasing the probability of additional Federal Reserve interest rate hikes before year-end. This hotter-than-expected inflation data sparked a significant \"risk-off\" sentiment across global financial markets, leading to a substantial crypto market sell-off that wiped nearly $100 billion from the total market capitalization within 24 hours. Bitcoin briefly dipped below $80,000, while altcoins also experienced sharp declines.",
-    "sourceName": "Investing.com",
-    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/after-the-cpi-shock-what-will-it-take-for-crypto-to-recover-93CH-3580464",
-    "title": "Hot US CPI Fuels Fed Hike Bets, Triggers Crypto Sell-Off",
-    "id": "0cdd4965-3458-4dca-a06d-a71b78ee5ef3",
-    "ts": 1792151634829
+    "details": "Global stock markets, particularly the technology and chip sectors, experienced a downturn on Friday due, in part, to concerns surrounding higher interest rates and the significant debt financing underpinning the artificial intelligence (AI) boom. Following stronger-than-expected U.S. inflation data earlier in the week, traders increased their bets on additional interest rate hikes by the Federal Reserve, prompting a shift by investors towards safer assets like government bonds. This broader \"risk-off\" sentiment in traditional markets typically extends to cryptocurrencies.",
+    "sourceName": "Reuters (via Fidelity Investments)",
+    "sourceUrl": "https://www.fidelity.com/news/article/global-markets-stocks-slip-as-dollar-heads-for-weekly-loss/202610161400REUTERSFINANCIALNEWS",
+    "title": "Global Stocks Drop on AI Debt Concerns and Rate Hike Fears",
+    "id": "ac7c8f0e-f54a-45ed-ae1a-47acdf4b97ee",
+    "ts": 1792200932937
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Payments modernization company Marqeta and leading cryptocurrency exchange Coinbase have announced a collaboration to enable stablecoin-backed card payments. This partnership will allow Marqeta's customers to offer cards that convert users' stablecoin holdings into fiat currency for everyday spending. Coinbase will manage the stablecoin custody, fiat conversion, and facilitate fast, low-cost settlement on its Base blockchain, aiming to enhance the real-world utility and adoption of stablecoins.",
+    "sourceName": "Financial Times (Company Announcement)",
+    "sourceUrl": "https://markets.ft.com/data/announce/detail?id=1498637780026214",
+    "title": "Marqeta and Coinbase Partner for Stablecoin-Backed Card Payments",
+    "id": "6be0ce8c-b005-43c3-95a8-917155470320",
+    "ts": 1792200932937
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The crypto market witnessed nearly $1 billion in liquidations over 24 hours following the surprising US CPI report, indicating a significant flush of leveraged positions. Long positions constituted approximately 90% of these liquidations, with Ethereum accounting for about $290 million and Bitcoin around $200 million. This highlights an overleveraged bullish market reacting sharply to macroeconomic headwinds.",
-    "sourceName": "Decrypt.Co",
-    "sourceUrl": "https://decrypt.co/205629/ethereum-altcoins-outsized-drawdowns-macro-pressures",
-    "title": "Nearly $1 Billion in Crypto Liquidations Follows Inflation Data",
-    "id": "e8a19159-1b1c-4bcd-8f6c-1e32c6c1677b",
-    "ts": 1792151634829
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The International Monetary Fund (IMF) has revised its global inflation estimates upwards for both 2026 (to 4.7%) and 2027 (to 4.1%). The IMF projects US inflation will remain above the Federal Reserve's 2% target well into 2027. This outlook suggests sustained pressure on central banks globally to maintain tight monetary policies or even consider further rate increases, which could continue to weigh on non-interest-bearing assets like Bitcoin.",
-    "sourceName": "CoinDesk",
-    "sourceUrl": "https://www.coindesk.com/policy/2026/10/13/what-the-imfs-world-economic-outlook-means-for-bitcoin-price/",
-    "title": "IMF Raises Global Inflation Forecasts, Signals Tighter Monetary Policy",
-    "id": "4a30be57-722d-4955-9124-e9c951725309",
-    "ts": 1792151634829
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Eurosystem has initiated \"Pontes,\" a project aimed at enabling wholesale transactions in tokenized assets to settle using central bank money. Major banks, public sector issuers, and Distributed Ledger Technology (DLT) infrastructures are already participating. The European Central Bank (ECB) is also reportedly preparing to invest a portion of its own funds into eligible tokenized securities, signaling a strategic move towards integrating tokenized markets into live institutional financial infrastructure in Europe.",
-    "sourceName": "White & Case LLP",
-    "sourceUrl": "https://www.whitecase.com/insight-our-thinking/emea-digital-assets-market-quarterly",
-    "title": "ECB Launches 'Pontes' Project for Central Bank Money Settlement of Tokenized Assets",
-    "id": "b8b0c04b-cd28-49d6-88ec-06d621d640bd",
-    "ts": 1792151634829
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Securities and Exchange Commission (SEC) has proposed \"Regulation Crypto Assets,\" a new tailored offering framework for certain crypto asset investment contracts. This proposal includes potential exemptions for smaller and growth-stage offerings and a conditional safe harbor. Such regulatory clarity could establish clearer pathways for token issuances in the U.S. market, provided disclosure and anti-fraud requirements are met.",
-    "sourceName": "White & Case LLP",
-    "sourceUrl": "https://www.whitecase.com/insight-our-thinking/emea-digital-assets-market-quarterly",
-    "title": "SEC Proposes Tailored Framework for Crypto Investment Contracts",
-    "id": "ace5976f-056e-4702-934a-4a005ff1e238",
-    "ts": 1792151634829
+    "details": "Cryptocurrency markets witnessed substantial volatility, resulting in total liquidations exceeding $830 million across all digital assets within a 24-hour period as of October 16. Long-position liquidations were particularly dominant, especially after Bitcoin briefly dipped below the $80,000 mark before staging a rebound to near $82,000. This significant wave of liquidations underscores the impact of ongoing macroeconomic pressures and the elevated leverage present in the crypto market.",
+    "sourceName": "Moomoo (citing CoinGlass data)",
+    "sourceUrl": "https://www.moomoo.com/news/flash/10705096574341",
+    "title": "Over $830 Million in Crypto Liquidations Amid Market Volatility",
+    "id": "a6d4c254-60e8-4c01-92c0-a53030e03545",
+    "ts": 1792200932937
   }
 ]
