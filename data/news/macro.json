@@ -1,29 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Cryptocurrencies, including Bitcoin, experienced declines as global financial markets entered a \"risk-off\" phase. A significant sell-off in technology stocks, fueled by renewed skepticism over AI spending and valuations, contributed to the downturn. Simultaneously, surging crude oil prices, reaching multi-month highs due to Middle East tensions, are escalating inflation concerns and solidifying expectations that central banks, particularly the Federal Reserve, will maintain restrictive monetary policies. This confluence of factors reduces appetite for speculative assets like cryptocurrencies.",
-    "sourceName": "The Economic Times / TheStreet",
-    "sourceUrl": "*Direct URL could not be retrieved due to grounding API limitations or paywall restrictions for the specified sources. Please refer to major financial news outlets for live market updates.*",
-    "title": "Global Market Jitters Drag Down Cryptocurrencies Amid Tech Slump and Rising Oil Prices.",
-    "id": "4c12468d-f825-448a-bf48-80cbc833e926",
-    "ts": 1792795040105
+    "details": "The Federal Reserve Bank of Cleveland's Inflation Nowcasting tool forecasts the Consumer Price Index (CPI) to accelerate to 3.77% in October, with Core Personal Consumption Expenditures (PCE) reaching 3.13%. This upward trend is primarily driven by rapidly rising fuel costs. While the Federal Open Market Committee (FOMC) is expected to hold interest rates steady at its meeting on October 27-28, market futures anticipate potential rate hikes, pushing the federal funds rate to approximately 4.5% by October 2027. This outlook signals a sustained period of restrictive monetary policy.",
+    "sourceName": "The Motley Fool",
+    "sourceUrl": "https://www.fool.com/investing/2026/10/23/the-federal-reserves-latest-october-inflation-forecast-has-arrived/",
+    "title": "US Inflation Surges, Fed Eyes Further Rate Hikes",
+    "id": "dcc4c03f-2fef-4445-bb28-e008444d01b7",
+    "ts": 1792853626222
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Japan's core inflation rate in September climbed to 2.1%, surpassing the Bank of Japan's 2% target. This development strengthens market expectations for the BOJ to consider implementing interest rate hikes in the near future. Such a move by a major global central bank, potentially coupled with the Federal Reserve's monetary policy trajectory, could influence global liquidity and impact the cryptocurrency market, notably through potential unwinding of yen carry-trade positions.",
-    "sourceName": "Investing.com (citing Reuters)",
-    "sourceUrl": "*Direct URL could not be retrieved due to grounding API limitations or paywall restrictions for the specified sources. Please refer to Investing.com for \"Japan core inflation exceeds BOJ target, cements near-term rate hike chance.\"*",
-    "title": "Japan's Core Inflation Exceeds 2% Target, Raising Prospects for BOJ Rate Hikes.",
-    "id": "002fd0d7-f365-477b-9bfe-7836f337c913",
-    "ts": 1792795040105
+    "details": "The World Bank's latest projections indicate a significant slowdown in global economic growth, with a forecast of 2.5% for 2026. This deceleration is largely attributed to the ongoing Middle East conflict, which is contributing to sharp energy price increases, renewed inflationary pressures, and expectations of tighter global monetary policies. The World Bank warns that risks to this outlook remain skewed to the downside.",
+    "sourceName": "World Bank",
+    "sourceUrl": "https://www.worldbank.org/en/publication/global-economic-prospects",
+    "title": "World Bank Forecasts Global Growth Slowdown to 2.5% in 2026",
+    "id": "11808e58-9d58-4333-8a02-40322f9f32ee",
+    "ts": 1792853626222
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The Central Bank of Ireland has imposed a fine of €3,252,618 on Coinbase Ireland Limited for breaching its safeguarding and outsourcing obligations under Electronic Money Regulations between November 2020 and August 2025. The regulatory action highlights Coinbase Ireland's excessive reliance on its U.S. parent for regulatory compliance and its failure to adequately safeguard customer funds.",
-    "sourceName": "Central Bank of Ireland",
-    "sourceUrl": "https://www.centralbank.ie/news-media/press-releases/the-central-bank-takes-enforcement-action-against-coinbase-ireland",
-    "title": "Coinbase Ireland Fined Millions for Safeguarding and Outsourcing Failures.",
-    "id": "eadcf8ce-f42a-4627-a201-4ab1809f4ddc",
-    "ts": 1792795040105
+    "details": "Brent crude oil prices surged to an approximate range of $116-$117 per barrel on October 23, marking a five-month high. This increase is a direct consequence of escalating geopolitical tensions in the Middle East and heightened concerns over potential disruptions to global oil supplies. The elevated oil prices are exacerbating persistent inflationary pressures worldwide.",
+    "sourceName": "The Guardian",
+    "sourceUrl": "https://www.theguardian.com/business/live/2026/oct/23/oil-hits-five-month-high-global-stocks-wobble-ai-fears-retail-sales-great-britain-fall-as-shoppers-cut-back-business-live",
+    "title": "Brent Crude Hits 5-Month High Amid Middle East Conflict",
+    "id": "f2f7d9c5-6940-4e5c-8945-34f6a9d3f89f",
+    "ts": 1792853626222
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Global stock markets experienced notable declines, with major U.S. indices such as the S&P 500 falling by 1.2% and the Nasdaq 100 by 2.9% on October 23. This downturn was driven by a combination of investor concerns regarding the sustainability and profitability of extensive artificial intelligence (AI) technology investments, alongside the impact of surging oil prices. This confluence of factors has fostered a \"risk-off\" sentiment across financial markets.",
+    "sourceName": "Interactive Brokers",
+    "sourceUrl": "https://www.interactivebrokers.com/en/index.php?f=2008&p=dailycommentary&article=261023TechRebounds",
+    "title": "Global Stocks Decline Amid AI Spending Concerns and Rising Oil Prices",
+    "id": "ffaf19de-8812-4a92-933e-ffc5496173e1",
+    "ts": 1792853626222
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "U.S. consumer sentiment continued its decline for the third consecutive month in October, with the University of Michigan's Index of Consumer Sentiment weakening to 48. This drop reflects growing concerns among consumers about diminishing purchasing power and overall affordability, further pressured by persistently high interest rates. The average 30-year fixed mortgage rates remain elevated, recently reported at 7.32%.",
+    "sourceName": "People's Daily Online (citing University of Michigan data)",
+    "sourceUrl": "http://en.people.cn/n3/2026/1024/c90000-10486338.html",
+    "title": "US Consumer Sentiment Falls, High Mortgage Rates Persist",
+    "id": "f9b51527-02f9-4eef-a3be-b99ff40695cd",
+    "ts": 1792853626222
   }
 ]
