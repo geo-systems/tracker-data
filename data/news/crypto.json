@@ -1,101 +1,47 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin dropped below $80,000 on October 24, triggering significant liquidations across the market, with over $828 million in crypto positions liquidated within 24 hours, predominantly long positions. Major altcoins also experienced sharp declines, reflecting a weakening market sentiment influenced by broader economic concerns and upcoming Federal Reserve meetings.",
-    "sourceName": "BeInCrypto / KuCoin",
-    "sourceUrl": "https://beincrypto.com/bitcoin-loses-80000-200-million-leverage-unwinds-hour/",
-    "title": "Bitcoin Dips Below $80K as Altcoins Plunge, $828M Liquidated",
-    "id": "723eda85-0e46-4dbb-b8d2-1691baaa0ec8",
-    "ts": 1792885149925
+    "details": "Bitcoin briefly fell below the $80,000 mark on Saturday, reaching its lowest price in over a month. The drop coincided with reports of the United States evacuating personnel from Middle East outposts due to concerns about potential attacks from Iran. This market movement led to $404 million in crypto long positions being liquidated within four hours as broader crypto prices declined.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/263591/crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000",
+    "title": "Bitcoin Dips Below $80K Amid Geopolitical Tensions & Long Liquidations",
+    "id": "c1605498-aacd-4fac-b11c-65629c95ca30",
+    "ts": 1792932949087
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Wells Fargo, Intuit, and several other major American companies have formally objected to plans by cryptocurrency exchange OKX and Intercontinental Exchange (ICE) to list tokenized versions of publicly traded equities. These objections, totaling 22 firms, highlight growing corporate resistance to blockchain-based stock trading initiatives that aim for 24/7 accessibility.",
+    "sourceName": "Cryptonews.net (citing Reuters)",
+    "sourceUrl": "https://cryptonews.net/news/altcoin/27042851/",
+    "title": "Wells Fargo, Intuit Among Firms Objecting to OKX-ICE Tokenized Stock Plans",
+    "id": "8011e73f-9606-4620-ba33-5968ed73881f",
+    "ts": 1792932949087
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "BitMEX co-founder Arthur Hayes announced on October 24 that his family office, Maelstrom, has exited its directional trading positions, selling assets including ETH, ENA, and UNI. Hayes cited profit-taking amidst mounting economic and geopolitical concerns, indicating a strategy to re-enter the market when conditions become more favorable.",
-    "sourceName": "BeInCrypto",
-    "sourceUrl": "https://beincrypto.com/bitcoin-loses-80000-200-million-leverage-unwinds-hour/",
-    "title": "Arthur Hayes Exits Directional Crypto Trades Amid Market Woes",
-    "id": "928b0f25-5ecd-49ec-ba1e-82115ac64955",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Tether announced on October 24 that 15 leading Bitcoin mining operators, ASIC manufacturers, and mining pools have committed to integrating its open-source Mining Development Kit (MDK). This initiative aims to standardize mining infrastructure and facilitate AI-driven automation, with a stable 1.0 release targeted for year-end 2026.",
-    "sourceName": "Cryptonews.net",
-    "sourceUrl": "https://cryptonews.net/news/bitcoin-news/tethers-mdk-gains-broad-industry-backing-to-accelerate-the-next-generation-of-bitcoin-mining-automation/",
-    "title": "Tether's MDK Gains Support from 15 Bitcoin Mining Firms",
-    "id": "c1afc424-5fad-4333-82c3-5c28afa5522f",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The cryptocurrency market is showing a persistent struggle to regain consistent demand as October draws to a close, maintaining a cautious tone among investors. The Fear & Greed Index has reverted to a neutral zone (48 points), signaling a decline in previous market enthusiasm, even as some traditional competing markets have become less appealing.",
-    "sourceName": "FOREX.com",
-    "sourceUrl": "https://www.forex.com/en-us/news-and-analysis/forex-news/market-analysis/crypto-outlook-why-is-demand-failing-to-recover/",
-    "title": "Crypto Market Struggles for Demand Recovery Amid Caution",
-    "id": "ea262bc8-e540-42ab-bbf3-fcab66db2cfe",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Mike McGlone, a senior commodity strategist at Bloomberg, issued a warning that Bitcoin's price could plunge to $10,000 if the US stock market experiences a sustained 20% correction. He suggests that Bitcoin's increased mainstream adoption through ETFs has made it more susceptible to traditional market risks and volatility.",
-    "sourceName": "BeInCrypto",
-    "sourceUrl": "https://beincrypto.com/bitcoin-10k-bloomberg-analyst-warns-brutal-scenario-stocks-slide-20-percent/",
-    "title": "Bloomberg Analyst Warns Bitcoin Could Drop to $10K",
-    "id": "9e3fba8c-31ef-4920-936c-540b37326e03",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Remittix has announced a permanent burn of 300 million RTX tokens at its launch, which will reduce the original supply by 20%. This strategic tokenomics event, set before its November 24 public trading debut, aims to create scarcity and follows a successful capital raise of $33 million from over 40,000 participants.",
-    "sourceName": "GlobeNewswire",
-    "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/23/3358055/0/en/Cryptocurrency-News-Remittix-Pairs-Its-33-Million-Raise-With-a-300-Million-RTX-Burn-as-XRP-Ledger-s-November-Update-Revives-a-10-XRP-Price-Prediction.html",
-    "title": "Remittix Announces 300 Million RTX Token Burn",
-    "id": "8acba583-f660-440e-929c-6c31bba4cfe9",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin Core updated its security policy on October 22 to expedite fixes and disclosures for \"easily discoverable\" vulnerabilities, including those identified by advanced AI tools. This change aims to provide node operators with patches more quickly, abandoning previous longer embargo periods for such bugs.",
-    "sourceName": "Bitcoin Foundation / KuCoin",
-    "sourceUrl": "https://bitcoin.org/en/news/2026/10/23/bitcoin-core-fast-tracks-fixes-and-disclosure-for-easily-found-bugs/",
-    "title": "Bitcoin Core Fast-Tracks Security Fixes for AI-Discoverable Bugs",
-    "id": "c9dd7122-a0b3-428c-b1e7-4ec5f19bdff9",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "On October 23, wallets linked to BlackRock's spot Bitcoin ETFs transferred 3,215 BTC ($262.4 million) and 38,882 ETH ($93.2 million) to Coinbase Prime. While such large movements can alarm crypto enthusiasts, this activity is likely routine fund management for existing redemptions rather than an indication of new selling pressure.",
-    "sourceName": "24/7 Wall St.",
-    "sourceUrl": "https://247wallst.com/investing/2026/10/23/bitcoin-news-blackrock-just-moved-262-million-in-bitcoin-to-coinbase-is-more-selling-coming/",
-    "title": "BlackRock Moves $355M in BTC & ETH to Coinbase Prime",
-    "id": "2fb63ad2-d16e-474a-ad4b-56c1fd7d2720",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Six additional companies, including financial giants Wells Fargo and Intuit, along with Arm Holdings, have formally objected to having their shares tokenized on OKXICE, a joint trading platform proposed by crypto exchange OKX and Intercontinental Exchange. This brings the total number of objectors to 22, underscoring increasing challenges for blockchain-based stock trading initiatives.",
-    "sourceName": "Reuters",
-    "sourceUrl": "https://www.reuters.com/business/finance/wells-fargo-intuit-others-object-their-shares-being-tokenized-regulatory-document-2026-10-23/",
-    "title": "Wells Fargo, Intuit & Arm Object to Tokenized Stock Platform",
-    "id": "76b8e644-a3b1-4cd0-9795-c6eff4a49b9d",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "JPMorgan Chase has officially launched its JPM Coin deposit token on the public Ethereum blockchain network. This strategic move aims to expand the reach of institutional finance into public blockchain ecosystems, making the token available to J.P. Morgan's institutional clientele.",
-    "sourceName": "Bank Policy Institute",
-    "sourceUrl": "https://www.bpi.com/bpinsights-october-24-2026/",
-    "title": "JPMorgan Launches JPM Coin on Public Ethereum Blockchain",
-    "id": "7f9dd237-e996-45ad-b7e1-515a0d3064a7",
-    "ts": 1792885149925
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The U.S. Internal Revenue Service (IRS) is preparing to revise its voluntary disclosure program, with plans to reduce penalties and expedite the resolution of tax violations, including those involving cryptocurrencies. The updated program is anticipated to be introduced before December, targeting case resolutions within 120 days.",
+    "details": "The Initia network was temporarily halted following a security incident where an attacker reportedly minted unauthorized tokens, draining over $2.6 million. This exploit raises concerns about the security of decentralized finance (DeFi) protocols and cross-chain operations.",
     "sourceName": "Cointelegraph",
-    "sourceUrl": "https://cointelegraph.com/news/irs-plans-lower-tax-disclosure-penalties-including-for-crypto-forbes",
-    "title": "IRS to Lower Penalties for Crypto Tax Disclosures",
-    "id": "2b67daa3-fa34-4371-ae84-6ec1277f147b",
-    "ts": 1792885149925
+    "sourceUrl": "https://cointelegraph.com/news/initia-halts-blockchain-after-exploit-reportedly-drains-over-2-6m",
+    "title": "Initia Network Halted After Reported Security Incident",
+    "id": "929cdd1a-7621-4098-877d-13e40d1bdff0",
+    "ts": 1792932949087
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "A US Senator is reportedly seeking answers from stablecoin issuer Tether regarding a deal with a firm founded by a former White House crypto adviser under the Trump administration. This inquiry signals increasing regulatory scrutiny on stablecoin operations and potential political influence within the crypto sector.",
+    "sourceName": "Cointelegraph",
+    "sourceUrl": "https://cointelegraph.com/news/us-senator-probes-tether-after-reported-deal-with-ex-trump-crypto-adviser",
+    "title": "US Senator Probes Tether Over Deal with Ex-Trump Crypto Adviser",
+    "id": "426c431a-417e-49e0-9b2a-e5d72b404c0b",
+    "ts": 1792932949087
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Spot Bitcoin Exchange-Traded Funds (ETFs) experienced significant net outflows, totaling $636 million, which effectively erased the inflows from the preceding day. This reversal in institutional sentiment suggests a fluctuating interest in Bitcoin ETFs and could indicate broader market caution.",
+    "sourceName": "The Block",
+    "sourceUrl": "https://www.theblockcrypto.com/post/263539/bitcoin-etfs-swing-back-to-net-outflows-as-636-million-in-withdrawals-erase-previous-days-inflows",
+    "title": "Bitcoin ETFs See $636M Outflows, Erasing Previous Day's Inflows",
+    "id": "c25ce2a9-a4e7-4c92-a0ae-ac3b301ffc71",
+    "ts": 1792932949087
   }
 ]
