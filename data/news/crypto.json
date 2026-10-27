@@ -1,65 +1,110 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple has received final approval from the Office of the Comptroller of the Currency (OCC) to establish Ripple National Trust Bank (RNTB). This federal charter strengthens Ripple's regulatory foundation, allowing RNTB to manage reserves supporting Ripple USD (RLUSD), act as collateral trustee for RLUSD holders, and provide fiduciary digital asset custody services. This move reinforces Ripple's commitment to building digital asset infrastructure within the regulated financial system.",
-    "sourceName": "Business Wire",
-    "sourceUrl": "https://www.businesswire.com/news/home/20261026602340/en/Ripple-Receives-Final-OCC-Approval-to-Establish-National-Trust-Bank",
-    "title": "Ripple Secures Final OCC Approval for National Trust Bank",
-    "id": "2f6a0fc4-4e23-415b-923a-d2cd57388223",
-    "ts": 1793079644923
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Chainlink has introduced CustodySync in partnership with Anchorage Digital Bank, enabling institutional clients to access decentralized finance (DeFi) lending markets using assets held in qualified custody. This solution addresses a critical barrier by allowing institutions to borrow against custodied assets without directly transferring them to DeFi protocols, leveraging Chainlink's data oracles for synchronized valuations and collateral management.",
-    "sourceName": "Chainlink",
-    "sourceUrl": "https://chain.link/blog/introducing-chainlink-custodysync",
-    "title": "Chainlink Launches CustodySync with Anchorage for Institutional DeFi Borrowing",
-    "id": "64eed52d-7afb-4376-9cc2-d3c4ae47e8ac",
-    "ts": 1793079644923
+    "details": "ENSv2 has officially launched on the Ethereum mainnet, introducing an advanced hierarchical registry and enhanced permission model. This update allows individual domains to function as independent on-chain registries, supporting custom subdomain rules, zone-based authorization, and shared record links. The new ENS App and Explorer are now live, and major platforms like MetaMask and Uniswap are integrating the update. Users can also optionally upgrade their existing .eth domains and claim a commemorative NFT.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYf1Zd29FgDT4FFzWJXfXmMwJfBmSVDuoKwbr_2ywTPhxoCm6guE-qGun0mEaDJfZWqfWVDOEAcIHQAV_JhTJWdja-eukwNH-PmyhsSCA5TgnAel8MgM0SgTvPIvDfmMlpRdE_9bfrkyi-YqlpibSuuScSsl4uB-b8JAIAgU7zfn9c2zhgPBamSAkH9tSxcPcpj2SHzV8=",
+    "title": "ENSv2 Launches on Ethereum Mainnet",
+    "id": "170d406f-4d28-4bd3-bd12-331129d6987d",
+    "ts": 1793120097317
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "A recent University of Michigan study indicates that Americans' long-run inflation expectations remain elevated, potentially complicating efforts for easier financing conditions for Bitcoin. This persistent inflation outlook could weigh on Bitcoin, especially as the cryptocurrency has shown sensitivity to inflation figures impacting interest-rate expectations.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/bitcoin-faces-an-inflation-warning-beneath-steady-us-consumer-sentiment/",
-    "title": "Bitcoin Faces Inflation Warning as US Consumer Sentiment Remains Steady",
-    "id": "ab2f4c5b-d0cf-48dd-a844-7bfa50232b8b",
-    "ts": 1793079644923
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The highly anticipated \"Glamsterdam\" upgrade for Ethereum has been postponed on a major testnet after security firm ChainSecurity identified 13 potential security risks affecting existing smart contracts. Developers agreed to investigate how proposed changes to Ethereum's gas-accounting system could impact applications, leading to the cancellation of a crucial testnet activation originally scheduled for October 26th.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/ethereums-long-awaited-glamsterdam-upgrade-hits-another-roadblock-as-13-security-risks-emerge/",
-    "title": "Ethereum's Glamsterdam Upgrade Delayed Due to Security Risks",
-    "id": "17694240-5c72-499b-a683-423192d3ca7b",
-    "ts": 1793079644923
+    "details": "Bitcoin's price has fallen below $80,000, trading around $79,782 to $79,817, as traders brace for the Federal Reserve's interest rate decision on October 28 and upcoming U.S. economic data. The broader cryptocurrency market has seen extended losses due to fading risk appetite and profit-taking following a strong third quarter. Analysts attribute the decline to uncertainty surrounding interest rates, pressure on technology stocks, and recent ETF withdrawals. Bitcoin is currently behaving more like a high-risk technology asset rather than a safe haven.",
+    "sourceName": "The Motley Fool",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7nwF5FbhZVa-au6hPtYGhobPduOFyepUU_Ue8BrTZOnyFK5vzQhk9VN2hEOAhPjDRn9W0P190AWYT8_Pi3Z34zGbV2zhTpaqGCxUhI0DfitPgaIegyMwq0h4KBIY6QD9aYBVtPy3M1LT3GfgkmRsjGD1v6Vb2Ldrc1zFLcXMNlDlgOCMcPmZlxgpPJj3uk3wFWZp1the17SjlQxtUDKmEQDtTsO7lPG7CmxJQnhW9sjWMq_mCUl5BTzFMvW14xyoW6ObyIZ3",
+    "title": "Bitcoin Slips Below $80,000 Amid Fed Uncertainty",
+    "id": "08cfea95-bea6-4132-a93c-faa2a9f06a38",
+    "ts": 1793120097317
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple has launched new features for its Ripple Treasury platform, incorporating AI-powered automation and a \"24/7 Returns\" program for eligible corporate clients. This service allows businesses to earn returns on qualifying digital assets, including the RLUSD stablecoin, and manage cash flow around the clock, aiming to bridge traditional finance with digital asset capabilities.",
-    "sourceName": "Bitcoin News",
-    "sourceUrl": "https://news.bitcoin.com/ripple-takes-rlusd-into-corporate-cash-management-with-247-returns/",
-    "title": "Ripple Treasury Integrates AI for 24/7 Corporate Cash Management with RLUSD",
-    "id": "8fb37a1d-82c3-4fbe-9103-29736e74b737",
-    "ts": 1793079644923
+    "details": "Weekly NFT sales have surged by 63% to reach $68.82 million, accompanied by an increase in both transactions and buyers. Bitcoin emerged as the top blockchain for NFTs, experiencing a significant 229% rise in sales to $29.91 million, largely driven by BRC-20 NFTs. Ethereum and Polygon also recorded increased NFT sales during this period.",
+    "sourceName": "TokenPost",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfYJkG9_JWeTjgh9MyZvqkyfDlZGVVdWp-Y6xbbST30lGYsbzsU3U-HhEkOE6MqqOuv-q0tZrb8ry74ZbIe8L4fD0CodmfgrXGvVbkpJH5IdU4Iel5S4EW3dqE2yUese6_PoSwTbzZNCo=",
+    "title": "Weekly NFT Sales Jump 63%, Bitcoin Leads Blockchain Activity",
+    "id": "d64e0383-3e73-45ea-aaf6-68de2b29d6c7",
+    "ts": 1793120097317
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "After two weeks of net outflows, Bitcoin Exchange-Traded Funds (ETFs) have experienced a significant turnaround, recording $301 million in net inflows. This rebound indicates renewed institutional and retail investor interest in Bitcoin spot ETFs following a period of withdrawal.",
-    "sourceName": "FXStreet (citing Cointelegraph)",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-etfs-break-2-week-outflow-streak-with-301m-comeback-202610261605",
-    "title": "Bitcoin ETFs Break Two-Week Outflow Streak with $301M Influx",
-    "id": "2f532cb5-544c-4661-b9ee-f2ab9a7463c4",
-    "ts": 1793079644923
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bernstein has reduced its price target for Coinbase to $250 from $330, citing weaker crypto trading volumes and a stalled recovery in the market. The analysts also cut their 2026 revenue forecast for the crypto exchange, reflecting concerns about the impact of current market conditions on trading activity.",
+    "details": "Despite Bitcoin's current dip, Galaxy Research asserts that the bear market concluded in June and identifies four bullish signals across price, positioning, on-chain data, and macro factors. They highlight easing long-term selling pressure, Bitcoin maintaining its 50-week average, and mounting U.S. debt as factors that bolster Bitcoin's role as an inflation hedge. Galaxy concludes that the current environment presents an attractive opportunity to buy and hold Bitcoin.",
     "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/264571/prediction-markets-and-derivatives-drive-bernsteins-crypto-stock-outlook-for-coinbase-robinhood-and-circle",
-    "title": "Bernstein Lowers Coinbase Target Amid Weak Trading Volumes",
-    "id": "c12ea5c6-6e5c-4e42-a386-65c4009577b2",
-    "ts": 1793079644923
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExnPSVYP5HNKJOtoWNqpCujHtO495eoysoTlB3bI8Ncac4VeUN421H1jiBf75ECH9IQPZn4X91BXFhvsqisdqelZHtqwAcIZa7a3GZ9Bqsnhk9OAUuXoxIO9EsAT9pnDB-i_HBYOCt0HjF6g8M14Y3Zf1V6-LohcZd3DXfi0pKDJCU1Fkzs5tgLvdULKx0DW4PpwX4DFq58Cuj0oZ_zb2Aqw9HswByK1o-jvhdmJ_ZIhxQ9M9ZONJ03g==",
+    "title": "Galaxy Research: Bitcoin Bear Market Over, Time to Buy and Hold",
+    "id": "ce620757-0961-458d-83d4-97dfcb832622",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The Sui ecosystem is experiencing significant growth with new developments, including Samsung Wallet's integration of USDC transfers for 82 million U.S. Galaxy devices. Additionally, Hashi is preparing to launch Bitcoin-backed financial markets with over $500 million in committed capital, and Sui demonstrated a peak throughput of over 40 million transactions per second using its Tunnels technology. However, despite these advancements, the native SUI token is trading near $0.91, currently testing the $0.90 support level after a price decline in September.",
+    "sourceName": "Altcoin Buzz",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM_SVTjKFGdZeBdpYpoykvcG9Pd3DJc7XGXUqg-9ioICuQBOEF3yT1O36TXli1Hf-p2O403chCHtZlwIwDSBhAtGW90emhzUzXI7wYB-AEWcmf2ESeN9tS8UVMved1H6s96Fwg1K37ubZoxmupOkaFGjBFCnzJskqVcNDVew==",
+    "title": "Sui Ecosystem Expands, SUI Price Tests Support",
+    "id": "a20604e1-9051-480a-adcc-24f4f226a777",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Chainlink has launched CustodySync in partnership with Anchorage Digital, a new platform designed to allow institutions to participate in decentralized finance (DeFi) lending markets without moving their assets out of qualified custody. This initiative aims to bridge institutional finance with DeFi by connecting collateral management systems with on-chain lending protocols. While this represents a significant step for Chainlink's institutional adoption, its native LINK token is currently testing the $11 support level amidst a broader bearish crypto market.",
+    "sourceName": "Altcoin Buzz",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE02TXGEIcHWRhxrh5ox21otVVxqbQPgeAEcJFfPln479k545uL7LvLKk6GGCqPQLQflOvOyG76X0Y2A3M6PO0B_VhxFn5E0LgcPU0Jf9w3mxW-iERlQu28d32lSOQObkMu4bUrsyB_VpWjedmL-pQg7qxX_6LUMPnwIaQ=",
+    "title": "Chainlink Launches CustodySync for Institutional DeFi Access",
+    "id": "7c2ffcb5-d065-42c1-b3e3-85c9f084f3b7",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The CoinMarketCap altcoin season index has risen to 59 from 53 a day prior, indicating a modest improvement in the relative performance of altcoins. However, the index remains below the \"altcoin season\" threshold of 75, suggesting that the market is still experiencing mixed performance rather than a clear altcoin-led rally. Bitcoin dominance has held steady at 60.1% of the total crypto market capitalization.",
+    "sourceName": "TokenPost",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2_ISFfzibwKgZ90gf5dm0L_xhxDjqUo67_DBEohu_rJaQ9zq6J0fpsjOKGNyxiQ99cf0arMZyhOqVsfaJVkOkccsnfylDvzKr3WsEPtzaLEo45tnRmtoaTlXCXueAZHF2OF6nxxiUmuw=",
+    "title": "Altcoin Season Index Rebounds Slightly, Bitcoin Dominance Steady",
+    "id": "9b9af5ca-e107-405d-ae59-ca14798b0ebd",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "U.S. spot Bitcoin ETFs recorded a net inflow of $110.34 million on October 26, effectively reversing two consecutive days of withdrawals. This significant inflow was entirely attributed to BlackRock's IBIT fund. Despite this positive institutional interest, Bitcoin's price remained below $80,000 as market participants await the Federal Reserve's upcoming rate decision.",
+    "sourceName": "Pluang",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9XuQfkThKgeAmV9MhKNMNEcxsY6G08NMVOW-Reb0viANoYZfGnPpGagZU8P5TOqGUh_vXdBCkh0BryfebTdovcl1pQ7KODDHGhy8BJ2kbHuN1sC0l2ZsL2h7uqBxK9BwsUGExKrVyTCxdR_oAsD4S9Or8gZWNRnv579VRJ6DkheHogyhRhKiwRX6CRAkKKSt42D6FaJ73mVh_bQ==",
+    "title": "US Spot Bitcoin ETFs See $110M Inflow, BlackRock's IBIT Leads",
+    "id": "4fd54d39-a5eb-4fc7-a38c-8b1e269b2fbd",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Ethereum's price saw a slight recovery, rising 1.01% on October 27 to trade around $2,327.27. This upturn is attributed to a technical recovery, driven by opportunistic spot buying and tactical short covering after a period of extended sell-offs. Derivative market dynamics, including forced liquidations of leveraged short positions, also contributed to the intraday positive momentum. However, ETH still faces significant selling pressure around the $2,300 level, and a decisive break below this point could lead to further declines.",
+    "sourceName": "TradingKey",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDpmWVwCS3pFYq8IDgwyR1qMZgki7Ypojqtwn1qtXRkzVF42cf1YD1aQjdRHN7ENTo4Ue_Jv9qR4fuLnbB7tVbJ-G3w1eRhh6dbCCG2msdTUlYoNyaSjTVT8VdqR8mxTFB7ZKXtySVyz3umpD9ZTWcMEtzxvZc9ivpNbyVc6WUMHk8K90YVRGUaeU3nR2zRK0=",
+    "title": "Ethereum Recovers Marginally Amid Technical Buying",
+    "id": "479e99c8-9e43-488d-8ebd-79e216e8dade",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "BlackRock, SBI Holdings, and Startale Group have signed a memorandum of understanding to explore connecting tokenized money market funds with JPYSC, a yen-denominated stablecoin. This collaboration will examine the technological, commercial, distribution, and regulatory aspects of this integration. The initiative aligns with BlackRock's broader strategy of bringing traditional financial products onto blockchain networks, signaling a move towards more tokenized financial ecosystems.",
+    "sourceName": "Altcoin Buzz",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPRO1Et4BpeOtP0gQXMydvMrFA5Ul7lktF33WDDh6KESqIgsSjvOBpEVbsZthpcLBTFVi_tNVbxLBLn-ad3WoapJ7B82FLxT3F9jWeVGQv6I6pUr-n-mmHG3ZP1BYjxWeTl4Yy2wXxRThWbZeTP4uKkRue4bf6J93ieUDvztQ-J-Ha",
+    "title": "BlackRock, SBI, Startale Explore Yen Stablecoin Link",
+    "id": "063959d5-0bdf-43bb-a842-b848520fd6c8",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ripple has received final approval from the Office of the Comptroller of the Currency (OCC) to charter Ripple National Trust Bank (RNTB). Ripple CEO Brad Garlinghouse described this as \"big news,\" emphasizing its significance in building regulated digital asset infrastructure within the traditional financial system. This approval is a crucial step for Ripple's integration efforts.",
+    "sourceName": "FXStreet",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw4CnfVmXYGEIV0OGdznynNo884rI2KH7vMAOfNXKxaczaQxQ9O3RdihweT_kcIHLVyWSRQxVz7cxqTAVecu-XKFT4YI73ZD79MkC7_F9lxNw0dDymm1kn6bl3w-Wg5mRchGtw3RtX0BM=",
+    "title": "Ripple Secures Final OCC Approval for National Trust Bank",
+    "id": "8309aeb7-0abb-4598-96f7-0e2142c4bab6",
+    "ts": 1793120097317
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "DeFi Development Corp.'s Variable Rate Series C Perpetual Preferred Stock (CHAD) reached its par value of $10.00 per share on October 26, 2026, just 48 days after its trading debut. The company intends to use CHAD as a capital source to acquire Solana (SOL) cryptocurrency without issuing additional common shares, leveraging SOL's staking rewards to help offset preferred dividend costs. Effective November 2, 2026, CHAD's annualized dividend rate will increase to 14.00%.",
+    "sourceName": "Investing.com",
+    "sourceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2atn8aK3-V20tkzvk29pJiORPMB9zqoqylaGEzlFS-JtZ9u_BkO_Jfq0fzdx_Ho942ILB6JYno1b_3FkUDi3X2jzJQ924Hs7KsUF9yv460T3xjIAKFFkHko0xcJB8AWahQcvfkcpFbSh_PFwJJAcIpeFTFTyvj_SYentnmyidXgCoPA-DoNleSQf8Gr3SMMG06im1sYjtPUIVZitGBEePe1uvtefqqmKFgRCA",
+    "title": "DeFi Development's CHAD Preferred Stock Reaches Par Value",
+    "id": "b829283d-0d58-4bf0-a234-48e5eeff1137",
+    "ts": 1793120097317
   }
 ]
