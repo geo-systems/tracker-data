@@ -1,47 +1,65 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Ripple has reportedly secured a final US bank charter, enabling broader financial services. Concurrently, the company announced partnerships including integrating RLUSD into Robinhood for its 29 million customers and a collaboration with C2FO to leverage the XRP Ledger for faster global payments. These moves significantly expand XRP's utility and institutional adoption.",
-    "sourceName": "Bitcoin.com",
-    "sourceUrl": "https://news.bitcoin.com/ripple-wins-final-us-bank-charter-ceo-calls-it-big-news-ahead-of-swell/",
-    "title": "Ripple Secures US Bank Charter, Boosts Partnerships",
-    "id": "521149ef-d046-47b1-8d50-1a4cc9dc8857",
-    "ts": 1793172428734
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Bitcoin's price is hovering near $81,000, showing a slight positive movement over the last 24 hours. This comes as the Federal Reserve recently held interest rates steady, though two officials reportedly sought a hike. Despite earlier reports of significant outflows, US-listed spot Bitcoin ETFs have seen approximately $286 million in inflows over two days, although sentiment remains cautious due to macroeconomic factors and recent volatility.",
+    "sourceName": "",
+    "sourceUrl": "",
+    "title": "Bitcoin Reclaims $81K Amid Mixed ETF Flows and Fed Decisions",
+    "id": "5398bc6a-0b6e-4700-820a-b71254de5017",
+    "ts": 1793217222225
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin briefly dipped below $80,000 ahead of the Federal Reserve's decision and upcoming midterms, reflecting market caution. However, Galaxy Digital expressed a bullish outlook, predicting Bitcoin could reach $125,000, signaling an end to the bear market. Meanwhile, Bitcoin whales have reportedly turned net short on Hyperliquid for the first time since March, indicating potential short-term bearish sentiment from large holders.",
-    "sourceName": "Bitcoin.com (for Galaxy prediction), Blockchair (aggregating various sources for price dip), Crypto.news (for whale sentiment)",
-    "sourceUrl": "https://news.bitcoin.com/bitcoin-eyes-125k-as-galaxy-says-bear-market-has-ended/",
-    "title": "Bitcoin Market Navigates $80K Mark Amid Mixed Signals",
-    "id": "3d9a621b-681a-4961-80f9-f921e7fe0f30",
-    "ts": 1793172428734
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "A long-term bullish prediction from Bitwise suggests that Bitcoin's price could climb to $1.6 million by the year 2036. This outlook provides a significant long-term positive sentiment for Bitcoin investors.",
+    "sourceName": "Bitwise",
+    "sourceUrl": "",
+    "title": "Bitwise Forecasts Bitcoin Could Reach $1.6 Million by 2036",
+    "id": "ce99d19e-4b68-4328-9fd2-7d2e17ecf80f",
+    "ts": 1793217222225
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Ripple has received its final US bank charter, a move hailed as significant by the company's CEO. Concurrently, Coinbase has expanded its offerings by adding Ripple's $2.6 billion RLUSD stablecoin across its retail and institutional platforms, including the XRP Ledger. This news has sparked a 3.14% gain in XRP.",
+    "sourceName": "",
+    "sourceUrl": "",
+    "title": "Ripple Secures US Bank Charter, Coinbase Lists RLUSD Stablecoin",
+    "id": "5111498e-d067-4b4b-a3bc-bf1ad4f97472",
+    "ts": 1793217222225
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Ethereum developers have postponed the Glamsterdam testnet fork due to gas security flaws identified by ChainSecurity, highlighting ongoing efforts to ensure network robustness. Separately, a wallet associated with the April Drift Protocol exploit transferred $61 million in Ethereum to the crypto mixer Tornado Cash on Tuesday, raising concerns about fund traceability and security.",
-    "sourceName": "Decrypt.Co",
-    "sourceUrl": "https://decrypt.co/news/ethereum-delays-glamsterdam-testnet-fork-over-gas-security-flaws",
-    "title": "Ethereum Testnet Delay and Security Concerns",
-    "id": "f0a38760-4894-454b-a7b5-f99e036b82a5",
-    "ts": 1793172428734
+    "details": "Ethereum developers have successfully fixed a \"Glamsterdam bug\" that could have impacted staking deposits, indicating ongoing network maintenance and security improvements. However, the Ethereum market is currently experiencing headwinds, with Ethereum ETFs reportedly facing near-record monthly outflows, including approximately $221 million last week.",
+    "sourceName": "",
+    "sourceUrl": "",
+    "title": "Ethereum Fixes Glamsterdam Bug, Faces ETF Outflows",
+    "id": "6dbd3125-2313-4e42-b357-ffbd2a72da69",
+    "ts": 1793217222225
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "South Korea is reportedly considering another suspension of its cryptocurrency tax, potentially pushing the implementation date further to 2029. This legislative review aims to provide a more favorable environment for crypto investors and businesses in the country.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/south-korea-may-suspend-crypto-tax-again-2029-now-the-leading-target-date/",
-    "title": "South Korea Considers Suspending Crypto Tax Again",
-    "id": "3ef182d3-510f-4a29-a780-972b4f2bfa65",
-    "ts": 1793172428734
+    "details": "DeFi protocol Morpho has seen its Real World Asset (RWA) deposits surpass $2 billion, with loans approaching $900 million. This growth is further boosted by Bitso launching Bóvedas, which routes deposits to Morpho vaults, and Robinhood Chain utilizing Morpho for Stock Token lending.",
+    "sourceName": "Morpho",
+    "sourceUrl": "",
+    "title": "Morpho's Real World Asset (RWA) Deposits Exceed $2 Billion",
+    "id": "f3cae7b6-8dae-46fd-a9d9-0ce0e6b77386",
+    "ts": 1793217222225
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Decentralized cloud computing platform Akash Network is reportedly moving its operations from the Cosmos ecosystem to Solana. This migration is expected to bring new functionalities and increased activity to the Solana blockchain, further expanding its growing ecosystem.",
-    "sourceName": "AMBCrypto (as cited by NewsNow)",
-    "sourceUrl": "https://ambcrypto.com/akash-network-leaves-cosmos-for-solana-what-you-need-to-know/",
-    "title": "Akash Network Migrates to Solana, Bolstering Ecosystem",
-    "id": "fae534bb-70e3-4cb0-9c6b-ac543db70473",
-    "ts": 1793172428734
+    "details": "The Depository Trust & Clearing Corporation (DTCC) has introduced a new tokenization service, collaborating with 20 major financial firms. This initiative signifies a significant step towards institutional adoption of tokenized assets and blockchain technology in traditional finance.",
+    "sourceName": "DTCC",
+    "sourceUrl": "",
+    "title": "DTCC Launches Tokenization Service with 20 Major Firms",
+    "id": "30725537-252a-4c79-9e9b-4e220eb091b1",
+    "ts": 1793217222225
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Aave has reduced MakerDAO's DAI collateral and is considering a proposal to completely eliminate it. This decision comes after MakerDAO added Ethena's USDe synthetic dollar as collateral, highlighting ongoing risk management and adjustments within the DeFi lending ecosystem.",
+    "sourceName": "",
+    "sourceUrl": "",
+    "title": "Aave Reduces MakerDAO's DAI Collateral Following USDe Addition",
+    "id": "1fb59d26-4bfc-4642-9ddb-dff60aa57207",
+    "ts": 1793217222225
   }
 ]
