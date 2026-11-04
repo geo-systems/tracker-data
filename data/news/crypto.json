@@ -1,65 +1,47 @@
 [
   {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The Commodity Futures Trading Commission (CFTC) has approved the trading of perpetual futures tied to individual stocks on regulated U.S. exchanges for the first time. This marks a significant development as perpetual futures are a staple in crypto trading, offering U.S. traders a regulated alternative to often unregulated offshore venues.",
-    "sourceName": "CoinDesk (via Northeast Times and Cointelegraph)",
-    "sourceUrl": "https://www.northeasttimes.com/cftc-says-stock-perpetual-futures-are-approved-for-us-trading-with-no-launch-date/",
-    "title": "US CFTC Clears Individual Stock Perpetual Futures Trading",
-    "id": "db6ec560-aff3-4e08-8398-e577c3a7e503",
-    "ts": 1793749361933
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "The cryptocurrency market saw a rebound on Wednesday after an initial period of uncertainty following the US midterm elections. Bitcoin and Ethereum, among other digital assets, recovered from overnight dips as Democrats secured control of both the US Senate and the House of Representatives. This outcome could influence the future regulatory landscape for cryptocurrencies, with markets reacting positively to the clarity.",
+    "sourceName": "Investing.com",
+    "sourceUrl": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebound-above-78k-as-democrats-sweep-midterm-elections-432SI-3207062",
+    "title": "Crypto Market Recovers as Democrats Win US Midterm Elections",
+    "id": "999f7a13-69b9-4c2a-a128-c7e020f50477",
+    "ts": 1793792093438
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Solana's (SOL) price has dropped to a 7-month low, trading around $93, after experiencing record U.S. spot ETF outflows totaling $71.47 million in the most recent week. This marks the largest weekly outflow since these products launched. Additionally, on-chain data indicates large wallets (whales) are moving SOL to exchanges, suggesting selling pressure, unlike Ethereum where whales are reportedly buying the dip.",
-    "sourceName": "CoinStats / CryptoTicker",
-    "sourceUrl": "https://coinstats.app/news/solana-sol-news-today-why-sol-is-down-03-november-2026/",
-    "title": "Solana (SOL) Price Hits 7-Month Low Due to Massive Outflows",
-    "id": "5d8772b8-f550-400a-a504-a4b5cf2ce466",
-    "ts": 1793749361933
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Ethereum (ETH) has shown a rebound in price, rising 1.8% in the last 24 hours to around $2,290, despite U.S. spot Ethereum ETFs recording six consecutive days of net outflows, totaling $139.8 million on Monday alone. Bloomberg analyst James Seyffart noted that Ethereum ETF holders are sitting on unrealized losses of nearly $3.5 billion, with an average cost basis just under $3,200 per token.",
-    "sourceName": "TradingView / Stocktwits",
-    "sourceUrl": "https://www.tradingview.com/news/tradingview:827038165b93b:0-ethereum-price-recovers-despite-6-straight-days-of-etf-selling-with-holders-sitting-on-billions-in-losses/",
-    "title": "ETH Price Recovers as ETF Holders Face Billions in Losses",
-    "id": "7a16065e-8d44-4d54-a5a2-2052365126cc",
-    "ts": 1793749361933
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The XRP Ledger is targeting a November 4th implementation of a fix for a newly discovered flaw. This vulnerability could have allowed delegate accounts, authorized only to burn issued tokens, to mint additional stablecoins under certain conditions. While ordinary account holders could not exploit this, the documentation advises issuers against delegating \"PaymentBurn\" permission until the fix is active. XRP's price was up slightly by 2.6% in the last 24 hours, trading around $1.28, despite this news.",
-    "sourceName": "The Crypto Desk (via XRP News)",
-    "sourceUrl": "https://www.thecryptodesk.com/xrp-news-the-xrp-ledger-is-fixing-a-flaw-that-could-have-let-partners-print-extra-stablecoins-how-big-a-risk-was-it/",
-    "title": "XRP Ledger Nears Fix for Stablecoin Minting Vulnerability",
-    "id": "e61e4d72-b1c0-4963-a7a5-f9e4097445d7",
-    "ts": 1793749361933
+    "details": "Binance has confirmed an exploit involving an internal wallet signing service, which led to unauthorized transfers of significant amounts of XRP, Solana (SOL), Optimism (OP), and Bitcoin (BTC) from its hot wallets. In response to recent security incidents, including the Binance hack, South Korea's financial regulator has reportedly ordered crypto exchanges to implement stricter wallet lockdown measures and enhance transfer monitoring protocols. Despite the hack, Binance has also reported positive net inflows after an earlier $7 billion exodus.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/4232308697523",
+    "title": "Binance Confirms Internal Wallet Exploit Amid South Korean Regulatory Scrutiny",
+    "id": "2dd38aba-043a-4098-b71f-194ee159f271",
+    "ts": 1793792093438
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "The Liquid Network has successfully restored full Bitcoin backing following a $320 million exploit. This recovery demonstrates resilience in the face of security breaches within the crypto ecosystem.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/news/latest",
-    "title": "Liquid Network Restores Full Bitcoin Backing Post-$320M Exploit",
-    "id": "52254000-f33c-4eee-b640-9db519460dd8",
-    "ts": 1793749361933
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Binance has completed its latest proof of reserves as the exchange works to restore assets and withdrawals following a recent record-breaking hack. This move is part of an effort to restore user confidence and demonstrate the security of funds.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/news/latest",
-    "title": "Binance Completes Proof of Reserves Amid Security Concerns",
-    "id": "88c5d4b4-4c54-4a26-9365-65bfad8a590e",
-    "ts": 1793749361933
+    "details": "ETHGas is actively pursuing initiatives designed to attract institutional participation and integrate Wall Street-grade controls into the public Ethereum blockchain. This strategic move indicates a growing trend of traditional financial institutions exploring deeper engagement with the Ethereum ecosystem, potentially paving the way for increased institutional adoption.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/markets/2026/11/03/ethgas-wants-to-bring-wall-street-to-public-ethereum-with-institutional-controls/",
+    "title": "ETHGas Aims to Bring Wall Street to Public Ethereum",
+    "id": "cb276c54-34d5-432e-ac49-6559ade5ac43",
+    "ts": 1793792093438
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Solana developer Anza and the Solana Foundation have issued an urgent warning to validators to immediately secure their servers against a critical Linux vulnerability (CVE-2026-98432). Researchers demonstrated an exploit capable of granting root access to affected Linux servers without credentials, and while the flaw is fixed in the Linux kernel, it remains unpatched in Ubuntu, an OS commonly used by Solana validators.",
-    "sourceName": "CryptoSlate",
-    "sourceUrl": "https://cryptoslate.com/solana-validators-told-to-act-immediately-as-critical-linux-vulnerability-emerges/",
-    "title": "Solana Validators Warned of Critical Linux Vulnerability",
-    "id": "1cc472b6-d204-423c-bba0-9eedfdb318c1",
-    "ts": 1793749361933
+    "details": "The cryptocurrency market experienced a period of significant volatility over the past 24 hours, resulting in the liquidation of approximately $435 million worth of leveraged trading positions across major exchanges. Bullish traders, primarily those holding long positions, bore the majority of these losses as market prices fluctuated sharply.",
+    "sourceName": "U.Today (via Bitkub.com)",
+    "sourceUrl": "https://www.bitkub.com/news/crypto-liquidations-hit-435-million-in-market-dip-38295",
+    "title": "Crypto Market Sees $435 Million in Liquidations Amid Volatility",
+    "id": "7d1d0ffd-c90c-4fb9-bfc4-56039ef5c7af",
+    "ts": 1793792093438
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The Non-Fungible Token (NFT) market has seen a downturn, with overall sales volume dropping by nearly 13% over the last day. This decline in activity, affecting buyers, sellers, and transaction counts, coincides with reports of a new exploit where a threat actor stole eight Hypurr NFTs, valued at approximately $400,000, shortly after the collection's launch.",
+    "sourceName": "Cryptonews",
+    "sourceUrl": "https://cryptonews.com/news/nft-sales-volume-is-down-nearly-13-over-the-past-day.htm",
+    "title": "NFT Sales Volume Declines as Hypurr NFTs Suffer $400K Exploit",
+    "id": "9c0e89d2-dee8-4c08-a2a9-2aedb48ffc0a",
+    "ts": 1793792093438
   }
 ]
