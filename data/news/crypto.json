@@ -1,47 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The cryptocurrency market experienced a significant downturn on November 5, with the total market capitalization falling by 5%. Bitcoin dropped below $76,000 from earlier highs of $80,000. This sell-off was linked to a sharp decline in US technology stocks and concerns over AI investment. Approximately $1.07 to $1.1 billion in leveraged crypto positions were liquidated within 24 hours, predominantly long positions, affecting over 200,000 traders.",
-    "sourceName": "Altcoin Buzz",
-    "sourceUrl": "https://altcoinbuzz.io/crypto-news/bitcoin-news/crypto-market-falls-5-as-us-tech-selloff-triggers-1-07b-in-liquidations/",
-    "title": "Crypto Market Drops 5%, Bitcoin Under $76K Amid $1.1B Liquidations",
-    "id": "74582bbe-8abd-478f-94b3-d2e0ae7c428c",
-    "ts": 1793965258966
+    "details": "The broader cryptocurrency market has experienced a significant downturn, with Bitcoin falling below $76,000 and showing a trend towards its fifth consecutive weekly loss. This market movement is largely attributed to a sharp sell-off in US technology stocks and considerable outflows from US-listed Bitcoin spot Exchange Traded Funds (ETFs), triggering widespread liquidations across the crypto ecosystem.",
+    "sourceName": "CoinDesk",
+    "sourceUrl": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-after-ai-led-selloff-as-eyes-turn-to-latest-us-jobs-figures/",
+    "title": "Crypto Markets Face Broad Sell-off, Bitcoin Dips Below $76K",
+    "id": "97be9bae-0e81-4f91-b3cd-d959f3585962",
+    "ts": 1794008320158
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Blockchain analytics firm Chainalysis confirmed a security breach that exposed password hashes and live tokens for all users, leading to service shutdowns. The company also identified an \"on-path attack\" that compromised some customer passwords. Services like Reactor, Data Solutions, and KYT were taken offline. All users are required to reset passwords and rotate API keys.",
-    "sourceName": "Traders Union",
-    "sourceUrl": "https://tradersunion.com/news/chainalysis-discloses-broader-cyberattack-exposure-affecting-password-hashes-and-live-user-tokens/",
-    "title": "Chainalysis Breach Exposes Passwords & Tokens, Forces Shutdowns",
-    "id": "b126b271-ccd9-4101-bd0c-e358d0acc8d1",
-    "ts": 1793965258966
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The European Central Bank (ECB) is targeting a 2029 launch for its digital euro, following a 12-month pilot program scheduled to commence in the second half of 2027. This initiative aims to unify Europe's fragmented payment systems and reduce reliance on foreign card firms, promoting financial autonomy.",
-    "sourceName": "Bitcoin News",
-    "sourceUrl": "https://news.bitcoin.com/ecb-targets-2029-digital-euro-launch-after-massive-2027-pilot/",
-    "title": "ECB Aims for Digital Euro Launch by 2029 Post-2027 Pilot",
-    "id": "01d4d4d1-b016-49b1-bcbb-2c3db3ce7b13",
-    "ts": 1793965258966
+    "details": "Ethereum's price has fallen more sharply than Bitcoin's in the last 24 hours, dropping approximately 7.9% to around $2,237. This intensified decline is linked to the broader tech stock crash, which also impacted Bitcoin, and a reversal in US spot Ether ETF inflows. The drop has pushed ETH to its lowest daily levels since mid-August.",
+    "sourceName": "CryptoTicker",
+    "sourceUrl": "https://cryptoticker.io/en/ethereum-price-drops-7-9-etf-outflows-and-liquidations/",
+    "title": "Ethereum Suffers Steeper Decline Than Bitcoin Amid ETF Outflows",
+    "id": "4c1cdae5-b9df-4b5d-89b4-b9d1d848e29f",
+    "ts": 1794008320158
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Injective (INJ) surged over 10% following the Nasdaq listing approval and launch of the Canary Staked INJ ETF. This new ETF, ticker INJC, offers staked exposure to INJ, with plans to stake at least 90% of its holdings, aiming to reduce liquid supply and provide staking rewards to investors via a traditional brokerage product.",
-    "sourceName": "Altcoin Buzz",
-    "sourceUrl": "https://altcoinbuzz.io/crypto-news/altcoins/canarys-inj-etf-debuts-on-nasdaq-aiming-to-stake-90-of-its-inj/",
-    "title": "Injective (INJ) Surges 10% on Nasdaq Staked ETF Launch",
-    "id": "f1c4f95f-10df-4b86-b287-c712b8bd4d77",
-    "ts": 1793965258966
+    "details": "The Financial Crimes Enforcement Network (FinCEN) and the Federal Reserve Board have officially withdrawn their proposal to reduce the reporting threshold for cross-border cryptocurrency transfers from $3,000 to $250. This decision comes after receiving nearly 3,000 public comments, with the majority expressing opposition due to concerns over increased compliance costs for smaller institutions and potential privacy risks.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7936688796859",
+    "title": "US Regulators Withdraw Proposal for Lower Crypto Transfer Reporting Threshold",
+    "id": "c17043a5-6906-4cb0-8999-06d648054605",
+    "ts": 1794008320158
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Polygon is considering a hard fork proposal to recover approximately 70.49 million POL tokens stolen in recent security incidents affecting Polymarket and Binance. The proposal, a Polygon Improvement Proposal (PIP), aims to zero out balances in five attacker-controlled addresses and credit them to verified recovery wallets. A vote and date for the hard fork are pending.",
-    "sourceName": "CryptoPotato",
-    "sourceUrl": "https://cryptopotato.com/polygon-eyes-hard-fork-to-recover-70-49-million-pol-stolen-in-polymarket-and-binance-hacks/",
-    "title": "Polygon Proposes Hard Fork to Recover 70M Stolen POL",
-    "id": "e03ed722-265d-461b-b0b2-41aff2601a61",
-    "ts": 1793965258966
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Solana's price has plummeted below the $90 mark, trading around $89.62, representing a more than 7% decrease in the last 24 hours. The decline is part of a broader crypto market sell-off. Concurrently, Anza, the development team behind Solana's Agave validator client, has issued a mandatory call for all mainnet validators to upgrade to version 4.4.1 by November 6, 2026, to ensure compatibility with the canonical chain.",
+    "sourceName": "CryptoTicker",
+    "sourceUrl": "https://cryptoticker.io/en/solana-slips-below-90-as-agave-4-4-1-becomes-mandatory-for-validators/",
+    "title": "Solana Price Plummets Below $90; Mandatory Validator Upgrade Underway",
+    "id": "ed083458-08d9-432f-b2e3-a6b2cae4aba1",
+    "ts": 1794008320158
   }
 ]
