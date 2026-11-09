@@ -1,38 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The cryptocurrency market is experiencing a significant downturn, with Bitcoin trading near $75,500 and heading for its fifth consecutive weekly loss. This bearish trend is primarily driven by a broader \"risk-off\" sentiment in global financial markets, a sharp sell-off in US technology stocks, and sustained outflows from US-listed Bitcoin spot Exchange Traded Funds (ETFs). The market saw a wave of liquidations, intensifying the downward pressure.",
-    "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-weekly-forecast-bears-tighten-grip-as-btc-eyes-fifth-weekly-loss-202611061106",
-    "title": "Crypto Market Plunges Amid Tech Sell-Off & ETF Outflows",
-    "id": "748f94ef-7ae8-4b92-90f4-3e2bcf9913a8",
-    "ts": 1794193131020
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Binance's Chief Financial Officer, Kaiser Ng, has resigned in the aftermath of the recent $6.3 billion hack on the exchange, though Binance stated the transition was planned. Separately, crypto-linked Visa debit card provider Gnosis Pay disclosed a security breach that exposed sensitive customer information, including payment card details, home addresses, and cryptocurrency wallet addresses. While Gnosis Pay stated customer funds were unaffected, the incident raises concerns about data security.",
-    "sourceName": "bloomingbit & ForkLog",
-    "sourceUrl": "https://bloomingbit.io/news/binance-cfo-kaiser-ng-resigns-in-fallout-from-hack",
-    "title": "Binance CFO Resigns Post-Hack; Gnosis Pay Suffers Data Breach",
-    "id": "937a92ca-b29d-4db4-9457-e8c27e0e9ac8",
-    "ts": 1794193131020
+    "details": "Bitcoin and Ethereum have fallen to their lowest levels since August, with Bitcoin sliding towards $73,700 and Ethereum below $2,100. The downturn is attributed to significant long liquidations (over $1 billion), $1.28 billion in net outflows from US spot Bitcoin ETFs, concerns over stricter US cryptocurrency regulations following the recent midterm elections, a broader tech stock rout, and a reported $6.3 billion hack on Binance. The crypto Fear & Greed Index is currently at 29, signaling market fear.",
+    "sourceName": "Fortune",
+    "sourceUrl": "https://fortune.com/crypto/2026/11/09/bitcoin-holds-near-75000-after-tech-stock-rout-altcoins-suffer-steeper-losses/",
+    "title": "Bitcoin and Ethereum Drop to August Lows on ETF Outflows, Regulatory Fears",
+    "id": "6be1c078-8771-48b7-8a25-9c7836dd094f",
+    "ts": 1794265087423
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The highly anticipated Glamsterdam upgrade for Ethereum has been postponed from its planned activation on the Hoodi testnet. The delay comes after blockchain security firm Chainsecurity identified potential gas-related security risks that could make some smart contracts vulnerable following the implementation of certain proposals (EIP-8037 and EIP-8038). Developers are now taking additional time to resolve these issues before proceeding.",
-    "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/community/articles/ethereum-delays-glamsterdam-hoodi-fork-over-chainsecurity-findings/",
-    "title": "Ethereum's Glamsterdam Upgrade Delayed Due to Security Risks",
-    "id": "da5777e0-bed7-4d78-9cad-e969542b09ab",
-    "ts": 1794193131020
+    "details": "The Ethereum community has submitted EIP-8488, \"Versioned Opcodes for Gas Repricing,\" as part of the upcoming \"Glamsterdam\" upgrade. This proposal introduces parallel V2 opcodes with new gas pricing rules (EIP-8037 and EIP-8038) to address the challenge of upgrading gas rules while maintaining compatibility with existing contracts. It aims to allow new contracts to adopt updated pricing without affecting older ones, potentially impacting around 200,000 existing contracts.",
+    "sourceName": "KuCoin",
+    "sourceUrl": "https://www.kucoin.com/news/ethereum-proposes-eip-8488-to-introduce-versioned-opcodes-for-gas-pricing",
+    "title": "Ethereum Community Proposes EIP-8488 to Redefine Gas Pricing",
+    "id": "effdd796-c0a3-406f-8765-3f259290e29d",
+    "ts": 1794265087423
   },
   {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Following the Democratic party's sweeping victory in the US midterm elections, which secured them control of both the House and Senate, concerns are growing within the crypto industry about a shift towards potentially stricter regulatory oversight. Discussions are reportedly underway to revisit crypto market structure proposals, which could expand the Securities and Exchange Commission's (SEC) authority over crypto markets and introduce new ethics restrictions for federal officials involved with cryptocurrencies.",
-    "sourceName": "FXStreet",
-    "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/what-a-democratic-congress-means-for-bitcoin-and-crypto-regulation-202611061400",
-    "title": "US Midterm Elections Spark Fears of Stricter Crypto Regulation",
-    "id": "eac3279b-3a9e-4053-bbb0-b66f40b080c6",
-    "ts": 1794193131020
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Ethereum co-founder Vitalik Buterin has articulated a clearer long-term vision for ETH, framing it more as a store of value rather than a token whose value primarily depends on continuous fee burning. This narrative shift invites comparisons to Bitcoin's role as digital gold.",
+    "sourceName": "Crowdfund Insider",
+    "sourceUrl": "https://www.crowdfundinsider.com/2026/11/206536-ethereum-co-founder-vitalik-buterin-reframes-eth-as-a-store-of-value-inviting-bitcoin-comparisons-amid-glamsterdam-update-concerns/",
+    "title": "Vitalik Buterin Re-frames Ethereum's ETH as a Store of Value",
+    "id": "08375775-5b06-4718-a7e6-aa994fd31c0d",
+    "ts": 1794265087423
+  },
+  {
+    "bullOrbearForCryptoInvestor": "neutral",
+    "details": "Public companies collectively sold 11,647 Bitcoin, valued at approximately $869 million, between November 2 and 8, 2026, with Hut 8 and Next Technology Holding being major sellers. This substantial sell-off contributed to market concerns. Conversely, Bitmine Immersion Technologies announced holdings of 6.07 million ETH, representing 4.97% of the total ETH supply, and has staked 5.2 million ETH, bringing its total crypto, cash, and marketable securities to $14.3 billion as of November 8, 2026.",
+    "sourceName": "24/7 Wall St. / Stock Titan",
+    "sourceUrl": "https://247wallst.com/investing/2026/11/09/public-companies-sold-869-million-of-bitcoin-in-one-week-is-a-bitcoin-price-crash-coming/ / https://stocktitan.com/news/BMNP/bitmine-holds-4-97-of-eth-supply-nears-5-goal-h5e1v82n4zqk/",
+    "title": "Public Companies Sell $869M Bitcoin, Bitmine Accumulates 6M ETH",
+    "id": "d5c42040-1617-466d-8705-67c26b0d69e2",
+    "ts": 1794265087423
   }
 ]
