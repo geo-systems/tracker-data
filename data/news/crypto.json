@@ -1,38 +1,47 @@
 [
   {
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "The New York Stock Exchange (NYSE) has selected Avalanche as the blockchain to settle tokenized stocks on its upcoming 24/7 trading platform. This initiative, aiming for a Q4 launch pending regulatory approval, will utilize Avalanche's speed and throughput to support a controlled network with compliance requirements, and is expected to offer instant settlement and fractional shares. AVAX saw a significant rally following the announcement.",
+    "sourceName": "Benzinga",
+    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/11/29849547/nyse-selects-avalanche-blockchain-to-settle-tokenized-stocks-on-upcoming-trading-platform-avax-jum",
+    "title": "Avalanche Partners with NYSE for Tokenized Stock Platform",
+    "id": "0ada09b4-4b3b-43b9-9a87-181ac401e80a",
+    "ts": 1794318791745
+  },
+  {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin and Ethereum have fallen to their lowest levels since August, with Bitcoin sliding towards $73,700 and Ethereum below $2,100. The downturn is attributed to significant long liquidations (over $1 billion), $1.28 billion in net outflows from US spot Bitcoin ETFs, concerns over stricter US cryptocurrency regulations following the recent midterm elections, a broader tech stock rout, and a reported $6.3 billion hack on Binance. The crypto Fear & Greed Index is currently at 29, signaling market fear.",
-    "sourceName": "Fortune",
-    "sourceUrl": "https://fortune.com/crypto/2026/11/09/bitcoin-holds-near-75000-after-tech-stock-rout-altcoins-suffer-steeper-losses/",
-    "title": "Bitcoin and Ethereum Drop to August Lows on ETF Outflows, Regulatory Fears",
-    "id": "6be1c078-8771-48b7-8a25-9c7836dd094f",
-    "ts": 1794265087423
+    "details": "The U.S. Treasury's Financial Crimes Enforcement Network (FinCEN) has issued an order prohibiting American financial institutions from engaging in transactions with cryptocurrency exchange MEXC, alleging the platform facilitated approximately $16 billion in illicit finance linked to sanctioned entities in Iran, North Korea, and Russia. Following this, Binance announced it would reject outgoing transfers directly or indirectly linked to MEXC and its affiliates, while holding incoming funds for review.",
+    "sourceName": "Koin Bülteni",
+    "sourceUrl": "https://koinbulteni.com/binance-halts-transfers-with-mexc-what-happens-to-funds-sent-188701.html",
+    "title": "FinCEN Targets MEXC; Binance Halts Related Transfers",
+    "id": "87e2932d-9833-42b8-bc21-3b354f8e49e5",
+    "ts": 1794318791745
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The Ethereum community has submitted EIP-8488, \"Versioned Opcodes for Gas Repricing,\" as part of the upcoming \"Glamsterdam\" upgrade. This proposal introduces parallel V2 opcodes with new gas pricing rules (EIP-8037 and EIP-8038) to address the challenge of upgrading gas rules while maintaining compatibility with existing contracts. It aims to allow new contracts to adopt updated pricing without affecting older ones, potentially impacting around 200,000 existing contracts.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/ethereum-proposes-eip-8488-to-introduce-versioned-opcodes-for-gas-pricing",
-    "title": "Ethereum Community Proposes EIP-8488 to Redefine Gas Pricing",
-    "id": "effdd796-c0a3-406f-8765-3f259290e29d",
-    "ts": 1794265087423
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "While Bitcoin and Ethereum experienced declines, the Pepe memecoin surged by approximately 7% in the last 24 hours, driven by speculative rotation and elevated social media buzz. It was highlighted as one of the few cryptocurrencies \"swimming against the tide\" and attracting short-term momentum traders.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/pepe-surges-on-speculative-rotation-social-buzz/",
+    "title": "Pepe Memecoin Surges as Broader Market Dips",
+    "id": "98db433c-46be-4986-afbb-f27974121b7f",
+    "ts": 1794318791745
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Ethereum co-founder Vitalik Buterin has articulated a clearer long-term vision for ETH, framing it more as a store of value rather than a token whose value primarily depends on continuous fee burning. This narrative shift invites comparisons to Bitcoin's role as digital gold.",
-    "sourceName": "Crowdfund Insider",
-    "sourceUrl": "https://www.crowdfundinsider.com/2026/11/206536-ethereum-co-founder-vitalik-buterin-reframes-eth-as-a-store-of-value-inviting-bitcoin-comparisons-amid-glamsterdam-update-concerns/",
-    "title": "Vitalik Buterin Re-frames Ethereum's ETH as a Store of Value",
-    "id": "08375775-5b06-4718-a7e6-aa994fd31c0d",
-    "ts": 1794265087423
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The cryptocurrency market experienced significant liquidations totaling over $275 million in the last 24 hours, with approximately $176 million from bullish long positions. Bitcoin and Ethereum prices also saw declines, with Ethereum facing substantial liquidations of $432 million over November 8-9, contributing to its price drop.",
+    "sourceName": "Benzinga",
+    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/11/29849547/bitcoin-dogecoin-steady-while-ethereum-xrp-dip-analyst-calls-btc-accumulation-by-major-cohorts-dur",
+    "title": "Crypto Market Sees Over $275M Liquidations as BTC & ETH Fall",
+    "id": "20d78648-45c6-43ca-9be1-6b8ad19a5be5",
+    "ts": 1794318791745
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Public companies collectively sold 11,647 Bitcoin, valued at approximately $869 million, between November 2 and 8, 2026, with Hut 8 and Next Technology Holding being major sellers. This substantial sell-off contributed to market concerns. Conversely, Bitmine Immersion Technologies announced holdings of 6.07 million ETH, representing 4.97% of the total ETH supply, and has staked 5.2 million ETH, bringing its total crypto, cash, and marketable securities to $14.3 billion as of November 8, 2026.",
-    "sourceName": "24/7 Wall St. / Stock Titan",
-    "sourceUrl": "https://247wallst.com/investing/2026/11/09/public-companies-sold-869-million-of-bitcoin-in-one-week-is-a-bitcoin-price-crash-coming/ / https://stocktitan.com/news/BMNP/bitmine-holds-4-97-of-eth-supply-nears-5-goal-h5e1v82n4zqk/",
-    "title": "Public Companies Sell $869M Bitcoin, Bitmine Accumulates 6M ETH",
-    "id": "d5c42040-1617-466d-8705-67c26b0d69e2",
-    "ts": 1794265087423
+    "bullOrbearForCryptoInvestor": "bullish",
+    "details": "Despite recent price drops and market liquidations, data indicates that retail and whale derivatives traders on Binance have remained net long on Bitcoin, signaling a firmly bullish sentiment among these cohorts. On-chain analytics also noted an increase in Bitcoin's open interest over the last 24 hours, suggesting underlying demand and accumulation during the sell-off.",
+    "sourceName": "Benzinga",
+    "sourceUrl": "https://www.benzinga.com/markets/cryptocurrency/26/11/29849547/bitcoin-dogecoin-steady-while-ethereum-xrp-dip-analyst-calls-btc-accumulation-by-major-cohorts-dur",
+    "title": "Bitcoin Whale Sentiment Remains Bullish Despite Price Fluctuations",
+    "id": "c46c718a-c0b6-4561-9206-81bb4f219501",
+    "ts": 1794318791745
   }
 ]
