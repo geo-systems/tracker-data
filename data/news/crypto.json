@@ -1,29 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin experienced a significant drop, falling below $68,000 and marking its lowest price point since August 19. The cryptocurrency has plunged nearly 10% this week. This downturn is attributed to a strengthening US dollar, rising expectations for Federal Reserve interest rate hikes, and a general risk-off sentiment across global financial markets. Ethereum (ETH) and other major altcoins have also seen substantial declines, with ETH trading below $2,000.",
-    "sourceName": "Morningstar (referencing CoinDesk data)",
-    "sourceUrl": "https://www.morningstar.com/news/marketwatch/2026-11-13-bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo",
-    "title": "Bitcoin Plummets Below $68K Amid Broad Market Sell-off",
-    "id": "20103ba0-5cf1-4690-8dd4-ca658206801d",
-    "ts": 1794614584553
+    "details": "Bitcoin has experienced a significant downturn, falling below the $70,000 and $68,000 price levels, and dropping below its 200-week moving average for the first time since August 19. This sharp decline triggered over $1.3 billion in crypto futures liquidations across the market within 24 hours, with Bitcoin alone accounting for $677 million. The broader crypto market capitalization also declined by over 2.43%.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951016752009",
+    "title": "Bitcoin Crashes Below Key Support Levels Amid Mass Liquidations",
+    "id": "dcf8c01f-3ee1-406b-af7b-734cfb08f68e",
+    "ts": 1794667003086
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The sharp decline in cryptocurrency prices triggered a wave of liquidations across the market. Over $650 million in leveraged long positions were wiped out within a 13-hour period, with Bitcoin liquidations alone accounting for a significant portion. These large-scale liquidations exacerbated the downward price pressure on digital assets.",
+    "details": "The crypto market's recent plunge is largely attributed to prevailing \"macro risk-off conditions.\" A stronger US dollar (DXY topping 103), rising US 10-year Treasury yields (hitting 5.125%), and higher-than-expected US inflation data (October PPI rose 6.5% year over year) have increased bets on a potential half-point Federal Reserve interest rate hike in December, prompting investors to pull away from risk assets like cryptocurrencies.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7951016752009",
+    "title": "Macroeconomic Pressures Fueling Crypto Market Sell-Off",
+    "id": "98efbc16-9aab-4746-bfd8-3994771a40fb",
+    "ts": 1794667003086
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "Ethereum (ETH) has fallen below the $2,000 mark for the first time since August, with reports indicating that the Ethereum Foundation sold 5,000 ETH over a five-day period, contributing to the downward pressure on Ether's price amidst the broader market sell-off.",
+    "sourceName": "Bitcoin.com News",
+    "sourceUrl": "https://news.bitcoin.com/ether-price-dips-below-2k-as-ethereum-foundation-dumps-5000-eth-in-5-day/",
+    "title": "Ethereum Foundation Sells ETH as Price Dips Below $2,000",
+    "id": "c1678826-1c43-4fa4-b924-07b85a51d9b1",
+    "ts": 1794667003086
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The cryptocurrency market is facing further headwinds from significant outflows in exchange-traded funds (ETFs). Spot XRP ETFs have seen outflows exceeding $18 million in just two days, while US spot Bitcoin ETFs are cumulatively down $1.56 billion for 2026, contributing to the overall market's downward trajectory.",
     "sourceName": "CoinMarketCap",
-    "sourceUrl": "https://coinmarketcap.com/headlines/news/bitcoin-13-hour-decline-650m-liquidations/",
-    "title": "Over $650M in Crypto Long Positions Liquidated in Market Downturn",
-    "id": "b5ad305b-98dd-4be2-9579-622e1bd9040f",
-    "ts": 1794614584553
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The highly anticipated Initial Public Offering (IPO) of artificial intelligence firm Anthropic, expected to launch next week, is being considered a potential factor in the current cryptocurrency market slump. Analysts suggest that investors might be reallocating capital from risk assets, including cryptocurrencies, to position themselves for the potentially lucrative tech offering.",
-    "sourceName": "Morningstar",
-    "sourceUrl": "https://www.morningstar.com/news/marketwatch/2026-11-13-bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo",
-    "title": "Anthropic IPO Emerges as Potential Headwind for Crypto Capital",
-    "id": "c7671dcc-660b-480c-a82c-ee9c61e8d146",
-    "ts": 1794614584553
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/",
+    "title": "Crypto ETF Outflows Intensify Amid Market Weakness",
+    "id": "fd30b5b4-1886-45b9-8a1f-0301f801a707",
+    "ts": 1794667003086
   }
 ]
