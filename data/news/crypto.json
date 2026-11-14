@@ -1,47 +1,29 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin has fallen below $71,000, reaching its lowest levels since August, with Ethereum also declining towards $2,000. This market downturn is largely driven by sustained outflows from US spot Bitcoin ETFs, totaling approximately $1.44 billion over five trading sessions, coupled with uncertainty surrounding US monetary policy and higher-than-expected inflation figures. The turbulence also triggered $680.8 million in leveraged crypto liquidations.",
-    "sourceName": "KuCoin",
-    "sourceUrl": "https://www.kucoin.com/news/bitcoin-sinks-below-us71000-ethereum-hovers-near-us2000-amid-heavy-selling-20261113",
-    "title": "Bitcoin Dips Below $71K Amid ETF Outflows & Macro Concerns",
-    "id": "93751f37-ccbf-4ca5-833d-1f446811c414",
-    "ts": 1794564468326
+    "details": "Bitcoin experienced a significant drop, falling below $68,000 and marking its lowest price point since August 19. The cryptocurrency has plunged nearly 10% this week. This downturn is attributed to a strengthening US dollar, rising expectations for Federal Reserve interest rate hikes, and a general risk-off sentiment across global financial markets. Ethereum (ETH) and other major altcoins have also seen substantial declines, with ETH trading below $2,000.",
+    "sourceName": "Morningstar (referencing CoinDesk data)",
+    "sourceUrl": "https://www.morningstar.com/news/marketwatch/2026-11-13-bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo",
+    "title": "Bitcoin Plummets Below $68K Amid Broad Market Sell-off",
+    "id": "20103ba0-5cf1-4690-8dd4-ca658206801d",
+    "ts": 1794614584553
   },
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Jensen Huang has resigned as Nvidia's CEO, leading to a significant drop in Nvidia shares and contributing to a broader risk-off sentiment across technology stocks and digital assets. Colette Kress has been appointed interim CEO. This event is cited as a factor in the recent crypto market decline.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/194729/tech-ai-crypto-founders-react-jensen-huang-nvidia-exit-colette-kress",
-    "title": "Nvidia CEO Jensen Huang Resigns, Sparking Tech & Crypto Sell-off",
-    "id": "de6bf43b-82c4-45b2-bfd6-5006ff5c0e28",
-    "ts": 1794564468326
+    "details": "The sharp decline in cryptocurrency prices triggered a wave of liquidations across the market. Over $650 million in leveraged long positions were wiped out within a 13-hour period, with Bitcoin liquidations alone accounting for a significant portion. These large-scale liquidations exacerbated the downward price pressure on digital assets.",
+    "sourceName": "CoinMarketCap",
+    "sourceUrl": "https://coinmarketcap.com/headlines/news/bitcoin-13-hour-decline-650m-liquidations/",
+    "title": "Over $650M in Crypto Long Positions Liquidated in Market Downturn",
+    "id": "b5ad305b-98dd-4be2-9579-622e1bd9040f",
+    "ts": 1794614584553
   },
   {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Department of Justice is acting to seize $1.2 billion linked to the Binance hack and has disrupted a North Korean deepfake scheme. North Korean threat actors reportedly stole $400 million in crypto using sophisticated deepfake video calls.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/194726/north-korea-stole-400-million-crypto-deepfake-video-calls-doj-says",
-    "title": "DOJ Seizes $1.2B from Binance Hack, Disrupts North Korea Scheme",
-    "id": "e7e38453-2028-4ab3-9387-5e1ac14ed76c",
-    "ts": 1794564468326
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Visa has collaborated with Anchorage Digital to enable selected stablecoins issued by Anchorage, beginning with Western Union's USDPT, for direct settlement on the Visa network. This move marks a further integration of stablecoins into mainstream payment infrastructure.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/194727/anchorage-digital-stablecoins-can-now-settle-payments-on-visas-network",
-    "title": "Visa Integrates Anchorage Digital Stablecoins for Payment Settlements",
-    "id": "9d774556-d4f1-4620-a1f3-4e64991695c2",
-    "ts": 1794564468326
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Tether Gold (XAUT), a stablecoin backed by physical gold, has successfully undergone its inaugural full audit by KPMG for the fiscal year ending December 31, 2025. KPMG issued an unqualified opinion, affirming that XAUT is fully backed by its stated gold reserves.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/194728/tether-gold-gets-clean-kpmg-audit-confirming-2-2b-in-physical-gold-backing",
-    "title": "Tether Gold Backing Confirmed by KPMG Audit",
-    "id": "b82987c0-50be-45cf-a28f-1ee501e25913",
-    "ts": 1794564468326
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The highly anticipated Initial Public Offering (IPO) of artificial intelligence firm Anthropic, expected to launch next week, is being considered a potential factor in the current cryptocurrency market slump. Analysts suggest that investors might be reallocating capital from risk assets, including cryptocurrencies, to position themselves for the potentially lucrative tech offering.",
+    "sourceName": "Morningstar",
+    "sourceUrl": "https://www.morningstar.com/news/marketwatch/2026-11-13-bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo",
+    "title": "Anthropic IPO Emerges as Potential Headwind for Crypto Capital",
+    "id": "c7671dcc-660b-480c-a82c-ee9c61e8d146",
+    "ts": 1794614584553
   }
 ]
