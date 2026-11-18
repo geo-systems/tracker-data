@@ -1,56 +1,38 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin dropped to a four-month low near $62,000 over the past weekend, with prices now hovering around $64,000-$65,000. This sharp decline triggered approximately $2 billion in crypto liquidations within a 24-hour period. Market sentiment is currently characterized by \"extreme fear\" as investors contend with weakening demand and broader sell-offs in risk assets, partly influenced by concerns surrounding AI-linked stocks and upcoming IPOs.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/news/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
-    "title": "Bitcoin Plunges Below $65K, $2B Liquidated Amid Market Fear",
-    "id": "40a66dce-9c95-4009-b421-aba52516bb5e",
-    "ts": 1794868414667
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "U.S. spot Bitcoin Exchange-Traded Funds (ETFs) have experienced a prolonged period of outflows, extending to seven consecutive trading days. In November alone, these funds have collectively seen approximately $2.1 billion in net outflows, with about $1.9 billion withdrawn since November 5th. This sustained selling pressure from institutional investors is a significant factor contributing to Bitcoin's recent price struggles.",
-    "sourceName": "Decrypt",
-    "sourceUrl": "https://decrypt.co/news/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-hits-seven-days",
-    "title": "Bitcoin ETFs See Seven Straight Days of Outflows, $2.1B in November",
-    "id": "c5717f49-b268-43d7-8db1-1598ac4133c2",
-    "ts": 1794868414667
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Strategy, Inc., the largest corporate holder of Bitcoin, acquired an additional 485 BTC for approximately $33.4 million between November 9 and November 15. This purchase, at an average price of $68,887 per bitcoin, underscores the company's ongoing accumulation strategy despite the recent market downturn that saw Bitcoin's price drop below $65,000.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/260761/this-dip-could-use-a-little-orange-michael-saylors-strategy-buys-another-485-btc-for-33-million-as-bitcoin-tumbles",
-    "title": "Michael Saylor's Strategy Buys $33.4M Bitcoin During Market Tumble",
-    "id": "8fe1dda7-8a2e-49a6-a512-ba628fa1b83a",
-    "ts": 1794868414667
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "The total supply of stablecoins has contracted by approximately $18 billion since early October, falling to around $287 billion. This represents the fastest contraction in stablecoin supply since the Terra-Luna crash in 2022. This reduction in stablecoin availability indicates a significant drain of liquidity from the broader crypto market, contributing to the current \"running on empty\" sentiment for Bitcoin and other cryptocurrencies.",
-    "sourceName": "Traders Union (citing Bloomberg)",
-    "sourceUrl": "https://tradersunion.com/news/stablecoin-supply-declines-18b-since-october-bloomberg-notes/",
-    "title": "Stablecoin Supply Shrinks by $18B Since October, Affecting Crypto Liquidity",
-    "id": "9cd4959f-a570-45ce-883d-cd57a5bad923",
-    "ts": 1794868414667
+    "details": "Bitcoin pared some losses to trade around $64,844, while Ether was at $1,814. Macro factors such as potential interest-rate hikes, higher real yields, geopolitical uncertainty, and cybersecurity concerns following the Binance hack are pressuring prices. Tech stock selloffs, including turmoil at Nvidia, are also contributing. Analysts anticipate Bitcoin to remain rangebound between $60,000 and $70,000 for the remainder of 2026.",
+    "sourceName": "Morningstar",
+    "sourceUrl": "https://www.morningstar.com/news/dow-jones/2026-11-17-bitcoin-stuck-below-65000-as-sentiment-stays-weak-update",
+    "title": "Bitcoin Stuck Below $65K as Sentiment Stays Weak",
+    "id": "9cfa34f0-3436-47a6-8184-a652a7629449",
+    "ts": 1794977120478
   },
   {
     "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Zelle is reportedly exploring the use of the Solana blockchain for its ZelleUSD stablecoin and facilitating international payments. This potential integration could significantly boost Solana's adoption and utility within mainstream financial services. This development comes alongside other advancements in the Solana ecosystem, such as Ledger integrating clear signing for Jupiter Swaps to enhance user security.",
+    "details": "Crypto engineering firm Temporal launched Supermassive, a fully on-chain perpetual futures exchange on Solana. The platform is designed to separate trading from clearing, enabling independent venues and market makers to compete for orders while a single shared clearinghouse backs positions. This structure aims to mirror Solana's spot market for derivatives, with a mainnet launch planned for January 2027.",
+    "sourceName": "Fidelity Investments (via GlobeNewswire)",
+    "sourceUrl": "https://www.fidelity.com/news/press-releases/2026/11/17/temporal-unveils-supermassive-a-perpetual-futures-exchange-that-brings-solanas-spot-market-structure-to-derivatives",
+    "title": "Temporal Unveils Supermassive: Solana Perpetual Futures Exchange",
+    "id": "f4a7e24f-d7de-453f-8dcb-37de0c66f661",
+    "ts": 1794977120478
+  },
+  {
+    "bullOrbearForCryptoInvestor": "bearish",
+    "details": "The United States Supreme Court declined to hear an appeal from crypto-focused Custodia Bank, effectively ending its latest legal effort to gain direct access to the Federal Reserve's payment system. This decision means Custodia Bank will continue to rely on third-party financial institutions to process payments.",
     "sourceName": "Cointelegraph",
-    "sourceUrl": "https://cointelegraph.com/news/zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
-    "title": "Zelle Considers Solana for Stablecoin & International Payments",
-    "id": "e7d93937-729a-43f1-93ff-14a3d44f6a49",
-    "ts": 1794868414667
+    "sourceUrl": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+    "title": "Custodia Bank Loses Supreme Court Bid for Direct Fed Access",
+    "id": "7f7e3357-b189-4455-b85e-98950d098fd4",
+    "ts": 1794977120478
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "Bitcoin mining infrastructure firm Luxor Technology reported an AI-enabled attack on its Commander fleet-management software over the past weekend. The incident briefly redirected hashrate from over a dozen client accounts to another mining pool. Luxor quickly patched the vulnerability, confirmed no data was leaked, and pledged to fully compensate affected clients for the redirected hashrate.",
-    "sourceName": "The Block",
-    "sourceUrl": "https://www.theblockcrypto.com/post/260759/luxor-hit-by-ai-enabled-attack-that-redirected-client-hashrate-says-vulnerability-patched",
-    "title": "Luxor Mining Pool Suffers AI-Enabled Hashrate Attack",
-    "id": "74c0af17-9482-4cbd-ab08-20003ee9aefc",
-    "ts": 1794868414667
+    "details": "US spot Bitcoin Exchange-Traded Funds (ETFs) recorded a net inflow of $7.9 million on November 16, breaking a seven-day streak of outflows. BlackRock's IBIT led with $76.5 million in inflows. However, most other Bitcoin ETFs, including Grayscale's GBTC and Fidelity's FBTC, continued to experience outflows, and US spot Ether ETFs also saw net outflows of $8.4 million.",
+    "sourceName": "Binance Square",
+    "sourceUrl": "https://www.binance.com/en/square/post/7264858023447",
+    "title": "Bitcoin ETFs End Outflow Streak with Net Inflow",
+    "id": "23d3d08e-bc71-4c0e-9741-050fae380c7f",
+    "ts": 1794977120478
   }
 ]
