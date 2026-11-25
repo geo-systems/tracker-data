@@ -1,47 +1,20 @@
 [
   {
     "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Bitcoin experienced a significant price drop, briefly dipping below $60,000. This decline comes as US spot Bitcoin ETFs recorded their fifth consecutive day of outflows, with November withdrawals totaling approximately $4.71 billion, marking the largest monthly outflow on record. BlackRock's IBIT alone accounted for $509.3 million in outflows. The wider crypto market saw liquidations more than triple to $844 million over 24 hours, with Bitcoin accounting for $357 million and Ether for $176 million.",
-    "sourceName": "Binance Square",
-    "sourceUrl": "https://www.binance.com/en/square/post/7951336025110",
-    "title": "Bitcoin Falls Below $60K as ETF Outflows Hit Record Highs",
-    "id": "6aab53e4-e98d-4a62-ba45-323a471672b7",
-    "ts": 1795547403420
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bullish",
-    "details": "Staff at the U.S. Commodity Futures Trading Commission (CFTC) have issued guidance permitting CFTC-regulated derivative exchanges and clearinghouses to count Bitcoin, Ether, and qualifying payment stablecoins towards their financial resource requirements. These requirements mandate maintaining enough funds to cover at least 12 months of operating costs. A \"haircut\" of at least 20% for Bitcoin and Ether and 2% for stablecoins will be applied to account for holding risk. This guidance offers more flexibility to entities like Coinbase Derivatives and Crypto.com's North American Derivatives Exchange.",
+    "details": "Bitcoin's price has fallen below the $60,000 mark, reaching its lowest level in over two years. This downturn is primarily fueled by record outflows from US spot Bitcoin ETFs, which are nearing $5 billion for November, the largest monthly total since their launch. Weakness in technology stocks and expectations of further Federal Reserve rate hikes are also contributing to the bearish sentiment.",
     "sourceName": "Cointelegraph",
-    "sourceUrl": "https://cointelegraph.com/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves",
-    "title": "CFTC Staff Allow Bitcoin, Ether, Stablecoins for Operating Reserves",
-    "id": "07e357cb-c9fc-486c-a4c8-de5a16f2efcc",
-    "ts": 1795547403420
+    "sourceUrl": "https://cointelegraph.com/news/bitcoin-etfs-near-5b-record-monthly-outflows-ai-stock-rout",
+    "title": "Bitcoin Dips Below $60K as ETF Outflows Hit Record Highs",
+    "id": "9d5cbfbe-968f-48be-bbb9-d7dd4c40c83c",
+    "ts": 1795614085514
   },
   {
     "bullOrbearForCryptoInvestor": "neutral",
-    "details": "South Korea's Financial Services Commission (FSC) has unveiled a draft bill that would initially restrict the issuance of won-denominated stablecoins to groups predominantly owned by banks. The proposal also seeks to cap shareholders' stakes in crypto exchanges at 20%, or 34% with FSC approval. Additionally, the draft aims to lift the 2017 ban on domestic initial coin offerings (ICOs), requiring issuers to disclose risks to buyers.",
-    "sourceName": "Cointelegraph",
-    "sourceUrl": "https://cointelegraph.com/news/south-korea-proposes-bank-led-stablecoins-20-cap-crypto-exchange-stakes",
-    "title": "South Korea Proposes Bank-Led Stablecoins and 20% Cap on Exchange Stakes",
-    "id": "fb520abe-05b5-4d80-8190-c38eebf0cee8",
-    "ts": 1795547403420
-  },
-  {
-    "bullOrbearForCryptoInvestor": "bearish",
-    "details": "Binance has announced a temporary suspension of cryptocurrency withdrawals across all blockchain networks starting at 06:00 UTC on November 25, 2026. This is for scheduled wallet maintenance, and withdrawal services are expected to resume within approximately 60 minutes. Cryptocurrency trading on the exchange will remain unaffected during this period.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/binance-to-suspend-crypto-withdrawals-across-all-networks-on-nov-25/",
-    "title": "Binance to Temporarily Suspend All Crypto Withdrawals on Nov. 25",
-    "id": "b3a16903-0e52-4212-879a-e83df71f0e17",
-    "ts": 1795547403420
-  },
-  {
-    "bullOrbearForCryptoInvestor": "neutral",
-    "details": "The U.S. Justice Department has filed a civil forfeiture complaint to seize approximately $1 billion in USDC stablecoins linked to the October Binance hack, which federal investigators have attributed to North Korean hackers. Circle, the issuer of USDC, voluntarily blocked access to these tokens before prosecutors sought a court order. This action is part of broader efforts to recover stolen funds, with over $2.7 billion in assets already frozen or intercepted.",
-    "sourceName": "crypto.news",
-    "sourceUrl": "https://crypto.news/doj-seeks-about-1b-in-usdc-from-binance-hack/",
-    "title": "US DOJ Seeks Forfeiture of $1.1 Billion in USDC from Binance Hack",
-    "id": "ee62ee85-e073-4930-a66f-eeaa17e901fd",
-    "ts": 1795547403420
+    "details": "The recent $6.3 billion Binance hack underscored the significant power of stablecoin issuers like Tether and Circle. They quickly froze over $1.5 billion in USDT and $1.1 billion in USDC, respectively, to curb the theft. While these actions limited the damage, they also raised concerns about the centralized control over stablecoins and the challenges users face in recovering frozen funds, with reports of Tether charging a 20% reissuance fee.",
+    "sourceName": "BusinessWorld Online",
+    "sourceUrl": "https://www.bworldonline.com/top-news/2026/11/25/615858/behind-binance-hack-a-reckoning-over-who-controls-crypto-market/",
+    "title": "Binance Hack Exposes Stablecoin Issuers' Control Over Funds",
+    "id": "0e037c19-aefc-4621-b181-fbc9152a75be",
+    "ts": 1795614085514
   }
 ]
